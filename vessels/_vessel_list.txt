@@ -30,6 +30,7 @@ uk_ss_oberon
 uk_ssbn_resolution
 uk_ssbn_vanguard
 jmsdf_ss_yushio
+ger_ss_209
 ger_ssn_212a
 fra_ssbn_redoubtable
 fra_ssn_rubis

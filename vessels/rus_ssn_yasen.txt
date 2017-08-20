@@ -241,6 +241,11 @@ MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
 
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+
+
 //Wake
 MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave_sub

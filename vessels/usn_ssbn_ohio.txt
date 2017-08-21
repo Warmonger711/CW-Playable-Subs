@@ -51,7 +51,7 @@ TubeReloadTime=30
 VLSTorpedoTypes=usn_trident
 VLSTorpedoNumbers=24
 VLSMaxDepthToFire=100
-VLSMaxSpeedToFire=5
+VLSMaxSpeedToFire=10
 
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20

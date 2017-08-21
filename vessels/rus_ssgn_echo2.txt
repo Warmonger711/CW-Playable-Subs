@@ -50,7 +50,7 @@ TubeReloadTime=30
 VLSTorpedoTypes=wp_p6,wp_p6land
 VLSTorpedoNumbers=8,8
 VLSMaxDepthToFire=10
-VLSMaxSpeedToFire=5
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
@@ -172,6 +172,11 @@ TorpedoEffectPosition=0.0357,0.0785,0.4816
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssgn_echo2/wp_ssgn_echo2
+
 
 //Wake
 MeshPosition=0,0,0

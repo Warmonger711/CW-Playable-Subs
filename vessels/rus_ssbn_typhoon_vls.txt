@@ -49,8 +49,8 @@ TubeReloadTime=30
 
 VLSTorpedoTypes=wp_p700,wp_p500
 VLSTorpedoNumbers=50,50
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20

@@ -48,8 +48,8 @@ TubeReloadTime=30
 
 VLSTorpedoTypes=rus_r39_slbm
 VLSTorpedoNumbers=12
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20

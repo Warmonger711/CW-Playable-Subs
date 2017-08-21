@@ -50,8 +50,8 @@ TubeReloadTime=20
 
 VLSTorpedoTypes=usn_tasm,usn_tlam
 VLSTorpedoNumbers=6,6
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20

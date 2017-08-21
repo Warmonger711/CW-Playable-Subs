@@ -49,8 +49,8 @@ TubeReloadTime=30
 
 VLSTorpedoTypes=wp_p700,wp_p500
 VLSTorpedoNumbers=24,0
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
@@ -191,6 +191,11 @@ TorpedoEffectPosition=0,0.0785,-0.2500
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssgn_oscar/wp_ssgn_oscar
+
 
 //Wake
 MeshPosition=0,0,0

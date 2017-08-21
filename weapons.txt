@@ -8,7 +8,10 @@
 WeaponObjectReference=usn_mk48_adcap
 WeaponSprite=weapons/sprites/usn_mk48_sprite
 WeaponType=TORPEDO
-Warhead=650
+//Incorrect PSM value (this is the value in pounds not kg)
+//Warhead=650
+//292.5 kg of PBXN-103 = 544 kg of TNT - same warhead as standard Mk48
+Warhead=550
 SurfaceLaunched=FALSE
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.05
@@ -19,6 +22,7 @@ ActiveRunSpeed=65
 TurnRate=24
 SensorAngles=80,25
 SensorRange=4000
+
 WeaponNoiseValues=160,230
 MaxPitchAngle=30
 HomeSettings=PASSIVE,ACTIVE
@@ -26,6 +30,55 @@ AttackSettings=STRAIGHT,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP
 MinCameraDistance=0.5
 ResupplyTime=15
+[Model]
+ModelFile=weapons/assets/usn_mk48
+Material=weapons/assets/usn_mk48_mat
+MaterialTextures=weapons/assets/usn_mk48_tx
+MeshPosition=0,0,0
+MeshWeapon=Mk48
+MeshPosition=0,0,0
+MeshWeaponPropRotation=700
+MeshWeaponProp=Mk48_propl
+MeshPosition=0,0,-0.0528
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+AudioSource=TorpedoSonarPing
+AudioClip=audio/environment/sonar_ping_short
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.2
+AudioLoop=FALSE;
+[/Model]
+
+//DM2A3 Seehecht
+WeaponObjectReference=dm2a3_seehecht
+WeaponSprite=hud/de/wp_dm2a4_sprite.png
+WeaponType=TORPEDO
+Warhead=350
+SurfaceLaunched=FALSE
+WireGuided=TRUE
+WireBreakOnLaunchProbability=0.02
+WireBreakSpeedThreshold=25
+RangeInYards=40000
+RunSpeed=40
+ActiveRunSpeed=50
+TurnRate=24
+SensorAngles=60,25
+SensorRange=3000
+WeaponNoiseValues=160,200	
+MaxPitchAngle=40
+HomeSettings=ACTIVE,PASSIVE
+AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
+DepthSettings=LEVEL,SHALLOW,DEEP
+MinCameraDistance=0.5
+ResupplyTime=15
+
 [Model]
 ModelFile=weapons/assets/usn_mk48
 Material=weapons/assets/usn_mk48_mat
@@ -97,7 +150,9 @@ AudioLoop=TRUE
 WeaponObjectReference=wp_ugst
 WeaponSprite=hud/russian/wp_ugst_sprite.png
 WeaponType=TORPEDO
-Warhead=660
+//Warhead=660
+//200kg of explosive, 1990s, assume 1.85x TNT like US Mk48
+Warhead=370
 SurfaceLaunched=FALSE
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.01
@@ -190,7 +245,11 @@ WeaponObjectReference=usn_mk50
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
 //Warhead=350
-Warhead=250
+//even amended PSM value is too high for this lightweight airdropped torp
+//Warhead=250
+//Warhead appears to be unchanged from the Mk46:
+//Mk46 warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=15000
@@ -465,7 +524,10 @@ AudioLoop=TRUE
 WeaponObjectReference=usn_mk46asroc
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
-Warhead=200
+//original PSM value is too high for this lightweight airdropped torp
+//Warhead=200
+//warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=11000
@@ -510,7 +572,10 @@ AudioLoop=FALSE;
 WeaponObjectReference=usn_mk46asroc_early
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
-Warhead=200
+//original PSM value is too high for this lightweight airdropped torp
+//Warhead=200
+//warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=8300
@@ -554,7 +619,10 @@ AudioLoop=FALSE;
 
 WeaponObjectReference=usn_mk46
 WeaponType=TORPEDO
-Warhead=200
+//original PSM value is too high for this lightweight airdropped torp
+//Warhead=200
+//warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=TRUE
 WireGuided=FALSE
 RangeInYards=11000
@@ -599,7 +667,10 @@ AudioLoop=FALSE;
 WeaponObjectReference=usn_mk46_early
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
-Warhead=200
+//original PSM value is too high for this lightweight airdropped torp
+//Warhead=200
+//warhead is 44.5kg of PBXN-103, assume 1.86 x TNT as per Mk48
+Warhead=85
 SurfaceLaunched=TRUE
 WireGuided=FALSE
 RangeInYards=8300
@@ -644,7 +715,9 @@ AudioLoop=FALSE;
 WeaponObjectReference=wp_53-65M
 WeaponSprite=hud/russian/wp_53-65M_sprite.png
 WeaponType=TORPEDO
-Warhead=300
+//Warhead=300
+//300kg warhead, 60s era, assume 1.5 x TNT
+Warhead=450
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=24000
@@ -684,7 +757,9 @@ AudioLoop=TRUE
 WeaponObjectReference=wp_65-76
 WeaponSprite=hud/russian/wp_65-76_sprite.png
 WeaponType=TORPEDO
-Warhead=800
+//Warhead=800
+//450 kg warhead, 60s era, assume 1.5x TNT = 675
+Warhead=675
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 RangeInYards=54700
@@ -723,10 +798,11 @@ AudioLoop=TRUE
 
 // ----------------------------------------------MISSILES----------------------------------------------
 
+//Nuclear armed TLAM 150 Kiloton
 WeaponObjectReference=warhead
 WeaponSprite=weapons/sprites/usn_tlam_sprite
 WeaponType=MISSILE
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -779,7 +855,7 @@ WeaponObjectReference=rus_r39_slbm
 WeaponSprite=hud/russian/rus_r39_slbm_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -832,7 +908,7 @@ WeaponObjectReference=fra_m45_slbm
 WeaponSprite=hud/default/fra_m45_slbm_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -885,7 +961,7 @@ WeaponObjectReference=usn_trident
 WeaponSprite=hud/default/usn_trident_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -938,7 +1014,7 @@ WeaponObjectReference=usn_polaris
 WeaponSprite=hud/default/usn_polaris_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
-Warhead=150000
+Warhead=150000000
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 LandAttack=TRUE
@@ -1716,6 +1792,7 @@ AudioLoop=TRUE
 WeaponObjectReference=usn_mk16
 WeaponSprite=weapons/sprites/usn_mk16_sprite
 WeaponType=TORPEDO
+//435 kg HBX 1.5 = 652 kg TNT-equivalent
 Warhead=650
 SurfaceLaunched=FALSE
 MaxLaunchDepth=100
@@ -1759,6 +1836,7 @@ AudioLoop=TRUE
 WeaponObjectReference=usn_mk37
 WeaponSprite=weapons/sprites/usn_mk37_sprite
 WeaponType=TORPEDO
+//Warhead 150kg of HBX x 1.5 = 225kg TNT-equivalent
 Warhead=225
 SurfaceLaunched=FALSE
 SwimOut=TRUE
@@ -1809,6 +1887,7 @@ AudioLoop=FALSE;
 WeaponObjectReference=usn_mk48
 WeaponSprite=weapons/sprites/usn_mk48_sprite
 WeaponType=TORPEDO
+//292.5 kg of PBXN-103 = 544 kg of TNT
 Warhead=550
 SurfaceLaunched=FALSE
 WireGuided=TRUE
@@ -2058,6 +2137,7 @@ AudioLoop=TRUE
 WeaponObjectReference=wp_test-71
 WeaponSprite=hud/russian/wp_test-71_sprite.png
 WeaponType=TORPEDO
+//205kg explosive charge, assume 1.5x TNT
 Warhead=300
 SurfaceLaunched=FALSE
 WireGuided=TRUE
@@ -2104,8 +2184,10 @@ AudioLoop=FALSE;
 
 WeaponObjectReference=wp_umgt-1
 WeaponType=TORPEDO
-//Warhead=275
-Warhead=200
+//Warhead=275 //in original as at 1.06
+// ** 60kg warhead so no more than 90kg TNT **
+//Warhead=200 //in PSM as at 17 Aug 2017
+Warhead=90
 SurfaceLaunched=FALSE
 WireGuided=FALSE
 WireBreakOnLaunchProbability=0.05
@@ -2152,6 +2234,7 @@ AudioLoop=FALSE;
 WeaponObjectReference=wp_set-65
 WeaponSprite=hud/russian/wp_set-65_sprite.png
 WeaponType=TORPEDO
+//205kg explosive charge, assume 1.5x TNT
 Warhead=300
 SurfaceLaunched=TRUE
 WireGuided=FALSE
@@ -2197,6 +2280,7 @@ AudioLoop=FALSE;
 WeaponObjectReference=wp_uset-80
 WeaponSprite=hud/russian/wp_uset-80_sprite.png
 WeaponType=TORPEDO
+// warhead stated to be 200-300 kg. average value x 1.5 =375
 Warhead=375
 SurfaceLaunched=FALSE
 WireGuided=TRUE
@@ -2468,7 +2552,9 @@ DepthWeaponWarhead=25
 DepthWeaponRange=1000,6500
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
-DepthWeaponKillRadius=10
+//DepthWeaponKillRadius=10
+// based on 100kg = 10m damage (not kill) radius, inverse cube law
+DepthWeaponKillRadius=6
 DepthWeaponNumberFired=12
 DepthWeaponRateOfFire=0.75
 DepthWeaponMortarPositions=-50,-25,0,25,50,75,230,205,180,155,130,105
@@ -2492,7 +2578,9 @@ DepthWeaponWarhead=25
 DepthWeaponRange=1000,2750
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
-DepthWeaponKillRadius=10
+//DepthWeaponKillRadius=10
+// based on 100kg = 10m damage (not kill) radius, inverse cube law
+DepthWeaponKillRadius=6
 DepthWeaponNumberFired=16
 DepthWeaponRateOfFire=0.75
 DepthWeaponMortarPositions=-100,-75,-50,-25,0,25,50,75,230,205,180,155,130,105,90,75
@@ -2643,7 +2731,7 @@ MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
-
+//PLAB-50-64 62kg helicopter depth bomb
 DepthWeaponObjectReference=wp_depth_bomb_50
 DepthWeaponWarhead=50
 DepthWeaponContactExploded=TRUE
@@ -2659,7 +2747,7 @@ MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
-
+//PLAB-250-120 120kg helicopter depth bomb
 DepthWeaponObjectReference=wp_depth_bomb_120
 // assume Soviet version of Torpex so > equal weight of TNT but less than full munition weight
 DepthWeaponWarhead=120
@@ -2678,23 +2766,8 @@ MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
 
-DepthWeaponObjectReference=wp_depth_bomb_250
-DepthWeaponWarhead=250
-DepthWeaponContactExploded=TRUE
-DepthWeaponDepthExploded=TRUE
-// based on 100kg = 10m damage (not kill) radius, inverse cube law
-DepthWeaponKillRadius=14
-DepthWeaponSinkRate=0.2
-[Model]
-ModelFile=weapons/assets/rgb-60
-Material=weapons/assets/usn_moss_mat
-MaterialTextures=weapons/assets/usn_moss_tx
-MeshPosition=0,0,0
-MeshDepthWeapon=RGB-60
-MeshPosition=0,0,-0.014
-DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
-
 //wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped Depth Bomb
+//Fixed wing aircraft only
 DepthWeaponObjectReference=wp_depth_bomb_500
 DepthWeaponWarhead=500
 DepthWeaponContactExploded=TRUE
@@ -2710,6 +2783,103 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+
+
+//wp_depth_bomb_1kt=Nuclear Depth Bomb1KT=Nuclear Depth Bomb 1 Kiloton
+//5F48 (SK-1) Skalp ("scalp") nuclear depth bomb, 1600 kg, 1 kiloton
+//Used on Mi-14 and probably also Ka-25, Ka-27, and MPAs
+DepthWeaponObjectReference=wp_depth_bomb_1kt
+DepthWeaponWarhead=1000000
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+// based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
+// 30kt, kill 1960s sub at 1 mile, damage at 2 miles. 
+// then apply inverse cube law.
+// (1kt/30kt)^1/3 = 0.32, * 1760 yds = 566 yds
+DepthWeaponKillRadius=560
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+
+
+
+//wp_depth_bomb_5kt=Nuclear Depth Bomb 5KT=Nuclear Depth Bomb 5 Kiloton Helo-Dropped
+//abstracted 5 kiloton depth bomb eg for WP helicopter eg "Skat"
+DepthWeaponObjectReference=wp_depth_bomb_5kt
+DepthWeaponWarhead=5000000
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+// based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
+// 30kt, kill 1960s sub at 1 mile, damage at 2 miles. 
+// then apply inverse cube law.
+// (5kt/30kt)^1/3 = 0.55, * 1760 yds = 970 yds
+DepthWeaponKillRadius=1000
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+
+
+//usn_depth_bomb_10kt=Nuclear Depth Bomb 10KT=10KT Nuclear Depth Bomb B57 or ASROC
+//USN B57 depth bomb variable yield from sub-kt to 20 kiloton 
+//Same W44 warhead used as ASROC warhead. 
+//In service 1960s -1993. From late 80s was the only NATO ASW nuclear weapon. 
+//Used on S-3 and P-3 and most US Navy aircraft including on Sea King helos
+//This weapon was also used on RAF Nimrods, Dutch NP-3s, Italian Atlantics, and (up to 1971) Canadian CF-104s
+DepthWeaponObjectReference=usn_depth_bomb_10kt
+DepthWeaponWarhead=10000000
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+// based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
+// 30kt, kill 1960s sub at 1.3 mile (7000'), damage at 2 miles. 
+// then apply inverse cube law.
+// (10kt/30kt)^1/3 = 0.69, * 1760 yds = 1220 yds
+DepthWeaponKillRadius=1200
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+
+
+
+//usn_depth_bomb_11kt=Nuclear Depth Bomb 11KT=Nuclear Depth Bomb Mk101 Lulu 11KT
+//W34 warhead. In service 1958-1971
+//Also used by RAF on Shackletons and Dutch Navy on P-2 and P-3s 
+DepthWeaponObjectReference=usn_depth_bomb_11kt
+DepthWeaponWarhead=11000000
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+// based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
+// 30kt, kill 1960s sub at 1.3 mile (7000'), damage at 2 miles. 
+// then apply inverse cube law.
+// (11kt/30kt)^1/3 = 0.72, * 1760 yds = 1260 yds
+DepthWeaponKillRadius=1260
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+
 
 
 DepthWeaponObjectReference=wp_proximity_mine
@@ -2734,7 +2904,9 @@ DepthWeaponObjectReference=usn_depth_bomb
 DepthWeaponWarhead=25
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
-DepthWeaponKillRadius=10
+//DepthWeaponKillRadius=10
+// based on 100kg = 10m damage (not kill) radius, inverse cube law
+DepthWeaponKillRadius=6
 DepthWeaponSinkRate=0.2
 [Model]
 ModelFile=weapons/assets/rgb-60

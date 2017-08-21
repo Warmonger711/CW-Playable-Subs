@@ -48,8 +48,8 @@ TubeReloadTime=30
 
 VLSTorpedoTypes=fra_m45_slbm
 VLSTorpedoNumbers=12
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20

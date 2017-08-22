@@ -536,6 +536,52 @@ AudioLoop=FALSE;
 //WireGuided=TRUE
 //RangeInYards=8750
 //RunSpeed=28
+WeaponObjectReference=uk_mk23
+//WeaponSprite=hud/uk/uk_mk20s_sprite.png
+//Needs its own HUD graphic but use US Mk37 as "old wire guided" 
+WeaponSprite=weapons/sprites/usn_mk37_sprite
+WeaponType=TORPEDO
+//89kg warhead, warhead 1955 in service, assume Torpex x1.5 = 133.5
+Warhead=135
+SurfaceLaunched=FALSE
+SwimOut=TRUE
+WireGuided=TRUE
+//for run-in speed and range assume same as Mk20
+RangeInYards=12000
+RunSpeed=20
+//only speed/range data specific to the Grog is 8750 yds @ 28kt
+ActiveRunSpeed=28
+TurnRate=20 
+SensorAngles=60,15
+SensorRange=1250
+WeaponNoiseValues=120,130
+MaxPitchAngle=25
+HomeSettings=PASSIVE
+AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
+DepthSettings=LEVEL,SHALLOW,DEEP
+MinCameraDistance=0.5
+ResupplyTime=15
+[Model]
+ModelFile=weapons/assets/usn_mk14
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=environment/sky/Night_Broken_mask
+MeshPosition=0,0,0
+MeshWeapon=Mk14
+MeshPosition=0,0,0
+MeshWeaponPropRotation=-700
+MeshWeaponProp=Mk14_propl
+MeshWeaponPropRotation=700
+MeshWeaponProp=Mk14_propr
+MeshPosition=0,0,-0.0528
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+[/Model]
 
 
 // UK Mk20-S "Bidder" sub-launched passive-only homing-only torpedo
@@ -555,7 +601,9 @@ ActiveRunSpeed=25
 TurnRate=20
 SensorAngles=60,15
 SensorRange=1250
-WeaponNoiseValues=120,120
+//WeaponNoiseValues=120,120
+//Must be noisier when it runs faster
+WeaponNoiseValues=120,125
 MaxPitchAngle=25
 HomeSettings=PASSIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT

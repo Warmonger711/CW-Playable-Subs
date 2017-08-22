@@ -40,7 +40,9 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.075,0.0,-0.619
 
 [Weapon Systems]
-TorpedoTypes=uk_mk8,uk_mk20s,uk_tf
+//deleted Tigerfish in favour of Mk 23, as Dreadnought was decommissioned 1980:
+//the Tigerfish we have modelled is the 1986 Mod 2, not the terribly unreliable Tigerfish of 1979/1980
+TorpedoTypes=uk_mk8,uk_mk20s,uk_mk23
 TorpedoNumbers=12,0,12
 TorpedoTubes=6
 NumberOfWires=6

@@ -39,8 +39,8 @@ RADAR=uk_t1006
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=uk_tf,uk_mk8,uk_mk20s
-TorpedoNumbers=14,6,0
+TorpedoTypes=uk_tf,uk_mk8,uk_mk23,uk_mk20s
+TorpedoNumbers=14,6,0,0
 TorpedoTubes=6
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1

@@ -56,18 +56,26 @@ AudioPitch=1.2
 AudioLoop=FALSE;
 [/Model]
 
-//WASS A.184
+//WASS A.184 Dual role Italian torpedo in service 1974-
+// https://it.wikipedia.org/wiki/A184
+// (NB This is NOT the Black Shark aka A184 Enhanced / A184 Mod 3, a 50knot / 50km range weapon in service 2004-)
 WeaponObjectReference=it_a184
 WeaponSprite=weapons/sprites/usn_mk48_sprite
 WeaponType=TORPEDO
-Warhead=500
+//Warhead=500
+//250kg warhead of HBX, sometimes reported as 500kg. 250kg of HBX = 375 kg of TNT
+Warhead=375 
 SurfaceLaunched=FALSE
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.1
 WireBreakSpeedThreshold=15
-RangeInYards=20000
-RunSpeed=32
-ActiveRunSpeed=40
+//RangeInYards=20000
+//RunSpeed=32
+//ActiveRunSpeed=40
+//it.wikipedia gives 13.7nm = 27,750 yards at run-in speed 24kt
+RangeInYards=27750
+RunSpeed=24
+ActiveRunSpeed=38
 TurnRate=22
 SensorAngles=60,15
 SensorRange=2200
@@ -108,7 +116,10 @@ AudioLoop=FALSE;
 WeaponObjectReference=dm2a3_seehecht
 WeaponSprite=hud/de/wp_dm2a4_sprite.png
 WeaponType=TORPEDO
-Warhead=350
+//Warhead=350
+//260kg warhead, 1980s+, assume 1.86x TNT like US Mk38 (PBXN-103)
+//(Wikipedia states it as some form of PBX)
+Warhead=480
 SurfaceLaunched=FALSE
 SwimOut=TRUE
 WireGuided=TRUE
@@ -157,7 +168,9 @@ AudioLoop=FALSE;
 WeaponObjectReference=swe_t613
 WeaponSprite=hud/uk/uk_mk20s_sprite.png
 WeaponType=TORPEDO
-Warhead=240
+//Warhead=240
+//300kg warhead, 1980s in service date, country well known for explosives!, assume 1.86x TNT like PBXN-103 in US Mk48
+Warhead=560
 SurfaceLaunched=FALSE
 SwimOut=TRUE
 WireGuided=TRUE
@@ -245,10 +258,19 @@ AudioPitch=1.2
 AudioLoop=FALSE;
 [/Model]
 
+//These stats are for the F17 Mod2, in service date 1988-
+//Data for earlier variants:
+//F17 Mod 0, 1973, 19,700 yards / 35 knots; 31,700 yards if operated at 24 knots during wire guidance phase
+//F17 Mod 1 (19??), range / speed of 22,000 yards (20,000 m) / 35 knots. Passive only. 
+//F17 Mod 2 (1988), range / speed of 22,000 yards (20,000 m) / 40 knots. Active(/passive?).
+//F17P Mod 2 (1988), range / speed of 32,000 yards (30,000 m) / 35 knots.
+//The DTCN F17 was a wire-guided anti-surface ship torpedo originally produced in 1971. France, Spain, and Saudi Arabia were its primary users.
 WeaponObjectReference=fr_f17
 WeaponSprite=hud/default/f17_sprite.png
 WeaponType=TORPEDO
-Warhead=250
+//Warhead=250
+//250kg HBX-3, 1.5x TNT
+Warhead=375
 SurfaceLaunched=FALSE
 SwimOut=TRUE
 WireGuided=TRUE
@@ -344,7 +366,9 @@ AudioLoop=FALSE;
 WeaponObjectReference=dm2a4_seehecht
 WeaponSprite=hud/default/wp_dm2a4_sprite.png
 WeaponType=TORPEDO
-Warhead=500
+//Warhead=350
+//260kg warhead, 1980s+, assume 1.86x TNT like US Mk38 (PBXN-103)
+Warhead=480
 SurfaceLaunched=FALSE
 SwimOut=TRUE
 WireGuided=TRUE
@@ -390,10 +414,18 @@ AudioPitch=1.2
 AudioLoop=FALSE;
 [/Model]
 
+
+//UK Spearfish torpedo - this is the in service 1992- version
+//there was an earlier 1981 version which was unreliable and had 23KYD range at "only" 60kts
+//upgrade program 2009- ??
+//upgrade program 2014- ??
 WeaponObjectReference=uk_sf
 WeaponSprite=hud/uk/uk_sf_sprite.png
 WeaponType=TORPEDO
-Warhead=660
+//incorrect, this is the weight in lbs
+//Warhead=660
+//300kg warhead, aluminised PBX, assume 1.86x TNT =558
+Warhead=560
 SurfaceLaunched=FALSE
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.05
@@ -437,23 +469,34 @@ AudioPitch=1.2
 AudioLoop=FALSE;
 [/Model]
 
+//UK Mk24 Tigerfish in service 1979-2004
+// Mod0 1980 ASW only (failed trials but accepted in service anyway, highly unreliable)
+// Mod1 1979 Dual purpose, highly unreliable, 80% failure rate
+// Mod2 1986 improved post-Falklands war. Dual mode.
 WeaponObjectReference=uk_tf
 WeaponSprite=hud/uk/uk_tf_sprite.png
 WeaponType=TORPEDO
-Warhead=660
+//incorrect (based on lbs weight?)
+//Warhead=660
+//340kg Torpex x1.5 = 510 (smaller warheads are also listed, down to 134kg)
+Warhead=510
 SurfaceLaunched=FALSE
 SwimOut=TRUE
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.05
 WireBreakSpeedThreshold=15
-RangeInYards=42000
-RunSpeed=28
+//Navweaps and Wikipedia agree these values are incorrect:
+//RangeInYards=42000
+//RunSpeed=28
+RangeInYards=30000
+RunSpeed=24
 ActiveRunSpeed=35
 TurnRate=24
 SensorAngles=80,25
 SensorRange=2000
 WeaponNoiseValues=160,230
 MaxPitchAngle=30
+//It's unclear whether ACTIVE was onboard the torpedo or semi-active using the sub's active sonar?
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP
@@ -488,20 +531,30 @@ AudioPitch=1.2
 AudioLoop=FALSE;
 [/Model]
 
-WeaponObjectReference=uk_mk20s
-WeaponSprite=hud/uk/uk_mk20s_sprite.png
+// TO-DO: Add UK Mk23 "Grog", first UK wire guided torpedo, limited operation use from 1966-, fully operational 1971-
+// Based on Mk20 (below), plus:
+//WireGuided=TRUE
+//RangeInYards=8750
+//RunSpeed=28
+WeaponObjectReference=uk_mk23
+//WeaponSprite=hud/uk/uk_mk20s_sprite.png
+//Needs its own HUD graphic but use US Mk37 as "old wire guided" 
+WeaponSprite=weapons/sprites/usn_mk37_sprite
 WeaponType=TORPEDO
-Warhead=196
+//89kg warhead, warhead 1955 in service, assume Torpex x1.5 = 133.5
+Warhead=135
 SurfaceLaunched=FALSE
 SwimOut=TRUE
-WireGuided=FALSE
+WireGuided=TRUE
+//for run-in speed and range assume same as Mk20
 RangeInYards=12000
 RunSpeed=20
-ActiveRunSpeed=25
-TurnRate=20
+//only speed/range data specific to the Grog is 8750 yds @ 28kt
+ActiveRunSpeed=28
+TurnRate=20 
 SensorAngles=60,15
 SensorRange=1250
-WeaponNoiseValues=120,120
+WeaponNoiseValues=120,130
 MaxPitchAngle=25
 HomeSettings=PASSIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
@@ -530,10 +583,63 @@ AudioPitch=1
 AudioLoop=TRUE
 [/Model]
 
+
+// UK Mk20-S "Bidder" sub-launched passive-only homing-only torpedo
+WeaponObjectReference=uk_mk20s
+WeaponSprite=hud/uk/uk_mk20s_sprite.png
+WeaponType=TORPEDO
+//incorrect warhead, weight in lbs
+//Warhead=196
+//89kg warhead, 1955 in service, assume Torpex x1.5 = 133.5
+Warhead=135
+SurfaceLaunched=FALSE
+SwimOut=TRUE
+WireGuided=FALSE
+RangeInYards=12000
+RunSpeed=20
+ActiveRunSpeed=25
+TurnRate=20
+SensorAngles=60,15
+SensorRange=1250
+//WeaponNoiseValues=120,120
+//Must be noisier when it runs faster
+WeaponNoiseValues=120,125
+MaxPitchAngle=25
+HomeSettings=PASSIVE
+AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
+DepthSettings=LEVEL,SHALLOW,DEEP
+MinCameraDistance=0.5
+ResupplyTime=15
+[Model]
+ModelFile=weapons/assets/usn_mk14
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=environment/sky/Night_Broken_mask
+MeshPosition=0,0,0
+MeshWeapon=Mk14
+MeshPosition=0,0,0
+MeshWeaponPropRotation=-700
+MeshWeaponProp=Mk14_propl
+MeshWeaponPropRotation=700
+MeshWeaponProp=Mk14_propr
+MeshPosition=0,0,-0.0528
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+[/Model]
+
+// UK Mk VIII** (late) 
 WeaponObjectReference=uk_mk8
 WeaponSprite=hud/uk/uk_mk8_sprite.png
 WeaponType=TORPEDO
-Warhead=722
+//This was the MkVIII** (early) WW2-era warhead, also incorrect because the value is in lbs (327kg, straight TNT)
+//Warhead=722 
+//Mk VIII** (late), *** and Mod4: 365kg Torpex x 1.5= 680 kg-TNT-equivalent
+Warhead=680
 SurfaceLaunched=FALSE
 MaxLaunchDepth=100
 WireGuided=FALSE

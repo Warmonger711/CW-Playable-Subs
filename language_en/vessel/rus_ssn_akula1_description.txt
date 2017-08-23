@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Akula I
-Description=Akula I-class SSN (1984 Era)
+Description=[RUS] Akula I-class SSN (1984 Era)
 History=Self Noise Rating: 125 db\nTest Depth: 1570 ft\nEscape Depth: 600 ft\n\nThe Akula is the next generation of Russian attack submarines. Featuring an advanced sonar suite, 8 torped tubes with wire guidance capability, and new quieting technology, the Akula is the first class produced by Russia that constitutes a serious threat to the West.
 
 [Player Ship Instances]

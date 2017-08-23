@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Typhoon (VLS)
-Description=Typhoon-class SSGN (1984 Era)
+Description=[RUS] Typhoon-class SSGN (1984 Era)
 History=Self Noise Rating: 130 db\nTest Depth: 1050 ft\nEscape Depth: 600 ft\n\nA modern conversion of the Typhoon class that removes the SLBM system and replaces it with a VLS system for up to 50 cruise missiles. Two torpedo tubes were removed in favor of an expanded forward space that can store up to 60 weapons.
 
 [Player Ship Instances]

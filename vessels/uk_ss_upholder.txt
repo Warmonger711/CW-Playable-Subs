@@ -102,7 +102,7 @@ MaterialTextures=environment/sky/black
 Mesh=wp_ss_kilo
 
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-MeshPosition=0,-0.0016,-0.4662
+MeshPosition=0,-0.0040,-0.4662
 MeshRudder=usn_ssn_permit_rudders
 
 ModelFile=ships/wp_ss_kilo/wp_ss_kilo

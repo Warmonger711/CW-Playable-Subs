@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Typhoon
-Description=Typhoon-class SSBN (1984 Era)
+Description=[RUS] Typhoon-class SSBN (1984 Era)
 History=Self Noise Rating: 130 db\nTest Depth: 1050 ft\nEscape Depth: 600 ft\n\nThese are the largest submarines ever built. They feature an innovative parallel pressure hull layout, and are designed to operate for prolonged periods under the arctic icepack. Compared to the Delta class, they are a huge improvement in capability, with better quieting, better survivability, more weapons and carrying missiles of greater accuracy.
 
 [Player Ship Instances]

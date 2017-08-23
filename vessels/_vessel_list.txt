@@ -66,6 +66,7 @@ rus_ssn_victor2
 rus_ssn_victor1
 rus_ssn_november
 rus_ss_kilo
+rus_ss_kilo_imp
 rus_ss_lada
 rus_ss_tango
 rus_ss_foxtrot

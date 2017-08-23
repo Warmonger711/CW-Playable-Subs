@@ -89,26 +89,26 @@ FLOODING5=-90,59,-76,-39
 DamageControlPartyY=-31
 
 [Model]
-//+ Hull and Deck
+//Hull and Deck
 ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 Material=ships/wp_ss_kilo/wp_ss_kilo_mat
-MaterialTextures=ships/wp_ss_romeo/wp_ss_romeo_tx,environment/sky/black
+MaterialTextures=ships/wp_ss_romeo/wp_ss_romeo_tx
 Mesh=wp_ss_kilo
-// MeshPosition=0,-0.048,-0.4662
-// MeshRudder=wp_ss_kilo_rudder
-// MeshPosition=0,0.0641,0.2571
-// MeshBowPlanes=wp_ss_kilo_bowplanes
+//MeshPosition=0,-0.048,-0.4662
+//MeshRudder=wp_ss_kilo_rudder
+//MeshPosition=0,0.0641,0.2571
+//MeshBowPlanes=wp_ss_kilo_bowplanes
 MeshPosition=0,0,-0.4804
 MeshSternPlanes=wp_ss_kilo_sternplanes
-// MeshPosition=-0.0,-0.0050,-0.5295
-// MeshProp=wp_ss_kilo_prop
-//- 
+//MeshPosition=-0.0,-0.0050,-0.5295
+//MeshProp=wp_ss_kilo_prop
+ 
 
-//+ Sail
+//Sail
 ModelFile=ships/wp_ssbn_typhoon/wp_ssbn_typhoon
 Material=ships/wp_ss_foxtrot/wp_ss_foxtrot_mat
 MaterialTextures=environment/sky/black
@@ -118,38 +118,38 @@ Mesh=wp_ssbn_typhoon_dorsal_rudder
 MeshRotation=0,-15,0
 MeshPosition=0.004,0.073,0.207
 Mesh=wp_ssbn_typhoon_dorsal_rudder
-//- 
 
-//+ Rudder
+
+//Rudder
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-MaterialTextures=ships/wp_ss_romeo/wp_ss_romeo_tx,environment/sky/black
+MaterialTextures=ships/wp_ss_romeo/wp_ss_romeo_tx
 MeshRotation=0,0,0
 MeshPosition=0,-0.0016,-0.4662
 MeshRudder=usn_ssn_permit_rudders
-//- 
 
-//+ Sonar
+
+//Sonar
 MaterialTextures=environment/sky/black
 MeshRotation=-6,0,90
 MeshPosition=0,0.029,0.44
 Mesh=usn_ssn_permit_sailplanes
-//- 
 
-//+ Screw
+
+//Screw
 ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
 MeshPosition=0.0,-0.002,-0.517
 MeshProp=usn_ssn_skipjack_prop
-//- 
 
-//+ Bowplanes
+
+//Bowplanes
 ModelFile=ships/wp_ssn_victor1/wp_ssn_victor1
 MaterialTextures=ships/wp_ss_romeo/wp_ss_romeo_tx,environment/sky/black
 MeshRotation=0,0,0
 MeshPosition=0,-0.03,0.45
 MeshBowPlanes=wp_ssn_victor1_bowplanes
-//- 
 
-//+ Plate
+
+//Plate
 MeshRotation=0,90,0
 MeshPosition=0.0097,0.0745,0.28
 Mesh=wp_ssn_victor1_bowplanes
@@ -157,9 +157,9 @@ MeshPosition=0.0097,0.0745,0.24
 Mesh=wp_ssn_victor1_bowplanes
 MeshPosition=0.0097,0.0745,0.20
 Mesh=wp_ssn_victor1_bowplanes
-//- 
 
-//+ Masts
+
+//Masts
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
 MeshPosition=0,0.030,0.160
@@ -177,7 +177,7 @@ MeshMast=usn_ssn_permit_radar_mast
 
 //- 
 [Weapon Systems]
-//+ Torpedo Mounts
+//Torpedo Mounts
 
 //Tube 1 ok
 MeshRotation=0,0,0
@@ -226,20 +226,20 @@ MeshRotation=0,0,0
 MeshPosition=-0.01,0.0126,0.504
 TorpedoSpawnPosition=0.01,0.0126,0.606
 TorpedoEffectPosition=0,0,0.0232
-//- 
+ 
 
-//+ Noisemaker Mount
+//Noisemaker Mount
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
-//- 
+ 
 
 
 MeshPosition=0,0,0
 ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 
 
-//+ Wake
+//Wake
 MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave_sub
 PropWashParticle=ships/particles/bowwave_small
@@ -253,9 +253,9 @@ ParticleHullFoamParameters=10,0.2,0.2,0.055,0,0,0.25
 ParticleSternFoamPosition=0,0,-0.43
 ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
 KelvinWaves=1.46,1.46
-//- 
 
-//+ Sound
+
+//Sound
 EngineAudioClip=audio/units/submarine_engine_1
 EngineAudioRollOff=LOGARITHMIC
 EngineAudioDistance=1,20
@@ -267,5 +267,4 @@ PropAudioPitchRange=0.1,0.6
 PingAudioClip=audio/environment/sonar_ping_lf
 PingAudioRollOff=LOGARITHMIC
 PingAudioDistance=1,50
-PingAudioPitch=1
-//- 
+PingAudioPitch=1 

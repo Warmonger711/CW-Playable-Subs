@@ -537,9 +537,7 @@ AudioLoop=FALSE;
 //RangeInYards=8750
 //RunSpeed=28
 WeaponObjectReference=uk_mk23
-//WeaponSprite=hud/uk/uk_mk20s_sprite.png
-//Needs its own HUD graphic but use US Mk37 as "old wire guided" 
-WeaponSprite=weapons/sprites/usn_mk37_sprite
+WeaponSprite=hud/uk/uk_mk23_sprite.png
 WeaponType=TORPEDO
 //89kg warhead, warhead 1955 in service, assume Torpex x1.5 = 133.5
 Warhead=135

@@ -24,7 +24,7 @@ BallastRate=0.25
 Waterline=0.05
 SubmergedAt=0.172
 CavitationParameters=15,-155
-PropRotationSpeed=-130
+PropRotationSpeed=-130,-130
 TestDepth=1597
 EscapeDepth=600
 
@@ -106,6 +106,7 @@ MeshRudder=usn_ssn_los_angeles_rudders
 MeshPosition=0,0.0027,-0.7329
 MeshSternPlanes=usn_ssn_los_angeles_sternplanes
 
+
 [Model]
 ModelFile=ships/wp_ssn_sierra/wp_ssn_sierra
 MaterialTextures=environment/sky/black
@@ -116,8 +117,14 @@ MeshBowPlanes=wp_ssn_sierra_bowplanes
 [Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
+MaterialTextures=terrain/sand
 MeshPosition=0,0.0029,-0.8013
 MeshProp=usn_ssn_los_angeles_prop
+MeshPosition=0,0.0029,-0.8013
+MeshRotation=0,0,25.7
+MeshProp=usn_ssn_los_angeles_prop
+MeshRotation=0,0,0
+
 
 Material=ships/materials/usn_masts
 MeshPosition=-0.0072,0.075,0.317

@@ -114,7 +114,7 @@ AudioLoop=FALSE;
 
 //DM2A3 Seehecht
 WeaponObjectReference=dm2a3_seehecht
-WeaponSprite=hud/de/wp_dm2a4_sprite.png
+WeaponSprite=hud/default/wp_dm2a4_sprite.png
 WeaponType=TORPEDO
 //Warhead=350
 //260kg warhead, 1980s+, assume 1.86x TNT like US Mk38 (PBXN-103)

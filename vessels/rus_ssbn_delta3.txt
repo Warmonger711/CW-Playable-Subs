@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=142
-ActiveSonarReflection=25
+ActiveSonarReflection=38
 ActiveSonarModel=wp_shark_gill
 PassiveSonarModel=wp_shark_gill
 TowedArrayModel=wp_shark_tail

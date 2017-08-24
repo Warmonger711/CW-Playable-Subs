@@ -16,7 +16,7 @@ SubmergedSpeed=25
 AccelerationRate=0.2
 DecelerationRate=0.1
 RudderTurnRate=1
-TurnRate=2.8
+TurnRate=3
 PivotPointTurning=0.256
 DiveRate=5
 SurfaceRate=5
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=130
-ActiveSonarReflection=25
+ActiveSonarReflection=21
 ActiveSonarModel=usn_an_bqq_5
 PassiveSonarModel=usn_an_bqq_5
 TowedArrayModel=usn_tb_16

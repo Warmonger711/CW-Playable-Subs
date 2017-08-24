@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=116
-ActiveSonarReflection=25
+ActiveSonarReflection=28
 ActiveSonarModel=usn_an_bqq_10
 PassiveSonarModel=usn_an_bqq_10
 TowedArrayModel=usn_tb_23

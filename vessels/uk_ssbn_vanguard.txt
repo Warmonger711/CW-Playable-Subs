@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=110
-ActiveSonarReflection=25
+ActiveSonarReflection=37
 ActiveSonarModel=uk_2054
 PassiveSonarModel=uk_2054
 TowedArrayModel=uk_2046

@@ -30,7 +30,7 @@ EscapeDepth=5000
 
 [Acoustics & Sensors]
 SelfNoise=110
-ActiveSonarReflection=25
+ActiveSonarReflection=43
 ActiveSonarModel=wp_mgk540
 PassiveSonarModel=wp_mgk540
 TowedArrayModel=wp_pelamida

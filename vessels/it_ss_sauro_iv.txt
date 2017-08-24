@@ -16,7 +16,7 @@ SubmergedSpeed=19
 AccelerationRate=0.35
 DecelerationRate=0.08
 RudderTurnRate=1
-TurnRate=2
+TurnRate=2.9
 PivotPointTurning=0.256
 DiveRate=2
 SurfaceRate=2
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=130
-ActiveSonarReflection=25
+ActiveSonarReflection=18
 ActiveSonarModel=it_atlas_isus_90_20
 PassiveSonarModel=it_atlas_isus_90_20
 TowedArrayModel=FALSE

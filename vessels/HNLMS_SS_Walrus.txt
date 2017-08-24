@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=130
-ActiveSonarReflection=25
+ActiveSonarReflection=21
 ActiveSonarModel=Thomson_Sintra_TSM_2272
 PassiveSonarModel=Thomson_Sintra_TSM_2272
 TowedArrayModel=Type_2026_towed_array

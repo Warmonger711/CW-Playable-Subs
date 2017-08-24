@@ -24,7 +24,7 @@ BallastRate=0.25
 Waterline=0.04
 SubmergedAt=0.136
 CavitationParameters=15,-155
-PropRotationSpeed=-190
+PropRotationSpeed=-190,-190
 TestDepth=1250
 EscapeDepth=600
 
@@ -230,8 +230,13 @@ Mesh=TASM_Canister
 //Prop
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
-MeshPosition=0,0.0029,-0.8013
+MaterialTextures=terrain/sand
+MeshPosition=0,0.0029,-0.803
 MeshProp=usn_ssn_los_angeles_prop
+MeshPosition=0,0.0029,-0.803
+MeshRotation=0,0,25.7
+MeshProp=usn_ssn_los_angeles_prop
+MeshRotation=0,0,0
 
 //Extra Fins
 ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey

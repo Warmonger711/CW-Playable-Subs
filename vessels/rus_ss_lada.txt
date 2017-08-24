@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=115
-ActiveSonarReflection=25
+ActiveSonarReflection=21
 ActiveSonarModel=wp_mgk600
 PassiveSonarModel=wp_mgk600
 TowedArrayModel=wp_mgk600_towed

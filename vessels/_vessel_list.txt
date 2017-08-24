@@ -39,6 +39,7 @@ swe_ss_gotland
 aus_ss_collins
 HNLMS_SS_Dolfijn
 HNLMS_SS_Walrus
+rus_ssbn_borei
 rus_ssbn_typhoon
 rus_ssbn_typhoon_vls
 rus_ssbn_redoctober

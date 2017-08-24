@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=136
-ActiveSonarReflection=25
+ActiveSonarReflection=20
 ActiveSonarModel=wp_pike_jaw
 PassiveSonarModel=wp_trout_cheek
 TowedArrayModel=FALSE

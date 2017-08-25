@@ -1,4 +1,6 @@
 [SONAR]
+ae_tas3=AE TAS3=AE TAS3 Towed Array Sonar.
+
 it_atlas_isus_90_20=ISUS 90-20=This sonar fitted on the latest Sauro-class boat is an advanced suite, capable of detecting really quiet enemies.
 
 aus_tss=TS Scylla=Thomson Sintra Scylla bow and distributed sonar arrays.

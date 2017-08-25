@@ -15,7 +15,7 @@ ConnectedZones=I1
 WaypointName=WG1
 WaypointPosition=1.2,-367.1
 Alignment=ENEMY
-ConnectedZones=WG2,WG3
+ConnectedZones=WG2,WG3,P2
 InvadedBy=LAND,FRIENDLY
 
 //Bremen and Hamburg
@@ -30,6 +30,7 @@ WaypointName=WG3
 WaypointPosition=-41.2,-361.5
 Alignment=ENEMY
 ConnectedZones=N1,WG1,WG2,ND1,B1
+InvadedBy=LAND,FRIENDLY
 
 //Amsterdam
 WaypointName=ND1
@@ -50,13 +51,13 @@ WaypointName=D1
 WaypointPosition=8.9,-278.7
 Alignment=ENEMY
 ConnectedZones=WG2
-InvadedBy=SEA,FRIENDLY
+InvadedBy=LAND,FRIENDLY
 
 //northern Norway
 WaypointName=N1
 WaypointPosition=271.7,57
 Alignment=ENEMY
-ConnectedZones=N2
+ConnectedZones=N2,RU3
 InvadedBy=LAND,FRIENDLY
 
 //Andoya
@@ -64,36 +65,42 @@ WaypointName=N2
 WaypointPosition=208,30.2
 Alignment=ENEMY
 ConnectedZones=N1,N3
+InvadedBy=SEA,ENEMY
 
 //Narvik
 WaypointName=N3
 WaypointPosition=199,-1.1
 Alignment=ENEMY
 ConnectedZones=N2,N4
+InvadedBy=LAND,FRIENDLY
 
 //central Norway
 WaypointName=N4
 WaypointPosition=146.7,-46.9
 Alignment=ENEMY
 ConnectedZones=N3,N5
+InvadedBy=LAND,FRIENDLY
 
 //Trondheim
 WaypointName=N5
 WaypointPosition=102.9,-92.8
 Alignment=ENEMY
 ConnectedZones=N4,N6,N7
+InvadedBy=LAND,FRIENDLY
 
 //Bergen
 WaypointName=N6
 WaypointPosition=15.1,-133.2
 Alignment=ENEMY
 ConnectedZones=N5,N7
+InvadedBy=LAND,FRIENDLY
 
 //Oslo
 WaypointName=N7
 WaypointPosition=29.8,-187.7
 Alignment=ENEMY
 ConnectedZones=N5,N6
+InvadedBy=LAND,FRIENDLY
 
 //Stockholm
 WaypointName=S1
@@ -107,3 +114,88 @@ WaypointName=S2
 WaypointPosition=105.9,-179.8
 Alignment=ENEMY
 ConnectedZones=S1,N7
+InvadedBy=LAND,FRIENDLY
+
+//Poznan and the Wroclaw area
+WaypointName=P2
+WaypointPosition=110,-370
+Alignment=FRIENDLY
+ConnectedZones=WG1,P1
+InvadedBy=LAND,ENEMY
+
+//Warsaw and the Krakow area
+WaypointName=P1
+WaypointPosition=195,-370
+Alignment=FRIENDLY
+ConnectedZones=P2,L1
+InvadedBy=LAND,ENEMY
+
+//Lithuania
+WaypointName=L1
+WaypointPosition=231,-335
+Alignment=FRIENDLY
+ConnectedZones=P1
+InvadedBy=LAND,ENEMY
+
+//Latvia
+WaypointName=L2
+WaypointPosition=280,-300
+Alignment=FRIENDLY
+ConnectedZones=L1,E1
+InvadedBy=LAND,ENEMY
+
+//Estonia
+WaypointName=E1
+WaypointPosition=271,-235
+Alignment=FRIENDLY
+ConnectedZones=L2
+InvadedBy=LAND,ENEMY
+
+//Belarus
+WaypointName=BR1
+WaypointPosition=325,-360
+Alignment=FRIENDLY
+ConnectedZones=P1,L1,L2,RU1
+InvadedBy=LAND,ENEMY
+
+//Russia
+WaypointName=RU1
+WaypointPosition=477,-284
+Alignment=FRIENDLY
+ConnectedZones=BR1,L2,E1
+InvadedBy=LAND,ENEMY
+
+//Saint Petersburg
+//WaypointName=RU2
+//WaypointPosition=343,-218
+//Alignment=FRIENDLY
+//ConnectedZones=BR1,L2,E1
+//InvadedBy=LAND,ENEMY
+
+//Murmansk Oblast (Kola Penninsula) 
+//WaypointName=RU3
+//WaypointPosition=330,30
+//Alignment=FRIENDLY
+//ConnectedZones=N1
+//InvadedBy=LAND,ENEMY
+
+//London
+//WaypointName=UK1
+//WaypointPosition=-175,-325
+//Alignment=ENEMY
+//ConnectedZones=UK2
+//InvadedBy=SEA,ENEMY
+
+//Portsmouth
+//WaypointName=UK2
+//WaypointPosition=-205,-321
+//Alignment=ENEMY
+//ConnectedZones=UK1,UK3
+//InvadedBy=SEA,ENEMY
+
+//Plymouth
+//WaypointName=UK3
+//WaypointPosition=-258,-303
+//Alignment=ENEMY
+//ConnectedZones=UK2
+//InvadedBy=SEA,ENEMY

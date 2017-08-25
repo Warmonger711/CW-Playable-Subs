@@ -39,6 +39,8 @@ usn_depth_bomb_11kt=Nuclear Depth Bomb 11KT=Nuclear Depth Bomb Mk101 Lulu 11KT
 
 wp_proximity_mine=Proximity Mine=Proximity Mine
 
+usn_9x3_mk-7_shell=MK-7 Guns=16inch/50 MK-7
+
 usn_mk-30_shell=MK-30 Guns=5inch/38 MK-30
 
 usn_mk-38_shell=MK-38 Guns=76mm/62 MK-38

@@ -1,6 +1,6 @@
 [Unit Reference]
-ShipClass=Perry
-Description=Perry-class Anti-Submarine Ship
+ShipClass=Perry (1984)
+Description=Perry-class Anti-Submarine Ship (1984 version)
 DefensiveWeapons=SM-1MR SAM
 OffensiveWeapons=MK-38 DP Guns\nASW Torpedoes
 Aircraft=2 SH-60B ASW helicopter

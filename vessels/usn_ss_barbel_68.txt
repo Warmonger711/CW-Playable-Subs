@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=145
-ActiveSonarReflection=25
+ActiveSonarReflection=21
 ActiveSonarModel=usn_an_bqs_4
 PassiveSonarModel=usn_an_bqr_2
 TowedArrayModel=FALSE
@@ -101,8 +101,6 @@ Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
 MaterialTextures=environment/sky/black
 Mesh=usn_ssn_skipjack
 Mesh=usn_ssn_skipjack_bqr25
-MeshPosition=0,-0.0016,-0.518
-MeshRudder=usn_ssn_skipjack_rudders
 MeshPosition=0,0,-0.531
 MeshSternPlanes=usn_ssn_skipjack_sternplanes
 //MeshPosition=0,0.0002,-0.5636
@@ -121,6 +119,12 @@ MeshMast=usn_ssn_skipjack_esm_mast
 MeshPosition=-0.0025,0.075,0.1913
 MastHeight=0.085
 MeshMast=usn_ssn_skipjack_radar_mast
+
+//Permit Rudder
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
+MeshPosition=0,0,-0.518
+MeshRudder=usn_ssn_permit_rudders
 
 [Model]
 
@@ -186,6 +190,11 @@ TorpedoEffectPosition=0.0113,-0.0053,0.52
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+
 
 //Wake
 MeshPosition=0,0,-0.6496

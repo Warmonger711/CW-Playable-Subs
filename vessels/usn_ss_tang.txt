@@ -106,7 +106,7 @@ MeshPosition=0,-0.0302,-0.5368
 MeshSternPlanes=wp_ss_romeo_sternplanes
 MeshPosition=-0.0224,-0.0265,-0.4716
 MeshRotation=5,0,0
-MeshProp=ships/wp_ss_romeo/wp_ss_romeo_prop_l
+MeshProp=wp_ss_romeo_prop_l
 MeshPosition=0.0224,-0.0265,-0.4716
 MeshRotation=-5,0,0
 MeshProp=wp_ss_romeo_prop_r
@@ -171,6 +171,11 @@ TorpedoEffectPosition=0,0,0.0232
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ss_romeo/wp_ss_romeo
+
 
 //Wake
 MeshPosition=0,0,0

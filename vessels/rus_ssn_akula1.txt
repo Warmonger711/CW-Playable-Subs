@@ -16,7 +16,7 @@ SubmergedSpeed=35
 AccelerationRate=0.3
 DecelerationRate=0.08
 RudderTurnRate=1
-TurnRate=2
+TurnRate=2.1
 PivotPointTurning=0.256
 DiveRate=5
 SurfaceRate=5
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=125
-ActiveSonarReflection=25
+ActiveSonarReflection=30
 ActiveSonarModel=wp_mgk540
 PassiveSonarModel=wp_mgk540
 TowedArrayModel=wp_pelamida
@@ -179,6 +179,11 @@ TorpedoEffectPosition=0,0,0.0232
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssn_sierra/wp_ssn_sierra
+
 
 //Wake
 MeshPosition=0,0,0

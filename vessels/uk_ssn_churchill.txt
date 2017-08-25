@@ -16,7 +16,7 @@ SubmergedSpeed=28
 AccelerationRate=0.24
 DecelerationRate=0.08
 RudderTurnRate=1.0
-TurnRate=2
+TurnRate=2.5
 PivotPointTurning=0.256
 DiveRate=5
 SurfaceRate=5
@@ -40,8 +40,8 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.075,0.0,-0.619
 
 [Weapon Systems]
-TorpedoTypes=uk_mk8,uk_mk20s,uk_tf,usn_ugm84
-TorpedoNumbers=12,0,12,6
+TorpedoTypes=uk_mk8,uk_mk20s,uk_mk23,uk_tf,usn_ugm84
+TorpedoNumbers=12,0,0,12,6
 TorpedoTubes=6
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1
@@ -178,6 +178,11 @@ TorpedoEffectPosition=0.0856,-0.0114,0.317
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+
 
 //Wake
 MeshPosition=0,0,-0.6496

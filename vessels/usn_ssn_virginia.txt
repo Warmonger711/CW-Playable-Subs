@@ -16,7 +16,7 @@ SubmergedSpeed=38
 AccelerationRate=0.30
 DecelerationRate=0.10
 RudderTurnRate=.5
-TurnRate=3.2
+TurnRate=1.8
 PivotPointTurning=0.256
 DiveRate=5
 SurfaceRate=5
@@ -24,13 +24,13 @@ BallastRate=0.25
 Waterline=0.04
 SubmergedAt=0.136
 CavitationParameters=15,-155
-PropRotationSpeed=-190
+PropRotationSpeed=-190,-190
 TestDepth=1250
 EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=107
-ActiveSonarReflection=25
+ActiveSonarReflection=30
 ActiveSonarModel=usn_an_bqq_10
 PassiveSonarModel=usn_an_bqq_10
 TowedArrayModel=usn_tb_29
@@ -50,8 +50,8 @@ TubeReloadTime=20
 
 VLSTorpedoTypes=usn_tasm,usn_tlam
 VLSTorpedoNumbers=6,6
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
@@ -124,20 +124,119 @@ MeshPosition=0.000,0.024,0.3216
 MastHeight=0.104
 MeshMast=usn_ssn_los_angeles_radar_mast
 
+//Bowplanes
 ModelFile=ships/wp_ssn_sierra/wp_ssn_sierra
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MeshPosition=0,0.038,0.48
 MeshBowPlanes=wp_ssn_sierra_bowplanes
 
-ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
-Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MeshPosition=0,0,0.12
-Mesh=usn_ssn_skipjack
+//Sail Ramp
+ModelFile=weapons/assets/usn_tasm
 
+MeshPosition=0.003,0.077,0.43
+MeshRotation=1,-7.5,0
+Mesh=TASM_Canister
+MeshPosition=0.0028,0.078,0.427
+MeshRotation=3,-7,0
+Mesh=TASM_Canister
+MeshPosition=0.0026,0.079,0.424
+MeshRotation=5,-6.5,0
+Mesh=TASM_Canister
+MeshPosition=0.0024,0.08,0.421
+MeshRotation=8,-6,0
+Mesh=TASM_Canister
+MeshPosition=0.0022,0.081,0.418
+MeshRotation=11,-5.5,0
+Mesh=TASM_Canister
+MeshPosition=0.002,0.082,0.415
+MeshRotation=15,-5,0
+Mesh=TASM_Canister
+MeshPosition=0.0018,0.083,0.412
+MeshRotation=19,-4.5,0
+Mesh=TASM_Canister
+MeshPosition=0.0016,0.084,0.409
+MeshRotation=24,-4,0
+Mesh=TASM_Canister
+MeshPosition=0.0014,0.085,0.406
+MeshRotation=29,-3.5,0
+Mesh=TASM_Canister
+MeshPosition=0.0012,0.086,0.403
+MeshRotation=35,-3,0
+Mesh=TASM_Canister
+MeshPosition=0.001,0.087,0.4
+MeshRotation=41,-2.5,0
+Mesh=TASM_Canister
+MeshPosition=0.0008,0.088,0.397
+MeshRotation=48,-2,0
+Mesh=TASM_Canister
+MeshPosition=0.0006,0.089,0.394
+MeshRotation=55,-1.5,0
+Mesh=TASM_Canister
+MeshPosition=0.0004,0.09,0.391
+MeshRotation=63,-1,0
+Mesh=TASM_Canister
+MeshPosition=0.0002,0.091,0.388
+MeshRotation=71,-0.5,0
+Mesh=TASM_Canister
+MeshPosition=0,0.092,0.385
+MeshRotation=80,0,0
+Mesh=TASM_Canister
+MeshPosition=-0.0002,0.091,0.388
+MeshRotation=71,0.5,0
+Mesh=TASM_Canister
+MeshPosition=-0.0004,0.09,0.391
+MeshRotation=63,1,0
+Mesh=TASM_Canister
+MeshPosition=-0.0006,0.089,0.394
+MeshRotation=55,1.5,0
+Mesh=TASM_Canister
+MeshPosition=-0.0008,0.088,0.397
+MeshRotation=48,2,0
+Mesh=TASM_Canister
+MeshPosition=-0.001,0.087,0.4
+MeshRotation=41,2.5,0
+Mesh=TASM_Canister
+MeshPosition=-0.0012,0.086,0.403
+MeshRotation=35,3,0
+Mesh=TASM_Canister
+MeshPosition=-0.0014,0.085,0.406
+MeshRotation=29,3.5,0
+Mesh=TASM_Canister
+MeshPosition=-0.0016,0.084,0.409
+MeshRotation=24,4,0
+Mesh=TASM_Canister
+MeshPosition=-0.0018,0.083,0.412
+MeshRotation=19,4.5,0
+Mesh=TASM_Canister
+MeshPosition=-0.002,0.082,0.415
+MeshRotation=15,5,0
+Mesh=TASM_Canister
+MeshPosition=-0.0022,0.081,0.418
+MeshRotation=11,5.5,0
+Mesh=TASM_Canister
+MeshPosition=-0.0024,0.08,0.421
+MeshRotation=8,6,0
+Mesh=TASM_Canister
+MeshPosition=-0.0026,0.079,0.424
+MeshRotation=5,6.5,0
+Mesh=TASM_Canister
+MeshPosition=-0.0028,0.078,0.427
+MeshRotation=3,7,0
+Mesh=TASM_Canister
+MeshPosition=-0.003,0.077,0.43
+MeshRotation=1,7.5,0
+Mesh=TASM_Canister
+
+//Prop
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
-MeshPosition=0,0.0029,-0.8013
+MaterialTextures=terrain/sand
+MeshPosition=0,0.0029,-0.803
 MeshProp=usn_ssn_los_angeles_prop
+MeshPosition=0,0.0029,-0.803
+MeshRotation=0,0,25.7
+MeshProp=usn_ssn_los_angeles_prop
+MeshRotation=0,0,0
 
 //Extra Fins
 ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey
@@ -149,21 +248,6 @@ Mesh=wp_ss_whiskey_rudder
 MeshPosition=-.03,-.03,-.68
 MeshRotation=0,0,-45
 Mesh=wp_ss_whiskey_rudder
-
-//Duct Spar
-MeshPosition=0.024,0.0269,-0.7613
-MeshRotation=-25,25,135
-Mesh=wp_ss_whiskey_rudder
-MeshPosition=-0.024,0.0269,-0.7613
-MeshRotation=-25,-25,-135
-Mesh=wp_ss_whiskey_rudder
-MeshPosition=0.024,-0.0211,-0.7613
-MeshRotation=25,25,45
-Mesh=wp_ss_whiskey_rudder
-MeshPosition=-0.024,-0.0211,-0.7613
-MeshRotation=25,-25,-45
-Mesh=wp_ss_whiskey_rudder
-MeshRotation=0,0,0
 
 //Spar bump
 ModelFile=weapons/assets/usn_mk37
@@ -492,6 +576,11 @@ TorpedoEffectPosition=0,0.0785,0.5816
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
+
 
 //Wake
 MeshPosition=0,0,-0.6496

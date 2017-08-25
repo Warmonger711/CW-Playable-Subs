@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=125
-ActiveSonarReflection=25
+ActiveSonarReflection=24
 ActiveSonarModel=wp_shark_gill
 PassiveSonarModel=wp_shark_gill
 TowedArrayModel=FALSE
@@ -167,6 +167,11 @@ TorpedoEffectPosition=0,0,0.0232
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ss_kilo/wp_ss_kilo
+
 
 //Wake
 MeshPosition=0,0,0

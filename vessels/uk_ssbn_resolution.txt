@@ -16,7 +16,7 @@ SubmergedSpeed=25
 AccelerationRate=0.08
 DecelerationRate=0.08
 RudderTurnRate=0.5
-TurnRate=1.8
+TurnRate=1.5
 PivotPointTurning=0.256
 DiveRate=1
 SurfaceRate=1
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=133
-ActiveSonarReflection=25
+ActiveSonarReflection=29
 ActiveSonarModel=uk_2001
 PassiveSonarModel=uk_2001
 TowedArrayModel=uk_2026
@@ -39,8 +39,8 @@ RADAR=uk_t1006
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=uk_tf,uk_mk20s
-TorpedoNumbers=20,0
+TorpedoTypes=uk_tf,uk_mk23,uk_mk20s,uk_mk8
+TorpedoNumbers=20,0,0,0
 TorpedoTubes=7
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1,1
@@ -49,8 +49,8 @@ TubeReloadTime=30
 
 VLSTorpedoTypes=usn_polaris
 VLSTorpedoNumbers=16
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=40
@@ -190,6 +190,11 @@ TorpedoEffectPosition=0,0.0785,0.1700
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
+
 
 //Wake
 MeshPosition=0,0,0

@@ -16,7 +16,7 @@ SubmergedSpeed=23
 AccelerationRate=0.35
 DecelerationRate=0.15
 RudderTurnRate=0.50
-TurnRate=5.7
+TurnRate=3.9
 PivotPointTurning=0.256
 DiveRate=6
 SurfaceRate=6
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=110
-ActiveSonarReflection=25
+ActiveSonarReflection=19
 ActiveSonarModel=usn_an_bqq_10
 PassiveSonarModel=usn_an_bqq_10
 TowedArrayModel=usn_tb_29
@@ -169,6 +169,11 @@ TorpedoEffectPosition=0,0,0.0232
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+
 
 //Wake
 MeshPosition=0,0,0

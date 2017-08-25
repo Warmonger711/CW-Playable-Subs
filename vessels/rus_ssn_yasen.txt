@@ -12,7 +12,7 @@ HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=20
-SubmergedSpeed=28
+SubmergedSpeed=35
 AccelerationRate=0.3
 DecelerationRate=0.08
 RudderTurnRate=1
@@ -48,9 +48,9 @@ TorpedoTubeSize=21
 TubeReloadTime=20
 
 VLSTorpedoTypes=wp_p700,wp_p500
-VLSTorpedoNumbers=12,4
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSTorpedoNumbers=16,16
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
@@ -240,6 +240,11 @@ TorpedoEffectPosition=0,0.0785,0.3516
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+
 
 //Wake
 MeshPosition=0,0,0

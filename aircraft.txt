@@ -3,6 +3,7 @@
 // Ka-27PL, NATO: Helix. In service 1982-
 // http://www.military-today.com/helicopters/kamov_ka27_helix.htm
 // http://www.naval-technology.com/projects/ka272829-helix/
+// http://ruslet.webnode.cz/technika/ruska-technika/letecka-technika/n-i-kamov/ka-27-28-helix-a-/
 AircraftObjectReference=wp_helix
 AircraftType=HELICOPTER
 CruiseSpeed=111
@@ -10,7 +11,7 @@ Length=11.3
 Height=5.5
 Weight=11000
 Crew=3
-// actual Ka-27 radar is Osminog-E (Octopus) 'Splash Drop' also used on Mi-14PL
+// actual Ka-27 radar is Osminog-E (Octopus) 'Splash Drop' 
 //RADAR=wp_mushroom
 RADAR=wp_octopus
 RADARSignature=SMALL
@@ -76,6 +77,7 @@ AudioPitch=1
 
 // Ka-25BSh, NATO: Hormone A. In service: 1966-
 // http://www.militaryfactory.com/aircraft/detail.asp?aircraft_id=211
+// http://ruslet.webnode.cz/technika/ruska-technika/letecka-technika/n-i-kamov/ka-25pl-hormone-a/
 AircraftObjectReference=wp_hormone
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -112,12 +114,13 @@ SonobuoyNumbers=8,18
 TorpedoTypes=wp_umgt-1
 // 1x AT-1 or AT-1M cited in attack configuration but this probably means AT-3 airborne UMGT-1/M
 TorpedoNumbers=1
-// 4x 120kg depth bombs cited in attack configuration (and/or torpedo?)
+// 4x 120kg or 8 x 62kg depth bombs cited in attack configuration (and/or torpedo?)
 // the standard wp_depth_bomb in the game is a 25kg warhead - very underpowered
-// that sounds more like a PLAB-50 than a PLAB-120 let alone PLAB-250
-// maybe there is a typo in the weapons file? 
-DepthBomb=wp_depth_bomb_120
-DepthBombNumbers=4
+// the 120kg depth bomb is the PLAB-250-120. 62kg = PLAB-50-64. 
+//DepthBomb=wp_depth_bomb_120
+//DepthBombNumbers=4
+DepthBomb=wp_depth_bomb_50
+DepthBombNumbers=8
 MinCameraDistance=0.5
 
 [Model]
@@ -391,10 +394,10 @@ TorpedoNumbers=3
 // 9000kg of depth bombs to go with 5600kg Mod 2 search-attack configuration
 //adding custom/new depth bomb types
 //not clear if multiple DepthBomb types are supported?
-//DepthBomb=wp_depth_bomb_250,wp_depth_bomb_500
-//DepthBombNumbers=24,6
-DepthBomb=wp_depth_bomb_250
-DepthBombNumbers=36
+//DepthBomb=wp_depth_bomb_120,wp_depth_bomb_500
+//DepthBombNumbers=48,6
+DepthBomb=wp_depth_bomb_120
+DepthBombNumbers=72
 MinCameraDistance=1
 
 [Model]
@@ -494,12 +497,13 @@ TorpedoTypes=wp_umgt-1
 TorpedoNumbers=2
 // let's give it some depth bombs anyway! (3560kg left in search-attack loadout)
 // possible additional depth bomb loadouts for search-attack
-// DepthBomb=wp_depth_bomb_50,wp_depth_bomb_120,wp_depth_bomb_250
-// DepthBombNumbers=20,12,4
+// DepthBomb=wp_depth_bomb_50,wp_depth_bomb_120,wp_depth_bomb_500
+// DepthBombNumbers=20,12,2
 // DepthBomb=wp_depth_bomb_50,wp_depth_bomb_120
 // DepthBombNumbers=24,20
-// DepthBomb=wp_depth_bomb_120,wp_depth_bomb_250
-// DepthBombNumbers=12,8
+// DepthBomb=wp_depth_bomb_120,wp_depth_bomb_500
+// DepthBombNumbers=12,4
+//not clear if multiple DepthBomb types are supported?
 DepthBomb=wp_depth_bomb_120
 DepthBombNumbers=30
 

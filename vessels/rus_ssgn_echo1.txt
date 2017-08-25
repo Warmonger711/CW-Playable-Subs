@@ -50,7 +50,7 @@ TubeReloadTime=30
 VLSTorpedoTypes=wp_p5c,wp_p5cland
 VLSTorpedoNumbers=6,6
 VLSMaxDepthToFire=10
-VLSMaxSpeedToFire=5
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
@@ -256,6 +256,11 @@ Mesh=TASM_Canister
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssgn_echo2/wp_ssgn_echo2
+
 
 //Wake
 MeshPosition=0,0,0

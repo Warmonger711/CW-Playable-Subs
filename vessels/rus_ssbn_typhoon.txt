@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=130
-ActiveSonarReflection=25
+ActiveSonarReflection=52
 ActiveSonarModel=wp_shark_gill
 PassiveSonarModel=wp_shark_gill
 TowedArrayModel=wp_shark_tail
@@ -49,8 +49,8 @@ TubeReloadTime=30
 
 VLSTorpedoTypes=rus_r39_slbm
 VLSTorpedoNumbers=20
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
@@ -182,6 +182,11 @@ TorpedoEffectPosition=0,0.0785,0.5816
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssbn_typhoon/wp_ssbn_typhoon
+
 
 //Wake
 MeshPosition=0,0,0

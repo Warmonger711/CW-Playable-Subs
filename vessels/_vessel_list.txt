@@ -19,6 +19,7 @@ usn_ss_barbel
 usn_ss_guppyIIa
 usn_ss_tang
 usn_ss_albacore
+it_ss_sauro_iv
 uk_ssn_astute
 uk_ssn_trafalgar
 uk_ssn_swiftsure
@@ -30,6 +31,7 @@ uk_ss_oberon
 uk_ssbn_resolution
 uk_ssbn_vanguard
 jmsdf_ss_yushio
+ger_ss_209
 ger_ssn_212a
 fra_ssbn_redoubtable
 fra_ssn_rubis
@@ -37,6 +39,7 @@ swe_ss_gotland
 aus_ss_collins
 HNLMS_SS_Dolfijn
 HNLMS_SS_Walrus
+rus_ssbn_borei
 rus_ssbn_typhoon
 rus_ssbn_typhoon_vls
 rus_ssbn_redoctober
@@ -64,6 +67,7 @@ rus_ssn_victor2
 rus_ssn_victor1
 rus_ssn_november
 rus_ss_kilo
+rus_ss_kilo_imp
 rus_ss_lada
 rus_ss_tango
 rus_ss_foxtrot

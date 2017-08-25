@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=136
-ActiveSonarReflection=25
+ActiveSonarReflection=20
 ActiveSonarModel=wp_pike_jaw
 PassiveSonarModel=wp_trout_cheek
 TowedArrayModel=FALSE
@@ -174,6 +174,11 @@ TorpedoEffectPosition=0,0,0.0232
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ss_foxtrot/wp_ss_foxtrot
+
 
 //Wake
 MeshPosition=0,0,0

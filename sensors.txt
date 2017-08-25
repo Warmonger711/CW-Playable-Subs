@@ -1,6 +1,33 @@
-﻿[Sonar]
+[Sonar]
 
 // -------------------------------------------------------------------- New Sensors ------------------------------------------------------------------------
+
+SonarModel=csu_81-1
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=40
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=it_atlas_isus_90_20
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=39
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
+
+SonarModel=ae_tas3
+SonarType=TOWED
+SonarFrequencies=VL,L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=48
+SonarBaffle=FALSE
+SonarNoisePerKnot=2
+SonarOutput=0
 
 SonarModel=aus_tss
 SonarType=ACTIVE/PASSIVE
@@ -700,4 +727,7 @@ RADARModel=zw07
 RADARRange=60000
 
 RADARModel=ts_nav
+RADARRange=60000
+
+RADARModel=it_sma_bps_704
 RADARRange=60000

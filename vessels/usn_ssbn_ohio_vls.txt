@@ -16,7 +16,7 @@ SubmergedSpeed=25
 AccelerationRate=0.1
 DecelerationRate=0.1
 RudderTurnRate=0.65
-TurnRate=1.6
+TurnRate=1.2
 PivotPointTurning=0.256
 DiveRate=3
 SurfaceRate=3
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=115
-ActiveSonarReflection=25
+ActiveSonarReflection=40
 ActiveSonarModel=usn_an_bqq_5
 PassiveSonarModel=usn_an_bqq_5
 TowedArrayModel=usn_tb_16
@@ -50,8 +50,8 @@ TubeReloadTime=30
 
 VLSTorpedoTypes=usn_tasm,usn_tlam
 VLSTorpedoNumbers=100,54
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
@@ -189,6 +189,11 @@ TorpedoEffectPosition=0,0.0785,0.0816
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
+
 
 //Wake
 MeshPosition=0,0,-0.6496

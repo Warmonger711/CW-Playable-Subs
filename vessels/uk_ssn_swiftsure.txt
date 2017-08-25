@@ -16,7 +16,7 @@ SubmergedSpeed=28
 AccelerationRate=0.24
 DecelerationRate=0.08
 RudderTurnRate=1.0
-TurnRate=2
+TurnRate=2.6
 PivotPointTurning=0.256
 DiveRate=5
 SurfaceRate=5
@@ -40,8 +40,13 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.075,0.0,-0.619
 
 [Weapon Systems]
-TorpedoTypes=uk_sf,uk_tf,usn_ugm84,usn_tlam,usn_moss
-TorpedoNumbers=12,6,4,8,4
+//seems to be a limit of 6 torpedo types
+//unfortunately the service life of this class covers MANY weapons systems
+//need to choose to delete either Spearfish at the end of life or MK8 at the beginning
+//TorpedoTypes=uk_sf,uk_tf,uk_mk23,uk_mk8,usn_ugm84,usn_tlam,usn_moss
+//TorpedoNumbers=12,6,0,0,4,8,4
+TorpedoTypes=uk_sf,uk_tf,uk_mk23,usn_ugm84,usn_tlam,usn_moss
+TorpedoNumbers=12,6,0,4,8,4
 TorpedoTubes=5
 NumberOfWires=5
 TubeConfig=1,1,1,1,1
@@ -51,7 +56,7 @@ TubeReloadTime=30
 VLSTorpedoTypes=uk_sf,uk_tf
 VLSTorpedoNumbers=4,4
 VLSMaxDepthToFire=3000
-VLSMaxSpeedToFire=50
+VLSMaxSpeedToFire=100
 
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
@@ -437,6 +442,11 @@ TorpedoEffectPosition=0,-0.0856,0.317
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+
 
 //Wake
 MeshPosition=0,0,-0.6496

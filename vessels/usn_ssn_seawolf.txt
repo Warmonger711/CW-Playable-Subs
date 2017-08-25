@@ -16,7 +16,7 @@ SubmergedSpeed=35
 AccelerationRate=0.30
 DecelerationRate=0.10
 RudderTurnRate=0.5
-TurnRate=3.2
+TurnRate=2
 PivotPointTurning=0.256
 DiveRate=5
 SurfaceRate=5
@@ -24,13 +24,13 @@ BallastRate=0.25
 Waterline=0.05
 SubmergedAt=0.172
 CavitationParameters=15,-155
-PropRotationSpeed=-130
+PropRotationSpeed=-130,-130
 TestDepth=1597
 EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=110
-ActiveSonarReflection=25
+ActiveSonarReflection=31
 ActiveSonarModel=usn_an_bqq_10
 PassiveSonarModel=usn_an_bqq_10
 TowedArrayModel=usn_tb_29
@@ -106,6 +106,7 @@ MeshRudder=usn_ssn_los_angeles_rudders
 MeshPosition=0,0.0027,-0.7329
 MeshSternPlanes=usn_ssn_los_angeles_sternplanes
 
+
 [Model]
 ModelFile=ships/wp_ssn_sierra/wp_ssn_sierra
 MaterialTextures=environment/sky/black
@@ -116,8 +117,14 @@ MeshBowPlanes=wp_ssn_sierra_bowplanes
 [Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
-MeshPosition=0,0.0029,-0.8013
+MaterialTextures=terrain/sand
+MeshPosition=0,0.0029,-0.803
 MeshProp=usn_ssn_los_angeles_prop
+MeshPosition=0,0.0029,-0.803
+MeshRotation=0,0,25.7
+MeshProp=usn_ssn_los_angeles_prop
+MeshRotation=0,0,0
+
 
 Material=ships/materials/usn_masts
 MeshPosition=-0.0072,0.075,0.317
@@ -548,6 +555,11 @@ TorpedoEffectPosition=0.0727,-0.0086,0.547
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
+
 
 //Wake
 MeshPosition=0,0,-0.6496

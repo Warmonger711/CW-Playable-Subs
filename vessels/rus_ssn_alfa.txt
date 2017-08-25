@@ -16,7 +16,7 @@ SubmergedSpeed=42
 AccelerationRate=0.35
 DecelerationRate=0.08
 RudderTurnRate=1
-TurnRate=2.8
+TurnRate=2.7
 PivotPointTurning=0.256
 DiveRate=6
 SurfaceRate=6
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=142
-ActiveSonarReflection=25
+ActiveSonarReflection=22
 ActiveSonarModel=wp_squid_arm
 PassiveSonarModel=wp_squid_arm
 TowedArrayModel=FALSE
@@ -167,6 +167,11 @@ TorpedoEffectPosition=0,0,0.0232
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+
 
 //Wake
 MeshPosition=0,0,0

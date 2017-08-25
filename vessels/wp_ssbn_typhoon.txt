@@ -28,7 +28,7 @@ TestDepth=1050
 
 [Acoustics & Sensors]
 SelfNoise=130
-ActiveSonarReflection=25
+ActiveSonarReflection=52
 ActiveSonarModel=wp_shark_gill
 PassiveSonarModel=wp_shark_gill
 TowedArrayModel=wp_shark_tail

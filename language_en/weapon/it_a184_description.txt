@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=WASS A.184
+WeaponDescriptiveName=Whitehead A184 torpedo
+WeaponDescription=This torpedo was developer by WASS and has medium performance for its category. It lacks in speed.

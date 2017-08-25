@@ -49,8 +49,8 @@ TubeReloadTime=30
 
 VLSTorpedoTypes=rus_r39_slbm
 VLSTorpedoNumbers=16
-VLSMaxDepthToFire=150
-VLSMaxSpeedToFire=5
+VLSMaxDepthToFire=300
+VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
@@ -170,6 +170,11 @@ TorpedoEffectPosition=0,0.0785,0.3816
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/wp_ssbn_delta4/wp_ssbn_delta4
+
 
 //Wake
 MeshPosition=0,0,0

@@ -16,7 +16,7 @@ SubmergedSpeed=33
 AccelerationRate=0.33
 DecelerationRate=0.5
 RudderTurnRate=1
-TurnRate=3.6
+TurnRate=3.7
 PivotPointTurning=0.256
 DiveRate=6
 SurfaceRate=6
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=148
-ActiveSonarReflection=25
+ActiveSonarReflection=18
 ActiveSonarModel=usn_an_bqs_4
 PassiveSonarModel=usn_an_bqr_2
 TowedArrayModel=usn_bqr_25
@@ -163,6 +163,11 @@ TorpedoEffectPosition=-0.0113,-0.005,0.52
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
+
+
+MeshPosition=0,0,0
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+
 
 //Wake
 MeshPosition=0,0,-0.6496

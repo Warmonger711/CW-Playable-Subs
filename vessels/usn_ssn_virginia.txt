@@ -255,8 +255,6 @@ Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MaterialTextures=environment/sky/black
 MeshPosition=-.046,-.046,-.695
 Mesh=Mk37
-MeshPosition=.046,-.046,-.695
-Mesh=Mk37
 
 //Duct
 MeshPosition=0.04,0.0029,-0.8013

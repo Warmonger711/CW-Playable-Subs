@@ -12,6 +12,7 @@ wp_ak-100_shell=AK-100 100mm Guns
 wp_b-34_shell=B-34 100mm Guns
 wp_ak-726_shell=AK-726 76.2mm Guns
 wp_ak-725_shell=AK-725 57mm Guns
+usn_9x3_mk-7_shell=MK-7 Guns
 usn_mk-30_shell=MK-30 Guns
 usn_mk-38_shell=MK-38 Guns
 usn_mk-42_shell=MK-42 Guns

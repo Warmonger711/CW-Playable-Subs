@@ -109,8 +109,14 @@ usn_bpk_spruance
 usn_bpk_adams
 usn_bpk_farragut
 usn_bpk_garcia
+usn_bpk_belknap
+usn_kr_iowa
+usn_kr_iowa_late
 usn_takr_essex
 usn_takr_essex_late
+usn_takr_nimitz
+usn_pkr_iwo_jima
+usn_pkr_tarawa
 wp_takr_kiev
 wp_rkr_kirov
 wp_kr_sverdlov

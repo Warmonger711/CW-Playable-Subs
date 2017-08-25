@@ -37,9 +37,9 @@ SosusBarrier=campaign/images/sprites/sosus.png
 [Land War]
 UseLandWar=TRUE
 IconsInOccupiedZonesOnly=FALSE
-HoursToNextGeneralEvent=168
+HoursToNextGeneralEvent=48
 HoursToNextGeneralEventRange=-24,48
-FirstOccupiedTerritory=WG1,WG2
+FirstOccupiedTerritory=WG1,D1,N1,N2
 TerritoryTakebackThreshold=5
 NewFrontProbability=0.3
 
@@ -87,7 +87,7 @@ AircraftTypeInvaded=wp_il-38_may
 AircraftPrepTime=10
 AircraftHeadings=330,70
 AircraftSearchRange=700
-MissionTypes=SSN_PATROL,RESUPPLY_CONVOY,SSBN_PATROL,ASW_PATROL
+MissionTypes=SSN_PATROL,SSBN_PATROL,ASW_PATROL,SS_PATROL,SSN_WOLFPACK,LANDING_FORCE
 LinksToWaypoint=IG7
 
 //Torshavn 1
@@ -95,6 +95,7 @@ Alignment=ENEMY
 Function=SOSUS_NODE
 BaseMapPosition=-143.10,-37.00
 RelatedSOSUS=FAROESSOUTH,FAROESNORTH
+MissionTypes=ASW_PATROL,SS_PATROL
 LinksToWaypoint=IG5,IG6,N2,IG7
 
 //Iceland
@@ -109,7 +110,7 @@ AircraftPrepTime=10
 AircraftHeadings=45,110
 AircraftSearchRange=700
 LinksToWaypoint=IG3
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,SSN_PATROL,ASUW_STRIKE
+MissionTypes=ASW_PATROL,SSN_PATROL
 LinksToRegionWaypoint=I1
 
 //Hofn 3
@@ -132,7 +133,7 @@ LinksToRegionWaypoint=N7
 Alignment=ENEMY
 Function=STRATEGIC_NODE
 BaseMapPosition=-25.9,-147.5
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL
+MissionTypes=ASW_PATROL
 LinksToWaypoint=NC4
 LinksToRegionWaypoint=N6
 
@@ -146,7 +147,7 @@ AircraftSearchRange=700
 AircraftPrepTime=15
 AircraftHeadings=315,45
 AircraftSearchRange=700
-MissionTypes=ASW_PATROL,SSN_PATROL
+MissionTypes=ASW_PATROL,SSN_PATROL,SS_PATROL
 LinksToWaypoint=NC3
 LinksToRegionWaypoint=N5
 
@@ -160,6 +161,7 @@ AircraftTypeInvaded=wp_tu-142_bear
 AircraftPrepTime=15
 AircraftHeadings=235,55
 AircraftSearchRange=700
+MissionTypes=ASW_PATROL,SS_PATROL
 LinksToWaypoint=NC2
 LinksToRegionWaypoint=N2
 
@@ -180,7 +182,44 @@ Alignment=ENEMY
 Function=SOSUS_NODE
 BaseMapPosition=239.11,266.8
 RelatedSOSUS=NORWAYSPITSBERGEN
+MissionTypes=ASW_PATROL
 LinksToWaypoint=N1
+
+//Convoys
+//Atlantic Fleets
+Alignment=ENEMY
+Function=STRATEGIC_NODE
+BaseMapPosition=-750.10,1.50
+MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+LinksToWaypoint=IG7
+
+//Atlantic Fleets B
+Alignment=ENEMY
+Function=STRATEGIC_NODE
+BaseMapPosition=-750.10,280.50
+MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+LinksToWaypoint=IG7
+
+//Atlantic Fleets C
+Alignment=ENEMY
+Function=STRATEGIC_NODE
+BaseMapPosition=-750.10,100.50
+MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+LinksToWaypoint=IG7
+
+//Convoy Origin UK North
+Alignment=ENEMY
+Function=STRATEGIC_NODE
+BaseMapPosition=-225,-175
+MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+LinksToWaypoint=IG7
+
+//Convoy Origin UK Home
+Alignment=ENEMY
+Function=STRATEGIC_NODE
+BaseMapPosition=-300.1,-268.5
+MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+LinksToWaypoint=IG7
 
 //Soviet
 //Murmansk 10
@@ -250,42 +289,6 @@ CombatCoords=1234,1234
 //BaseMapPosition=109.60,-300.00
 //RelatedNodes=Gotland,Berga
 
-//Convoys
-//Atlantic Fleets
-Alignment=ENEMY
-Function=STRATEGIC_NODE
-BaseMapPosition=-750.10,1.50
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
-LinksToWaypoint=IG7
-
-//Atlantic Fleets B
-Alignment=ENEMY
-Function=STRATEGIC_NODE
-BaseMapPosition=-750.10,280.50
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
-LinksToWaypoint=IG7
-
-//Atlantic Fleets C
-Alignment=ENEMY
-Function=STRATEGIC_NODE
-BaseMapPosition=-750.10,100.50
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
-LinksToWaypoint=IG7
-
-//Convoy Origin UK North
-Alignment=ENEMY
-Function=STRATEGIC_NODE
-BaseMapPosition=-225,-175
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
-LinksToWaypoint=IG7
-
-//Convoy Origin UK Home
-Alignment=ENEMY
-Function=STRATEGIC_NODE
-BaseMapPosition=-300.1,-268.5
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
-LinksToWaypoint=IG7
-
 [SOSUS]
 SOSUSName=DENMARKSTRAIT
 SOSUSStartPosition=-230.50,176.80
@@ -318,11 +321,11 @@ SOSUSAlignment=ENEMY
 [PLAYER MISSIONS]
 //Last mission is the FINAL MISSION for the campaign
 //Second to last mission is simple RETURN TO BASE
-PlayerMissionTypes=SSN_WOLFPACK,RESUPPLY_CONVOY,ASUW_STRIKE,RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionTypes=SSN_WOLFPACK,RESUPPLY_CONVOY,ASUW_STRIKE,LANDING_FORCE,RETURN_TO_BASE,SSBN_PATROL
 //PlayerMissionTypes=SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,RETURN_TO_BASE,SSBN_PATROL
 //Last two missions are not included on frequency list
-PlayerMissionFrequency=0.2,0.6,0.2
-PlayerMissionThreshold=0,0,0
+PlayerMissionFrequency=0.2,0.6,0.15,0.05
+PlayerMissionThreshold=0,0,0,0
 
 CommandoLoadTime=120
 
@@ -330,65 +333,41 @@ CommandoLoadTime=120
 Mission=SSN_WOLFPACK_0
 Mission=SSN_WOLFPACK_1
 Mission=SSN_WOLFPACK_2
-Mission=SSN_WOLFPACK_3
-Mission=SSN_WOLFPACK_4
-Mission=SSN_WOLFPACK_5
 Mission=RESUPPLY_CONVOY_0
 Mission=RESUPPLY_CONVOY_1
 Mission=RESUPPLY_CONVOY_2
 Mission=RESUPPLY_CONVOY_3
-//Mission=RESUPPLY_CONVOY_4
-//Mission=RESUPPLY_CONVOY_5
-//Mission=RESUPPLY_CONVOY_6
-//Mission=RESUPPLY_CONVOY_7
-//Mission=RESUPPLY_CONVOY_8
-//Mission=RESUPPLY_CONVOY_9
-Mission=ASUW_STRIKE_0
+Mission=LANDING_FORCE_0
 Mission=ASUW_STRIKE_1
 Mission=ASUW_STRIKE_2
+Mission=ASUW_STRIKE_0
 Mission=RETURN_TO_BASE
 Mission=SSBN_PATROL_0
 Mission=SSBN_PATROL_1
 
 [NON-PLAYER MISSIONS]
-Non-PlayerMissionTypes=SSN_PATROL,RESUPPLY_CONVOY,ASW_PATROL
-Non-PlayerMissionFrequency=0.2,0.5,0.3
+Non-PlayerMissionTypes=SS_PATROL,SSN_PATROL,ASW_PATROL
+Non-PlayerMissionFrequency=0.25,0.35,0.4
+Non-PlayerMission=SS_PATROL_0
+Non-PlayerMission=SS_PATROL_1
+Non-PlayerMission=SS_PATROL_2
 Non-PlayerMission=SSN_PATROL_0
 Non-PlayerMission=ASW_PATROL_0
 Non-PlayerMission=ASW_PATROL_1
 Non-PlayerMission=ASW_PATROL_2
-Non-PlayerMission=RESUPPLY_CONVOY_0
-Non-PlayerMission=RESUPPLY_CONVOY_1
-Non-PlayerMission=RESUPPLY_CONVOY_2
-Non-PlayerMission=RESUPPLY_CONVOY_3
-//Non-PlayerMission=RESUPPLY_CONVOY_4
-//Non-PlayerMission=RESUPPLY_CONVOY_5
-//Non-PlayerMission=RESUPPLY_CONVOY_6
-//Non-PlayerMission=RESUPPLY_CONVOY_7
-//Non-PlayerMission=RESUPPLY_CONVOY_8
-//Non-PlayerMission=RESUPPLY_CONVOY_9
 
 [EVENTS]
 Event=event_intro_1=START
 Event=event_intro_2
 Event=event_intro_3
 Event=event_intro_4
-//Event=event_intro_5
-//Event=event_intro_6
-//Event=event_intro_7
-//Event=event_nato_invasion_sea=PLAYER_INVASION_SEA
-//Event=event_nato_invasion_land=PLAYER_INVASION_LAND
-//Event=event_nato_invasion_air=PLAYER_INVASION_AIR
-Event=event_pact_invasion_sea=PLAYER_LIBERATION_SEA
-Event=event_pact_invasion_land=PLAYER_LIBERATION_LAND
-Event=event_pact_invasion_air=PLAYER_LIBERATION_AIR
-Event=event_nato_liberation_sea=ENEMY_INVASION_SEA
-Event=event_nato_liberation_land=ENEMY_INVASION_LAND
-Event=event_nato_liberation_air=ENEMY_INVASION_AIR
-//Event=event_pact_liberation_sea=ENEMY_LIBERATION_SEA
-//Event=event_pact_liberation_land=ENEMY_LIBERATION_LAND
-//Event=event_pact_liberation_air=ENEMY_LIBERATION_AIR
-//Event=event_impasse=IMPASSE
+Event=event_pact_invasion_sea=PLAYER_INVASION_SEA
+Event=event_pact_invasion_land=PLAYER_INVASION_LAND
+Event=event_pact_invasion_air=PLAYER_INVASION_AIR
+Event=event_nato_liberation_sea=ENEMY_LIBERATION_SEA
+Event=event_nato_liberation_land=ENEMY_LIBERATION_LAND
+Event=event_nato_liberation_air=ENEMY_LIBERATION_AIR
+Event=event_impasse=IMPASSE
 Event=event_armistice_advantage=ARMISTICE_ADVANTAGE
 Event=event_armistice_disadvantage=ARMISTICE_DISADVANTAGE
 Event=event_campaign_win=FAIL
@@ -415,27 +394,15 @@ Event=event_award_navy_dsm
 Event=event_award_navy_legion_of_merit
 Event=event_award_purple_heart
 Event=event_award_presidential_citation
-Event=SS_SPECOPS_win
-Event=LANDING_FORCE_win
 Event=RESUPPLY_CONVOY_win
-//Event=INSERTION_win
-//Event=LAND_STRIKE_win
-Event=SS_WOLFPACK_win
 Event=SSN_WOLFPACK_win
-Event=SHIP_RESUPPLY_win
-Event=SUB_RESUPPLY_win
+Event=SSN_MISSILE_win
 Event=ASUW_STRIKE_win
+Event=LANDING_FORCE_win
 Event=ASUW_STRIKE_CARRIER_win
-Event=CARRIER_win
-Event=SS_SPECOPS_fail
-Event=LANDING_FORCE_fail
 Event=RESUPPLY_CONVOY_fail
-//Event=INSERTION_fail
-//Event=LAND_STRIKE_fail
-Event=SS_WOLFPACK_fail
 Event=SSN_WOLFPACK_fail
-Event=SHIP_RESUPPLY_fail
-Event=SUB_RESUPPLY_fail
+Event=SSN_MISSILE_fail
 Event=ASUW_STRIKE_fail
+Event=LANDING_FORCE_fail
 Event=ASUW_STRIKE_CARRIER_fail
-Event=CARRIER_fail

@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/pact ground 1,campaign/images/pact ground 2,campaign/images/pact troops,campaign/images/pact tanks
 Photo=campaign/images/photos/infantry pact 4,campaign/images/photos/infantry pact 5,campaign/images/photos/infantry pact 2
-Music=audio/music/Cold Waters Campaign Victory
+Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
 
 Font=0

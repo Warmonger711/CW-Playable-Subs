@@ -232,7 +232,7 @@ SonarModel=usn_an_sqs-56
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
 SonarActiveSensitivity=32
-SonarPassiveSensitivity=40
+SonarPassiveSensitivity=34
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
@@ -241,7 +241,7 @@ SonarModel=usn_an_sqs-53
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
 SonarActiveSensitivity=30
-SonarPassiveSensitivity=38
+SonarPassiveSensitivity=40
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
@@ -259,7 +259,7 @@ SonarModel=usn_an_sqs-26
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
 SonarActiveSensitivity=30
-SonarPassiveSensitivity=30
+SonarPassiveSensitivity=34
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
@@ -732,5 +732,12 @@ RADARRange=60000
 RADARModel=it_sma_bps_704
 RADARRange=60000
 
+RADARModel=usn_aps-124
+RADARRange=90000
+
+RADARModel=usn_aps-115
+RADARRange=320000
+
 RADARModel=drua33
 RADARRange=60000
+

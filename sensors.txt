@@ -737,3 +737,7 @@ RADARRange=90000
 
 RADARModel=usn_aps-115
 RADARRange=320000
+
+RADARModel=drua33
+RADARRange=60000
+

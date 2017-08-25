@@ -35,7 +35,7 @@ ActiveSonarModel=usn_an_bqq_5
 PassiveSonarModel=usn_an_bqq_5
 TowedArrayModel=usn_tb_16
 AnechoicCoating=TRUE
-RADAR=usn_bps_14_15
+RADAR=drua33
 RADARSignature=SMALL
 TowedArrayPosition=-0.099,0.028,-0.619
 

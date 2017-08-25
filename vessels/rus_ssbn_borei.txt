@@ -26,7 +26,7 @@ SubmergedAt=0.136
 CavitationParameters=20,-100
 PropRotationSpeed=-190
 TestDepth=1450
-EscapeDepth=5000
+EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=110

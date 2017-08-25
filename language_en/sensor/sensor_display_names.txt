@@ -153,6 +153,8 @@ usn_an_aqs-13f=AN/AQS-13F=This is the dipping sonar used by the SH-60 helicopter
 
 [RADAR]
 
+drua33=DRUA 33=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+
 it_sma_bps_704=SMA MM/BPS 704=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 ts_nav=Terma Scanter=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.

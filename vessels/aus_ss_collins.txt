@@ -16,7 +16,7 @@ SubmergedSpeed=20
 AccelerationRate=0.35
 DecelerationRate=0.08
 RudderTurnRate=1
-TurnRate=3.5
+TurnRate=2.5
 PivotPointTurning=0.256
 DiveRate=4
 SurfaceRate=4
@@ -30,11 +30,11 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=130
-ActiveSonarReflection=25
+ActiveSonarReflection=22
 ActiveSonarModel=aus_tss
 PassiveSonarModel=aus_tss
 TowedArrayModel=aus_tst
-AnechoicCoating=FALSE
+AnechoicCoating=TRUE
 RADAR=uk_t1007
 RADARSignature=SMALL
 TowedArrayPosition=0.0718,0,-0.55

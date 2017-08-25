@@ -16,7 +16,7 @@ SubmergedSpeed=28
 AccelerationRate=0.27
 DecelerationRate=0.08
 RudderTurnRate=0.75
-TurnRate=2.2
+TurnRate=1.7
 PivotPointTurning=0.256
 DiveRate=5
 SurfaceRate=5
@@ -30,7 +30,7 @@ EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=152
-ActiveSonarReflection=25
+ActiveSonarReflection=30
 ActiveSonarModel=wp_shark_gill
 PassiveSonarModel=wp_shark_gill
 TowedArrayModel=FALSE

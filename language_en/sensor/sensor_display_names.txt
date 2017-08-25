@@ -1,4 +1,6 @@
 [SONAR]
+ae_tas3=AE TAS3=AE TAS3 Towed Array Sonar.
+
 it_atlas_isus_90_20=ISUS 90-20=This sonar fitted on the latest Sauro-class boat is an advanced suite, capable of detecting really quiet enemies.
 
 aus_tss=TS Scylla=Thomson Sintra Scylla bow and distributed sonar arrays.
@@ -150,6 +152,8 @@ usn_an_aqs-13=AN/AQS-13=This is the dipping sonar used by the SH-3D helicopters.
 usn_an_aqs-13f=AN/AQS-13F=This is the dipping sonar used by the SH-60 helicopters.
 
 [RADAR]
+
+drua33=DRUA 33=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 it_sma_bps_704=SMA MM/BPS 704=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 

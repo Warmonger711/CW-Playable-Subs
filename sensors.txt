@@ -731,3 +731,6 @@ RADARRange=60000
 
 RADARModel=it_sma_bps_704
 RADARRange=60000
+
+RADARModel=drua33
+RADARRange=60000

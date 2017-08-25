@@ -35,7 +35,7 @@ ActiveSonarModel=usn_an_bqq_5
 PassiveSonarModel=usn_an_bqq_5
 TowedArrayModel=FALSE
 AnechoicCoating=TRUE
-RADAR=wp_snoop_tray
+RADAR=drua33
 RADARSignature=SMALL
 
 TorpedoTypes=fr_f17,usn_moss,fr_sm39

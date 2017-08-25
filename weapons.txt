@@ -2889,6 +2889,13 @@ DepthWeaponReloadTime=10.0
 DepthWeaponVelocity=5.2
 
 // USN Shells
+DepthWeaponObjectReference=usn_9x3_mk-7_shell
+DepthWeaponWarhead=800
+DepthWeaponRange=100,21000
+DepthWeaponNumberFired=20
+DepthWeaponRateOfFire=1
+DepthWeaponReloadTime=30
+DepthWeaponVelocity=5.2
 
 DepthWeaponObjectReference=usn_mk-30_shell
 DepthWeaponWarhead=10

@@ -206,3 +206,6 @@ usn_an_sps-10=AN/SPS-10=Knox class FFG search radar
 // USN HELO RADARS
 
 usn_aps-124=APS-124=Seahawk radar
+
+
+usn_aps_115=APS-115=P3C Orion radar

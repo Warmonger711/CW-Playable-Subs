@@ -1,4 +1,4 @@
-Regions=West Germany,Denmark,The Netherlands,Belgium,Sweden,Norway,Iceland
+Regions=West Germany,Denmark,The Netherlands,Belgium,Sweden,Norway,Iceland,Poland,the Baltic States,Belarus,Soviet Union
 Reykjavik and Keflavik=Iceland
 Hofn=Iceland
 Frankfurt and the Rhine-Main area=West Germany
@@ -16,3 +16,10 @@ Bergen=Norway
 Oslo=Norway
 Stockholm=Sweden
 central Sweden=Sweden
+Poznan and the Wroclaw area=Poland
+Warsaw and the Krakow area=Poland
+Lithuania=the Baltic States
+Latvia=the Baltic States
+Estonia=the Baltic States
+Belarus=Belarus
+Russia=Soviet Union

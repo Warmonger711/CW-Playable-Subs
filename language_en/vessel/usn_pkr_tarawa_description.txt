@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Tarawa
-Description=Tarawa-Class Amphibious Assoult Ship
+Description=Tarawa-Class Amphibious Assault Ship
 DefensiveWeapons=20mm Oerlikon AA guns
 OffensiveWeapons=MK-45 DP Guns
 Aircraft=19 SH60B ASW helicopters

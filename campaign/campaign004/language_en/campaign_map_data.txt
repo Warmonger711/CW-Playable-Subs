@@ -9,6 +9,7 @@ LocationName=Trondheim=Norway
 LocationName=Andoya=Norway
 LocationName=Narvik=Norway
 LocationName=Spitsbergen=Spitsbergen
+LocationName=Amsterdam=The Netherlands
 LocationName=North Atlantic Convoy Route A=Mid Atlantic
 LocationName=North Atlantic Convoy Route B=Mid Atlantic
 LocationName=North Atlantic Convoy Route C=Mid Atlantic
@@ -45,6 +46,8 @@ LabelPosition=189.3,6.3
 LabelName=Narvik
 LabelPosition=224.5,280.4
 LabelName=Spitsbergen
+LabelPosition=-112.9,-384.2
+LabelName=Amsterdam
 LabelPosition=-610.1,10.5
 LabelName=North Atlantic Convoys Route A
 LabelPosition=-610.1,270.5
@@ -82,6 +85,7 @@ LocationMarkerPosition=77.3,-96.9
 LocationMarkerPosition=186,15.8
 LocationMarkerPosition=177.9,38.4
 LocationMarkerPosition=217.8,268.6
+LocationMarkerPosition=-112.9,-354.2
 LocationMarkerPosition=-650.1,1.5
 LocationMarkerPosition=-650.1,280.5
 LocationMarkerPosition=-650.1,100.5

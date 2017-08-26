@@ -37,14 +37,14 @@ WaypointName=ND1
 WaypointPosition=-67.8,-342.1
 Alignment=ENEMY
 ConnectedZones=B1,WG3
-InvadedBy=SEA,ENEMY
+InvadedBy=LAND,FRIENDLY
 
 //Brussels, Antwerp and Charleroi
 WaypointName=B1
 WaypointPosition=-94.9,-368.7
 Alignment=ENEMY
 ConnectedZones=ND1,WG3
-InvadedBy=SEA,ENEMY
+InvadedBy=LAND,FRIENDLY
 
 //Copenhagen
 WaypointName=D1

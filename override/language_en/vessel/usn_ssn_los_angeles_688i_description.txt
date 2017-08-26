@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Los Angeles (III)
-Description=[USA] Los Angeles-class SSN - Flight III (1984 Era)
+Description=[USA] Los Angeles Class SSN - Flight III (1984 Era)
 History=Self Noise Rating: 116 db\nTest Depth: 1100 ft\nEscape Depth: 600 ft\n\nThe final 23 hulls of the Los Angeles class, SSN-751 and later, are referred to as 688(i) for improved capabilities. They are quieter and equipped with updated hull and towed array sonars back fitted from the Seawolf class. The 688(i) represents a significant leap over the original 688.
 
 [Player Ship Instances]

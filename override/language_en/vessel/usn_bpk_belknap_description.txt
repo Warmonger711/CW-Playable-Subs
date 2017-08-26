@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Belknap
-Description=Belknap-class Guided Missile Cruiser
+Description=Belknap Class Guided Missile Cruiser
 DefensiveWeapons=RIM-67
 OffensiveWeapons=ASROC ASW Missiles\nMK-42 DP Guns\nASW Torpedoes
 Aircraft=1 SH-2F ASW helicopter

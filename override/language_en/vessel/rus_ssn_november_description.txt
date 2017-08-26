@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=November
-Description=[RUS] November-class SSN (1968 Era)
+Description=[RUS] November Class SSN (1968 Era)
 History=Self Noise Rating: 152 db\nTest Depth: 1050 ft\nEscape Depth: 600 ft\n\nDesigned in the 1950's, poorly armed, loud and with inferior sonar systems, these were the Soviet Union's first nuclear submarines. Over the years they have recieved little in the way of upgrades, rendering them second-rate opponents at best.
 
 [Player Ship Instances]

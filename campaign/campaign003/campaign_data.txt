@@ -39,7 +39,7 @@ UseLandWar=TRUE
 IconsInOccupiedZonesOnly=FALSE
 HoursToNextGeneralEvent=48
 HoursToNextGeneralEventRange=-24,48
-FirstOccupiedTerritory=WG1,N1,N2,D1
+FirstOccupiedTerritory=WG1,WG2,N1,N2,D1
 TerritoryTakebackThreshold=5
 NewFrontProbability=0.3
 

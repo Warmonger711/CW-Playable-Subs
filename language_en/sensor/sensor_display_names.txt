@@ -97,17 +97,17 @@ wp_moose_jaw=Moose Jaw=This is a very large low-frequency array first observed o
 
 // USN Surface Ships 
 
-usn_an_sqs-56=AN/SQS-56=Perry class FFG passive/active sonar
+usn_an_sqs-56=AN/SQS-56=The AN/SQS-56 is a modern hull-mounted sonar which features digital implementation, system control by a built-in mini computer, and an advanced display system. Computer controlled functions provide a system that is extremely flexible and easy to operate. The computer is also used to provide automated fault detection and localization with a built-in training capability. The sonar is an active/passive, preformed beam, digital sonar providing panoramic echo ranging and panoramic (DIMUS) passive surveillance. A single operator can search, track, classify and designate multiple targets from the active system while simultaneously maintaining anti-torpedo surveillance on the passive display.
 
-usn_an_sqs-53=AN/SQS-53=Spruance class DDG passive/active sonar
+usn_an_sqs-53=AN/SQS-53=The Sonar Set AN/SQS-53C is a computer-controlled surface-ship sonar that has both active and passive operating capabilities providing precise information for ASW weapons control and guidance. The AN/SQS-53C is designed to perform direct path ASW search, detection, localization, and tracking from a hull mounted transducer array.
 
-usn_an_sqr-19=AN/SQR-19=Perry class FFG towed array
+usn_an_sqr-19=AN/SQR-19=The AN/SQR-19 Tactical Towed Array SONAR (TACTAS) provides very long-range passive detection of enemy submarines. TACTAS is a long cable full of microphones that is towed about a mile behind the ship.
 
-usn_an_sqs-26=AN/SQS-26=Knox class FFG passive/active sonar
+usn_an_sqs-26=AN/SQS-26=AN/SQS-26 was a United States Navy surface ship, bow mounted, low frequency, active/passive sonar developed by the Naval Underwater Sound Laboratory and built by General Electric and the EDO Corporation. At one point, it was installed on 87 US Navy warships from the 1960s to the 1990s and may still be in use on ships transferred to other navies.
 
-usn_an_sqs-23=AN/SQS-23=Essex CV passive/active sonar
+usn_an_sqs-23=AN/SQS-23=The AN/SQS-23 was a long range, azimuth-scanning type of search and attack sonar used for search, search-analyze, attack-RDT, attack-SDT and hand-key applications.
 
-usn_an_sqr-18=AN/SQR-18=Knox class FFG towed array
+usn_an_sqr-18=AN/SQR-18=The AN/SQR-18 series began with the SQR-18 Interim Escort Towed-Array Surveillance System (IETASS) that was developed to be a simpler version of the AN/ SQR-14/15 long-range towed arrays for frigates and minesweepers. During tests, the SQR-18 towed array generated excess noise, which contributed to its unreliability in the first convergence zone. Deployed on Belknap (CG 26)-class cruisers, Spruance (DD 963)-class destroyers, and Oliver Hazard Perry (FFG 7)-and Knox (FF 1052)-class frigates. Also fitted in Japanese destroyers and Indonesian Ahmed Yani-class frigates.
 
 //WP SONOBUOYS
 //wp_rgb_56=RGB-56=Placeholder text for sensor.
@@ -161,9 +161,9 @@ ts_nav=Terma Scanter=Mast-mounted surface search radar allows submarines to dete
 
 zw07=ZW 07=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
-uk_t1007=Type 1007=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+uk_t1007=Type 1007=The Kelvin Hughes Type 1007 family of naval radars are high-definition surface warning and navigational radar systems in service with the U.K. Royal Navy and several other world navies. The radars are available in I-band and F-band versions.
 
-uk_t1006=Type 1006=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+uk_t1006=Type 1006=The Kelvin Hughes Type 1006 family of naval radars are surface warning and navigational radar systems in service with the U.K. Royal Navy and several other world navies.
 
 usn_bps_12=BPS-12=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
@@ -201,15 +201,15 @@ wp_korshun_k=Korshun-K=Leninets Korshun-K "Kite" (WET EYE II) airborne pulse dop
 wp_strut_pair=Strut Pair=Air & Surface Search, 2D Medium-Range.
 
 // USN SURFACE SHIPS RADARS
-usn_an_sps-49=AN/SPS-49=Perry class FFG search radar
+usn_an_sps-49=AN/SPS-49=The AN/SPS-49 is a United States Navy two-dimensional, long range air search radar built by Raytheon that can provide contact bearing and range. It is a primary air-search radar for numerous ships in the U.S. fleet and in Spain, Poland, Taiwan aboard Oliver Hazard Perry-class frigates, Canada on its Halifax-class frigates, New Zealand on its Anzac-class frigates and Australia on its Adelaide-class frigates and Anzac-class frigates. It formerly served in a complementary role aboard Aegis cruisers with the AN/SPY-1 but the systems are currently being removed during routine upgrade with no replacement.
 
-usn_an_sps-55=AN/SPS-55=Spruance class DDG search radar
+usn_an_sps-55=AN/SPS-55=The AN/SPS-55 is a solid state surface search and navigation radar. It was developed by Cardion Electronics for the U.S. Navy under a contract awarded in 1971. It was originally developed for a class of ships known as Patrol Frigates, but it was also installed on numerous Cruisers, Destroyers and Minesweepers. It is an I band radar and its antenna consists of two waveguide slotted arrays mounted back-to-back.
 
-usn_an_sps-10=AN/SPS-10=Knox class FFG search radar
+usn_an_sps-10=AN/SPS-10=For decades, the AN/SPS-10 was the standard US Navy surface-search radar. Although considered a horizon-range navigation radar, it routinely detects targets at much greater ranges. Existing SPS-10's are being replaced by the solid-state SPS-67 that use the SPS-10′s parabolic cylinder open-mesh antenna.
 
 // USN HELO RADARS
 
-usn_aps-124=APS-124=Seahawk radar
+usn_aps-124=APS-124=Knowledge gained in the development of AN/APS-115/116 is used in the development of X-band AN/APS-124, the first model in the radar family developed for ASW helicopters. Due to the adoption of the traveling wave tube (TWT), the peak power is significantly increased to 350 kW. Due to the size and weight constraint, the parabolic antenna of radars for fixed aircraft is replaced by a 72-inch x 12 inch slotted planar array antenna for AN/APS-124, and scan rate is 6 or 12 rpm, with 120 rpm for weather. The array of AN/APS-124 produces a 1.2 x 20 degrees beam, and the typical range against a 1 square meter target is 16 nm in comparison to 20 nm of AN/APS-115/116. AN/APS-124 is installed on Sikorsky SH-60 Seahawk.
 
 
-usn_aps_115=APS-115=P3C Orion radar
+usn_aps_115=APS-115=AN/APS-115 is a development of AN/APS-80A, and it is the first attempt of digitization by providing digital input into the digital combat system installed on the P-3. Other improvement over the original AN/APS-80 included the integration of two separate AN/APS-80A radar into a single unit via a single planar position indicator (PPI) display. The most important improvement is that AN/APS-115 is an automatic version of earlier AN/APS-80/80A, but some users felt that in the hands of an experienced operator, the manual analog AN/APS-80/80A has a better chance to detect small targets such as submarine periscope in sea clutter. AN/APS-115 utilizes cavity magnetron.

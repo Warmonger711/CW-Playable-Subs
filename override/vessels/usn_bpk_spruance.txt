@@ -168,8 +168,8 @@ MeshRADAR=wp_bpk_udaloy_palmfrond
 //Deck Props
 MeshPosition=0,0,0
 MeshRotation=0,0,0
-Material=ships/materials/soviet_crest
-Mesh=wp_bpk_udaloy_crest
+//Material=ships/materials/soviet_crest
+//Mesh=wp_bpk_udaloy_crest
 Material=aircraft/wp_helix/wp_helix_mat
 MaterialTextures=aircraft/wp_helix/wp_helix_tx,aircraft/wp_helix/wp_helix_spec,aircraft/wp_helix/wp_helix_nm
 Mesh=wp_bpk_udaloy_airwing

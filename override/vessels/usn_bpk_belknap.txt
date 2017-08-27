@@ -126,8 +126,8 @@ MeshProp=wp_bpk_kresta2_prop_r
 //Deck Props
 MeshPosition=0,0,0
 MeshRotation=0,0,0
-Material=ships/materials/soviet_crest
-Mesh=wp_bpk_kresta2_crest
+//Material=ships/materials/soviet_crest
+//Mesh=wp_bpk_kresta2_crest
 Material=aircraft/wp_hormone/wp_hormone_mat
 MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hormone/wp_hormone_nm
 Mesh=wp_bpk_kresta2_airwing

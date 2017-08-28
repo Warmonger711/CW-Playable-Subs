@@ -136,8 +136,8 @@ MeshProp=wp_kr_sverdlov_prop_r
 //Deck Props
 MeshPosition=0,0,0
 MeshRotation=0,0,0
-Material=ships/materials/soviet_crest
-Mesh=wp_kr_sverdlov_crest
+//Material=ships/materials/soviet_crest
+//Mesh=wp_kr_sverdlov_crest
 
 //RADARs
 RADARSpeed=0

@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Sierra
-Description=[RUS] Sierra-class SSN (1984 Era)
+Description=[RUS] Sierra Class SSN (1984 Era)
 History=Self Noise Rating: 120 db\nTest Depth: 1970 ft\nEscape Depth: 600 ft\n\nThis is the latest and most advanced Soviet attack submarine. They are faster and deeper diving than US submarines, and feature the same sensors and weapons as the Victor IIIs in a much quieter hull, benefiting from purchased and stolen western technology.
 
 [Player Ship Instances]

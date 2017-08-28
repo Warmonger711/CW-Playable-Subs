@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Romeo
-Description=[RUS] Romeo-class SS (1968 Era)
+Description=[RUS] Romeo Class SS (1968 Era)
 History=Self Noise Rating: 130 db\nTest Depth: 985 ft\nEscape Depth: 600 ft\n\nThe Romeo is a follow-on design to the earlier Whiskey, being nearly identical in size and role, but patterned heavily on the German Type XXI wartime design, which is evident in its more streamlined features. Like its predecessor it is comparatively slow and noisy, but feature a much improved sensor outfit and heavier torpedo armament. This class was exported to several client states, including China where they proved to be popular boats.
 
 [Player Ship Instances]

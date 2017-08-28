@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Nuclear Payload
 WeaponDescriptiveName=Thermonuclear Warheads
-WeaponDescription=Reentry vehicle containing the thermonuclear payload.
+WeaponDescription=Re-entry vehicle containing the thermonuclear payload.

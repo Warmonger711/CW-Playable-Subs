@@ -1,7 +1,11 @@
-[SONAR]
+﻿[SONAR]
 ae_tas3=AE TAS3=ATLAS ELEKTRONIK TAS-3 low-frequency Towed Array Sonar.
 
 it_atlas_isus_90_20=ISUS 90-20=STAR ATLAS Elektronik SONAR ISUS 90-20, with medium-frequency compliant base, circular base for active sonar, high frequency interceptor, own noise detection system.
+
+it_jp_64=JP-64=This medium frequency active search sonar is the active component of the Toti-class sonar suite. It has medium performances.
+
+it_velox=Velox=This medium frequency passive search sonar is the passive component of the Toti-class sonar suite. It has medium performances.
 
 aus_tss=TS Scylla=Thomson Sintra Scylla bow and distributed sonar arrays.
 
@@ -151,6 +155,8 @@ usn_an_aqs-13f=AN/AQS-13F=This is the dipping sonar used by the SH-60 helicopter
 drua33=DRUA 33=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 it_sma_bps_704=SMA MM/BPS 704=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+
+it_rm_20=RM-20=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 ts_nav=Terma Scanter=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 

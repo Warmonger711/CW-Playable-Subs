@@ -4,3 +4,5 @@ Made a 1984 version for Belknap with CIWS and removed CIWS from Belknap used in 
 
 Fixed Oscar I & II incorrect torpedo count
 Added Release Notes text file
+
+Added the Toti-class SSK

@@ -2,7 +2,7 @@ NextAction=MAP
 Image=campaign/images/event_award_background
 Photo=campaign/images/awards/Order_of_Ushakov.png
 Music=audio/music/Cold Waters Spotted
-Header=THE PRESIDIUM OF THE SUPREME SOVIET<n>MOSCOW
+Header=<DATE>
 
 Font=0
 Outline=FALSE

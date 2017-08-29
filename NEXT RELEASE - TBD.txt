@@ -1,0 +1,3 @@
+Fixed Oscar SSGNs no torpedo reload bug
+Fixed header of medal awards section for soviet campaigns
+Made a 1984 version for Belknap with CIWS and removed CIWS from Belknap used in 1968 campaign

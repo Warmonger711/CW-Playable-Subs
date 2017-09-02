@@ -20,6 +20,24 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=230
 
+SonarModel=it_jp_64
+SonarType=ACTIVE
+SonarFrequencies=M
+SonarActiveSensitivity=29
+SonarPassiveSensitivity=0
+SonarBaffle=150
+SonarNoisePerKnot=0.5
+SonarOutput=210
+
+SonarModel=it_velox
+SonarType=PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=37
+SonarBaffle=150
+SonarNoisePerKnot=0.5
+SonarOutput=0
+
 SonarModel=ae_tas3
 SonarType=TOWED
 SonarFrequencies=VL,L
@@ -731,6 +749,9 @@ RADARRange=60000
 
 RADARModel=it_sma_bps_704
 RADARRange=60000
+
+RADARModel=it_rm_20
+RADARRange=50000
 
 RADARModel=usn_aps-124
 RADARRange=90000

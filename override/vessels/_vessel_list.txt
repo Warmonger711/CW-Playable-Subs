@@ -20,6 +20,7 @@ usn_ss_guppyIIa
 usn_ss_tang
 usn_ss_albacore
 it_ss_sauro_iv
+it_ss_toti
 uk_ssn_astute
 uk_ssn_trafalgar
 uk_ssn_swiftsure

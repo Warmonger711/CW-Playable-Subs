@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/event_award_background
 Photo=campaign/images/awards/Order_of_Ushakov.png
-Music=audio/music/Cold Waters Spotted
+Music=audio/music/vput.wav
 Header=<DATE>
 
 Font=0

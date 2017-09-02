@@ -1,7 +1,7 @@
 NextAction=event_intro_5
 Image=campaign/images/airliner_shot_down
 Photo=campaign/images/photos/air pact 1
-Music=audio/music/Cold Waters Campaign Victory
+Music=audio/music/slavianka.wav
 Header=<DATE>
 
 Font=0

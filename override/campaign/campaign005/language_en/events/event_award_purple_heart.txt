@@ -1,7 +1,7 @@
 NextAction=END
 Image=campaign/images/event_award_background
 Photo=NONE
-Music=audio/music/Cold Waters Campaign Loss
+Music=audio/music/loss.wav
 Header=<DATE>
 
 Font=0

@@ -6,3 +6,5 @@ Fixed Oscar I & II incorrect torpedo count
 Added Release Notes text file
 
 Added the Toti-class SSK
+
+Added new music to soviet campaigns

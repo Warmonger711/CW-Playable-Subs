@@ -1,7 +1,7 @@
 NextAction=END
 Image=campaign/images/pact france
 Photo=campaign/images/photos/riot 1
-Music=audio/music/Cold Waters Campaign Loss
+Music=audio/music/loss.wav
 Header=<DATE>
 
 Font=0

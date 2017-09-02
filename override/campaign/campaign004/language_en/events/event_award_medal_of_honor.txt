@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/event_award_background
 Photo=campaign/images/awards/Red_star.png
-Music=audio/music/Cold Waters Spotted
+Music=audio/music/anthem.wav
 Header=<DATE>
 
 Font=0

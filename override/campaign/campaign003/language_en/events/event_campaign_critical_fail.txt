@@ -1,7 +1,7 @@
 NextAction=event_campaign_critical_fail_2
 Image=campaign/images/nuke launch farm
 Photo=campaign/images/photos/naval pact sub 1,campaign/images/photos/naval pact sub 2,campaign/images/photos/politics 1
-Music=audio/music/Cold Waters Campaign Loss
+Music=audio/music/loss.wav
 Header=<DATE>
 
 Font=0

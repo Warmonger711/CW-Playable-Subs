@@ -1,7 +1,7 @@
 NextAction=event_intro_7
 Image=campaign/images/nato air 4
 Photo=campaign/images/photos/infantry pact 1
-Music=audio/music/Cold Waters Campaign Victory
+Music=audio/music/slavianka.wav
 Header=<DATE>
 
 Font=0

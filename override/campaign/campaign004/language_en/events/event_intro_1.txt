@@ -1,7 +1,7 @@
 NextAction=event_intro_2
 Image=campaign/images/68 soviets invade
 Photo=campaign/images/photos/armor pact 1,campaign/images/photos/riot 2,campaign/images/photos/infantry pact 2
-Music=audio/music/Cold Waters Campaign Victory
+Music=audio/music/slavianka.wav
 Header=<DATE>
 
 Font=0

@@ -120,16 +120,15 @@ MeshProp=wp_ssbn_typhoon_prop_r
 
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-Material=ships/materials/usn_masts
-MeshPosition=0,0.050,0.000
+MeshPosition=0,0.070,0.000
 MastHeight=0.095
 MeshMast=usn_ssn_permit_periscope
 
-MeshPosition=0,0.050,-0.030
+MeshPosition=0,0.070,-0.030
 MastHeight=0.095
 MeshMast=usn_ssn_permit_esm_mast
 
-MeshPosition=0,0.050,-0.060
+MeshPosition=0,0.070,-0.060
 MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
 

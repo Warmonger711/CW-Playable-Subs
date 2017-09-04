@@ -11,8 +11,8 @@ Date=15 DEC 1984
 Hemisphere=North
 Time=1200
 UsePresetEnvironment=FALSE
-Weather=Rain
-SeaState=Moderate Breeze
+Weather=Clear
+SeaState=LightBreeze
 DuctStrength=Moderate
 LayerStrength=Moderate
 

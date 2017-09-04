@@ -8,3 +8,7 @@ Added Release Notes text file
 Added the Toti-class SSK
 
 Added new music to soviet campaigns
+
+Fixed Typhoon mast positioning
+
+Fixed Oscar I and II bow waves and prop wash positioning

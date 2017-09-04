@@ -199,16 +199,16 @@ ModelFile=ships/wp_ssgn_oscar/wp_ssgn_oscar
 
 //Wake
 MeshPosition=0,0,0
-BowWaveParticle=ships/particles/bowwave
+BowWaveParticle=ships/particles/bowwave_largesub
 PropWashParticle=ships/particles/bowwave
 CavitationParticle=ships/particles/wp_ssgn_oscar_cavitation
 FunnelSmokeParticle=ships/particles/wp_ssgn_oscar_bubbles
 EmergencyBlowParticle=ships/particles/wp_ssgn_oscar_emergency_blow
 
-ParticleBowWavePosition=0,0,0.587
-ParticlePropWashPosition=0,-0.0545,-0.65
+ParticleBowWavePosition=0,0,1.200
+ParticlePropWashPosition=0,-0.0545,-0.99
 
-ParticleHullFoamPosition=0,0,0.4
+ParticleHullFoamPosition=0,0,0.99
 ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
 
 ParticleSternFoamPosition=0,0,-0.5

@@ -229,7 +229,6 @@ FilterOverlay=TRUE
 BottomLeftPanelPos=0,0
 
 //Toolbar position 0,0, (1 to anchor to minimap or 0 for no anchor)
-
 //Default toolbars overlap and enabled via tabs/keys
 //ToolbarsPos=0,0,0
 //ForceAllToolbarsOn=FALSE

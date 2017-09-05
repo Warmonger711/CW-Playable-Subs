@@ -39,13 +39,12 @@ PlayerMarkerColor=210,170,120,255
 MessageLogBackground=hud/uk/log_background.png
 LogDefault=255,255,255,255
 LogHelm=97,251,246,255
-LogManeuver=0,255,255,255						 
+LogManeuver=0,255,255,255
 LogSonar=0,255,0,255
 LogTorpedoRoom=90,90,255,255
 LogFireControl=180,180,180,255
 LogXO=255,210,60,255
 LogWarning=255,0,0,255
-
 
 [Other Panels]
 BackgroundBlockColor=51,51,51,255
@@ -114,12 +113,10 @@ MissileSettingWideCone=hud/uk/icon_missile_wide.png
 MissileSettingNarrowCone=hud/uk/icon_missile_narrow.png
 MissileSettingSkim=hud/uk/icon_level.png
 MissileSettingPopUp=hud/uk/icon_popup.png
-
 GenericArrowUp=hud/uk/icon_uparrow.png
 GenericArrowDown=hud/uk/icon_downarrow.png
 GenericArrowLeft=hud/uk/icon_leftarrow.png
 GenericArrowRight=hud/uk/icon_rightarrow.png
-
 ButtonSilentRunning=hud/uk/icon_ultra_quiet.png
 ButtonPlotCourse=hud/uk/icon_plot_course.png
 TelegraphDisplayValues=B,0,1,2,3,4,5
@@ -228,7 +225,6 @@ FilterOverlay=TRUE
 BottomLeftPanelPos=0,0
 
 //Toolbar position 0,0, (1 to anchor to minimap or 0 for no anchor)
-
 //Default toolbars overlap and enabled via tabs/keys
 //ToolbarsPos=0,0,0
 //ForceAllToolbarsOn=FALSE
@@ -237,18 +233,18 @@ BottomLeftPanelPos=0,0
 //SensorToolbarOffset=0,0
 
 //Force all toolbars on in bottom horizontal row
-ToolbarsPos=0,0,0
-ForceAllToolbarsOn=TRUE
-HelmToolbarOffset=361,-346
-DiveToolbarOffset=700,-346
-SensorToolbarOffset=1039,-346
+//ToolbarsPos=0,0,0
+//ForceAllToolbarsOn=TRUE
+//HelmToolbarOffset=361,-346
+//DiveToolbarOffset=700,-346
+//SensorToolbarOffset=1039,-346
 
 //Force all toolbars on in right vertical stack, anchored to mini-map
-//ToolbarsPos=0,0,1
-//ForceAllToolbarsOn=TRUE
-//HelmToolbarOffset=0,0
-//DiveToolbarOffset=0,71
-//SensorToolbarOffset=0,142
+ToolbarsPos=0,0,0
+ForceAllToolbarsOn=TRUE
+HelmToolbarOffset=331,-200
+DiveToolbarOffset=331,-270
+SensorToolbarOffset=331,-340
 
 BottomRightPanelPos=0,0
 UpperRightStatusIcons=0,-3

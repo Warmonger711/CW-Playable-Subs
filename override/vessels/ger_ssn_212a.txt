@@ -1,6 +1,6 @@
 Designation=U
 ShipType=SUBMARINE
-PlayerHUD=hud/default1
+PlayerHUD=hud/default
 
 Length=56.0
 Beam=7.0

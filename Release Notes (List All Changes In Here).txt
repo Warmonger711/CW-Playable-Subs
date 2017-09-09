@@ -1,3 +1,17 @@
 Changed the incorrect USET-80 to UGST on the Typhoon VLS variant.
+
 Fixed the missile strike single missions to have the correct color circle.
+
 Changed the VLS launch depth on the Ohio from 100 to 300 like all other VLS subs.
+
+Changed the default1 HUD to be called "nato" and made all appropriate changes in files.
+
+Changed all of the campaigns so that only appropriate subs can be chosen... NATO subs for the NATO campaigns and Russian subs for the Russian campaigns.
+
+Removed the "NEXT RELEASE DATE" text file, I don't think we really need it.
+
+Added 9 new LAND STRIKE campaign missions for the 1984 campaign so that SSBNs can use their missiles to complete those missions.
+
+Changed the briefing text for all LAND STRIKE missions so that the red text is now yellow, making it much easier to read.
+
+Reverted all subs back to the default UI until the UI bug is addressed by the devs. (I still have backup copies of all HUD files)

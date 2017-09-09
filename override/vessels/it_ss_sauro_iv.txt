@@ -1,6 +1,6 @@
 Designation=SSK
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/default1
 
 Length=66
 Beam=6.83

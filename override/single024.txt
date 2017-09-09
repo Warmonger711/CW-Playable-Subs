@@ -51,8 +51,8 @@ EnemyWaypoints=-79,262|-77,616
 //Bonus
 EnemyWaypoints=-92,998|41,45
 
-
 MissionPosition=13,19
+MissionPositionColor=LAND_STRIKE
 
 //Enemy Aircraft
 NumberOfHelicopters=2

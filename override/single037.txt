@@ -54,6 +54,7 @@ EnemyWaypoints=1500,1612|1500,1415|1700,1815
 EnemyWaypoints=1500,1713|1600,1616|1500,1216
 
 MissionPosition=400,400
+MissionPositionColor=LAND_STRIKE
 
 //Enemy Aircraft
 NumberOfHelicopters=0

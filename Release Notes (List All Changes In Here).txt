@@ -1,0 +1,3 @@
+Changed the incorrect USET-80 to UGST on the Typhoon VLS variant.
+Fixed the missile strike single missions to have the correct color circle.
+Changed the VLS launch depth on the Ohio from 100 to 300 like all other VLS subs.

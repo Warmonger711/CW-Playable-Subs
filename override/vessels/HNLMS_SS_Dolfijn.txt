@@ -1,6 +1,6 @@
 Designation=SS
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/default1
 
 Length=79.5
 Beam=7.8

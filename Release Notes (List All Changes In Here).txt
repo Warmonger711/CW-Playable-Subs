@@ -4,8 +4,6 @@ Fixed the missile strike single missions to have the correct color circle.
 
 Changed the VLS launch depth on the Ohio from 100 to 300 like all other VLS subs.
 
-Changed the default1 HUD to be called "nato" and made all appropriate changes in files.
-
 Changed all of the campaigns so that only appropriate subs can be chosen... NATO subs for the NATO campaigns and Russian subs for the Russian campaigns.
 
 Removed the "NEXT RELEASE DATE" text file, I don't think we really need it.

@@ -243,7 +243,7 @@ BottomLeftPanelPos=0,0
 //DiveToolbarOffset=700,-346
 //SensorToolbarOffset=1039,-346
 
-//Force all toolbars on in right vertical stack, anchored to mini-map
+//Force all toolbars on in vertical stack to the right of the mini-map
 ToolbarsPos=0,0,0
 ForceAllToolbarsOn=TRUE
 HelmToolbarOffset=331,-200

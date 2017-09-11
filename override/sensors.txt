@@ -2,6 +2,15 @@
 
 // -------------------------------------------------------------------- New Sensors ------------------------------------------------------------------------
 
+SonarModel=H/SQ2-262B
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=32
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=200
+
 SonarModel=csu_81-1
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
@@ -155,6 +164,15 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=3
 SonarOutput=0
 
+SonarModel=uk_187
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,H
+SonarActiveSensitivity=20
+SonarPassiveSensitivity=20
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
 SonarModel=uk_2001
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,H
@@ -164,11 +182,29 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
 
+SonarModel=uk_2007
+SonarType=PASSIVE
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=34
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
 SonarModel=uk_2020
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,H
 SonarActiveSensitivity=28
 SonarPassiveSensitivity=28
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=uk_2040
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,H
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=32
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220

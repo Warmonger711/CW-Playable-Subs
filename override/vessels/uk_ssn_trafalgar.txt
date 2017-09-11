@@ -12,7 +12,7 @@ HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=20
-SubmergedSpeed=29
+SubmergedSpeed=30
 AccelerationRate=0.24
 DecelerationRate=0.08
 RudderTurnRate=1.0
@@ -54,7 +54,7 @@ VLSMaxDepthToFire=3000
 VLSMaxSpeedToFire=100
 
 NoisemakerName=usn_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=30
 NoisemakerReloadTime=20
 
 

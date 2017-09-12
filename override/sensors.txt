@@ -2,6 +2,24 @@
 
 // -------------------------------------------------------------------- New Sensors ------------------------------------------------------------------------
 
+SonarModel=chn_hsq2_262b
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=35
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=chn_hsqc_207
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=38
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
 SonarModel=csu_81-1
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M

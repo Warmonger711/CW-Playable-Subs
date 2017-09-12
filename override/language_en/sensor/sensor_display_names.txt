@@ -1,4 +1,8 @@
 ﻿[SONAR]
+chn_hsq2_262b=H/SQ2-262B=This sonar suite iss an improvement over the soviet Trout Cheek passive sonar. It has a better sensivity and incorporate an active search attack sonar.
+
+chn_hsqc_207=H/SQC-207=This sonar suite is an upgraded version of the H/SQ2-262B sonar and it's fitted on the Shang-class submarines.
+
 ae_tas3=AE TAS3=ATLAS ELEKTRONIK TAS-3 low-frequency Towed Array Sonar.
 
 it_atlas_isus_90_20=ISUS 90-20=STAR ATLAS Elektronik SONAR ISUS 90-20, with medium-frequency compliant base, circular base for active sonar, high frequency interceptor, own noise detection system.

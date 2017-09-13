@@ -1,4 +1,6 @@
 ﻿[SONAR]
+H/SQ2-262B=H/SQ2-262B=Chinese Type H/SQ2-262B sonar manufactured by No. 613 Factory.
+
 ae_tas3=AE TAS3=ATLAS ELEKTRONIK TAS-3 low-frequency Towed Array Sonar.
 
 it_atlas_isus_90_20=ISUS 90-20=STAR ATLAS Elektronik SONAR ISUS 90-20, with medium-frequency compliant base, circular base for active sonar, high frequency interceptor, own noise detection system.
@@ -15,9 +17,15 @@ csu_81-1=CSU 81-1=CSU 81-1 is an integrated sonar sensor suite from Atlas Elektr
 
 csu_90-2=CSU 90-2=CSU 90-2 is an integrated sonar sensor suite from Atlas Elektronik. This includes a passive cylindrical bow array, an intercept array and two passive flank arrays.
 
+uk_187=Type 187=Type 187 Active-Passive attack sonar.
+
 uk_2001=SONAR 2001=Type 2001 hull-mounted active and passive search and attack sonar.
 
+uk_2007=SONAR 2007=Thales Underwater Systems Type 2007 flank array sonar.
+
 uk_2020=SONAR 2020=A derivative of Type 2016 for submarines, the Type 2020 provides passive and active capability for search and attack functions.
+
+uk_2040=SONAR 2040=Type 2040 Thompson Sintra ARGONAUTE hull mounted sonar.
 
 uk_2054=SONAR 2054=Thales Underwater Systems Type 2054 composite sonar suite.
 
@@ -161,6 +169,8 @@ it_rm_20=RM-20=Mast-mounted surface search radar allows submarines to detect oth
 ts_nav=Terma Scanter=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 zw07=ZW 07=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+
+uk_t1002=Type 1002=Type 1002 surface-search and navigation radar.
 
 uk_t1007=Type 1007=The Kelvin Hughes Type 1007 family of naval radars are high-definition surface warning and navigational radar systems in service with the U.K. Royal Navy and several other world navies. The radars are available in I-band and F-band versions.
 

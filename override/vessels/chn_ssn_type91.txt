@@ -40,7 +40,7 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.075,0.0,-0.619
 
 [Weapon Systems]
-TorpedoTypes=chn_yu3,chn_c801
+TorpedoTypes=chn_yu3,chn_yj82_noSubL
 TorpedoNumbers=16,4
 TorpedoTubes=6
 NumberOfWires=6
@@ -98,7 +98,7 @@ MeshHullCollider=usn_ssn_permit_coll_hull
 MeshSuperstructureCollider=usn_ssn_permit_coll_ss
 
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=ships/usn_ssn_permit/usn_ssn_permit_tx,ships/usn_ssn_permit/usn_ssn_permit_spec,ships/usn_ssn_permit/usn_ssn_permit_nm
+MaterialTextures=environment/sky/black
 Mesh=usn_ssn_permit
 Mesh=usn_ssn_permit_wlr9
 MeshPosition=0,0.0,-0.588
@@ -107,8 +107,6 @@ MeshPosition=0,0.1133,0.2977
 MeshBowPlanes=usn_ssn_permit_sailplanes
 MeshPosition=0,0,-0.5923
 MeshSternPlanes=usn_ssn_permit_sternplanes
-MeshPosition=0,0.0002,-0.6297
-MeshProp=usn_ssn_permit_prop
 
 Material=ships/materials/usn_masts
 MeshPosition=0.000,0.024,0.26
@@ -122,6 +120,14 @@ MeshMast=usn_ssn_permit_esm_mast
 MeshPosition=0.000,0.024,0.3216
 MastHeight=0.104
 MeshMast=usn_ssn_permit_radar_mast
+
+[Model]
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
+MaterialTextures=terrain/sand
+MeshPosition=0,0.0002,-0.6297
+MeshProp=usn_ssn_permit_prop
+MeshRotation=0,0,0
 
 [Weapon Systems]
 //Torpedo Mounts

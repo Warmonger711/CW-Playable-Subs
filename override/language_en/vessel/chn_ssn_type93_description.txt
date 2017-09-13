@@ -1,7 +1,7 @@
 [Unit Reference]
 ShipClass=Shang
 Description=[CHN] Type-93 Shang-Class (2000 Era)
-History=Self Noise Rating: 125 db\nTest Depth: 1300 ft\nEscape Depth: 600 ft\n\nThe Shang-class SSN was a huge step forward compare to the Han-class SSN in terms of performance, armament and noise production. These ships are quieter and can carry a more advanced set of torpedos and missiles. They are quipped with an updated version of the Han-class sonar suite.
+History=Self Noise Rating: 138 db\nTest Depth: 1300 ft\nEscape Depth: 600 ft\n\nThe Shang-class SSN was a huge step forward compare to the Han-class SSN in terms of performance, armament and noise production. These ships are quieter and can carry a more advanced set of torpedos and missiles. They are quipped with an updated version of the Han-class sonar suite.
 
 [Player Ship Instances]
 PlayerClassNames=Shang-1,Shang-2

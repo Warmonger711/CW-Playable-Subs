@@ -29,7 +29,7 @@ TestDepth=1300
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=125
+SelfNoise=138
 ActiveSonarReflection=25
 ActiveSonarModel=chn_hsqc_207
 PassiveSonarModel=chn_hsqc_207
@@ -40,8 +40,8 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.099,0.028,-0.619
 
 [Weapon Systems]
-TorpedoTypes=chn_yu6,chn_cy1,chn_c801
-TorpedoNumbers=20,2,2
+TorpedoTypes=chn_yu6,chn_yj82,chn_cy1
+TorpedoNumbers=20,4,0
 TorpedoTubes=6
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1
@@ -98,7 +98,7 @@ MeshHullCollider=usn_ssn_sturgeon_coll_hull
 MeshSuperstructureCollider=usn_ssn_sturgeon_coll_ss
 
 Material=ships/usn_ssn_sturgeon/usn_ssn_sturgeon_mat
-MaterialTextures=ships/usn_ssn_sturgeon/usn_ssn_sturgeon_tx,ships/usn_ssn_sturgeon/usn_ssn_sturgeon_spec,ships/usn_ssn_sturgeon/usn_ssn_sturgeon_nm
+MaterialTextures=environment/sky/black
 Mesh=usn_ssn_sturgeon
 Mesh=usn_ssn_sturgeon_wlr9
 MeshPosition=0,0.0,-0.58
@@ -107,8 +107,6 @@ MeshPosition=0,0.1242,0.3122
 MeshBowPlanes=usn_ssn_sturgeon_sailplanes
 MeshPosition=0,0,-0.584
 MeshSternPlanes=usn_ssn_sturgeon_sternplanes
-MeshPosition=0,0.0002,-0.6382
-MeshProp=usn_ssn_sturgeon_prop
 
 Material=ships/materials/usn_masts
 MeshPosition=0.002,0.075,0.289
@@ -122,6 +120,14 @@ MeshMast=usn_ssn_sturgeon_esm_mast
 MeshPosition=0.001,0.075,0.3355
 MastHeight=0.085
 MeshMast=usn_ssn_sturgeon_radar_mast
+
+[Model]
+ModelFile=ships/usn_ssn_sturgeon/usn_ssn_sturgeon
+Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
+MaterialTextures=terrain/sand
+MeshPosition=0,0.0002,-0.6382
+MeshProp=usn_ssn_sturgeon_prop
+MeshRotation=0,0,0
 
 [Weapon Systems]
 //Torpedo Mounts

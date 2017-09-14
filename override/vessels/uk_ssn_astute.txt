@@ -48,7 +48,7 @@ TorpedoTubeSize=21
 TubeReloadTime=30
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=30
 NoisemakerReloadTime=20
 
 [Subsystems]

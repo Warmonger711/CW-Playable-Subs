@@ -6,7 +6,7 @@ Length=70.3
 Beam=7.6
 HullHeight=0.08
 Displacement=2455
-Crew=48
+Crew=47
 Range=8000
 HullNumbers=FALSE
 
@@ -31,8 +31,8 @@ EscapeDepth=600
 [Acoustics & Sensors]
 SelfNoise=118
 ActiveSonarReflection=25
-ActiveSonarModel=uk_2020
-PassiveSonarModel=uk_2020
+ActiveSonarModel=uk_2040
+PassiveSonarModel=uk_2007
 TowedArrayModel=uk_2046
 AnechoicCoating=TRUE
 RADAR=uk_t1007

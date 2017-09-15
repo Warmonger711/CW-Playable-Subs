@@ -5,3 +5,5 @@ Corrected the name of the sub-lauched C-801 into YJ-82. Now the Han can't launch
 Integrated the Red Storm Rising Free Roam campaign into the mod as Campaign #6.
 
 Changed all campaigns to allow all playable subs again (Russian campaigns will list Russian subs first)
+
+Added new sonars for the french subs.

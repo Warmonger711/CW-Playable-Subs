@@ -31,8 +31,8 @@ EscapeDepth=600
 [Acoustics & Sensors]
 SelfNoise=140
 ActiveSonarReflection=25
-ActiveSonarModel=usn_an_bqq_5
-PassiveSonarModel=usn_an_bqq_5
+ActiveSonarModel=fr_dmux21
+PassiveSonarModel=fr_dmux21
 TowedArrayModel=FALSE
 AnechoicCoating=TRUE
 RADAR=drua33

@@ -103,7 +103,7 @@ MeshHullCollider=wp_ssbn_delta4_coll_hull01
 MeshSuperstructureCollider=wp_ssbn_delta4_coll_ss01
 
 Material=ships/wp_ssbn_delta4/wp_ssbn_delta4_mat
-MaterialTextures=ships/wp_ssbn_delta4/wp_ssbn_delta4_tx,environment/sky/black,ships/wp_ssbn_delta4/wp_ssbn_delta4_spec,ships/wp_ssbn_delta4/wp_ssbn_delta4_nm
+MaterialTextures=ships/wp_ssbn_delta4/wp_ssbn_delta4_tx,environment/sky/Dawn_Clear
 Mesh=wp_ssbn_delta4
 MeshPosition=0,0.0144,-1.029
 MeshRudder=wp_ssbn_delta4_dorsal_rudder

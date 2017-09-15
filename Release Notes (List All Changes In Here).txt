@@ -7,3 +7,5 @@ Integrated the Red Storm Rising Free Roam campaign into the mod as Campaign #6.
 Changed all campaigns to allow all playable subs again (Russian campaigns will list Russian subs first)
 
 Added new sonars for the french subs.
+
+Added Xia SSBN (Type 092). JL-1 and JL-2 SLBM added.

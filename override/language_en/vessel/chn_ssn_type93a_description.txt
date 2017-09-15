@@ -4,5 +4,5 @@ Description=[CHN] Type-93A Shang-Class (2000 Era)
 History=Self Noise Rating: 136 db\nTest Depth: 1300 ft\nEscape Depth: 600 ft\n\nThe Type-093A is a slightly improvement over the original Shang class. 12 VLS tube were added and the noise produced were reduced a little. It can carry deadly missiles.
 
 [Player Ship Instances]
-PlayerClassNames=Shang-3,Shang-4
+PlayerClassNames=Long March 13,Long March 14
 PlayerClassHullNumbers=413,414

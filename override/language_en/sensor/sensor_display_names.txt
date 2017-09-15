@@ -1,5 +1,15 @@
 ﻿[SONAR]
-H/SQ2-262B=H/SQ2-262B=Chinese Type H/SQ2-262B sonar manufactured by No. 613 Factory.
+chn_hsq2_262b=H/SQ2-262B=This sonar suite iss an improvement over the soviet Trout Cheek passive sonar. It has a better sensivity and incorporate an active search attack sonar.
+
+chn_hsqc_207=H/SQC-207=This sonar suite is an upgraded version of the H/SQ2-262B sonar and it's fitted on the Shang-class submarines.
+
+de_stn_dbqs40=STN DBQS-40=The ATLAS STN DBQS-40 is one of the most advanced sonar suite available on modern submarines.
+
+jmsdf_an_sqs_36=AN/SQS-36=The AN/SQS-36 is the active sonar of the Yushio-class submarine. It's produced by Japan under license from the USA. It has received a lot if improvement during its operational life, making it comparable to the AN/BQQ-5 active sonar.
+
+jmsdf_zqq_4=ZQQ-4=The ZQQ-4 is the passive sonar of the Yushio-class submarine. It has received a lot if improvement during its operational life, making it comparable to the AN/BQQ-5 passive sonar.
+
+jmsdf_zqr_1a=ZQR-1A=This towed array sonar has a good sensitivity to low and mid frequencies, with performances comparable to the america BQR-25.
 
 ae_tas3=AE TAS3=ATLAS ELEKTRONIK TAS-3 low-frequency Towed Array Sonar.
 
@@ -12,6 +22,12 @@ it_velox=Velox=This medium frequency passive search sonar is the passive compone
 aus_tss=TS Scylla=Thomson Sintra Scylla bow and distributed sonar arrays.
 
 aus_tst=SHORT-TAS=Thales SHORT-TAS towed sonar array.
+
+fr_dmux20=DMUX 20=This system, used by the Rubis-class SSN, is its sonar suite, with performance comparable to the american AN/BQQ-5.
+
+fr_dmux21=DMUX 21=This system, used by the Redoutable-class SSBN, is its sonar suite, with performance comparable to the american AN/BQQ-5.
+
+fr_dsuv62c=ETBF DSUV 62C=The ETBF DSUV 62C is a towed array, with performance comparable to the american TB-16.
 
 csu_81-1=CSU 81-1=CSU 81-1 is an integrated sonar sensor suite from Atlas Elektronik. This includes a passive cylindrical bow array, an intercept array and two passive flank arrays.
 
@@ -159,6 +175,7 @@ usn_an_aqs-13=AN/AQS-13=This is the dipping sonar used by the SH-3D helicopters.
 usn_an_aqs-13f=AN/AQS-13F=This is the dipping sonar used by the SH-60 helicopters.
 
 [RADAR]
+jmsdf_zps_6=ZPS-6=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 drua33=DRUA 33=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 

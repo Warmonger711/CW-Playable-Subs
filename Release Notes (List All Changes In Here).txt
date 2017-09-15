@@ -13,3 +13,7 @@ Added 9 new LAND STRIKE campaign missions for the 1984 campaign so that SSBNs ca
 Changed the briefing text for all LAND STRIKE missions so that the red text is now yellow, making it much easier to read.
 
 Reverted all subs back to the default UI until the UI bug is addressed by the devs. (I still have backup copies of all HUD files)
+
+Added the Type-091 Han, Type-093/93A/93B Shang with their weapons: Yu-3, Yu-6, CY-1 ASROC witht he Yu-7 torpedo, C-801 SSM, YJ-18 SSM and the CJ-10 LAM. Also added their sonars, the H/SQ2-262B and the H/SQC-207.
+
+Corrected the name of the sub-lauched C-801 into YJ-82. Now the Han can't launch missiles while submerged. Adjusted the noise level of PLANs subs. All PLAN subs are now colored black. Added the new sensors for the Yushio and Type-212.

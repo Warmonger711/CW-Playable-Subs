@@ -2,14 +2,59 @@
 
 // -------------------------------------------------------------------- New Sensors ------------------------------------------------------------------------
 
-SonarModel=H/SQ2-262B
+SonarModel=chn_hsq2_262b
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=35
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=chn_hsqc_207
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
 SonarActiveSensitivity=28
-SonarPassiveSensitivity=32
+SonarPassiveSensitivity=38
 SonarBaffle=150
 SonarNoisePerKnot=1
-SonarOutput=200
+SonarOutput=220
+
+SonarModel=de_stn_dbqs40
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=33
+SonarPassiveSensitivity=45
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=240
+
+SonarModel=jmsdf_an_sqs_36
+SonarType=ACTIVE
+SonarFrequencies=M
+SonarActiveSensitivity=29
+SonarPassiveSensitivity=0
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=210
+
+SonarModel=jmsdf_zqq_4
+SonarType=PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=39
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=0
+
+SonarModel=jmsdf_zqr_1a
+SonarType=TOWED
+SonarFrequencies=VL,L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=45
+SonarBaffle=FALSE
+SonarNoisePerKnot=2
+SonarOutput=0
 
 SonarModel=csu_81-1
 SonarType=ACTIVE/PASSIVE
@@ -798,3 +843,5 @@ RADARRange=320000
 RADARModel=drua33
 RADARRange=60000
 
+RADARModel=jmsdf_zps_6
+RADARRange=60000

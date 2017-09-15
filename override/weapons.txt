@@ -1621,7 +1621,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=chn_cy1
-WeaponSprite=hud/default/wp_ss-n-16_sprite.png
+WeaponSprite=hud/default/chn_cy1_sprite.png
 WeaponType=MISSILE
 MissilePayload=chn_yu7
 Warhead=0

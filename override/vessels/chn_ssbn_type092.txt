@@ -47,8 +47,8 @@ TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
 
-VLSTorpedoTypes=chn_jl-1_slbm,chn_jl-2_slbm
-VLSTorpedoNumbers=12,12
+VLSTorpedoTypes=chn_jl-1_slbm
+VLSTorpedoNumbers=12
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=10
 

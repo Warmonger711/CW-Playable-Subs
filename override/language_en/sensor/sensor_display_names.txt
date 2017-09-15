@@ -23,6 +23,12 @@ aus_tss=TS Scylla=Thomson Sintra Scylla bow and distributed sonar arrays.
 
 aus_tst=SHORT-TAS=Thales SHORT-TAS towed sonar array.
 
+fr_dmux20=DMUX 20=This system, used by the Rubis-class SSN, is its sonar suite, with performance comparable to the american AN/BQQ-5.
+
+fr_dmux21=DMUX 21=This system, used by the Redoutable-class SSBN, is its sonar suite, with performance comparable to the american AN/BQQ-5.
+
+fr_dsuv62c=ETBF DSUV 62C=The ETBF DSUV 62C is a towed array, with performance comparable to the american TB-16.
+
 csu_81-1=CSU 81-1=CSU 81-1 is an integrated sonar sensor suite from Atlas Elektronik. This includes a passive cylindrical bow array, an intercept array and two passive flank arrays.
 
 csu_90-2=CSU 90-2=CSU 90-2 is an integrated sonar sensor suite from Atlas Elektronik. This includes a passive cylindrical bow array, an intercept array and two passive flank arrays.

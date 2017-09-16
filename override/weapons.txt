@@ -2344,7 +2344,7 @@ AudioLoop=TRUE
 
 
 WeaponObjectReference=chn_yj82_noSubL
-WeaponSprite=weapons/sprites/usn_ugm84_sprite
+WeaponSprite=hud/default/chn_yj82_sprite.png
 WeaponType=MISSILE
 Warhead=500
 SurfaceLaunched=FALSE
@@ -2397,7 +2397,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=chn_yj82
-WeaponSprite=weapons/sprites/usn_ugm84_sprite
+WeaponSprite=hud/default/chn_yj82_sprite.png
 WeaponType=MISSILE
 Warhead=500
 SurfaceLaunched=FALSE

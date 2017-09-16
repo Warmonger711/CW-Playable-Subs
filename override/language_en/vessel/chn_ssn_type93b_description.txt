@@ -1,7 +1,7 @@
 [Unit Reference]
 ShipClass=Shang-B
-Description=[CHN] Type-93B Improved Shang-Class (2000 Era)
-History=Self Noise Rating: 132 db\nTest Depth: 1300 ft\nEscape Depth: 600 ft\n\nThe Type-093B or Improved Shang class is the most recent improvement over the original Shang class design. It features more VLS tubes, now 24 and a new nuclear reactor, with more quiet pumps allowing those submarines to remain undetected. Due to the new reactor the submarine can now reach an higher speed.
+Description=[CHN] Type-93B Improved Shang Class (2000 Era)
+History=Self Noise Rating: 132 db\nTest Depth: 1300 ft\nEscape Depth: 600 ft\n\nThe Type-093B or Improved Shang Class is the most recent improvement over the original Shang Class design. It features more VLS tubes, now 24 and a new nuclear reactor, with more quiet pumps allowing those submarines to remain undetected. Due to the new reactor the submarine can now reach an higher speed.
 
 [Player Ship Instances]
 PlayerClassNames=Long March 15,Long March 16,Long March 17,Long March 18

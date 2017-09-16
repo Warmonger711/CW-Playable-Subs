@@ -28,6 +28,6 @@ HelicopterType=wp_helix
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=usn_ssn_seawolf,usn_ssn_virginia
+PlayerVessels=usn_ssn_seawolf,usn_ssn_virginia,usn_ssn_virginia_imp
 
 OtherVessels=ger_ssn_212a,biologic_blue_whale,biologic_humpback_whale,civ_fv_trawler,civ_mv_ice_breaker,civ_mv_oiler,civ_mv_large_cargo,civ_mv_large_cargo2,civ_mv_small_cargo,civ_mv_small_cargo2,civ_mv_small_cargo3

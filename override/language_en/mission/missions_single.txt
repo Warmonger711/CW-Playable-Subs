@@ -1,7 +1,7 @@
 The Duel - 1968 (NATO)
 The Duel - 1984 (NATO)
-The Duel - 1968 (RUS)
-The Duel - 1984 (RUS)
+The Duel - 1968 (RUS/CHN/JPN)
+The Duel - 1984 (RUS/CHN/JPN)
 The Hunt For Red October
 The Escape of Red October
 Giants I (GER vs USA)
@@ -12,7 +12,7 @@ Giants V (RUS vs UK)
 Giants VI (UK vs RUS)
 Giants VII (USA vs UK)
 Giants VIII (UK vs USA)
-The Hunted (RUS)
+The Hunted (RUS/CHN/JPN)
 The Hunted (NATO)
 In The Presence Of Wolves
 Action In The North Atlantic
@@ -31,7 +31,7 @@ Cruising Triumph
 Red Shadow
 Swedish Intervention
 The Lone Sabre
-Creeping Hunter (RUS)
+Creeping Hunter
 Earn Your Keep
 Second Strike (NATO)
-Second Strike (RUS)
+Second Strike (RUS/CHN/JPN)

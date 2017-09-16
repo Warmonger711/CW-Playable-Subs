@@ -39,8 +39,8 @@ RADAR=wp_snoop_plate
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=usn_mk16,usn_mk37
-TorpedoNumbers=10, 12
+TorpedoTypes=usn_mk37,usn_mk16
+TorpedoNumbers=12,10
 TorpedoTubes=4
 TubeConfig=1,1,1,1
 TorpedoTubeSize=21

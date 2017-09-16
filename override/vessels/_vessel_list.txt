@@ -3,6 +3,7 @@ usn_ssn_los_angeles_2
 usn_ssn_los_angeles_688i
 usn_ssn_seawolf
 usn_ssn_virginia
+usn_ssn_virginia_imp
 usn_ssn_narwhal
 usn_ssn_sturgeon
 usn_ssn_permit

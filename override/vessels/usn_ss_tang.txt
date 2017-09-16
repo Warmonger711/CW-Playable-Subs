@@ -39,7 +39,7 @@ RADAR=usn_bps_12
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=usn_mk16,usn_mk37
+TorpedoTypes=usn_mk37,usn_mk16
 TorpedoNumbers=12,12
 TorpedoTubes=6
 TubeConfig=1,1,1,1,1,1

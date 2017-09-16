@@ -23,6 +23,7 @@ chn_ssn_type91
 chn_ssn_type93
 chn_ssn_type93a
 chn_ssn_type93b
+chn_ssbn_type092
 it_ss_sauro_iv
 it_ss_toti
 uk_ssn_astute
@@ -36,6 +37,7 @@ uk_ss_oberon
 uk_ssbn_resolution
 uk_ssbn_vanguard
 jmsdf_ss_yushio
+jmsdf_ss_oyashio
 ger_ss_209
 ger_ssn_212a
 fra_ssbn_redoubtable

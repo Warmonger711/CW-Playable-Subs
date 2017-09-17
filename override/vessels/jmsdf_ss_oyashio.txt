@@ -81,12 +81,12 @@ LabelPosition=190.8,28
 REACTOR=MID
 
 [Flooding Display: x,width,ymin,ymax]
-FLOODING1=160,45,-77,-39
-FLOODING2=107,58,-77,-39
-FLOODING3=47,61,-77,-39
-FLOODING4=-23,74,-77,-39
-FLOODING5=-90,59,-76,-39
-DamageControlPartyY=-31
+FLOODING1=167,58,-73,-39
+FLOODING2=87,97,-80,-32
+FLOODING3=-2,77,-78.9,-32
+FLOODING4=-69,55,-78,-32
+FLOODING5=-128,59,-77,-32
+DamageControlPartyY=-28
 
 [Model]
 ModelFile=ships/wp_ssgn_charlie1/wp_ssgn_charlie1

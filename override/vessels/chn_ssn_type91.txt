@@ -98,7 +98,7 @@ MeshHullCollider=usn_ssn_permit_coll_hull
 MeshSuperstructureCollider=usn_ssn_permit_coll_ss
 
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/Textures/chn_ssn_type91.jpg
 Mesh=usn_ssn_permit
 Mesh=usn_ssn_permit_wlr9
 MeshPosition=0,0.0,-0.588

@@ -130,6 +130,7 @@ wp_takr_kiev
 wp_rkr_kirov
 wp_kr_sverdlov
 wp_pkr_moskva
+wp_pkr_moskva_68
 wp_bpk_udaloy
 wp_bpk_udaloy2
 wp_bpk_kara
@@ -150,6 +151,7 @@ wp_pb_don
 wp_pb_ugra
 wp_ms_leninskiy_komsomol
 wp_ms_poltava
+wp_ms_kommunist
 wp_vt_boris_chilikin
 wp_vt_dubna
 wp_vt_kazbek

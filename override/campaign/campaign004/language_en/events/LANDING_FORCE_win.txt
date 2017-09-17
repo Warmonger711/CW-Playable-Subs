@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/pact landing sunk
 Photo=campaign/images/photos/infantry nato 3,campaign/images/photos/infantry nato 4,campaign/images/photos/naval nato 2,campaign/images/photos/naval nato 4,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
-Music=audio/music/victory.wav
+Music=audio/music/victory.ogg
 Header=<DATE>
 
 Font=0

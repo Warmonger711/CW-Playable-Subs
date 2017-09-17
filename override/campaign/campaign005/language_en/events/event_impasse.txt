@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/nato ground 1,campaign/images/pact ground 3,campaign/images/pact naval 2,campaign/images/nato naval 1,campaign/images/nato air 1,campaign/images/pact air 2
 Photo=campaign/images/photos/armor nato 2,campaign/images/photos/infantry pact 3,campaign/images/photos/armor nato 6
-Music=audio/music/loss.wav
+Music=audio/music/loss.ogg
 Header=<DATE>
 
 Font=0

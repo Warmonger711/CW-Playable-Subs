@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/pact air 1, campaign/images/pact air 2
 Photo=campaign/images/photos/air pact drop 1,campaign/images/photos/air pact drop 2,campaign/images/photos/air pact helicopters 1
-Music=audio/music/victory.wav
+Music=audio/music/victory.ogg
 Header=<DATE>
 
 Font=0

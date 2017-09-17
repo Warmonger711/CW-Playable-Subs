@@ -1,7 +1,7 @@
 NextAction=event_campaign_win_2
 Image=campaign/images/riot police
 Photo=campaign/images/photos/riot 1,campaign/images/photos/riot 2,campaign/images/photos/protests 1,campaign/images/photos/protests 2
-Music=audio/music/loss.wav
+Music=audio/music/loss.ogg
 Header=<DATE>
 
 Font=0

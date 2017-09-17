@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/pact ground 1,campaign/images/pact ground 2,campaign/images/pact ground 3,campaign/images/pact ground 4,campaign/images/pact ground 5
 Photo=campaign/images/photos/politics 1,campaign/images/photos/politics 2,campaign/images/photos/politics 3
-Music=audio/music/slavianka.wav
+Music=audio/music/slavianka.ogg
 Header=<DATE>
 
 Font=0

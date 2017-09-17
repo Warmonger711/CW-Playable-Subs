@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/event_award_background
 Photo=campaign/images/awards/Red_star.png
-Music=audio/music/anthem.wav
+Music=audio/music/anthem.ogg
 Header=<DATE>
 
 Font=0

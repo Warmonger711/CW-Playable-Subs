@@ -1,7 +1,7 @@
 NextAction=event_intro_6
 Image=campaign/images/pershings
 Photo=campaign/images/photos/protests 1,campaign/images/photos/protests 2
-Music=audio/music/slavianka.wav
+Music=audio/music/slavianka.ogg
 Header=<DATE>
 
 Font=0

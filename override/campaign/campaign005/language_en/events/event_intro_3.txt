@@ -1,7 +1,7 @@
 NextAction=event_intro_4
 Image=campaign/images/securing forces
 Photo=campaign/images/photos/infantry pact 4,campaign/images/photos/infantry pact 5,campaign/images/photos/air pact helicopters 1
-Music=audio/music/slavianka.wav
+Music=audio/music/slavianka.ogg
 Header=<DATE>
 
 Font=0

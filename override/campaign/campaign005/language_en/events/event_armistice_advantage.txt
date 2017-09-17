@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/installation fighting,campaign/images/pact ruined city
 Photo=campaign/images/photos/politics 1,campaign/images/photos/politics 2,campaign/images/photos/politics 3
-Music=audio/music/loss.wav
+Music=audio/music/loss.ogg
 Header=<DATE>
 
 Font=0

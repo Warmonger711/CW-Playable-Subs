@@ -932,7 +932,7 @@ WeaponNoiseValues=120,230
 MaxPitchAngle=25
 HomeSettings=PASSIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=SHALLOW,DEEP
+DepthSettings=SHALLOW
 MinCameraDistance=0.5
 ResupplyTime=15
 [Model]
@@ -2344,7 +2344,7 @@ AudioLoop=TRUE
 
 
 WeaponObjectReference=chn_yj82_noSubL
-WeaponSprite=weapons/sprites/usn_ugm84_sprite
+WeaponSprite=hud/default/chn_yj82_sprite.png
 WeaponType=MISSILE
 Warhead=500
 SurfaceLaunched=FALSE
@@ -2397,7 +2397,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=chn_yj82
-WeaponSprite=weapons/sprites/usn_ugm84_sprite
+WeaponSprite=hud/default/chn_yj82_sprite.png
 WeaponType=MISSILE
 Warhead=500
 SurfaceLaunched=FALSE
@@ -2458,7 +2458,7 @@ WeaponType=TORPEDO
 //435 kg HBX 1.5 = 652 kg TNT-equivalent
 Warhead=650
 SurfaceLaunched=FALSE
-MaxLaunchDepth=100
+MaxLaunchDepth=180
 WireGuided=FALSE
 RangeInYards=11500
 RunSpeed=46
@@ -2504,16 +2504,16 @@ Warhead=225
 SurfaceLaunched=FALSE
 SwimOut=TRUE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.1
 WireBreakSpeedThreshold=15
 RangeInYards=23000
 RunSpeed=17
 ActiveRunSpeed=26
 TurnRate=20
-SensorAngles=60,15
+SensorAngles=30,15
 SensorRange=950
 WeaponNoiseValues=120,230
-MaxPitchAngle=25
+MaxPitchAngle=45
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP
@@ -2597,18 +2597,18 @@ WeaponType=TORPEDO
 Warhead=550
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.1
 WireBreakSpeedThreshold=15
 RangeInYards=35000
-RunSpeed=50
-ActiveRunSpeed=60
+RunSpeed=40
+ActiveRunSpeed=55
 TurnRate=20
-SensorAngles=80,15
-SensorRange=4000
+SensorAngles=60,15
+SensorRange=2000
 WeaponNoiseValues=160,230
-MaxPitchAngle=25
+MaxPitchAngle=45
 HomeSettings=PASSIVE,ACTIVE
-AttackSettings=STRAIGHT,LEFT,RIGHT
+AttackSettings=SNAKE,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP
 MinCameraDistance=0.5
 ResupplyTime=15
@@ -2648,10 +2648,10 @@ WireGuided=FALSE
 RangeInYards=15000
 RunSpeed=20
 ActiveRunSpeed=20
-TurnRate=2
+TurnRate=20
 SensorAngles=0,0
 SensorRange=0
-WeaponNoiseValues=180,200
+WeaponNoiseValues=200,200
 MaxPitchAngle=7
 HomeSettings=FALSE
 AttackSettings=SNAKE,LEFT,RIGHT
@@ -2796,7 +2796,7 @@ WireGuided=FALSE
 LandAttack=TRUE
 RangeInYards=2000000
 RunSpeed=40
-CruiseAltitude=300
+CruiseAltitude=500
 ActiveRunSpeed=490
 TurnRate=30
 SensorAngles=60,15
@@ -2847,16 +2847,16 @@ WeaponType=TORPEDO
 Warhead=300
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.1
 WireBreakSpeedThreshold=15
 RangeInYards=27300
 RunSpeed=35
 ActiveRunSpeed=40
 TurnRate=20
 SensorAngles=60,15
-SensorRange=800
+SensorRange=1600
 WeaponNoiseValues=120,230
-MaxPitchAngle=25
+MaxPitchAngle=45
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
 DepthSettings=SHALLOW,DEEP
@@ -2896,16 +2896,16 @@ WeaponType=TORPEDO
 Warhead=90
 SurfaceLaunched=FALSE
 WireGuided=FALSE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.1
 WireBreakSpeedThreshold=15
 RangeInYards=8700
 RunSpeed=41
 ActiveRunSpeed=41
 TurnRate=20
 SensorAngles=60,15
-SensorRange=1500
+SensorRange=3000
 WeaponNoiseValues=120,230
-MaxPitchAngle=25
+MaxPitchAngle=45
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
 DepthSettings=SHALLOW,DEEP
@@ -2937,6 +2937,7 @@ AudioPitch=1.2
 AudioLoop=FALSE;
 [/Model]
 
+// VERY CRUDE approximation of AT-1 based on UMGT-1 and SET-65
 WeaponObjectReference=wp_at-1
 WeaponType=TORPEDO
 Warhead=300
@@ -3078,9 +3079,9 @@ RunSpeed=40
 ActiveRunSpeed=40
 TurnRate=20
 SensorAngles=60,15
-SensorRange=880
+SensorRange=1600
 WeaponNoiseValues=120,230
-MaxPitchAngle=25
+MaxPitchAngle=45
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
 DepthSettings=SHALLOW,DEEP
@@ -3128,7 +3129,7 @@ TurnRate=20
 SensorAngles=60,15
 SensorRange=3000
 WeaponNoiseValues=110,230
-MaxPitchAngle=25
+MaxPitchAngle=45
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
 DepthSettings=SHALLOW,DEEP
@@ -3572,6 +3573,7 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+[/Model]
 
 //PLAB-50-64 62kg helicopter depth bomb
 DepthWeaponObjectReference=wp_depth_bomb_50
@@ -3588,6 +3590,7 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+[/Model]
 
 //PLAB-250-120 120kg helicopter depth bomb
 DepthWeaponObjectReference=wp_depth_bomb_120
@@ -3606,7 +3609,24 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+[/Model]
 
+DepthWeaponObjectReference=wp_depth_bomb_250
+DepthWeaponWarhead=250
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+// based on 100kg = 10m damage (not kill) radius, inverse cube law
+DepthWeaponKillRadius=14
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+[/Model]
 
 //wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped Depth Bomb
 //Fixed wing aircraft only
@@ -3625,7 +3645,7 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
-
+[/Model]
 
 //wp_depth_bomb_1kt=Nuclear Depth Bomb1KT=Nuclear Depth Bomb 1 Kiloton
 //5F48 (SK-1) Skalp ("scalp") nuclear depth bomb, 1600 kg, 1 kiloton
@@ -3648,7 +3668,7 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
-
+[/Model]
 
 
 //wp_depth_bomb_5kt=Nuclear Depth Bomb 5KT=Nuclear Depth Bomb 5 Kiloton Helo-Dropped
@@ -3671,7 +3691,7 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
-
+[/Model]
 
 //usn_depth_bomb_10kt=Nuclear Depth Bomb 10KT=10KT Nuclear Depth Bomb B57 or ASROC
 //USN B57 depth bomb variable yield from sub-kt to 20 kiloton 
@@ -3697,7 +3717,7 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
-
+[/Model]
 
 
 //usn_depth_bomb_11kt=Nuclear Depth Bomb 11KT=Nuclear Depth Bomb Mk101 Lulu 11KT
@@ -3721,8 +3741,7 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
-
-
+[/Model]
 
 DepthWeaponObjectReference=wp_proximity_mine
 IsProximityMine=TRUE
@@ -3758,6 +3777,7 @@ MeshPosition=0,0,0
 MeshDepthWeapon=RGB-60
 MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+[/Model]
 
 [Countermeasures]
 CountermeasureName=USN Noisemaker

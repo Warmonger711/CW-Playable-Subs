@@ -1,9 +1,4 @@
 [Aircraft]
-
-// Ka-27PL, NATO: Helix. In service 1982-
-// http://www.military-today.com/helicopters/kamov_ka27_helix.htm
-// http://www.naval-technology.com/projects/ka272829-helix/
-// http://ruslet.webnode.cz/technika/ruska-technika/letecka-technika/n-i-kamov/ka-27-28-helix-a-/
 AircraftObjectReference=wp_helix
 AircraftType=HELICOPTER
 CruiseSpeed=111
@@ -11,37 +6,13 @@ Length=11.3
 Height=5.5
 Weight=11000
 Crew=3
-// actual Ka-27 radar is Osminog-E (Octopus) 'Splash Drop' 
-//RADAR=wp_mushroom
 RADAR=wp_octopus
 RADARSignature=SMALL
-// incorrect dipping sonar from earlier Ka-25
-//ActiveSonarModel=wp_foal_stork_tail
-//PassiveSonarModel=wp_foal_stork_tail
-// correct Ka-27 dipping sonar is Ros-V VGS-3 "Lamb Tail"
 ActiveSonarModel=wp_lamb_tail
 PassiveSonarModel=wp_lamb_tail
-// 36 sonobuoys (18+18) cited in detection configuration 
-// but that is exclusive of attack configuration
-// types cited: RGB-N Iva, RGB-NM Cinar, (post 1973) RGB-NM-1 Zeton
 SonobuoyTypes=wp_rgb_56,wp_rgb_64,wp_rgb_73
-// Harpoon (paper game) lists Ka-27 having 12 RGB-64s
-// Probably max sonobuoy load is not cumulative with max weapon load
-// weight of this loadout 8 x 45 + 18 x 13.5 = 603kg
 SonobuoyNumbers=8,9,9
 [Weapon Systems]
-// max lift of +6000kg. max cargo of +4000kg. (however this may include MAD/dipping sonar)
-// (in actual use you have to select either the MAD or the dipping sonar, not both)
-// can carry 4 APR-2E light homing torps OR 4 groups of S3V ASW guided bombs
-// or probably 2 AT-2 medium homing torps as airlaunched AT-3 UMGT-1/M (720kg each)
-// but other sources say 2 torps or 2 bombs or 1 heavy (533mm) torp + 1 rocket torp
-// other sources say 16-24 sonobuoys BUT 
-// same source also says they always hunt in pairs, one doing detection, one carrying weapons
-// basically full weapon load is exclusive of full sonobuoy load
-// full sonobuoy load 36 RGB-64/73
-// possible loadouts:
-// given the lift, and matching our in game description, a fully maxed loadout should be ok:
-// 2 x AT-3 = 1440kg + 8 x PLAB-120 = 960kg + 600kg of buoys = 3000kg, 3/4 of max
 TorpedoTypes=wp_umgt-1
 TorpedoNumbers=2
 DepthBomb=wp_depth_bomb_120
@@ -75,9 +46,6 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
-// Ka-25BSh, NATO: Hormone A. In service: 1966-
-// http://www.militaryfactory.com/aircraft/detail.asp?aircraft_id=211
-// http://ruslet.webnode.cz/technika/ruska-technika/letecka-technika/n-i-kamov/ka-25pl-hormone-a/
 AircraftObjectReference=wp_hormone
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -85,40 +53,15 @@ Length=9.75
 Height=5.37
 Weight=7500
 Crew=4
-//  RPB-2K Initsiativa "Mushroom" radar 'Short Horn'
 RADAR=wp_mushroom
 RADARSignature=SMALL
-// VGS-2 Oka-2 ("Eye"-2) 'Elk/Stork/Foal Tail' or Izumrod dipping sonar
 ActiveSonarModel=wp_foal_stork_tail
 PassiveSonarModel=wp_foal_stork_tail
-// 26 sonobuoys (8 Iva + 18 Cinar/Zeton) cited in detection configuration 
-// but that is exclusive of attack configuration
-// types cited: RGB-N Iva, RGB-NM Cinar, (post 1973) RGB-NM-1 Zeton
-// weights: 45kg, 13.5kg, ?13.5kg? 
-// 8 RGB-56 Iva = 360kg; 18 RGB-64/73 Cinar/Zeton = 243kg
-// half load 4 RGB 56 + 9 RGB-64/73 = 301.5kg
-// full load 8 RGB 56 + 18 RGB-64/73 = 603kg
 SonobuoyTypes=wp_rgb_56,wp_rgb_64
 SonobuoyNumbers=8,18
 [Weapon Systems]
-// 1900 kg of disposables. Possible loadouts:
-// - 2 torps, 4 depth bombs, no buoys @max weight
-// - 2 torps, 0 depth bombs, half buoys, near max weight 
-// - 1 torp, full depth bombs, full buoys, @max weight **default "mixed" loadout
-// - no weapons, full buoys, low weight, long endurance
-// AT-3 (UGMT-1) weighs 720kg on the aircraft 
-// AT-3 (UGMT-1) not available before 1982
-// for 1968 this should be an earlier weapon eg
-// AT-1 [NATO E45-70A] (1963) 550kg lightweight active/passive
-//TorpedoNumbers=2
 TorpedoTypes=wp_umgt-1
-// 1x AT-1 or AT-1M cited in attack configuration but this probably means AT-3 airborne UMGT-1/M
 TorpedoNumbers=1
-// 4x 120kg or 8 x 62kg depth bombs cited in attack configuration (and/or torpedo?)
-// the standard wp_depth_bomb in the game is a 25kg warhead - very underpowered
-// the 120kg depth bomb is the PLAB-250-120. 62kg = PLAB-50-64. 
-//DepthBomb=wp_depth_bomb_120
-//DepthBombNumbers=4
 DepthBomb=wp_depth_bomb_50
 DepthBombNumbers=8
 MinCameraDistance=0.5
@@ -141,6 +84,102 @@ MeshPosition=0,0.008,0.002
 Material=aircraft/materials/prop_3_blade
 MeshSpeed=100
 MeshAircraftProp=Rotor_CW
+
+HoverParticle=aircraft/heli_hover
+
+AudioClip=audio/units/ka25_inflight
+AudioRollOff=LINEAR
+AudioDistance=0.1,16
+AudioPitch=1
+[/Model]
+
+AircraftObjectReference=wp_hormone_68
+AircraftType=HELICOPTER
+CruiseSpeed=106
+Length=9.75
+Height=5.37
+Weight=7500
+Crew=4
+RADAR=wp_mushroom
+RADARSignature=SMALL
+ActiveSonarModel=elk_tail
+PassiveSonarModel=elk_tail
+SonobuoyTypes=wp_rgb_56,wp_rgb_64
+SonobuoyNumbers=4,9
+[Weapon Systems]
+TorpedoTypes=wp_at-1
+TorpedoNumbers=1
+DepthBomb=wp_depth_bomb_50
+DepthBombNumbers=4
+MinCameraDistance=0.5
+
+[Model]
+ModelFile=aircraft/wp_hormone/wp_hormone
+MeshPosition=0,-0.01,0
+MeshRotation=0,0,0
+Material=aircraft/wp_hormone/wp_hormone_mat
+MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hormone/wp_hormone_nm
+MeshAircraftBody=Hormone_A_inflight
+DippingSonarPosition=0,-0.0138,-0.035
+
+MeshPosition=0,0.028,0.002
+Material=aircraft/materials/prop_3_blade
+MeshSpeed=-100
+MeshAircraftProp=Rotor_CCW
+
+MeshPosition=0,0.008,0.002
+Material=aircraft/materials/prop_3_blade
+MeshSpeed=100
+MeshAircraftProp=Rotor_CW
+
+HoverParticle=aircraft/heli_hover
+
+AudioClip=audio/units/ka25_inflight
+AudioRollOff=LINEAR
+AudioDistance=0.1,16
+AudioPitch=1
+[/Model]
+
+AircraftObjectReference=wp_haze
+AircraftType=HELICOPTER
+CruiseSpeed=106
+Length=25.31
+Height=6.94
+Weight=11500
+Crew=4
+RADAR=wp_mushroom
+RADARSignature=MEDIUM
+ActiveSonarModel=wp_stork_tail
+PassiveSonarModel=wp_stork_tail
+SonobuoyTypes=wp_rgb_56,wp_rgb_64
+SonobuoyNumbers=8,18
+[Weapon Systems]
+TorpedoTypes=wp_umgt-1
+TorpedoNumbers=1
+DepthBomb=wp_depth_bomb
+DepthBombNumbers=8
+MinCameraDistance=0.5
+
+[Model]
+ModelFile=aircraft/wp_haze/wp_haze
+MeshPosition=0,0.0,0
+MeshRotation=0,0,0
+Material=aircraft/wp_haze/wp_haze_mat
+MaterialTextures=aircraft/wp_haze/wp_haze_tx,aircraft/wp_haze/wp_haze_spec,aircraft/wp_haze/wp_haze_nm
+MeshAircraftBody=haze
+DippingSonarPosition=0,-0.0138,-0.035
+
+MeshPosition=0,0.03,0
+MeshRotation=4,0,0
+Material=aircraft/materials/prop_5_blade
+MeshSpeed=-100
+MeshAircraftProp=haze_mainrotor
+
+MeshPosition=-0.006,0.029,-0.183
+MeshRotation=0,0,90
+Material=aircraft/materials/prop_3_blade
+MeshSpeed=100
+MeshAircraftProp=haze_tailrotor
 
 HoverParticle=aircraft/heli_hover
 
@@ -344,13 +383,6 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
-// Tu-142M Dolphin, NATO: BEAR-F
-// http://www.ausairpower.net/APA-Bear.html
-// http://www.airvectors.net/avbear.html
-// http://ruslet.webnode.cz/technika/ruska-technika/letecka-technika/a-n-tupolev/tu-142m-bear-f-mod-3/
-// http://ruslet.webnode.cz/technika/ruska-technika/letecka-technika/a-n-tupolev/tu-142-bear-f-mod-2/
-// in 1984 Mod 3 was in service, probably also many Mod 2 and perhaps some Mod 1 still
-// in 1968 only 2 prototypes were flying, not yet operational
 AircraftObjectReference=wp_tu-142_bear
 AircraftType=FIXED WING
 CruiseSpeed=384
@@ -358,44 +390,15 @@ Length=53.08
 Height=12.12
 Weight=137500
 Crew=11
-//radar types Berkut-95 (WET EYE) (Mod 1); Korshun (Mod 2); Korshun-K (Mod 3) 
-//RADAR=wp_wet_eye
-//RADAR=wp_korshun
 RADAR=wp_korshun_k
 RADARSignature=LARGE
 ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
-// Mod 1 can use types wp_bm_1/2/3
-// Mod 3 (and 2?) can use those plus additional types RGB-15, RGB-25, RGB-55A RGB-75 'Chick Egg'" 
-// max sonobuoy load stated as 176! (presumably of lighter types?)
-//SonobuoyTypes=wp_bm_1,wp_bm_2,wp_bm_3
-//SonobuoyNumbers=60,58,58
-//Not clear if wp_bm_1 non-directional type is implemented properly in AI etc?
-//SonobuoyTypes=wp_bm_2,wp_bm_3
-//SonobuoyNumbers=88,88
-// Mod 2 search-attack configuration with 3 AT-3 (UMGT-1) torps: (2160kg): 5614kg
-// 176 acoustic buoy RGB-1 ( Snipe Egg 1 ) 2500kg; 10 RGB-2 ( Snipe Egg 2 ) 400kg; 3 RGB-3 ( Snipe Egg 3 ) 555kg: 3454kg
 SonobuoyTypes=wp_bm_1,wp_bm_2,wp_bm_3
 SonobuoyNumbers=176,10,3
-// Mod 3 search-attack configuration with 3 AT-3 (UMGT-1) torps (2160kg): 
-// 66 acoustic buoy RGB-75 ( Chick Egg ), 44 acoustic buoy type RGB-15 10 type RGB acoustic buoy 25 and 10 acoustic buoy RGB-55A
-//SonobuoyTypes=wp_rgb_75,wp_rgb_15,wp_rgb_25,wp_rgb_55a
-//SonobuoyNumbers=66,44,10,10
 [Weapon Systems]
-// ordnance payload 14400 - 15000 kg in bomb bay and pylons
-// max torp load is 12
-// AT-3 [UMGT-1 Orlan, NATO E40-79A] - (1982) = 720kg
-// 12 torps = 8640kg 6 torps = 4320 kg
-// 8640kg of torps and 6000kg of depth bombs = @max load with NO buoys
-
 TorpedoTypes=wp_umgt-1
-//TorpedoNumbers=12
 TorpedoNumbers=3
-// 9000kg of depth bombs to go with 5600kg Mod 2 search-attack configuration
-//adding custom/new depth bomb types
-//not clear if multiple DepthBomb types are supported?
-//DepthBomb=wp_depth_bomb_120,wp_depth_bomb_500
-//DepthBombNumbers=48,6
 DepthBomb=wp_depth_bomb_120
 DepthBombNumbers=72
 MinCameraDistance=1
@@ -457,8 +460,6 @@ AudioDistance=2,25
 AudioPitch=1
 [/Model]
 
-// NB only a small number of these aircraft were operational in 1968 (and lacked sonobuoys until 1969)
-// http://ruslet.webnode.cz/technika/ruska-technika/letecka-technika/s-v-iljusin/il-38-may/
 AircraftObjectReference=wp_il-38_may
 AircraftType=FIXED WING
 CruiseSpeed=216
@@ -470,40 +471,12 @@ RADAR=wp_wet_eye
 RADARSignature=LARGE
 ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
-// RGB-16 fitted only after 1990 modernisation (out of scope for the game currently)
-// base game loadout:
-//SonobuoyTypes=wp_bm_2,wp_bm_3
-//SonobuoyNumbers=25,25
-// search-attack loadout (with 2 UGMT-1 torps)(and depth bombs for full measure!)
 SonobuoyTypes=wp_bm_1,wp_bm_2,wp_bm_3
 SonobuoyNumbers=144,10,3
-// search-only loadout
-//SonobuoyTypes=wp_bm_1
-//SonobuoyNumbers=216
 
 [Weapon Systems]
-// Berkut-38 avionics suite interacts with
-// - non passive acoustic buoys RGB-1 ( Snipe Egg 1 ) weighing 14.2 kg, a detection range of 1.7 to 4 km, the transmission range 40 to 60 km, and a running time of 2.5 to 3 h
-// - directional passive acoustic buoys RGB-2 ( Snipe Egg 2 ) weighing 40 kg and running time of 25-40 minutes
-// - active / passive acoustic buoys RGB-3 ( Snipe Egg 3 ) weighing 185 kg, range from 1 to 1.5 km in passive mode, respectively. 2 km in active mode, and a running time of 5 min in active mode. 
-// Acoustic buoys are initially transported within the front fuselage bomb bay. 
-// total ordnance load 8000kg including buoys
-// search configuration 216 acoustic buoys RGB-1 ( Snipe Egg 1 ) = 3067kg (+ high endurance)
-// search-attack configuration is 144 acoustic buoys RGB-1 ( Snipe Egg 1 ) 10 acoustic buoy RGB-2 ( Snipe Egg 2 ) and the acoustic buoy 3 RGB 3 ( Snipe Egg 3 ) = 3000kg and two AT-2 torpedoes =1440kg = 4440 kg
-// Additional armaments:
-// 120 kg depth charges type PLAB-250-120 Lastoshka; 50 kg unguided depth charges type PLAB-50; 500 kg guided depth charges type KAB-500PL Zagon; nuclear depth charges; etc
-// NB Use AT-1 torpedoes in 1968 campaign & prior to introduction of the AT-2/AT-3 (UMGT-1)
 TorpedoTypes=wp_umgt-1
 TorpedoNumbers=2
-// let's give it some depth bombs anyway! (3560kg left in search-attack loadout)
-// possible additional depth bomb loadouts for search-attack
-// DepthBomb=wp_depth_bomb_50,wp_depth_bomb_120,wp_depth_bomb_500
-// DepthBombNumbers=20,12,2
-// DepthBomb=wp_depth_bomb_50,wp_depth_bomb_120
-// DepthBombNumbers=24,20
-// DepthBomb=wp_depth_bomb_120,wp_depth_bomb_500
-// DepthBombNumbers=12,4
-//not clear if multiple DepthBomb types are supported?
 DepthBomb=wp_depth_bomb_120
 DepthBombNumbers=30
 
@@ -658,6 +631,107 @@ MeshPosition=-0.1286,0.0028,0.0682
 Material=aircraft/materials/prop_4_blade
 MeshSpeed=-100
 MeshAircraftProp=May_prop
+
+AudioClip=audio/units/turboprop
+AudioRollOff=LINEAR
+AudioDistance=2,25
+AudioPitch=1
+[/Model]
+
+AircraftObjectReference=wp_il-38_may_68
+AircraftType=FIXED WING
+CruiseSpeed=216
+Length=40.19
+Height=10.17
+Weight=45000
+Crew=7
+RADAR=wp_wet_eye
+RADARSignature=LARGE
+ActiveSonarModel=FALSE
+PassiveSonarModel=FALSE
+SonobuoyTypes=wp_bm_1,wp_bm_2,wp_bm_3
+SonobuoyNumbers=144,10,3
+[Weapon Systems]
+TorpedoTypes=wp_at-2
+TorpedoNumbers=2
+DepthBomb=wp_depth_bomb_250
+DepthBombNumbers=8
+MinCameraDistance=1
+
+[Model]
+ModelFile=aircraft/wp_il-38_may/wp_il-38_may
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+Material=aircraft/wp_il-38_may/wp_il-38_may_mat
+MaterialTextures=aircraft/wp_il-38_may/wp_il-38_may_tx,aircraft/wp_il-38_may/wp_il-38_may_spec,aircraft/wp_il-38_may/wp_il-38_may_nm
+MeshAircraftBody=May
+
+MeshRotation=90,0,0
+MeshPosition=0.0657,-0.0025,0.0855
+Material=aircraft/materials/prop_4_blade
+MeshSpeed=-100
+MeshAircraftProp=May_prop
+
+MeshPosition=0.1286,0.0028,0.0682
+Material=aircraft/materials/prop_4_blade
+MeshSpeed=-100
+MeshAircraftProp=May_prop
+
+MeshPosition=-0.0657,-0.0025,0.0855
+Material=aircraft/materials/prop_4_blade
+MeshSpeed=-100
+MeshAircraftProp=May_prop
+
+MeshPosition=-0.1286,0.0028,0.0682
+Material=aircraft/materials/prop_4_blade
+MeshSpeed=-100
+MeshAircraftProp=May_prop
+
+AudioClip=audio/units/turboprop
+AudioRollOff=LINEAR
+AudioDistance=2,25
+AudioPitch=1
+[/Model]
+
+AircraftObjectReference=wp_be-12_mail
+AircraftType=FIXED WING
+CruiseSpeed=173
+Length=30.11
+Height=7.94
+Weight=29500
+Crew=4
+RADAR=wp_short_horn
+RADARSignature=MEDIUM
+ActiveSonarModel=FALSE
+PassiveSonarModel=FALSE
+SonobuoyTypes=wp_rgb_56,wp_rgb_64,wp_rgb_73
+SonobuoyNumbers=8,18,0
+[Weapon Systems]
+TorpedoTypes=wp_at-2
+TorpedoNumbers=1
+DepthBomb=wp_depth_bomb_50
+DepthBombNumbers=6
+
+MinCameraDistance=1
+
+[Model]
+ModelFile=aircraft/wp_be-12_mail/wp_be-12_mail
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+Material=aircraft/wp_be-12_mail/wp_be-12_mail_mat
+MaterialTextures=aircraft/wp_be-12_mail/wp_be-12_mail_tx,aircraft/wp_be-12_mail/wp_be-12_mail_spec,aircraft/wp_be-12_mail/wp_be-12_mail_nm
+MeshAircraftBody=wp_mail
+
+MeshRotation=90,0,0
+MeshPosition=-0.0566,0.0417,0.05
+Material=aircraft/materials/prop_4_blade
+MeshSpeed=-100
+MeshAircraftProp=wp_mail_prop
+
+MeshPosition=0.0566,0.0417,0.05
+Material=aircraft/materials/prop_4_blade
+MeshSpeed=100
+MeshAircraftProp=wp_mail_prop
 
 AudioClip=audio/units/turboprop
 AudioRollOff=LINEAR

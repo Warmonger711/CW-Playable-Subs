@@ -26,6 +26,8 @@ wp_depth_bomb_50=Depth Bomb PLAB-50=PLAB-50 Light Aerial Dropped Depth Bomb
 
 wp_depth_bomb_120=Depth Bomb PLAB-250-120=PLAB-250-120 Medium Aerial Dropped Depth Bomb
 
+wp_depth_bomb_250=Depth Bomb PLAB-250=PLAB-250 Heavy Aerial Dropped Depth Bomb
+
 wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped Depth Bomb
 
 wp_depth_bomb_1kt=Nuclear Depth Bomb1KT=Nuclear Depth Bomb 1 Kiloton

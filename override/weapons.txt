@@ -2237,7 +2237,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=chn_cj10
-WeaponSprite=weapons/sprites/usn_tlam_sprite
+WeaponSprite=hud/default/chn_cj10_sprite.png
 WeaponType=MISSILE
 Warhead=750
 SurfaceLaunched=FALSE
@@ -2290,7 +2290,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=chn_yj18b
-WeaponSprite=weapons/sprites/usn_tasm_sprite
+WeaponSprite=hud/default/chn_yj18b_sprite.png
 WeaponType=MISSILE
 Warhead=500
 SurfaceLaunched=FALSE

@@ -100,7 +100,7 @@ MeshHullCollider=usn_ssn_skipjack_coll_hull
 MeshSuperstructureCollider=usn_ssn_skipjack_coll_ss
 
 Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/HNLMS_SS_Walrus.jpg
 Mesh=usn_ssn_skipjack
 Mesh=usn_ssn_skipjack_bqr25
 MeshPosition=0,0.01,0.20

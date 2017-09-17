@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/nato carrier loss
 Photo=campaign/images/photos/naval nato carrier 1,campaign/images/photos/naval nato carrier 3,campaign/images/photos/naval nato carrier 4
-Music=audio/music/victory.wav
+Music=audio/music/victory.ogg
 Header=<DATE>
 
 Font=0

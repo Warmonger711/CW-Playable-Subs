@@ -1,7 +1,7 @@
 NextAction=event_campaign_fail_3
 Image=campaign/images/cuban missiles
 Photo=campaign/images/photos/riot 1,campaign/images/photos/riot 2,campaign/images/photos/protests 2
-Music=audio/music/victory.wav
+Music=audio/music/victory.ogg
 Header=<DATE>
 
 Font=0

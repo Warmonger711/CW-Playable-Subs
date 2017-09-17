@@ -1,7 +1,7 @@
 NextAction=event_campaign_draw_2
 Image=campaign/images/pact ssbn
 Photo=campaign/images/photos/naval pact sub 1,campaign/images/photos/naval pact sub 2,campaign/images/photos/politics 3
-Music=audio/music/victory.wav
+Music=audio/music/victory.ogg
 Header=<DATE>
 
 Font=0

@@ -1,7 +1,7 @@
 NextAction=event_early_end_1
 Image=campaign/images/lost at sea
 Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
-Music=audio/music/loss.wav
+Music=audio/music/loss.ogg
 Header=<DATE>
 
 Font=0

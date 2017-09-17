@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/pact reinforcements
 Photo=campaign/images/photos/infantry pact 3,campaign/images/photos/infantry pact 4,campaign/images/photos/infantry pact 5
-Music=audio/music/loss.wav
+Music=audio/music/loss.ogg
 Header=<DATE>
 
 Font=0

@@ -1,7 +1,7 @@
 NextAction=event_early_end_2
 Image=campaign/images/pact surface raiders 3,campaign/images/pact surface raiders 2,campaign/images/pact naval 1,campaign/images/pact naval 2
 Photo=campaign/images/photos/naval engagement 1
-Music=audio/music/loss.wav
+Music=audio/music/loss.ogg
 Header=<DATE>
 
 Font=0

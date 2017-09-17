@@ -1,7 +1,7 @@
 NextAction=END
 Image=campaign/images/pact france
 Photo=campaign/images/photos/riot 1
-Music=audio/music/loss.wav
+Music=audio/music/loss.ogg
 Header=<DATE>
 
 Font=0

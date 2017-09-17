@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/nato insertion 1,campaign/images/nato insertion 2
 Photo=campaign/images/photos/politics 1,campaign/images/photos/politics 2,campaign/images/photos/politics 3
-Music=audio/music/victory.wav
+Music=audio/music/victory.ogg
 Header=<DATE>
 
 Font=0

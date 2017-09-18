@@ -103,7 +103,7 @@ MeshHullCollider=wp_ssbn_delta4_coll_hull01
 MeshSuperstructureCollider=wp_ssbn_delta4_coll_ss01
 
 Material=ships/wp_ssbn_delta4/wp_ssbn_delta4_mat
-MaterialTextures=environment/sky/black,ships/wp_ssbn_delta4/wp_ssbn_delta4_tx
+MaterialTextures=vessels/textures/rus_ssbn_borei.png
 
 Mesh=wp_ssbn_delta4
 MeshPosition=0,0.0144,-1.029
@@ -141,7 +141,7 @@ MeshMast=usn_ssn_permit_radar_mast
 //Duct
 ModelFile=weapons/assets/usn_mk37
 Material=ships/wp_ssbn_delta4/wp_ssbn_delta4_mat
-MaterialTextures=environment/sky/black,ships/wp_ssbn_delta4/wp_ssbn_delta4_tx
+MaterialTextures=vessels/textures/rus_ssbn_borei.png
 
 MeshPosition=0.04,-0.0447,-1.15
 MeshRotation=8,16,0

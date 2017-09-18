@@ -93,91 +93,47 @@ FLOODING5=-90,59,-76,-39
 DamageControlPartyY=-31
 
 [Model]
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+ModelFile=ships/wp_ssn_victor1/wp_ssn_victor1
 
 //Hull and Deck
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
-MeshHullCollider=usn_ssn_permit_coll_hull
-MeshSuperstructureCollider=usn_ssn_permit_coll_ss
+MeshHullCollider=wp_ssn_victor1_coll_hull
+MeshSuperstructureCollider=wp_ssn_victor1_coll_ss
 
-Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=environment/sky/black
-Mesh=usn_ssn_permit
-MeshPosition=0,0.00715,-0.588
-MeshRudder=usn_ssn_permit_rudders
-MeshPosition=0,0,-0.5923
-MeshSternPlanes=usn_ssn_permit_sternplanes
+Material=ships/wp_ssn_victor1/wp_ssn_victor1_mat
+MaterialTextures=vessels/textures/rus_ssn_yasen.png
+Mesh=wp_ssn_victor1
+MeshPosition=0,0,-0.5996
+MeshRudder=wp_ssn_victor1_rudder
+MeshPosition=0,0.0723,0.3885
+MeshBowPlanes=wp_ssn_victor1_bowplanes
+MeshPosition=0,0,-0.6117
+MeshSternPlanes=wp_ssn_victor1_sternplanes
 
+//Prop
+ModelFile=ships/usn_ssn_sturgeon/usn_ssn_sturgeon
+Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
+MaterialTextures=terrain/sand
+MeshPosition=-0.0,0,-0.6756
+MeshProp=usn_ssn_sturgeon_prop
+MeshRotation=0,0,0
 
-//Bowplanes
-//left/right,up/down,forward/back
-ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
-MaterialTextures=environment/sky/black
-MeshPosition=0,0.035,0.39
-MeshBowPlanes=wp_ssbn_yankee_sailplanes
-
-
-[model]
+[Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=0.000,0.024,0.26
-MastHeight=0.104
+MeshPosition=0,0.030,0.230
+MastHeight=0.085
 MeshMast=usn_ssn_permit_periscope
 
-MeshPosition=-0.0027,0.024,0.2863
-MastHeight=0.104
+MeshPosition=0,0.020,0.200
+MastHeight=0.085
 MeshMast=usn_ssn_permit_esm_mast
 
-MeshPosition=0.000,0.024,0.3216
-MastHeight=0.104
+MeshPosition=0,0.020,0.170
+MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
-
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-MeshPosition=0,0.0002,-0.6297
-MeshProp=usn_ssn_permit_prop
-MaterialTextures=terrain/sand
-
-
-[model]
-ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey
-Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=environment/sky/black
-MeshPosition=0,0.013,-0.565
-MeshRotation=-13,0,0
-Mesh=wp_ss_whiskey_rudder
-MeshPosition=0,0.007,-0.579
-MeshRotation=0,0,0
-Mesh=wp_ss_whiskey_rudder
-
-
-//Sail Mod
-ModelFile=ships/wp_ssbn_typhoon/wp_ssbn_typhoon
-Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=environment/sky/black
-MeshPosition=0.0015,0.067,0.3525
-MeshRotation=-25,-4,3
-Mesh=wp_ssbn_typhoon_dorsal_rudder
-MeshPosition=-0.0015,0.067,0.3525
-MeshRotation=-25,4,-1
-Mesh=wp_ssbn_typhoon_dorsal_rudder
-MeshPosition=0.0025,.0545,.27
-MeshRotation=0,-0,-0
-Mesh=wp_ssbn_typhoon_dorsal_rudder
-MeshPosition=-0.003,.0545,.27
-MeshRotation=0,0,0
-Mesh=wp_ssbn_typhoon_dorsal_rudder
-MeshPosition=0.0025,.035,.21
-MeshRotation=45,-0,-0
-Mesh=wp_ssbn_typhoon_dorsal_rudder
-MeshPosition=-0.003,.035,.21
-MeshRotation=45,0,0
-Mesh=wp_ssbn_typhoon_dorsal_rudder
-MeshPosition=-0,.0385,.193
-MeshRotation=45,0,0
-Mesh=wp_ssbn_typhoon_dorsal_rudder
-
 
 [Weapon Systems]
 //Torpedo Mounts
@@ -243,28 +199,29 @@ MeshNoisemakerMount=FALSE
 
 
 MeshPosition=0,0,0
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+ModelFile=ships/wp_ssn_victor1/wp_ssn_victor1
 
 
 //Wake
 MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave_sub
 PropWashParticle=ships/particles/bowwave_small
-CavitationParticle=ships/particles/wp_ssn_sierra_cavitation
-FunnelSmokeParticle=ships/particles/wp_ssn_sierra_bubbles
-EmergencyBlowParticle=ships/particles/wp_ssn_sierra_emergency_blow
+CavitationParticle=ships/particles/wp_ssn_victor1_cavitation
+FunnelSmokeParticle=ships/particles/wp_ssn_victor1_bubbles
+EmergencyBlowParticle=ships/particles/wp_ssn_victor1_emergency_blow
 
-ParticleBowWavePosition=0,0,0.765
-ParticlePropWashPosition=0,-0.035,-0.747
 
-ParticleHullFoamPosition=0,0,0.637
+ParticleBowWavePosition=0,0,0.63
+ParticlePropWashPosition=0,-0.035,-0.706
+
+ParticleHullFoamPosition=0,0,0.5
 ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
 
-ParticleSternFoamPosition=0,0,-0.629
+ParticleSternFoamPosition=0,0,-0.665
 ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=2.6,2.6
+KelvinWaves=2.0,2.0
 
-EngineAudioClip=audio/units/submarine_engine_3
+EngineAudioClip=audio/units/submarine_engine_1
 EngineAudioRollOff=LOGARITHMIC
 EngineAudioDistance=1,20
 EngineAudioPitchRange=0.4,1

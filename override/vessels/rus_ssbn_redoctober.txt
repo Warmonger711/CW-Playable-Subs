@@ -103,7 +103,7 @@ MeshHullCollider=wp_ssbn_typhoon_coll_hull
 MeshSuperstructureCollider=wp_ssbn_typhoon_coll_ss
 
 Material=ships/wp_ssbn_typhoon/wp_ssbn_typhoon_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/rus_ssbn_redoctober.png
 Mesh=wp_ssbn_typhoon
 MeshPosition=0,0.061,-1.08
 MeshRudder=wp_ssbn_typhoon_dorsal_rudder

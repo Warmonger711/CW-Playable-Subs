@@ -98,7 +98,7 @@ MeshHullCollider=wp_ssn_sierra_coll_hull
 MeshSuperstructureCollider=wp_ssn_sierra_coll_ss
 
 Material=ships/wp_ssn_sierra/wp_ssn_sierra_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/rus_ssn_akula.png
 Mesh=wp_ssn_sierra
 MeshPosition=0,0,-0.6569
 MeshRudder=wp_ssn_sierra_rudder

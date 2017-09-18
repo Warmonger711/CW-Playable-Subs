@@ -29,7 +29,7 @@ TestDepth=1300
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=138
+SelfNoise=132
 ActiveSonarReflection=25
 ActiveSonarModel=chn_hsqc_207
 PassiveSonarModel=chn_hsqc_207
@@ -40,8 +40,8 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.099,0.028,-0.619
 
 [Weapon Systems]
-TorpedoTypes=chn_yu6,chn_yj82,chn_cy1
-TorpedoNumbers=20,4,0
+TorpedoTypes=chn_yu6,chn_yu3,chn_yu5,chn_yj82
+TorpedoNumbers=16,2,2,4
 TorpedoTubes=6
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1

@@ -20,7 +20,8 @@ usn_ss_barbel
 usn_ss_guppyIIa
 usn_ss_tang
 usn_ss_albacore
-chn_ssn_type91
+chn_ssn_type91_70
+chn_ssn_type91_90
 chn_ssn_type93
 chn_ssn_type93a
 chn_ssn_type93b

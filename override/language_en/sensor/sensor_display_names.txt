@@ -1,4 +1,10 @@
 ﻿[SONAR]
+chn_type_603=TYPE-603=This sonar is the one that originally equipped the first Han Class vessels but it was soon replaced by the H/SQ2-262B.
+
+chn_hsqc_207_late=H/SQC-207 Imp.=That's the best sonar suite available to the PLAN. It's said it's better than a AN/BQQ-5.
+
+chn_hsjg_206a=H/SJG-206A= That's the towed array fitted on the latest Shang-B Class SSN, it has good performances but still a little inferior to the american TB-29.
+
 chn_hsq2_262b=H/SQ2-262B=This sonar suite is an improvement over the soviet Trout Cheek passive sonar. It has a better sensivity and incorporates an active search attack sonar.
 
 chn_hsqc_207=H/SQC-207=This sonar suite is an upgraded version of the H/SQ2-262B sonar and it is fitted on the Shang Class submarines.

@@ -65,6 +65,8 @@ wp_mgk600=MGK-600=MGK-600 Irtysh-Amfora Spherical Array.
 
 wp_mgk600_towed=MGK-600=MGK-600 Irtysh-Amfora Towed Array.
 
+wp_mgk400m=MGK-400M=The MGK-400M is the updated version of the original MGK-400 fitted on the Kilo Class SS. It's and advanced sonar suite.
+
 Thomson_Sintra_TSM_2272=TSM 2272=Hull mounted active/passive sonar used in the Walrus class submarines.
 
 Type_2026_towed_array=Type 2026=Type 2026 Towed Array.

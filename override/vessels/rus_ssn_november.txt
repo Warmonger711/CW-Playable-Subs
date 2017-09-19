@@ -97,7 +97,7 @@ MeshHullCollider=wp_ssn_november_coll_hull
 MeshSuperstructureCollider=wp_ssn_november_coll_ss
 
 Material=ships/wp_ssn_november/wp_ssn_november_mat
-MaterialTextures=ships/wp_ssn_november/wp_ssn_november_tx,ships/wp_ssn_november/wp_ssn_november_spec,ships/wp_ssn_november/wp_ssn_november_nm
+MaterialTextures=vessels/textures/rus_ssn_november.png
 Mesh=wp_ssn_november
 MeshPosition=0,-0.023,-0.7394
 MeshRudder=wp_ssn_november_rudder

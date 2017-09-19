@@ -98,7 +98,7 @@ MeshHullCollider=wp_ssn_victor1_coll_hull
 MeshSuperstructureCollider=wp_ssn_victor1_coll_ss
 
 Material=ships/wp_ssn_victor1/wp_ssn_victor1_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/rus_ssn_mike.png
 Mesh=wp_ssn_victor1
 MeshPosition=0,0,-0.5996
 MeshRudder=wp_ssn_victor1_rudder

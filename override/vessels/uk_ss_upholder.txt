@@ -98,7 +98,7 @@ MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 
 Material=ships/wp_ss_kilo/wp_ss_kilo_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/uk_ss_upholder.png
 Mesh=wp_ss_kilo
 
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit

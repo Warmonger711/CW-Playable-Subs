@@ -122,12 +122,13 @@ MastHeight=0.104
 MeshMast=usn_ssn_permit_radar_mast
 
 [Model]
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
 MaterialTextures=terrain/sand
 MeshPosition=0,0.0002,-0.6220
-MeshProp=usn_ssn_permit_prop
+MeshProp=usn_ssn_skipjack_prop5
 MeshRotation=0,0,0
+
 
 [Weapon Systems]
 //Torpedo Mounts

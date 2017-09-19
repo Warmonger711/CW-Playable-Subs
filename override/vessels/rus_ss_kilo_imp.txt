@@ -31,8 +31,8 @@ EscapeDepth=600
 [Acoustics & Sensors]
 SelfNoise=115
 ActiveSonarReflection=24
-ActiveSonarModel=wp_mgk600
-PassiveSonarModel=wp_mgk600
+ActiveSonarModel=wp_mgk400m
+PassiveSonarModel=wp_mgk400m
 TowedArrayModel=wp_shark_tail
 AnechoicCoating=TRUE
 RADAR=wp_snoop_tray
@@ -98,7 +98,7 @@ MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 
 Material=ships/wp_ss_kilo/wp_ss_kilo_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/Textures/rus_ss_kilo_imp.jpg
 Mesh=wp_ss_kilo
 MeshPosition=0,-0.048,-0.4662
 MeshRudder=wp_ss_kilo_rudder

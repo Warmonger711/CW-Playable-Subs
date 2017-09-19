@@ -209,6 +209,15 @@ SonarBaffle=130
 SonarNoisePerKnot=1
 SonarOutput=260
 
+SonarModel=wp_mgk400m
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=31
+SonarPassiveSensitivity=43
+SonarBaffle=130
+SonarNoisePerKnot=1
+SonarOutput=250
+
 SonarModel=wp_mgk600_towed
 SonarType=TOWED
 SonarFrequencies=VL,L
@@ -342,7 +351,8 @@ SonarActiveSensitivity=0
 SonarPassiveSensitivity=47
 SonarBaffle=FALSE
 SonarNoisePerKnot=1
-SonarOutput=0				  
+SonarOutput=0	
+			  
 SonarModel=uk_2046
 SonarType=TOWED
 SonarFrequencies=VL

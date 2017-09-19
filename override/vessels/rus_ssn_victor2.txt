@@ -98,7 +98,7 @@ MeshHullCollider=wp_ssn_victor2_coll_hull
 MeshSuperstructureCollider=wp_ssn_victor2_coll_ss
 
 Material=ships/wp_ssn_victor1/wp_ssn_victor1_mat
-MaterialTextures=ships/wp_ssn_victor1/wp_ssn_victor_tx,ships/wp_ssn_victor1/wp_ssn_victor_spec,ships/wp_ssn_victor1/wp_ssn_victor_nm
+MaterialTextures=vessels/textures/rus_ssn_victor2.png
 Mesh=wp_ssn_victor2
 MeshPosition=0,0,-0.645
 MeshRudder=wp_ssn_victor2_rudder

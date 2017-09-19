@@ -101,7 +101,7 @@ MeshHullCollider=usn_ssn_skipjack_coll_hull
 MeshSuperstructureCollider=usn_ssn_skipjack_coll_ss
 
 Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/uk_ssn_dreadnought.png
 Mesh=usn_ssn_skipjack
 //Rudder
 MeshPosition=0,-0.0016,-0.518
@@ -113,7 +113,7 @@ MeshSternPlanes=usn_ssn_skipjack_sternplanes
 [Model]
 ModelFile=ships/usn_ssn_sturgeon/usn_ssn_sturgeon
 Material=ships/usn_ssn_sturgeon/usn_ssn_sturgeon_mat
-MaterialTextures=terrain/sand
+MaterialTextures=vessels/textures/prop1.png
 MeshPosition=0,0.0002,-0.5636
 MeshProp=usn_ssn_sturgeon_prop
 

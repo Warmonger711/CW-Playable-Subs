@@ -114,12 +114,12 @@ MeshPosition=0,-0.03299,-0.7925
 MeshSternPlanes=wp_ssbn_yankee_sternplanes
 
 //Dome
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-MeshRotation=0,0,0
-MeshPosition=-0.022,0.00,0.2688
-Mesh=usn_ssn_permit_wlr9
-MeshPosition=-0.022,0.008,0.2688
-Mesh=usn_ssn_permit_wlr9
+//ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+//MeshRotation=0,0,0
+//MeshPosition=-0.022,0.00,0.2688
+//Mesh=usn_ssn_permit_wlr9
+//MeshPosition=-0.022,0.008,0.2688
+//Mesh=usn_ssn_permit_wlr9
 
 
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit

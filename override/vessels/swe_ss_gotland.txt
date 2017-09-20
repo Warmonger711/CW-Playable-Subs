@@ -152,9 +152,10 @@ MeshPosition=0,0,-0.49
 Mesh=usn_ssn_skipjack_sternplanes
 
 ModelFile=ships/wp_ss_kilo/wp_ss_kilo
+MaterialTextures=terrain/sand
 MeshPosition=0,-0.0050,-0.5295
 MeshProp=wp_ss_kilo_prop
-MaterialTextures=terrain/sand
+
 
 //Side pole
 ModelFile=weapons/assets/usn_tasm
@@ -196,9 +197,9 @@ Mesh=TASM_Canister
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 MaterialTextures=environment/sky/black
 MeshRotation=0,0,0
-MeshPosition=-0.022,0.025,0.0288
+MeshPosition=-0.0,0.02,0.0288
 Mesh=usn_ssn_permit_wlr9
-MeshPosition=-0.022,0.033,0.0288
+MeshPosition=-0.0,0.028,0.0288
 Mesh=usn_ssn_permit_wlr9
 
 //Masts

@@ -98,7 +98,7 @@ MeshHullCollider=wp_ss_tango_coll_hull
 MeshSuperstructureCollider=wp_ss_tango_coll_ss
 
 Material=ships/wp_ss_tango/wp_ss_tango_mat
-MaterialTextures=ships/wp_ss_tango/wp_ss_tango_tx,ships/wp_ss_tango/wp_ss_tango_spec,ships/wp_ss_tango/wp_ss_tango_nm
+MaterialTextures=vessels/textures/rus_ss_tango.png
 Mesh=wp_ss_tango
 MeshPosition=0,-0.0365,-0.589
 MeshRudder=wp_ss_tango_rudder

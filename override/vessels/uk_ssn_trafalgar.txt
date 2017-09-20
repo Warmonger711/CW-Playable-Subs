@@ -24,7 +24,7 @@ BallastRate=0.25
 Waterline=0.04
 SubmergedAt=0.136
 CavitationParameters=15,-155
-PropRotationSpeed=-190
+PropRotationSpeed=-190,-190
 TestDepth=1800
 EscapeDepth=600
 
@@ -107,30 +107,33 @@ MeshSuperstructureCollider=usn_ssn_permit_coll_ss
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MaterialTextures=environment/sky/black
 Mesh=usn_ssn_permit
-//Mesh=usn_ssn_permit_tb16
+
 //Dome
-MeshPosition=-0.0250,0.012,-0.0288
+MeshPosition=-0.0,0.01,-0.0288
 Mesh=usn_ssn_permit_wlr9
-MeshPosition=-0.0250,0.02,-0.0288
+MeshPosition=-0.0,0.001,-0.0288
 Mesh=usn_ssn_permit_wlr9
-//Mesh=usn_ssn_permit_gnats
-MeshPosition=0,0.0,-0.588
+
+MeshPosition=0,0.0,-0.56
 MeshRudder=usn_ssn_permit_rudders
 
 
 //Sternplanes
-MeshPosition=0,0,-0.5923
+MeshPosition=0,0,-0.58
 MeshSternPlanes=usn_ssn_permit_sternplanes
 
 
-
-
 [Model]
-ModelFile=ships/usn_ssn_sturgeon/usn_ssn_sturgeon
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
 Material=ships/usn_ssn_sturgeon/usn_ssn_sturgeon_mat
 MaterialTextures=terrain/sand
 MeshPosition=0,0.0002,-0.6297
-MeshProp=usn_ssn_sturgeon_prop
+MeshProp=usn_ssn_skipjack_prop5
+
+MeshPosition=0,0.0002,-0.6297
+MeshRotation=0,0,35
+MeshProp=usn_ssn_skipjack_prop5
+MeshRotation=0,0,0
 
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts

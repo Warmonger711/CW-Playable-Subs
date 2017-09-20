@@ -105,7 +105,7 @@ MeshHullCollider=usn_ssn_permit_coll_hull
 MeshSuperstructureCollider=usn_ssn_permit_coll_ss
 
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=environment/sky/Night_Broken_mask
+MaterialTextures=vessels/textures/uk_ssn_swiftsure.png
 Mesh=usn_ssn_permit
 
 //Dome

@@ -105,7 +105,7 @@ Mesh=usn_ssn_permit_wlr9
 //MeshRudder=usn_ssn_permit_rudders
 //MeshPosition=0,0.1133,0.2977
 //MeshBowPlanes=usn_ssn_permit_sailplanes
-MeshPosition=0,0,-0.5923
+MeshPosition=0,0,-0.5812
 MeshSternPlanes=usn_ssn_permit_sternplanes
 
 Material=ships/materials/usn_masts
@@ -125,7 +125,7 @@ MeshMast=usn_ssn_permit_radar_mast
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/usn_ssn_sturgeon/usn_ssn_sturgeon_mat
 MaterialTextures=vessels/Textures/chn_ssn_type91_70_rudder.jpg
-MeshPosition=0,0.0,-0.588
+MeshPosition=0,0.0,-0.5645
 MeshRudder=usn_ssn_permit_rudders
 MeshRotation=0,0,0
 

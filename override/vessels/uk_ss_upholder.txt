@@ -148,9 +148,9 @@ Mesh=wp_bpk_udaloy_torpedomount
 //Dome
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 MeshRotation=0,0,0
-MeshPosition=-0.022,0.025,-0.1288
+MeshPosition=0.0,0.021,-0.1398
 Mesh=usn_ssn_permit_wlr9
-MeshPosition=-0.022,0.033,-0.1288
+MeshPosition=0.0,0.03,-0.1398
 Mesh=usn_ssn_permit_wlr9
 
 [Weapon Systems]

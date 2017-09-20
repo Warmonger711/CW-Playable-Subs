@@ -141,7 +141,7 @@ MeshMast=usn_ssn_skipjack_radar_mast
 //Sail Rudder
 ModelFile=ships/wp_ssbn_typhoon/wp_ssbn_typhoon
 Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
-MeshPosition=0,0.0944,0.139
+MeshPosition=0,0.0944,0.144
 MeshRudder=wp_ssbn_typhoon_dorsal_rudder
 
 [Weapon Systems]

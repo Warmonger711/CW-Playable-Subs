@@ -24,7 +24,7 @@ BallastRate=0.25
 Waterline=0.04
 SubmergedAt=0.114
 CavitationParameters=15,-155
-PropRotationSpeed=-150
+PropRotationSpeed=-150,-150
 TestDepth=2000
 EscapeDepth=600
 
@@ -130,9 +130,13 @@ MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
 
 ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
-MeshPosition=-0.0,0,-0.5717
-MeshProp=wp_ssn_alfa_prop
 MaterialTextures=terrain/sand
+MeshPosition=-0.0,0,-0.5817
+MeshProp=wp_ssn_alfa_prop
+MeshPosition=-0.0,0,-0.5817
+MeshRotation=0,0,35
+MeshProp=wp_ssn_alfa_prop
+MeshRotation=0,0,0
 
 //Duct Spar
 ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey

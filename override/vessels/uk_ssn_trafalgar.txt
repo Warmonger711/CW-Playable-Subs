@@ -104,8 +104,8 @@ MeshRotation=0,0,0
 MeshHullCollider=usn_ssn_permit_coll_hull
 MeshSuperstructureCollider=usn_ssn_permit_coll_ss
 
-Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+Material=ships/usn_ssn_permit/usn_ssn_permit_mat
+MaterialTextures=vessels/textures/uk_ssn_trafalgar.png
 Mesh=usn_ssn_permit
 
 //Dome
@@ -152,7 +152,7 @@ MeshMast=usn_ssn_permit_radar_mast
 //Bowplanes
 //left/right,up/down,forward/back
 ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
-MaterialTextures=environment/sky/black
+//MaterialTextures=environment/sky/black
 MeshPosition=0,-0.0003,0.4977
 MeshBowPlanes=wp_ssbn_yankee_sailplanes
 
@@ -184,7 +184,7 @@ Mesh=wp_ss_whiskey_rudder
 //Duct
 ModelFile=weapons/assets/usn_mk37
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+//MaterialTextures=environment/sky/black
 MeshPosition=0.03,0.0002,-0.6297
 MeshRotation=6,12,0
 Mesh=Mk37

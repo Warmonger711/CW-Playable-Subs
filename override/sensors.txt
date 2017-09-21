@@ -11,6 +11,15 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
 
+SonarModel=chn_hsq2_262a
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=22
+SonarPassiveSensitivity=31
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=200
+
 SonarModel=chn_hsq2_262b
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
@@ -906,6 +915,9 @@ RADARRange=320000
 
 RADARModel=drua33
 RADARRange=60000
+
+RADARModel=chn_hsqzd
+RADARRange=45000
 
 RADARModel=jmsdf_zps_6
 RADARRange=60000

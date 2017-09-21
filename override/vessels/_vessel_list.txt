@@ -30,6 +30,7 @@ chn_ssn_type93b
 chn_ssbn_type092
 it_ss_sauro_iv
 it_ss_toti
+dprk_ss_romeo
 uk_ssn_astute
 uk_ssn_trafalgar
 uk_ssn_swiftsure

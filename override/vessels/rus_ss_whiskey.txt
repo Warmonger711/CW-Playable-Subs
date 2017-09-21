@@ -97,7 +97,7 @@ MeshHullCollider=wp_ss_whiskey_coll_hull
 MeshSuperstructureCollider=wp_ss_whiskey_coll_ss
 
 Material=ships/wp_ss_whiskey/wp_ss_whiskey_mat
-MaterialTextures=ships/wp_ss_whiskey/wp_ss_whiskey_tx,ships/wp_ss_whiskey/wp_ss_whiskey_spec,ships/wp_ss_whiskey/wp_ss_whiskey_nm
+MaterialTextures=vessels/textures/rus_ss_whiskey.png
 Mesh=wp_ss_whiskey
 MeshPosition=0,-0.0261,-0.5174
 MeshRudder=wp_ss_whiskey_rudder

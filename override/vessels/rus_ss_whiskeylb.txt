@@ -105,7 +105,7 @@ MeshSuperstructureCollider=wp_ss_whiskey_coll_ss
 
 
 Material=ships/wp_ss_whiskey/wp_ss_whiskey_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/rus_ss_whiskeylb.png
 Mesh=wp_ss_whiskey
 MeshPosition=0,-0.0261,-0.5174
 MeshRudder=wp_ss_whiskey_rudder
@@ -123,7 +123,8 @@ MeshProp=wp_ss_whiskey_prop_r
 [Model]
 //Lower
 ModelFile=ships/wp_rkr_kirov/wp_rkr_kirov
-MaterialTextures=environment/sky/black
+Material=ships/wp_rkr_kirov/wp_rkr_kirov_mat
+MaterialTextures=vessels/textures/black.png
 MeshRotation=-20,0,0
 MeshPosition=0,0.0375,0.0877
 Mesh=wp_rkr_kirov_asw_launcher

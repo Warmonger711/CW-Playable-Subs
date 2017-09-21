@@ -102,7 +102,7 @@ MeshHullCollider=wp_ssg_juliet_coll_hull
 MeshSuperstructureCollider=wp_ssg_juliet_coll_ss
 
 Material=ships/wp_ssg_juliet/wp_ssg_juliet_mat
-MaterialTextures=ships/wp_ssg_juliet/wp_ssg_juliet_tx,ships/wp_ssg_juliet/wp_ssg_juliet_spec,ships/wp_ssg_juliet/wp_ssg_juliet_nm
+MaterialTextures=vessels/textures/rus_ssg_juliet.png
 Mesh=wp_ssg_juliet
 MeshPosition=0,-0.0444,-0.6241
 MeshRudder=wp_ssg_juliet_rudder

@@ -104,8 +104,8 @@ MeshRotation=0,0,0
 MeshHullCollider=usn_ssn_permit_coll_hull
 MeshSuperstructureCollider=usn_ssn_permit_coll_ss
 
-Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+Material=ships/usn_ssn_permit/usn_ssn_permit_mat
+MaterialTextures=vessels/textures/uk_ssn_trafalgar.png
 Mesh=usn_ssn_permit
 
 //Dome

@@ -97,7 +97,7 @@ MeshHullCollider=wp_ss_romeo_coll_hull
 MeshSuperstructureCollider=wp_ss_romeo_coll_ss
 
 Material=ships/wp_ss_romeo/wp_ss_romeo_mat
-MaterialTextures=ships/wp_ss_romeo/wp_ss_romeo_tx,ships/wp_ss_romeo/wp_ss_romeo_spec,ships/wp_ss_romeo/wp_ss_romeo_nm
+MaterialTextures=vessels/textures/rus_ss_romeo.png
 Mesh=wp_ss_romeo
 MeshPosition=0,-0.0328,-0.5253
 MeshRudder=wp_ss_romeo_rudder

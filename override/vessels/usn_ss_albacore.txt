@@ -121,9 +121,12 @@ MaterialTextures=terrain/sand
 
 //Contra Props
 MeshPosition=0,0.0002,-0.5636
-MeshProp=usn_ssn_skipjack_prop
-MeshPosition=0,0.0002,-0.58
+MeshRotation=0,0,36
 MeshProp=usn_ssn_skipjack_prop5
+MeshPosition=0,0.0002,-0.58
+MeshRotation=0,0,0
+MeshProp=usn_ssn_skipjack_prop5
+
 
 Material=ships/materials/usn_masts
 MeshPosition=0.005,0.075,0.217

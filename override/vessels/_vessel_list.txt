@@ -21,6 +21,7 @@ usn_ss_guppyIIa
 usn_ss_tang
 usn_ss_albacore
 usn_ssn_staynalive
+chn_ss_romeo
 chn_ssn_type91_70
 chn_ssn_type91_90
 chn_ssn_type93
@@ -29,6 +30,7 @@ chn_ssn_type93b
 chn_ssbn_type092
 it_ss_sauro_iv
 it_ss_toti
+dprk_ss_romeo
 uk_ssn_astute
 uk_ssn_trafalgar
 uk_ssn_swiftsure

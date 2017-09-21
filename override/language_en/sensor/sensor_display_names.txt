@@ -5,6 +5,8 @@ chn_hsqc_207_late=H/SQC-207 Imp.=That's the best sonar suite available to the PL
 
 chn_hsjg_206a=H/SJG-206A= That's the towed array fitted on the latest Shang-B Class SSN, it has good performances but still a little inferior to the american TB-29.
 
+chn_hsq2_262a=H/SQ2-262A=This sonar suite is an improvement over the soviet Romeo Class one.
+
 chn_hsq2_262b=H/SQ2-262B=This sonar suite is an improvement over the soviet Trout Cheek passive sonar. It has a better sensivity and incorporates an active search attack sonar.
 
 chn_hsqc_207=H/SQC-207=This sonar suite is an upgraded version of the H/SQ2-262B sonar and it is fitted on the Shang Class submarines.
@@ -190,6 +192,8 @@ drua33=DRUA 33=Mast-mounted surface search radar allows submarines to detect oth
 it_sma_bps_704=SMA MM/BPS 704=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 it_rm_20=RM-20=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+
+chn_hsqzd=H/SQZ-D=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 ts_nav=Terma Scanter=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 

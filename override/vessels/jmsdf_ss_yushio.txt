@@ -29,7 +29,7 @@ TestDepth=1400
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=120
+SelfNoise=130
 ActiveSonarReflection=22
 ActiveSonarModel=jmsdf_an_sqs_36
 PassiveSonarModel=jmsdf_zqq_4

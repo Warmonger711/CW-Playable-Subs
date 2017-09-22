@@ -106,7 +106,7 @@ MeshSuperstructureCollider=usn_ssn_los_angeles_coll_ss
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MaterialTextures=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_tx,ships/usn_ssn_los_angeles/usn_ssn_los_angeles_spec,ships/usn_ssn_los_angeles/usn_ssn_los_angeles_nm
 Mesh=usn_ssn_los_angeles
-MeshPosition=0,0.0094,-0.729
+MeshPosition=0,0,-0.71175
 MeshRudder=usn_ssn_los_angeles_rudders
 
 [Model]
@@ -117,7 +117,7 @@ MeshBowPlanes=wp_ssn_sierra_bowplanes
 
 [Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
-MeshPosition=0,0.0027,-0.7329
+MeshPosition=0,0.003,-0.7321
 MeshSternPlanes=usn_ssn_los_angeles_sternplanes
 MeshPosition=0,0.0029,-0.8013
 MeshProp=usn_ssn_los_angeles_prop

@@ -115,14 +115,14 @@ MeshBowPlanes=wp_ssn_sierra_bowplanes
 
 
 [Model]
-ModelFile=ships/usn_ssn_sturgeon/usn_ssn_sturgeon
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
 MaterialTextures=terrain/sand
 MeshPosition=0,0.0029,-0.803
-MeshProp=usn_ssn_sturgeon_prop
+MeshProp=usn_ssn_skipjack_prop
 MeshPosition=0,0.0029,-0.803
 MeshRotation=0,0,24.715
-MeshProp=usn_ssn_sturgeon_prop
+MeshProp=usn_ssn_skipjack_prop
 MeshRotation=0,0,0
 
 

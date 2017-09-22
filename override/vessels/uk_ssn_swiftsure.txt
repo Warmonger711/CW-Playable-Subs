@@ -114,21 +114,19 @@ Mesh=usn_ssn_permit_wlr9
 MeshPosition=0,0.0,-0.56
 MeshRudder=usn_ssn_permit_rudders
 
-
 //Sternplanes
 MeshPosition=0,0,-0.58
 MeshSternPlanes=usn_ssn_permit_sternplanes
 
 [Model]
-ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
-Material=ships/usn_ssn_sturgeon/usn_ssn_sturgeon_mat
-MaterialTextures=terrain/sand
-MeshPosition=0,0.0002,-0.6297
-MeshProp=usn_ssn_skipjack_prop5
-
-MeshPosition=0,0.0002,-0.6297
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+Material=ships/wp_ssn_alfa/wp_ssn_alfa_mat
+MaterialTextures=vessels/textures/prop1.png
+MeshPosition=0,0.0002,-0.6307
+MeshProp=wp_ssn_alfa_prop
+MeshPosition=0,0.0002,-0.6307
 MeshRotation=0,0,35
-MeshProp=usn_ssn_skipjack_prop5
+MeshProp=wp_ssn_alfa_prop
 MeshRotation=0,0,0
 
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit

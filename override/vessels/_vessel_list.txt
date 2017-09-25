@@ -45,6 +45,7 @@ jmsdf_ss_yushio
 jmsdf_ss_oyashio
 ger_ss_209
 ger_ssn_212a
+isn_ss_dolphin
 fra_ssbn_redoubtable
 fra_ssn_rubis
 swe_ss_gotland

@@ -1,6 +1,6 @@
 Designation=SS
 ShipType=SUBMARINE
-PlayerHUD=hud/russian
+PlayerHUD=hud/default
 
 Length=74
 Beam=9.9
@@ -12,11 +12,11 @@ HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=12
-SubmergedSpeed=25
-AccelerationRate=0.1
-DecelerationRate=0.06
+SubmergedSpeed=23
+AccelerationRate=0.26
+DecelerationRate=0.106
 RudderTurnRate=0.5
-TurnRate=2.5
+TurnRate=3.6
 PivotPointTurning=0.256
 DiveRate=1
 SurfaceRate=1
@@ -25,12 +25,12 @@ Waterline=0.04
 SubmergedAt=0.147
 CavitationParameters=20,-100
 PropRotationSpeed=-150
-TestDepth=820
+TestDepth=1150
 EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=110
-ActiveSonarReflection=24
+ActiveSonarReflection=17
 ActiveSonarModel=de_stn_dbqs40
 PassiveSonarModel=de_stn_dbqs40
 TowedArrayModel=ae_tas3
@@ -40,8 +40,8 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.109,0.003,-0.779
 
 [Weapon Systems]
-TorpedoTypes=dm2a4_seehecht,usn_tlam
-TorpedoNumbers=12,4
+TorpedoTypes=dm2a3_seehecht,dm2a4_seehecht,usn_ugm84,usn_tlam
+TorpedoNumbers=11,0,3,2
 TorpedoTubes=10
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1,1,1,1,1

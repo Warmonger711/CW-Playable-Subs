@@ -6,4 +6,4 @@ History=Self Noise Rating: 160 db\nEscape Depth: 600 ft\n\nThe Soviet Echo I cla
 [Player Ship Instances]
 PlayerClassNames=K-45, K-104, K-59, K-66, K-122, K-151
 
-PlayerClassHullNumbers=#
+PlayerClassHullNumbers=K-45, K-104, K-59, K-66, K-122, K-151

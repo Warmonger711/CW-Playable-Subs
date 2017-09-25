@@ -1,6 +1,6 @@
 Designation=SSN
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/uk
 
 Length=97
 Beam=11.3

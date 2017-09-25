@@ -237,18 +237,18 @@ BottomLeftPanelPos=0,0
 //SensorToolbarOffset=0,0
 
 //Force all toolbars on in bottom horizontal row
-//ToolbarsPos=0,0,0
-//ForceAllToolbarsOn=TRUE
-//HelmToolbarOffset=361,-346
-//DiveToolbarOffset=700,-346
-//SensorToolbarOffset=1039,-346
-
-//Force all toolbars on in vertical stack to the right of the mini-map
 ToolbarsPos=0,0,0
 ForceAllToolbarsOn=TRUE
-HelmToolbarOffset=331,-200
-DiveToolbarOffset=331,-270
-SensorToolbarOffset=331,-340
+HelmToolbarOffset=361,-346
+DiveToolbarOffset=700,-346
+SensorToolbarOffset=1039,-346
+
+//Force all toolbars on in vertical stack to the right of the mini-map
+//ToolbarsPos=0,0,0
+//ForceAllToolbarsOn=TRUE
+//HelmToolbarOffset=331,-200
+//DiveToolbarOffset=331,-270
+//SensorToolbarOffset=331,-340
 
 BottomRightPanelPos=0,0
 UpperRightStatusIcons=0,-3

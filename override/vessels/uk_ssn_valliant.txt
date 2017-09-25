@@ -1,6 +1,6 @@
 Designation=SSN
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/uk
 
 Length=87
 Beam=10.1
@@ -104,10 +104,10 @@ Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
 MaterialTextures=environment/sky/black
 Mesh=usn_ssn_skipjack
 //Rudder
-MeshPosition=0,-0.0016,-0.518
+MeshPosition=0,0,-0.50184
 MeshRudder=usn_ssn_skipjack_rudders
 //Sternplanes
-MeshPosition=0,0,-0.531
+MeshPosition=0,0,-0.5286
 MeshSternPlanes=usn_ssn_skipjack_sternplanes
 
 [Model]

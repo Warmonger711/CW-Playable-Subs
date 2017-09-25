@@ -133,16 +133,16 @@ MeshRotation=0,0,0
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MaterialTextures=vessels/Textures/chn_ssn_type91_70_sail_planes.jpg
-MeshPosition=0,0.1133,0.2977
+MeshPosition=0,0.1078,0.2977
 MeshBowPlanes=usn_ssn_permit_sailplanes
 MeshRotation=0,0,0
 
 [Model]
-ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+ModelFile=ships/wp_ssn_victor1/wp_ssn_victor1
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
 MaterialTextures=terrain/sand
-MeshPosition=0,0.0002,-0.6220
-MeshProp=usn_ssn_skipjack_prop5
+MeshPosition=0,0,-0.622
+MeshProp=wp_ssn_victor1_prop
 MeshRotation=0,0,0
 
 [Weapon Systems]

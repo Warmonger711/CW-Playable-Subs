@@ -58,7 +58,7 @@ AudioLoop=FALSE;
 
 // Yu-1 Dual role chinese torpedo
 WeaponObjectReference=chn_yu1
-WeaponSprite=hud/default/wp_set-65_sprite.png
+WeaponSprite=hud/russian/wp_set-65_sprite.png
 WeaponType=TORPEDO
 Warhead=400
 SurfaceLaunched=FALSE
@@ -101,7 +101,7 @@ AudioLoop=TRUE
 
 // Yu-3 Dual role chinese torpedo
 WeaponObjectReference=chn_yu3
-WeaponSprite=hud/default/wp_ugst_sprite.png
+WeaponSprite=hud/russian/wp_ugst_sprite.png
 WeaponType=TORPEDO
 Warhead=300
 SurfaceLaunched=FALSE
@@ -235,7 +235,7 @@ AudioLoop=TRUE
 
 //Yu-6 Dual role torpedo
 WeaponObjectReference=chn_yu6
-WeaponSprite=hud/default/wp_uset-80_sprite.png
+WeaponSprite=hud/russian/wp_uset-80_sprite.png
 WeaponType=TORPEDO
 Warhead=600
 SurfaceLaunched=FALSE
@@ -283,7 +283,7 @@ AudioLoop=FALSE;
 
 //Yu-9 dual role torpedo
 WeaponObjectReference=chn_yu9
-WeaponSprite=hud/default/wp_ugst_sprite.png
+WeaponSprite=hud/russian/wp_ugst_sprite.png
 WeaponType=TORPEDO
 Warhead=300
 SurfaceLaunched=FALSE
@@ -434,7 +434,7 @@ AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=swe_t613
-WeaponSprite=hud/default/uk_mk20s_sprite.png
+WeaponSprite=hud/uk/uk_mk20s_sprite.png
 WeaponType=TORPEDO
 //Warhead=240
 //300kg warhead, 1980s in service date, country well known for explosives!, assume 1.86x TNT like PBXN-103 in US Mk48
@@ -478,7 +478,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_ugst
-WeaponSprite=hud/default/wp_ugst_sprite.png
+WeaponSprite=hud/russian/wp_ugst_sprite.png
 WeaponType=TORPEDO
 //Warhead=660
 //200kg of explosive, 1990s, assume 1.85x TNT like US Mk48
@@ -534,7 +534,7 @@ AudioLoop=FALSE;
 //F17P Mod 2 (1988), range / speed of 32,000 yards (30,000 m) / 35 knots.
 //The DTCN F17 was a wire-guided anti-surface ship torpedo originally produced in 1971. France, Spain, and Saudi Arabia were its primary users.
 WeaponObjectReference=fr_f17
-WeaponSprite=hud/default/f17_sprite.png
+WeaponSprite=hud/uk/f17_sprite.png
 WeaponType=TORPEDO
 //Warhead=250
 //250kg HBX-3, 1.5x TNT
@@ -688,7 +688,7 @@ AudioLoop=FALSE;
 //upgrade program 2009- ??
 //upgrade program 2014- ??
 WeaponObjectReference=uk_sf
-WeaponSprite=hud/default/uk_sf_sprite.png
+WeaponSprite=hud/uk/uk_sf_sprite.png
 WeaponType=TORPEDO
 //incorrect, this is the weight in lbs
 //Warhead=660
@@ -742,7 +742,7 @@ AudioLoop=FALSE;
 // Mod1 1979 Dual purpose, highly unreliable, 80% failure rate
 // Mod2 1986 improved post-Falklands war. Dual mode.
 WeaponObjectReference=uk_tf
-WeaponSprite=hud/default/uk_tf_sprite.png
+WeaponSprite=hud/uk/uk_tf_sprite.png
 WeaponType=TORPEDO
 //incorrect (based on lbs weight?)
 //Warhead=660
@@ -805,7 +805,7 @@ AudioLoop=FALSE;
 //RangeInYards=8750
 //RunSpeed=28
 WeaponObjectReference=uk_mk23
-WeaponSprite=hud/default/uk_mk23_sprite.png
+WeaponSprite=hud/uk/uk_mk23_sprite.png
 WeaponType=TORPEDO
 //89kg warhead, warhead 1955 in service, assume Torpex x1.5 = 133.5
 Warhead=135
@@ -852,7 +852,7 @@ AudioLoop=TRUE
 
 // UK Mk20-S "Bidder" sub-launched passive-only homing-only torpedo
 WeaponObjectReference=uk_mk20s
-WeaponSprite=hud/default/uk_mk20s_sprite.png
+WeaponSprite=hud/uk/uk_mk20s_sprite.png
 WeaponType=TORPEDO
 //incorrect warhead, weight in lbs
 //Warhead=196
@@ -900,7 +900,7 @@ AudioLoop=TRUE
 
 // UK Mk VIII** (late) 
 WeaponObjectReference=uk_mk8
-WeaponSprite=hud/default/uk_mk8_sprite.png
+WeaponSprite=hud/uk/uk_mk8_sprite.png
 WeaponType=TORPEDO
 //This was the MkVIII** (early) WW2-era warhead, also incorrect because the value is in lbs (327kg, straight TNT)
 //Warhead=722 
@@ -1137,7 +1137,7 @@ AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=wp_53-65M
-WeaponSprite=hud/default/wp_53-65M_sprite.png
+WeaponSprite=hud/russian/wp_53-65M_sprite.png
 WeaponType=TORPEDO
 //Warhead=300
 //300kg warhead, 60s era, assume 1.5 x TNT
@@ -1179,7 +1179,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_65-76
-WeaponSprite=hud/default/wp_65-76_sprite.png
+WeaponSprite=hud/russian/wp_65-76_sprite.png
 WeaponType=TORPEDO
 //Warhead=800
 //450 kg warhead, 60s era, assume 1.5x TNT = 675
@@ -1276,7 +1276,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=rus_rsm56_slbm
-WeaponSprite=hud/default/rus_rsm56_slbm_sprite.png
+WeaponSprite=hud/russian/rus_rsm56_slbm_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
 Warhead=150000000
@@ -1329,7 +1329,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=rus_r39_slbm
-WeaponSprite=hud/default/rus_r39_slbm_sprite.png
+WeaponSprite=hud/russian/rus_r39_slbm_sprite.png
 WeaponType=MISSILE
 MissilePayload=warhead
 Warhead=150000000
@@ -1647,7 +1647,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_p70
-WeaponSprite=hud/default/wp_p70_sprite.png
+WeaponSprite=hud/russian/wp_p70_sprite.png
 WeaponType=MISSILE
 Warhead=1170
 SurfaceLaunched=FALSE
@@ -1753,7 +1753,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=usn_SUBROCii
-WeaponSprite=hud/default/wp_ss-n-16_sprite.png
+WeaponSprite=hud/russian/wp_ss-n-16_sprite.png
 WeaponType=MISSILE
 MissilePayload=usn_mk50
 Warhead=0
@@ -1855,7 +1855,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_p700
-WeaponSprite=hud/default/wp_p700_sprite.png
+WeaponSprite=hud/russian/wp_p700_sprite.png
 WeaponType=MISSILE
 Warhead=750
 SurfaceLaunched=FALSE
@@ -1908,7 +1908,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_p500
-WeaponSprite=hud/default/wp_p500_sprite.png
+WeaponSprite=hud/russian/wp_p500_sprite.png
 WeaponType=MISSILE
 Warhead=750
 SurfaceLaunched=FALSE
@@ -1961,7 +1961,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_ss-n-15
-WeaponSprite=hud/default/wp_ss-n-16_sprite.png
+WeaponSprite=hud/russian/wp_ss-n-16_sprite.png
 WeaponType=MISSILE
 MissilePayload=wp_umgt-1
 Warhead=0
@@ -2011,7 +2011,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_p120
-WeaponSprite=hud/default/wp_p700_sprite.png
+WeaponSprite=hud/russian/wp_p700_sprite.png
 WeaponType=MISSILE
 Warhead=1500
 SurfaceLaunched=FALSE
@@ -2061,7 +2061,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_p6
-WeaponSprite=hud/default/ssn3_sprite.png
+WeaponSprite=hud/russian/ssn3_sprite.png
 WeaponType=MISSILE
 Warhead=1000
 SurfaceLaunched=FALSE
@@ -2114,7 +2114,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_p5c
-WeaponSprite=hud/default/ssn3_sprite.png
+WeaponSprite=hud/russian/ssn3_sprite.png
 WeaponType=MISSILE
 Warhead=1000
 SurfaceLaunched=FALSE
@@ -2167,7 +2167,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_p5cland
-WeaponSprite=hud/default/ssn3_sprite.png
+WeaponSprite=hud/russian/ssn3_sprite.png
 WeaponType=MISSILE
 Warhead=1000
 SurfaceLaunched=FALSE
@@ -2221,7 +2221,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_p6land
-WeaponSprite=hud/default/ssn3_sprite.png
+WeaponSprite=hud/russian/ssn3_sprite.png
 WeaponType=MISSILE
 Warhead=1000
 SurfaceLaunched=FALSE
@@ -2977,7 +2977,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_test-71
-WeaponSprite=hud/default/wp_test-71_sprite.png
+WeaponSprite=hud/russian/wp_test-71_sprite.png
 WeaponType=TORPEDO
 //205kg explosive charge, assume 1.5x TNT
 Warhead=300
@@ -3204,7 +3204,7 @@ AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=wp_set-65
-WeaponSprite=hud/default/wp_set-65_sprite.png
+WeaponSprite=hud/russian/wp_set-65_sprite.png
 WeaponType=TORPEDO
 //205kg explosive charge, assume 1.5x TNT
 Warhead=300
@@ -3250,7 +3250,7 @@ AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=wp_uset-80
-WeaponSprite=hud/default/wp_uset-80_sprite.png
+WeaponSprite=hud/russian/wp_uset-80_sprite.png
 WeaponType=TORPEDO
 // warhead stated to be 200-300 kg. average value x 1.5 =375
 Warhead=375
@@ -3298,7 +3298,7 @@ AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=wp_ss-n-14
-WeaponSprite=hud/default/wp_ss-n-16_sprite.png
+WeaponSprite=hud/russian/wp_ss-n-16_sprite.png
 WeaponType=MISSILE
 MissilePayload=wp_umgt-1
 Warhead=0
@@ -3350,7 +3350,7 @@ AudioLoop=TRUE
 // --------------------------------------------- ASROC MISSILES START
 
 WeaponObjectReference=wp_ss-n-14a
-WeaponSprite=hud/default/wp_ss-n-16_sprite.png
+WeaponSprite=hud/russian/wp_ss-n-16_sprite.png
 WeaponType=MISSILE
 //MissilePayload=wp_umgt-1
 MissilePayload=usn_mk46asroc
@@ -3400,7 +3400,7 @@ AudioLoop=TRUE
 [/Model]
 
 WeaponObjectReference=wp_ss-n-14b
-WeaponSprite=hud/default/wp_ss-n-16_sprite.png
+WeaponSprite=hud/russian/wp_ss-n-16_sprite.png
 WeaponType=MISSILE
 //MissilePayload=wp_umgt-1
 MissilePayload=usn_mk46asroc_early
@@ -3452,7 +3452,7 @@ AudioLoop=TRUE
 // --------------------------------------------- ASROC MISSILES END
 
 WeaponObjectReference=wp_ss-n-16
-WeaponSprite=hud/default/wp_ss-n-16_sprite.png
+WeaponSprite=hud/russian/wp_ss-n-16_sprite.png
 WeaponType=MISSILE
 MissilePayload=wp_umgt-1
 Warhead=0

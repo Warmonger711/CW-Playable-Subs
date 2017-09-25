@@ -29,7 +29,7 @@ TestDepth=1400
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=120
+SelfNoise=130
 ActiveSonarReflection=22
 ActiveSonarModel=jmsdf_an_sqs_36
 PassiveSonarModel=jmsdf_zqq_4
@@ -100,11 +100,11 @@ MeshSuperstructureCollider=usn_ssn_skipjack_coll_ss
 Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
 MaterialTextures=ships/usn_ssn_skipjack/usn_ssn_skipjack_tx,ships/usn_ssn_skipjack/usn_ssn_skipjack_spec,ships/usn_ssn_skipjack/usn_ssn_skipjack_nm
 Mesh=usn_ssn_skipjack
-MeshPosition=0,-0.0016,-0.518
+MeshPosition=0,0,-0.50184
 MeshRudder=usn_ssn_skipjack_rudders
 MeshPosition=0,0.1025,0.2238
 MeshBowPlanes=usn_ssn_skipjack_sailplanes
-MeshPosition=0,0,-0.531
+MeshPosition=0,0,-0.5286
 MeshSternPlanes=usn_ssn_skipjack_sternplanes
 MeshPosition=0,0.0002,-0.5636
 MeshProp=usn_ssn_skipjack_prop

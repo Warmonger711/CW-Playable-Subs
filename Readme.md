@@ -1,7 +1,21 @@
 -----
 ## Developer Announcements
 _Important & urgent information for the mod developers will appear in this section._
-* **None at this time.**
+* **When adding a new sub class to the mod, please also add it to the campaign files and the appropriate single mission files so that it's available for use by players. I can't continue to keep track of this alone. Please make sure you add your new class in the appropriate spot on the sub list (keep the same nations grouped together). These are the files that must be updated when a new class is added:**
+  * override\campaign\campaign001\campaign_summary.txt
+  * override\campaign\campaign002\campaign_summary.txt
+  * override\campaign\campaign003\campaign_summary.txt
+  * override\campaign\campaign004\campaign_summary.txt
+  * override\campaign\campaign005\campaign_summary.txt
+  * override\campaign\campaign006\campaign_summary.txt
+  * Single Missions 1 & 2 - NATO Subs Only
+  * Single Missions 3 & 4 - Russian Subs Only
+  * Single Mission 15 - Russian SSBNs Only
+  * Single Mission 16 - NATO SSBNs Only
+  * Single Missions 17 - 34 - All Subs
+  * Single Mission 36 - NATO SSBNs Only (Must have working SLBMs!)
+  * Single Mission 37 - Russian SSBNs Only (Must have working SLBMs!)
+
 -----
 
 ### Info For Players

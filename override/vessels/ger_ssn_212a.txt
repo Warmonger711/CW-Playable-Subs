@@ -40,7 +40,7 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.109,0.003,-0.779
 
 [Weapon Systems]
-TorpedoTypes=dm2a4_seehecht,usn_moss,usn_SUBROCii,usn_tasm,usn_tlam
+TorpedoTypes=dm2a4_seehecht,usn_moss_2,usn_SUBROCii,usn_tasm,usn_tlam
 TorpedoNumbers=11,1,0,1,0
 TorpedoTubes=6
 NumberOfWires=6

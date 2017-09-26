@@ -12,7 +12,7 @@ _Important & urgent information for the mod developers will appear in this secti
   * Single Missions 3 & 4 - Russian Subs Only
   * Single Mission 15 - Russian SSBNs Only
   * Single Mission 16 - NATO SSBNs Only
-  * Single Missions 17 - 34 - All Subs
+  * Single Missions 17 thru 34 - All Subs
   * Single Mission 36 - NATO SSBNs Only (Must have working SLBMs!)
   * Single Mission 37 - Russian SSBNs Only (Must have working SLBMs!)
 

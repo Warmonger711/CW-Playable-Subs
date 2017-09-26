@@ -146,7 +146,7 @@ MeshMast=usn_ssn_permit_radar_mast
 //Bowplanes
 //left/right,up/down,forward/back
 ModelFile=ships/wp_ssn_november/wp_ssn_november
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0,-0.0003,0.4977
 MeshBowPlanes=wp_ssn_november_bowplanes
 
@@ -161,7 +161,7 @@ MeshBowPlanes=wp_ssn_november_bowplanes
 //Duct Spar
 ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0.015,0.0152,-0.5937
 MeshRotation=-25,25,135
 Mesh=wp_ss_whiskey_rudder
@@ -178,7 +178,7 @@ Mesh=wp_ss_whiskey_rudder
 //Duct
 ModelFile=weapons/assets/usn_mk37
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0.03,0.0002,-0.6297
 MeshRotation=6,12,0
 Mesh=Mk37

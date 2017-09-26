@@ -99,7 +99,7 @@ MeshHullCollider=wp_ssgn_charlie_coll_hull
 MeshSuperstructureCollider=wp_ssgn_charlie_coll_ss
 
 Material=ships/wp_ssgn_charlie1/wp_ssgn_charlie1_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ssgn_charlie1
 MeshPosition=0,-0.012,-0.6197
 MeshRudder=wp_ssgn_charlie1_rudder

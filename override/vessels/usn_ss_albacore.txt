@@ -98,7 +98,7 @@ MeshHullCollider=usn_ssn_skipjack_coll_hull
 MeshSuperstructureCollider=usn_ssn_skipjack_coll_ss
 
 Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=usn_ssn_skipjack
 Mesh=usn_ssn_skipjack_bqr25
 

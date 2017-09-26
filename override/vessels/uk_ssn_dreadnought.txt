@@ -135,7 +135,7 @@ MeshMast=usn_ssn_skipjack_radar_mast
 //Bowplanes
 //left/right,up/down,forward/back
 ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0,0.0503,0.3777
 MeshBowPlanes=wp_ssbn_yankee_sailplanes
 

@@ -98,7 +98,7 @@ MeshHullCollider=usn_ssn_skipjack_coll_hull
 MeshSuperstructureCollider=usn_ssn_skipjack_coll_ss
 
 Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=usn_ssn_skipjack
 Mesh=usn_ssn_skipjack_bqr25
 MeshPosition=0,0,-0.5286
@@ -129,7 +129,7 @@ MeshRudder=usn_ssn_permit_rudders
 [Model]
 
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=.0,.043,0.37
 MeshBowPlanes=usn_ssn_los_angeles_sailplanes
 

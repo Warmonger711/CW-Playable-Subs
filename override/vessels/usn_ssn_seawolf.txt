@@ -40,7 +40,7 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.109,0.003,-0.779
 
 [Weapon Systems]
-TorpedoTypes=usn_mk48_adcap,usn_moss,usn_SUBROCii,usn_ugm84,usn_tasm,usn_tlam
+TorpedoTypes=usn_mk48_adcap,usn_moss_2,usn_SUBROCii,usn_ugm84,usn_tasm,usn_tlam
 TorpedoNumbers=27,5,3,5,10,0
 TorpedoTubes=8
 NumberOfWires=8
@@ -153,7 +153,7 @@ Mesh=wp_vtr_andizhan_rudder
 MeshRotation=0,0,0
 
 //Spar bump
-ModelFile=weapons/assets/usn_moss
+ModelFile=weapons/assets/usn_moss_2
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MaterialTextures=vessels/textures/usn_ssn_virginia.png
 
@@ -197,7 +197,7 @@ MaterialTextures=vessels/textures/usn_ssn_virginia.png
 
 ModelFile=weapons/assets/usn_mk37
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0.032,0.0029,-0.8013
 MeshRotation=6.4,12.8,0
 Mesh=Mk37

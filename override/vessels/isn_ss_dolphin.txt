@@ -96,7 +96,7 @@ MeshRotation=0,0,0
 MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 Material=ships/wp_ss_kilo/wp_ss_kilo_mat
-MaterialTextures=hud/default/grass.png
+MaterialTextures=vessels/textures/isn_ss_dolphin.png
 Mesh=wp_ss_kilo
 MeshRotation=0,90,0
 MeshSternPlanes=wp_ss_kilo_sternplanes
@@ -111,18 +111,19 @@ MeshRotation=0,0,0
 //MeshBowPlanes=wp_ssn_november_bowplanes
 
 //Masts
-ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
-MeshPosition=0.0,-0.0346,-0.5641
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=-0.0072,0.075,0.317
+MeshPosition=0,0.030,0.160
 MastHeight=0.085
-MeshMast=usn_ssn_los_angeles_periscope
-MeshPosition=0,0.075,0.3036
+MeshMast=usn_ssn_permit_periscope
+
+MeshPosition=0,0.030,0.130
 MastHeight=0.085
-MeshMast=usn_ssn_los_angeles_esm_mast
-MeshPosition=-0.003,0.075,0.3487
+MeshMast=usn_ssn_permit_esm_mast
+
+MeshPosition=0,0.030,0.110
 MastHeight=0.085
-MeshMast=usn_ssn_los_angeles_radar_mast
+MeshMast=usn_ssn_permit_radar_mast
 
 //Rudder
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit

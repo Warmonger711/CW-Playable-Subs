@@ -133,28 +133,27 @@ MeshPosition=0,0.0029,-0.8013
 MeshProp=usn_ssn_los_angeles_prop
 
 //Permit
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=vessels/textures/usn_ssbn_ohio.png
-
-MeshPosition=0,.03,0
-Mesh=usn_ssn_permit
+//ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+//Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
+//MaterialTextures=vessels/textures/usn_ssbn_ohio.png
+//MeshPosition=0,0.03,0
+//Mesh=usn_ssn_permit
 
 //Tail Fins
 ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey
 Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
 MaterialTextures=vessels/textures/usn_ssn_virginia.png
-MeshPosition=.11,.003,-.712
+MeshPosition=.095,.003,-.712
 Mesh=wp_ss_whiskey_rudder
-MeshPosition=.11,.003,-.724
+MeshPosition=.095,.003,-.724
 Mesh=wp_ss_whiskey_rudder
-MeshPosition=.11,.003,-.73
+MeshPosition=.095,.003,-.73
 Mesh=wp_ss_whiskey_rudder
-MeshPosition=-.11,.003,-.712
+MeshPosition=-.095,.003,-.712
 Mesh=wp_ss_whiskey_rudder
-MeshPosition=-.11,.003,-.724
+MeshPosition=-.095,.003,-.724
 Mesh=wp_ss_whiskey_rudder
-MeshPosition=-.11,.003,-.73
+MeshPosition=-.095,.003,-.73
 Mesh=wp_ss_whiskey_rudder
 
 [Weapon Systems]

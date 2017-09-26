@@ -99,7 +99,7 @@ MeshHullCollider=wp_ssn_alfa_coll_hull
 MeshSuperstructureCollider=wp_ssn_alfa_coll_ss
 
 Material=ships/wp_ssn_alfa/wp_ssn_alfa_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ssn_alfa
 MeshPosition=0,0,-0.4993
 MeshRudder=wp_ssn_alfa_rudder

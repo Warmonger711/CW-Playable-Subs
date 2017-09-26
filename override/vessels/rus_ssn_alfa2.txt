@@ -1,54 +1,54 @@
 Designation=SSN
 ShipType=SUBMARINE
-PlayerHUD=hud/uk
+PlayerHUD=hud/russian
 
-Length=97
-Beam=11.3
+Length=81.4
+Beam=9.5
 HullHeight=0.08
-Displacement=3680
-Crew=98
+Displacement=4500
+Crew=45
 Range=10000
 HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=20
-SubmergedSpeed=30
-AccelerationRate=0.35
+SubmergedSpeed=46
+AccelerationRate=0.55
 DecelerationRate=0.08
-RudderTurnRate=1
-TurnRate=2.2
+RudderTurnRate=1.2
+TurnRate=2.9
 PivotPointTurning=0.256
-DiveRate=6
-SurfaceRate=6
-BallastRate=0.25
+DiveRate=6.5
+SurfaceRate=6.5
+BallastRate=0.35
 Waterline=0.04
 SubmergedAt=0.114
-CavitationParameters=15,-155
-PropRotationSpeed=-150,-150
+CavitationParameters=20,-100
+PropRotationSpeed=-180,180
 TestDepth=2000
-EscapeDepth=600
+EscapeDepth=1000
 
 [Acoustics & Sensors]
-SelfNoise=108
-ActiveSonarReflection=30
-ActiveSonarModel=uk_2076
-PassiveSonarModel=uk_2076
-TowedArrayModel=uk_2065
+SelfNoise=118
+ActiveSonarReflection=22
+ActiveSonarModel=wp_mgk600
+PassiveSonarModel=wp_mgk600
+TowedArrayModel=wp_mgk600_towed
 AnechoicCoating=TRUE
-RADAR=uk_t1007
+RADAR=wp_snoop_tray
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=uk_sf,usn_tlam,usn_moss
-TorpedoNumbers=24,12,4
-TorpedoTubes=6
-NumberOfWires=6
-TubeConfig=1,1,1,1,1,1
+TorpedoTypes=wp_ugst,wp_53-65M,russian_moss,wp_s10,wp_ss-n-16
+TorpedoNumbers=18,0,2,4,4
+TorpedoTubes=8
+NumberOfWires=8
+TubeConfig=1,1,1,1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=30
+NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
 [Subsystems]
@@ -98,40 +98,34 @@ MeshHullCollider=wp_ssn_alfa_coll_hull
 MeshSuperstructureCollider=wp_ssn_alfa_coll_ss
 
 Material=ships/wp_ssn_alfa/wp_ssn_alfa_mat
-MaterialTextures=vessels/textures/darkgrey.png
+MaterialTextures=vessels/textures/rus_ssn_alfa2.png
 Mesh=wp_ssn_alfa
 MeshPosition=0,0,-0.4993
 MeshRudder=wp_ssn_alfa_rudder
+MeshPosition=0,0,0.4612
+MeshBowPlanes=wp_ssn_alfa_bowplanes
 MeshPosition=0,0,-0.4993
 MeshSternPlanes=wp_ssn_alfa_sternplanes
-
-
-//Bowplanes
-//left/right,up/down,forward/back
-ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
-MaterialTextures=vessels/textures/darkgrey.png
-MeshPosition=0,0.05,0.4612
-MeshBowPlanes=wp_ssbn_yankee_sailplanes
-
 
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=0,0.050,0.230
-MastHeight=0.095
+MeshPosition=0,0.020,0.230
+MastHeight=0.085
 MeshMast=usn_ssn_permit_periscope
 
-MeshPosition=0,0.050,0.200
-MastHeight=0.090
+MeshPosition=0,0.005,0.200
+MastHeight=0.085
 MeshMast=usn_ssn_permit_esm_mast
 
-MeshPosition=0,0.055,0.170
+MeshPosition=0,0.005,0.170
 MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
 
+//Prop
 ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
 MaterialTextures=terrain/sand
-MeshPosition=-0.0,0,-0.5817
+MeshPosition=-0.0,0,-0.5517
 MeshProp=wp_ssn_alfa_prop
 MeshPosition=-0.0,0,-0.5817
 MeshRotation=0,0,35
@@ -388,10 +382,6 @@ MeshPosition=0.025,0.0002,-0.5717
 MeshRotation=5,10,0
 Mesh=Mk37
 
-
-
-
-
 [Weapon Systems]
 //Torpedo Mounts
 
@@ -429,6 +419,18 @@ TorpedoEffectPosition=0,0,0.0232
 MeshRotation=0,0,0
 MeshPosition=-0.0275,0.0125,0.575
 TorpedoSpawnPosition=-0.0275,0.0125,0.575
+TorpedoEffectPosition=0,0,0.0232
+
+//Tube 7
+MeshRotation=0,0,0
+MeshPosition=0.01,0.03,0.56
+TorpedoSpawnPosition=0.01,0.03,0.56
+TorpedoEffectPosition=0,0,0.0232
+
+//Tube 8
+MeshRotation=0,0,0
+MeshPosition=-0.01,0.03,0.56
+TorpedoSpawnPosition=-0.01,0.03,0.56
 TorpedoEffectPosition=0,0,0.0232
 
 //Noisemaker Mount
@@ -470,4 +472,4 @@ PropAudioPitchRange=0.1,0.6
 PingAudioClip=audio/environment/sonar_ping_lf
 PingAudioRollOff=LOGARITHMIC
 PingAudioDistance=1,50
-PingAudioPitch=1.2
+PingAudioPitch=1

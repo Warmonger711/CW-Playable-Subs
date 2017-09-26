@@ -103,7 +103,7 @@ MeshHullCollider=wp_ssgn_echo2_coll_hull
 MeshSuperstructureCollider=wp_ssgn_echo2_coll_ss
 
 Material=ships/wp_ssgn_echo2/wp_ssgn_echo2_mat
-MaterialTextures=ships/wp_ssgn_echo2/wp_ssgn_echo2_tx,environment/sky/black
+MaterialTextures=ships/wp_ssgn_echo2/wp_ssgn_echo2_tx,vessels/textures/darkgrey.png
 Mesh=wp_ssgn_echo2
 MeshPosition=0,-0.0444,-0.825
 MeshRudder=wp_ssgn_echo2_rudder
@@ -171,7 +171,7 @@ TorpedoEffectPosition=0.0357,0.0785,0.4816
 ModelFile=weapons/assets/usn_tasm
 MeshRotation=0,0,0
 Material=ships/wp_ssgn_echo2/wp_ssgn_echo2_mat
-//MaterialTextures=environment/sky/black
+//MaterialTextures=vessels/textures/darkgrey.png
 //Stbdside
 MeshPosition=0.024,0.069,0.075
 Mesh=TASM_Canister

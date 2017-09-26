@@ -99,7 +99,7 @@ MeshHullCollider=usn_ssn_sturgeon_coll_hull
 MeshSuperstructureCollider=usn_ssn_sturgeon_coll_ss
 
 Material=ships/usn_ssn_sturgeon/usn_ssn_sturgeon_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=usn_ssn_sturgeon
 Mesh=usn_ssn_sturgeon_wlr9
 MeshPosition=0,0.0,-0.58

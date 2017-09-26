@@ -104,7 +104,7 @@ MeshHullCollider=wp_ssbn_yankee_coll_hull
 MeshSuperstructureCollider=wp_ssbn_yankee_coll_ss
 
 Material=ships/wp_ssbn_yankee/wp_ssbn_yankee_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ssbn_yankee
 MeshPosition=0,-0.08988,-0.8477
 MeshRudder=wp_ssbn_yankee_rudder
@@ -145,7 +145,7 @@ MaterialTextures=terrain/sand
 //Fin
 ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
 Material=ships/wp_ssbn_yankee/wp_ssbn_yankee_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 
 
 MeshPosition=0.015,-0.041,0.252
@@ -276,7 +276,7 @@ Mesh=wp_rkr_kirov_asw_launcher
 //Duct Spar
 ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0.011,-0.02154,-0.8705
 MeshRotation=-25,25,135
 Mesh=wp_ss_whiskey_rudder
@@ -292,7 +292,7 @@ Mesh=wp_ss_whiskey_rudder
 //Duct
 ModelFile=weapons/assets/usn_mk37
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0.0275,-0.03254,-0.898
 MeshRotation=5.5,11,0
 Mesh=Mk37

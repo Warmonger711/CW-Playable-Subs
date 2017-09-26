@@ -103,7 +103,7 @@ MeshHullCollider=wp_ssbn_yankee_coll_hull
 MeshSuperstructureCollider=wp_ssbn_yankee_coll_ss
 
 Material=ships/wp_ssbn_yankee/wp_ssbn_yankee_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ssbn_yankee
 MeshPosition=0,-0.08988,-0.8477
 MeshRudder=wp_ssbn_yankee_rudder

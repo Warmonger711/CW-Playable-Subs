@@ -98,7 +98,7 @@ MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 
 Material=ships/wp_ss_kilo/wp_ss_kilo_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ss_kilo
 MeshPosition=0,-0.048,-0.4662
 MeshRudder=wp_ss_kilo_rudder

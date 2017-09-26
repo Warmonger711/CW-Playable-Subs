@@ -101,7 +101,7 @@ MeshHullCollider=usn_ssn_skipjack_coll_hull
 MeshSuperstructureCollider=usn_ssn_skipjack_coll_ss
 
 Material=ships/usn_ssn_skipjack/usn_ssn_skipjack_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=usn_ssn_skipjack
 //Rudder
 MeshPosition=0,0,-0.50184
@@ -136,7 +136,7 @@ MeshMast=usn_ssn_skipjack_radar_mast
 //Bowplanes
 //left/right,up/down,forward/back
 ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0,0.0503,0.3777
 MeshBowPlanes=wp_ssbn_yankee_sailplanes
 

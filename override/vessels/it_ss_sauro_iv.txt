@@ -97,7 +97,7 @@ MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 
 Material=ships/wp_ss_kilo/wp_ss_kilo_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ss_kilo
 
 
@@ -122,7 +122,7 @@ MeshProp=usn_ssn_los_angeles_prop
 MeshRotation=0,0,0
 ModelFile=ships/wp_ss_tango/wp_ss_tango
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0,0.02,-0.08
 Mesh=wp_ss_tango_damage_11
 MeshPosition=0,0.02,-0.08
@@ -132,7 +132,7 @@ Mesh=wp_ss_tango_damage_12
 ModelFile=ships/wp_bpk_udaloy/wp_bpk_udaloy
 MeshRotation=0,0,0
 Material=ships/materials/usn_masts
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 //Stbd
 MeshRotation=0,0,90
 MeshPosition=0.028,0.02,0.225

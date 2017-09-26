@@ -98,7 +98,7 @@ MeshHullCollider=wp_ss_foxtrot_coll_hull
 MeshSuperstructureCollider=wp_ss_foxtrot_coll_ss
 
 Material=ships/wp_ss_foxtrot/wp_ss_foxtrot_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ss_foxtrot
 MeshPosition=0,-0.0391,-0.5882
 MeshRudder=wp_ss_foxtrot_rudder
@@ -138,7 +138,7 @@ MaterialTextures=terrain/sand
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 
 //Bow dome
 MeshPosition=-0.002,0.017,0.9481
@@ -242,7 +242,7 @@ Mesh=usn_ssn_permit_gnats
 ModelFile=ships/wp_ss_foxtrot/wp_ss_foxtrot
 MeshRotation=8,0,0
 Material=ships/wp_ss_foxtrot/wp_ss_foxtrot_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0,0.085,0.071
 Mesh=wp_ss_foxtrot_rudder
 MeshPosition=0,0.05,0.066

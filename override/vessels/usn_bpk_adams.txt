@@ -78,7 +78,8 @@ MeshHullCollider=wp_bpk_kashin_coll_hull
 MeshSuperstructureCollider=wp_bpk_kashin_coll_ss
 
 Material=ships/wp_bpk_kashin/wp_bpk_kashin_mat
-MaterialTextures=ships/wp_bpk_kashin/wp_bpk_kashin_tx,ships/wp_bpk_kashin/wp_bpk_kashin_spec,ships/wp_bpk_kashin/wp_bpk_kashin_nm
+//MaterialTextures=ships/wp_bpk_kashin/wp_bpk_kashin_tx,ships/wp_bpk_kashin/wp_bpk_kashin_spec,ships/wp_bpk_kashin/wp_bpk_kashin_nm
+MaterialTextures=vessels/textures/usn_kashin.png
 Mesh=wp_bpk_kashin,wp_bpk_kashin_d
 MeshPosition=0,-0.0228,-0.909
 MeshRudder=wp_bpk_kashin_rudder

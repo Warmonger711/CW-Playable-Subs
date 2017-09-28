@@ -1,11 +1,11 @@
 Designation=SSBN
 ShipType=SUBMARINE
 
-Length=166
-Beam=23
+Length=155
+Beam=11.7
 HullHeight=0.08
-Displacement=18200
-Crew=135
+Displacement=13000
+Crew=130
 Range=10000
 HullNumbers=FALSE
 
@@ -21,15 +21,15 @@ DiveRate=1
 SurfaceRate=1
 BallastRate=0.25
 Waterline=0.01
-SubmergedAt=0.136
+SubmergedAt=0.14
 CavitationParameters=20,-100
 PropRotationSpeed=190,-190
 TestDepth=1300
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=130
-ActiveSonarReflection=25
+SelfNoise=142
+ActiveSonarReflection=38
 ActiveSonarModel=wp_shark_gill
 PassiveSonarModel=wp_shark_gill
 TowedArrayModel=wp_shark_tail
@@ -38,10 +38,9 @@ RADAR=wp_snoop_tray
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_ugst,wp_test-71,wp_53-65M,russian_moss
-TorpedoNumbers=18,0,0,4
+TorpedoTypes=wp_set-65,wp_53-65M
+TorpedoNumbers=16,0
 TorpedoTubes=4
-NumberOfWires=2
 TubeConfig=1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
@@ -54,67 +53,67 @@ NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
 [Model]
-ModelFile=ships/wp_ssbn_delta4/wp_ssbn_delta4
+ModelFile=ships/wp_ssbn_delta3/wp_ssbn_delta3
 
 //Hull and Deck
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
-MeshHullCollider=wp_ssbn_delta4_coll_hull01
-MeshSuperstructureCollider=wp_ssbn_delta4_coll_ss01
+MeshHullCollider=wp_ssbn_delta3_coll_hull
+MeshSuperstructureCollider=wp_ssbn_delta3_coll_ss
 
-Material=ships/wp_ssbn_delta4/wp_ssbn_delta4_mat
-MaterialTextures=ships/wp_ssbn_delta4/wp_ssbn_delta4_tx,ships/wp_ssbn_delta4/wp_ssbn_delta4_spec,ships/wp_ssbn_delta4/wp_ssbn_delta4_nm
-Mesh=wp_ssbn_delta4
-MeshPosition=0,0.0144,-1.029
-MeshRudder=wp_ssbn_delta4_dorsal_rudder
-MeshPosition=0,-0.101,-1.02
-MeshRudder=wp_ssbn_delta4_ventral_rudder
-MeshPosition=0,0.0795,0.745
-MeshBowPlanes=wp_ssbn_delta4_sailplanes
-MeshPosition=0,-0.0441,-0.9647
-MeshSternPlanes=wp_ssbn_delta4_sternplanes
-MeshPosition=-0.0375,-0.0447,-1.153
-MeshProp=wp_ssbn_delta4_prop_l
-MeshPosition=.0375,-0.0447,-1.153
-MeshProp=wp_ssbn_delta4_prop_r
+Material=ships/wp_ssbn_delta3/wp_ssbn_delta3_mat
+MaterialTextures=ships/wp_ssbn_delta3/wp_ssbn_delta3_tx,ships/wp_ssbn_delta3/wp_ssbn_delta3_spec,ships/wp_ssbn_delta3/wp_ssbn_delta3_nm
+Mesh=wp_ssbn_delta3
+MeshPosition=0,0.02452,-1.0117
+MeshRudder=wp_ssbn_delta3_dorsal_rudder
+MeshPosition=0,-0.08988,-1.02
+MeshRudder=wp_ssbn_delta3_ventral_rudder
+MeshPosition=0,0.08523,0.745
+MeshBowPlanes=wp_ssbn_delta3_sailplanes
+MeshPosition=0,-0.03299,-0.9647
+MeshSternPlanes=wp_ssbn_delta3_sternplanes
+MeshPosition=-0.035,-0.03254,-1.071
+MeshProp=wp_ssbn_delta3_prop_l
+MeshPosition=.035,-0.03254,-1.071
+MeshProp=wp_ssbn_delta3_prop_r
 
 [Weapon Systems]
 //Torpedo Mounts
 
 //Tube 1
 MeshRotation=0,0,0
-MeshPosition=-0.0085,0.0085,1.2
-TorpedoSpawnPosition=-0.0085,0.0085,1.2
+MeshPosition=-0.01,0.0025,1.12
+TorpedoSpawnPosition=-0.01,0.0025,1.12
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 2
 MeshRotation=0,0,0
-MeshPosition=0.0085,0.0085,1.2
-TorpedoSpawnPosition=0.0085,0.0085,1.2
+MeshPosition=0.01,0.0025,1.23
+TorpedoSpawnPosition=0.01,0.0025,1.12
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 3
 MeshRotation=0,0,0
-MeshPosition=-0.0085,-0.0087,1.2
-TorpedoSpawnPosition=-0.0085,-0.0087,1.2
+MeshPosition=-0.01,-0.0086,1.12
+TorpedoSpawnPosition=-0.01,-0.0086,1.12
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 4
 MeshRotation=0,0,0
-MeshPosition=0.0085,-0.0087,1.2
-TorpedoSpawnPosition=0.0085,-0.0087,1.2
+MeshPosition=0.01,-0.0086,1.237
+TorpedoSpawnPosition=0.01,-0.0086,1.12
 TorpedoEffectPosition=0,0,0.0232
 
 //Missile Tube 1
 MeshRotation=0,0,0
-MeshPosition=-0.0085,0.0085,1.2
+MeshPosition=-0.01,0.0025,1.12
 MeshMissileMount=FALSE
 MissileEffectPosition=0,0,0.0232
 
 //Missile Tube 2
 MeshRotation=0,0,0
-MeshPosition=0.0085,0.0085,1.2
+MeshPosition=0.01,0.0025,1.12
 MeshMissileMount=FALSE
 MissileEffectPosition=0,0,0.0232
 
@@ -127,19 +126,19 @@ MeshNoisemakerMount=FALSE
 MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave_sub
 PropWashParticle=ships/particles/bowwave_small
-CavitationParticle=ships/particles/wp_ssbn_delta4_cavitation
-FunnelSmokeParticle=ships/particles/wp_ssbn_delta4_bubbles
-EmergencyBlowParticle=ships/particles/wp_ssbn_delta4_emergency_blow
+CavitationParticle=ships/particles/wp_ssbn_delta3_cavitation
+FunnelSmokeParticle=ships/particles/wp_ssbn_delta3_bubbles
+EmergencyBlowParticle=ships/particles/wp_ssbn_delta3_emergency_blow
 
-ParticleBowWavePosition=0,0,1.258
-ParticlePropWashPosition=0,-0.033,-1.173
+ParticleBowWavePosition=0,0,1.207
+ParticlePropWashPosition=0,-0.033,-1.091
 
 ParticleHullFoamPosition=0,0,0.892
 ParticleHullFoamParameters=10,0.35,0.2,0.055,0,0,0.25
 
-ParticleSternFoamPosition=0,0,-1.087
+ParticleSternFoamPosition=0,0,-1.03
 ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=4.2,4.2
+KelvinWaves=3.55,3.55
 
 EngineAudioClip=audio/units/submarine_engine_3
 EngineAudioRollOff=LOGARITHMIC

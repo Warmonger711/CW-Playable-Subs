@@ -40,7 +40,7 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.075,0.0,-0.619
 
 [Weapon Systems]
-TorpedoTypes=usn_mk48_adcap,usn_moss,usn_ugm84,usn_SUBROCii
+TorpedoTypes=usn_mk48_adcap,usn_moss_2,usn_ugm84,usn_SUBROCii
 TorpedoNumbers=20,10,10,0
 TorpedoTubes=7
 NumberOfWires=6
@@ -204,7 +204,7 @@ PropAudioRollOff=LOGARITHMIC
 PropAudioDistance=1,5
 PropAudioPitchRange=0.1,0.6
 MeshPosition=0,0.000,0.45
-PingAudioClip=audio/environment/sonar_ping_lf
+PingAudioClip=audio/sonar/StayinAlive.ogg
 PingAudioRollOff=LOGARITHMIC
 PingAudioDistance=1,50
 PingAudioPitch=1

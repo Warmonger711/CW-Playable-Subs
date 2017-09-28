@@ -103,7 +103,7 @@ MeshHullCollider=wp_ssgn_oscar_coll_hull
 MeshSuperstructureCollider=wp_ssgn_oscar_coll_ss
 
 Material=ships/wp_ssgn_oscar/wp_ssgn_oscar_mat
-MaterialTextures=ships/wp_ssgn_oscar/wp_ssgn_oscar_tx,environment/sky/black
+MaterialTextures=ships/wp_ssgn_oscar/wp_ssgn_oscar_tx,vessels/textures/darkgrey.png
 Mesh=wp_ssgn_oscar
 MeshPosition=0,0.0683,-0.952
 MeshRudder=wp_ssgn_oscar_dorsal_rudder
@@ -133,11 +133,11 @@ MeshPosition=0,0.065,0.560
 MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
 
-ModelFile=ships/wp_takr_kiev/wp_takr_kiev
+ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
 MeshPosition=-0.045,-0.008,-1.133
-MeshProp=wp_takr_kiev_prop_l
+MeshProp=wp_ssbn_yankee_prop_l
 MeshPosition=.045,-0.008,-1.133
-MeshProp=wp_takr_kiev_prop_r
+MeshProp=wp_ssbn_yankee_prop_r
 MaterialTextures=terrain/sand
 
 [Weapon Systems]

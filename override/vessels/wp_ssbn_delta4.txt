@@ -25,6 +25,7 @@ SubmergedAt=0.136
 CavitationParameters=20,-100
 PropRotationSpeed=190,-190
 TestDepth=1300
+EscapeDepth=600
 
 [Acoustics & Sensors]
 SelfNoise=130
@@ -37,12 +38,13 @@ RADAR=wp_snoop_tray
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_ugst
-TorpedoNumbers=12
+TorpedoTypes=wp_ugst,wp_test-71,wp_53-65M,russian_moss
+TorpedoNumbers=18,0,0,4
 TorpedoTubes=4
+NumberOfWires=2
 TubeConfig=1,1,1,1
 TorpedoTubeSize=21
-TubeReloadTime=120
+TubeReloadTime=30
 
 MissileType=wp_ss-n-16
 MissilesPerLauncher=1,1

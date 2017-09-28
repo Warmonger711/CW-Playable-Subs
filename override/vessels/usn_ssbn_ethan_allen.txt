@@ -98,7 +98,7 @@ MeshHullCollider=usn_ssn_los_angeles_coll_hull
 MeshSuperstructureCollider=usn_ssn_los_angeles_coll_ss
 
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_tx,environment/sky/black,ships/usn_ssn_los_angeles/usn_ssn_los_angeles_nm
+MaterialTextures=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_tx,vessels/textures/darkgrey.png,ships/usn_ssn_los_angeles/usn_ssn_los_angeles_nm
 Mesh=usn_ssn_los_angeles
 MeshPosition=0,0,-0.71175
 MeshRudder=usn_ssn_los_angeles_rudders
@@ -130,7 +130,7 @@ MeshProp=usn_ssn_los_angeles_prop
 
 ModelFile=ships/usn_ssn_sturgeon/usn_ssn_sturgeon
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_tx,environment/sky/black,ships/usn_ssn_los_angeles/usn_ssn_los_angeles_nm
+MaterialTextures=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_tx,vessels/textures/darkgrey.png,ships/usn_ssn_los_angeles/usn_ssn_los_angeles_nm
 
 MeshRotation=0,0,0
 MeshPosition=0.005,0.01,0.75

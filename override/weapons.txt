@@ -14,7 +14,7 @@ WeaponType=TORPEDO
 Warhead=550
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=42000
 RunSpeed=45
@@ -63,7 +63,7 @@ WeaponType=TORPEDO
 Warhead=400
 SurfaceLaunched=FALSE
 WireGuided=FALSE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=10000
 RunSpeed=39
@@ -106,7 +106,7 @@ WeaponType=TORPEDO
 Warhead=300
 SurfaceLaunched=FALSE
 WireGuided=FALSE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=15000
 RunSpeed=30
@@ -149,7 +149,7 @@ WeaponType=TORPEDO
 Warhead=450
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.1
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=17000
 RunSpeed=30
@@ -240,7 +240,7 @@ WeaponType=TORPEDO
 Warhead=600
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=50000
 RunSpeed=40
@@ -335,7 +335,7 @@ WeaponType=TORPEDO
 Warhead=375 
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.1
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 //RangeInYards=20000
 //RunSpeed=32
@@ -696,7 +696,7 @@ WeaponType=TORPEDO
 Warhead=560
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=20
 RangeInYards=54000
 RunSpeed=60
@@ -751,7 +751,7 @@ Warhead=510
 SurfaceLaunched=FALSE
 SwimOut=TRUE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 //Navweaps and Wikipedia agree these values are incorrect:
 //RangeInYards=42000
@@ -2542,6 +2542,98 @@ AudioLoop=TRUE
 
 //--------------------------------------DECOYS----------------------------------------------------
 
+//Advanced UUV Wire Guided MOSS - USA
+WeaponObjectReference=usn_moss_2
+WeaponSprite=weapons/sprites/usn_moss_sprite
+WeaponType=DECOY
+Warhead=0
+SurfaceLaunched=FALSE
+SwimOut=TRUE
+WireGuided=TRUE
+WireBreakOnLaunchProbability=0.05
+WireBreakSpeedThreshold=15
+RangeInYards=40000
+RunSpeed=35
+ActiveRunSpeed=35
+TurnRate=10
+SensorAngles=0,0
+SensorRange=0
+WeaponNoiseValues=180,200
+MaxPitchAngle=10
+HomeSettings=FALSE
+AttackSettings=STRAIGHT,LEFT,RIGHT
+DepthSettings=LEVEL,SHALLOW,DEEP
+MinCameraDistance=0.5
+ResupplyTime=15
+[Model]
+ModelFile=weapons/assets/usn_moss
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshWeapon=MOSS
+MeshPosition=0,0,0
+MeshWeaponPropRotation=700
+MeshWeaponProp=MOSS_propl
+MeshPosition=0,0,0
+MeshWeaponPropRotation=-700
+MeshWeaponProp=MOSS_propr
+MeshPosition=0,0,-0.0259
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+[/Model]
+
+//Advanced UUV Wire Guided MOSS - Russia
+WeaponObjectReference=russian_moss_2
+WeaponSprite=weapons/sprites/usn_moss_sprite
+WeaponType=DECOY
+Warhead=0
+SurfaceLaunched=FALSE
+SwimOut=TRUE
+WireGuided=TRUE
+WireBreakOnLaunchProbability=0.05
+WireBreakSpeedThreshold=15
+RangeInYards=40000
+RunSpeed=35
+ActiveRunSpeed=35
+TurnRate=10
+SensorAngles=0,0
+SensorRange=0
+WeaponNoiseValues=180,200
+MaxPitchAngle=10
+HomeSettings=FALSE
+AttackSettings=STRAIGHT,LEFT,RIGHT
+DepthSettings=LEVEL,SHALLOW,DEEP
+MinCameraDistance=0.5
+ResupplyTime=15
+[Model]
+ModelFile=weapons/assets/usn_moss
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshWeapon=MOSS
+MeshPosition=0,0,0
+MeshWeaponPropRotation=700
+MeshWeaponProp=MOSS_propl
+MeshPosition=0,0,0
+MeshWeaponPropRotation=-700
+MeshWeaponProp=MOSS_propr
+MeshPosition=0,0,-0.0259
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+[/Model]
+
 WeaponObjectReference=russian_moss
 WeaponSprite=weapons/sprites/usn_moss_sprite
 WeaponType=DECOY
@@ -2586,6 +2678,13 @@ AudioLoop=TRUE
 [/Model]
 
 // -------------------------------------------------------------------- End New Weapons --------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 WeaponObjectReference=usn_mk16
@@ -2640,7 +2739,7 @@ Warhead=225
 SurfaceLaunched=FALSE
 SwimOut=TRUE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.1
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=23000
 RunSpeed=17
@@ -2689,7 +2788,7 @@ WeaponType=TORPEDO
 Warhead=225
 SurfaceLaunched=FALSE
 WireGuided=FALSE
-WireBreakOnLaunchProbability=0.1
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=15000
 RunSpeed=30
@@ -2729,18 +2828,17 @@ AudioLoop=TRUE
 WeaponObjectReference=usn_mk48
 WeaponSprite=weapons/sprites/usn_mk48_sprite
 WeaponType=TORPEDO
-//292.5 kg of PBXN-103 = 544 kg of TNT
 Warhead=550
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.1
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=35000
 RunSpeed=40
 ActiveRunSpeed=55
 TurnRate=20
 SensorAngles=60,15
-SensorRange=2000
+SensorRange=4000
 WeaponNoiseValues=160,230
 MaxPitchAngle=45
 HomeSettings=PASSIVE,ACTIVE
@@ -2755,7 +2853,7 @@ MaterialTextures=weapons/assets/usn_mk48_tx
 MeshPosition=0,0,0
 MeshWeapon=Mk48
 MeshPosition=0,0,0
-MeshWeaponPropRotation=700
+MeshWeaponPropRotation=-700
 MeshWeaponProp=Mk48_propl
 MeshPosition=0,0,-0.0528
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
@@ -2983,7 +3081,7 @@ WeaponType=TORPEDO
 Warhead=300
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.1
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=27300
 RunSpeed=35
@@ -3032,7 +3130,7 @@ WeaponType=TORPEDO
 Warhead=90
 SurfaceLaunched=FALSE
 WireGuided=FALSE
-WireBreakOnLaunchProbability=0.1
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=8700
 RunSpeed=41
@@ -3256,7 +3354,7 @@ WeaponType=TORPEDO
 Warhead=375
 SurfaceLaunched=FALSE
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
+WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
 RangeInYards=22000
 RunSpeed=40

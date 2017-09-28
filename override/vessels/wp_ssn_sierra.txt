@@ -25,10 +25,11 @@ SubmergedAt=0.15
 CavitationParameters=20,-100
 PropRotationSpeed=-150
 TestDepth=1970
+EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=125
-ActiveSonarReflection=25
+SelfNoise=120
+ActiveSonarReflection=30
 ActiveSonarModel=wp_shark_gill
 PassiveSonarModel=wp_shark_gill
 TowedArrayModel=wp_shark_tail
@@ -37,12 +38,13 @@ RADAR=wp_snoop_pair
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_ugst
-TorpedoNumbers=24
-TorpedoTubes=4
-TubeConfig=1,1,1,1
+TorpedoTypes=wp_ugst,wp_s10,wp_ss-n-16,wp_53-65M,wp_65-76,russian_moss_2
+TorpedoNumbers=24,4,0,0,8,4
+TorpedoTubes=8
+NumberOfWires=4
+TubeConfig=1,1,1,1,1,1,1,1
 TorpedoTubeSize=21
-TubeReloadTime=120
+TubeReloadTime=30
 
 MissileType=wp_ss-n-16
 MissilesPerLauncher=1,1
@@ -109,6 +111,18 @@ TorpedoSpawnPosition=0.044,0.0212,0.723
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 6
+MeshRotation=0,0,0
+MeshPosition=-0.044,0.0212,0.723
+TorpedoSpawnPosition=-0.044,0.0212,0.723
+TorpedoEffectPosition=0,0,0.0232
+
+//Tube 7
+MeshRotation=0,0,0
+MeshPosition=0.044,0.0212,0.723
+TorpedoSpawnPosition=0.044,0.0212,0.723
+TorpedoEffectPosition=0,0,0.0232
+
+//Tube 8
 MeshRotation=0,0,0
 MeshPosition=-0.044,0.0212,0.723
 TorpedoSpawnPosition=-0.044,0.0212,0.723

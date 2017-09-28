@@ -103,7 +103,7 @@ MeshHullCollider=wp_ssgn_charlie_coll_hull
 MeshSuperstructureCollider=wp_ssgn_charlie_coll_ss
 
 Material=ships/wp_ssgn_charlie1/wp_ssgn_charlie1_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ssgn_charlie1
 MeshPosition=0,-0.012,-0.6197
 MeshRudder=wp_ssgn_charlie1_rudder
@@ -131,7 +131,7 @@ MeshMast=usn_ssn_permit_radar_mast
 ModelFile=weapons/assets/usn_tasm
 MeshRotation=0,90,0
 Material=ships/wp_ssgn_echo2/wp_ssgn_echo2_mat
-//MaterialTextures=environment/sky/black
+//MaterialTextures=vessels/textures/darkgrey.png
 //Lowest
 MeshPosition=-0.006,0.11,0.23
 Mesh=TASM_Booster
@@ -180,7 +180,7 @@ Mesh=TASM_Booster
 
 //Fin Rear
 ModelFile=ships/wp_ssgn_echo2/wp_ssgn_echo2
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshRotation=5,0,0
 MeshPosition=0.0,0.088,0.008
 Mesh=wp_ssgn_echo2_rudder
@@ -214,7 +214,7 @@ Mesh=wp_ssgn_echo2_rudder
 
 //Prop Mount
 ModelFile=ships/wp_ssgn_echo2/wp_ssgn_echo2
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshRotation=0,0,90
 MeshPosition=0,-0.012,-0.648
 Mesh=wp_ssgn_echo2_rudder
@@ -225,7 +225,7 @@ Mesh=wp_ssgn_echo2_rudder
 ModelFile=weapons/assets/usn_tasm
 MeshRotation=0,0,0
 Material=ships/wp_ssgn_echo2/wp_ssgn_echo2_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=-0.025,-0.012,-0.648
 Mesh=TASM_Canister
 MeshPosition=0.025,-0.012,-0.648
@@ -235,7 +235,7 @@ Mesh=TASM_Canister
 ModelFile=weapons/assets/usn_tasm
 MeshRotation=0,0,0
 Material=ships/wp_ssgn_echo2/wp_ssgn_echo2_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 //Stbd
 MeshPosition=0.048,0.063,0.295
 Mesh=TASM_Canister

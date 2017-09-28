@@ -37,12 +37,13 @@ RADAR=wp_snoop_tray
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_ugst
-TorpedoNumbers=10,2
-TorpedoTubes=4
-TubeConfig=1,1,1,1
+TorpedoTypes=wp_ugst,russian_moss_2,wp_s10,wp_ss-n-16,wp_53-65M
+TorpedoNumbers=18,5,4,0,0
+TorpedoTubes=6
+NumberOfWires=6
+TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=21
-TubeReloadTime=120
+TubeReloadTime=30
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20

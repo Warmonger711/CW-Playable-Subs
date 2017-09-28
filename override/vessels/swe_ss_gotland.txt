@@ -100,7 +100,7 @@ MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 
 Material=ships/wp_ss_kilo/wp_ss_kilo_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ss_kilo
 
 //Hidden
@@ -120,7 +120,7 @@ MeshSternPlanes=wp_ss_kilo_bowplanes
 [Model]
 MeshRotation=0,0,0
 ModelFile=ships/wp_ss_tango/wp_ss_tango
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0,0.02,-0.08
 Mesh=wp_ss_tango_damage_11
 MeshPosition=0,0.02,-0.08
@@ -130,7 +130,7 @@ Mesh=wp_ss_tango_damage_12
 ModelFile=ships/wp_bpk_udaloy/wp_bpk_udaloy
 MeshRotation=0,0,0
 Material=ships/materials/usn_masts
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 //Stbd
 MeshRotation=0,0,90
 MeshPosition=0.028,0.046,0.225
@@ -143,7 +143,7 @@ Mesh=wp_bpk_udaloy_torpedomount
 //X-Planes
 MeshRotation=0,0,0
 ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshRotation=0,0,45
 MeshPosition=0,-0.0016,-0.49
 Mesh=usn_ssn_skipjack_sternplanes
@@ -160,7 +160,7 @@ MeshProp=wp_ss_kilo_prop
 //Side pole
 ModelFile=weapons/assets/usn_tasm
 MeshRotation=0,0,0
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 //Stbdside
 MeshPosition=.065,-0.025,-0.03
 Mesh=TASM_Canister
@@ -195,7 +195,7 @@ Mesh=TASM_Canister
 
 //Dome
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshRotation=0,0,0
 MeshPosition=-0.0,0.02,0.0288
 Mesh=usn_ssn_permit_wlr9

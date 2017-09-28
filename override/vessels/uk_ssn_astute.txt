@@ -39,7 +39,7 @@ RADAR=uk_t1007
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=uk_sf,usn_tlam,usn_moss
+TorpedoTypes=uk_sf,usn_tlam,usn_moss_2
 TorpedoNumbers=24,12,4
 TorpedoTubes=6
 NumberOfWires=6
@@ -98,7 +98,7 @@ MeshHullCollider=wp_ssn_alfa_coll_hull
 MeshSuperstructureCollider=wp_ssn_alfa_coll_ss
 
 Material=ships/wp_ssn_alfa/wp_ssn_alfa_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ssn_alfa
 MeshPosition=0,0,-0.4993
 MeshRudder=wp_ssn_alfa_rudder
@@ -109,7 +109,7 @@ MeshSternPlanes=wp_ssn_alfa_sternplanes
 //Bowplanes
 //left/right,up/down,forward/back
 ModelFile=ships/wp_ssbn_yankee/wp_ssbn_yankee
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0,0.05,0.4612
 MeshBowPlanes=wp_ssbn_yankee_sailplanes
 
@@ -141,7 +141,7 @@ MeshRotation=0,0,0
 //Duct Spar
 ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0.01,0.0102,-0.5442
 MeshRotation=-25,25,135
 Mesh=wp_ss_whiskey_rudder
@@ -158,7 +158,7 @@ Mesh=wp_ss_whiskey_rudder
 //Duct
 ModelFile=weapons/assets/usn_mk37
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 MeshPosition=0.025,0.0002,-0.5717
 MeshRotation=5,10,0
 Mesh=Mk37

@@ -100,7 +100,7 @@ MeshHullCollider=usn_ssn_narwhal_coll_hull
 MeshSuperstructureCollider=usn_ssn_narwhal_coll_ss
 
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
-MaterialTextures=environment/sky/black
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=usn_ssn_narwhal
 Mesh=usn_ssn_narwhal_tb16
 Mesh=usn_ssn_narwhal_wlr9

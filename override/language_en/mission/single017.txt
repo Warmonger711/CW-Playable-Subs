@@ -1,7 +1,10 @@
-Image=campaign/images/pact wolfpack 4
-MissionLocation=Near the Faeroes
-Briefing=15 MAR 1984
-Briefing=On a routine barrier patrol, you make contact with a wolfpack of diesel-electric subs trying to break out into the Western Approaches
+Image=campaign/images/nato missile land attack
+MissionLocation=Near Gremikha, on the Kola peninsula
+Briefing=Perform a strike with cruise missiles to deliver a crushing blow deep in the Soviets' backyard.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Duke it out with the enemy subs and make sure they don't escape
+Briefing=Add 10 TLAM missiles to stores.
+Briefing=Fire 10 TLAMs into the deployment zone.
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Avoid detection.

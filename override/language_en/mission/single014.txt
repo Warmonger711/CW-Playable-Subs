@@ -1,12 +1,6 @@
-Image=campaign/images/astute.jpg
-MissionLocation=Norwegian Sea
-Briefing=Intel reports:
-Briefing=The British Navy is interested in testing the capabilities of the latest models of US submarines.
-Briefing=
-Briefing=You reach the rendezvous point. Teach them a lesson!
+Image=campaign/images/pact surface raiders 2
+MissionLocation=Denmark Strait, near Iceland
+Briefing=You've made contact with a Soviet open-ocean ASW group, including a helicopter carrier, that is attempting to break out into the North Atlantic with intent to hunt our Polaris submarines there. 
 Briefing=
 Briefing=Primary Objective:
-Briefing=Beat the US submarine.
-Briefing=
-Briefing=Secondary Objective:
-Briefing=Stay undetected.
+Briefing=Sink the Moskva.

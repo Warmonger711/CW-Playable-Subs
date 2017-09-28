@@ -1,66 +1,68 @@
-//The Narvik Caper (USA)
+//Cruising Triumph (USA)
 
-//Narvik
 UseTerrain=TRUE
-MapCoordinates=2530,1070
+MapCoordinates=2382,179
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Environment
-Date=15 MAR 1984
+Date=17 MAR 1987
 Hemisphere=North
-Time=1200
+Time=0100
 UsePresetEnvironment=TRUE
 Weather=Clear
-SeaState=LightBreeze
-DuctStrength=Moderate
+SeaState=RANDOM
+DuctStrength=Strong
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1
-CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_ss_kilo|wp_ss_tango|wp_ss_foxtrot|wp_ss_romeo|wp_ss_whiskey,wp_skr_krivak1|wp_mpk_poti|wp_mpk_grisha3|wp_skr_riga,wp_skr_krivak1|wp_mpk_poti|wp_mpk_grisha3|wp_skr_riga,wp_skr_krivak1|wp_mpk_poti|wp_mpk_grisha3|wp_skr_riga,wp_fv_trawler|wp_vtr_yuniy_partizan|wp_ms_poltava|wp_rkr_kresta1,wp_fv_trawler|wp_vtr_yuniy_partizan|wp_kr_sverdlov|wp_rkr_kresta1
-FormationCruiseSpeed=8
-
-//Ship positions and headings, otherwise build into a formation
 UsePresetPositions=TRUE
-PlayerPosition=-266,9
-PlayerHeading=90
+NumberOfEnemyUnits=2-2,2-2,1-1,1-1,2-2,2-2,1-1,2-2
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_em_sovremenny,wp_em_sovremenny,wp_bpk_kresta2,wp_rkr_kirov,wp_bpk_udaloy,wp_bpk_kara|wp_bpk_kresta2,wp_ssn_alfa,wp_mpk_grisha3
+FormationCruiseSpeed=20
 
-//AI Nav Waypoints
-//Array of Vector 2 positions
-//Must be enough for maximum number of enemy ships
-//Lurking Sub
-EnemyWaypoints=25,-78|-59,-79|-17,32
-//Outer Patrol
-EnemyWaypoints=-201,23|-238,-17
-//Second Outer Patrol
-EnemyWaypoints=-90,22|-155,-44
-//Center Patrol 2
-EnemyWaypoints=-33,-24|-64,-100
-//Inner Patrol
-EnemyWaypoints=-164,-25|141,-52
-//Second Inner Patrol
-EnemyWaypoints=57,-94|-29,-63
 
-MissionPosition=103,-68
+//Group1 Waypoints.
+EnemyWaypoints=452,112|-420,-164
+EnemyWaypoints=457,107|-420,-164
+
+//Group2 Waypoints.
+EnemyWaypoints=488,108|-400,-152
+EnemyWaypoints=493,103|-400,-152
+
+//Group3 Waypoints.
+EnemyWaypoints=488,44|-416,-172
+
+//Group4 Waypoints.
+EnemyWaypoints=468,76|-412,-160
+
+//Group5 Waypoints.
+EnemyWaypoints=500,80|-464,-164
+EnemyWaypoints=505,75|-464,-164
+
+//Group6 Waypoints.
+EnemyWaypoints=404,80|-476,-172
+EnemyWaypoints=409,75|-476,-172
+
+//Group7 Waypoints.
+EnemyWaypoints=92,156|0,0
+
+//Group8 Waypoints.
+EnemyWaypoints=268,116|68,88|-228,-48
+EnemyWaypoints=273,111|73,83|-231,-51
+
+PlayerPosition=0,0
+PlayerHeading=0
+PlayerDepthInFeet=100
 
 //Enemy Aircraft
 NumberOfHelicopters=2
-HelicopterType=wp_hormone
-NumberOfAircraft=0
-AircraftType=wp_il-38_may
-
-//Aircraft Search Areas
-//Define a point and radius
-AircraftSearchArea=-150,-5,75
-AircraftSearchArea=-23,-57,75
-
-//Drop passive sonobouys as barriers
-//Array of Vector 2 positions
-SonobouyLocations=-49,85,40|-219,165,40|-305,200,40|-395,205,40
+HelicopterType=wp_helix
+NumberOfAircraft=1
+AircraftType=wp_tu-142_bear
 
 PlayerVessels=usn_ssn_los_angeles,usn_ssn_los_angeles_2,usn_ssn_los_angeles_688i,usn_ssn_staynalive,usn_ssn_seawolf,usn_ssn_virginia,usn_ssn_virginia_imp,usn_ssn_narwhal,usn_ssn_sturgeon,usn_ssn_permit,usn_ssn_skipjack,usn_ssn_sturgeon_68,usn_ssn_permit_68,usn_ssn_skipjack_68,usn_ssbn_ohio,usn_ssbn_ohio_vls,usn_ssbn_washington,usn_ssbn_ethan_allen,usn_ss_barbel_68,usn_ss_barbel,usn_ss_guppyIIa,usn_ss_tang,usn_ss_albacore,it_ss_sauro_iv,it_ss_toti,uk_ssn_astute,uk_ssn_trafalgar,uk_ssn_swiftsure,uk_ssn_dreadnought,uk_ssn_valliant,uk_ssn_churchill,uk_ss_upholder,uk_ss_oberon,uk_ssbn_resolution,uk_ssbn_vanguard,ger_ss_209,ger_ssn_212a,isn_ss_dolphin,fra_ssbn_redoubtable,fra_ssn_rubis,swe_ss_gotland,aus_ss_collins,HNLMS_SS_Dolfijn,HNLMS_SS_Walrus,rus_ssbn_borei,rus_ssbn_typhoon,rus_ssbn_typhoon_vls,rus_ssbn_redoctober,rus_ssbn_redoctober_silent,rus_ssbn_yankee,rus_ssgn_yankee,rus_ssbn_delta3,rus_ssbn_delta4,rus_ssgn_oscar1,rus_ssgn_oscar,rus_ssgn_charlie1,rus_ssgn_charlie2,rus_ssgn_echo1,rus_ssgn_echo2,rus_ssgn_papa,rus_ssg_juliet,rus_ssn_akula1,rus_ssn_akula2,rus_ssn_yasen,rus_ssn_sierra,rus_ssn_alfa,rus_ssn_alfa2,rus_ssn_mike,rus_ssn_victor1,rus_ssn_victor2,rus_ssn_victor3,rus_ssn_november,rus_ss_kilo,rus_ss_kilo_imp,rus_ss_lada,rus_ss_tango,rus_ss_foxtrot,rus_ss_romeo,rus_ss_whiskey,rus_ss_whiskeylb,jmsdf_ss_yushio,jmsdf_ss_oyashio,chn_ss_romeo,chn_ssn_type91_70,chn_ssn_type91_90,chn_ssn_type93,chn_ssn_type93a,chn_ssn_type93b,chn_ssbn_type092,dprk_ss_romeo
 

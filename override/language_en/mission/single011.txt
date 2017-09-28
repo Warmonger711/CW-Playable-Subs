@@ -1,12 +1,9 @@
-Image=campaign/images/pact wolfpack 4
-MissionLocation=Norwegian Sea
-Briefing=Intel reports:
-Briefing=The Russian Navy is interested in testing the capabilities of the latest model of British attack submarine.
-Briefing=
-Briefing=You reach the rendezvous point. Teach them a lesson!
+Image=campaign/images/pact warship tender 1
+MissionLocation=West of Iceland
+Briefing=Your orders are to intercept a replenishment force suspected to be operating somewhere in the North Atlantic, west of Iceland, where they are supporting aggressive Soviet anti-convoy operations. After several uneventful days spent searching, sonar reports a contact.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Beat the British submarine.
+Briefing=Locate and sink the tenders.
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Stay undetected.
+Briefing=Locate and sink any escorting warships if possible.

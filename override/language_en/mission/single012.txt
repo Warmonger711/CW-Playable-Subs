@@ -1,12 +1,9 @@
-Image=campaign/images/astute.jpg
-MissionLocation=Norwegian Sea
-Briefing=Intel reports:
-Briefing=The British Navy is interested in testing the capabilities of the latest models of Russian submarines.
-Briefing=
-Briefing=You reach the rendezvous point. Teach them a lesson!
+Image=campaign/images/pact wolfpack 2
+MissionLocation=GIUK Gap
+Briefing=A massive Oscar-class cruise missile submarine is attempting to sneak past NATO ASW barrier patrols and escape into the North Atlantic convoy routes. It likely has a potent attack submarine escort, so don't be reckless.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Beat the Russian submarine.
+Briefing=Locate and sink the Oscar.
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Stay undetected.
+Briefing=Locate and sink any escorting submarines if possible.

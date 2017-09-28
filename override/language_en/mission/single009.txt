@@ -1,12 +1,9 @@
-Image=campaign/images/pact wolfpack 2
-MissionLocation=Norwegian Sea
-Briefing=Intel reports:
-Briefing=The Russian Navy is interested in testing the capabilities of the latest models of US attack submarines.
-Briefing=
-Briefing=You reach the rendezvous point. Teach them a lesson!
+Image=campaign/images/ohio 1.jpg
+MissionLocation=In the north Barents Sea
+Briefing=Your SSBN is being hunted by Russian submarines. Eliminate them.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Beat the US submarine.
+Briefing=Destroy all Russian submarines
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Stay undetected.
+Briefing=Survive

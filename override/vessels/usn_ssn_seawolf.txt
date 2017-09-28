@@ -41,7 +41,7 @@ TowedArrayPosition=-0.109,0.003,-0.779
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48_adcap,usn_moss_2,usn_SUBROCii,usn_ugm84,usn_tasm,usn_tlam
-TorpedoNumbers=27,5,3,5,10,0
+TorpedoNumbers=25,5,0,5,10,0
 TorpedoTubes=8
 NumberOfWires=8
 TubeConfig=1,1,1,1,1,1,1,1

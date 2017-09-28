@@ -41,7 +41,7 @@ TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
 TorpedoTypes=usn_mk37,usn_mk16
-TorpedoNumbers=6,6
+TorpedoNumbers=10,10
 TorpedoTubes=6
 NumberOfWires=1
 TubeConfig=1,1,1,1,1,1

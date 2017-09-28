@@ -41,7 +41,7 @@ TowedArrayPosition=-0.109,0.003,-0.779
 
 [Weapon Systems]
 TorpedoTypes=dm2a3_seehecht,usn_moss,usn_ugm84
-TorpedoNumbers=10,2,2
+TorpedoNumbers=16,2,2
 TorpedoTubes=8
 NumberOfWires=8
 TubeConfig=1,1,1,1,1,1,1,1

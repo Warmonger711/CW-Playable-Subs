@@ -40,7 +40,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=chn_yu3,russian_moss
-TorpedoNumbers=12,4
+TorpedoNumbers=16,4
 TorpedoTubes=7
 NumberOfWires=2
 TubeConfig=1,1,1,1,1,1,1

@@ -40,7 +40,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=wp_set-65,wp_53-65M
-TorpedoNumbers=7,7
+TorpedoNumbers=10,10
 TorpedoTubes=6
 TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=21

@@ -41,7 +41,7 @@ TowedArrayPosition=-0.109,0.003,-0.779
 
 [Weapon Systems]
 TorpedoTypes=dm2a3_seehecht,dm2a4_seehecht,usn_ugm84,usn_tlam
-TorpedoNumbers=11,0,3,2
+TorpedoNumbers=15,0,3,2
 TorpedoTubes=10
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1,1,1,1,1
@@ -96,7 +96,7 @@ MeshRotation=0,0,0
 MeshHullCollider=wp_ss_kilo_coll_hull
 MeshSuperstructureCollider=wp_ss_kilo_coll_ss
 Material=ships/wp_ss_kilo/wp_ss_kilo_mat
-MaterialTextures=vessels/textures/isn_ss_dolphin.png
+MaterialTextures=vessels/textures/darkgrey.png
 Mesh=wp_ss_kilo
 MeshRotation=0,90,0
 MeshSternPlanes=wp_ss_kilo_sternplanes
@@ -111,19 +111,18 @@ MeshRotation=0,0,0
 //MeshBowPlanes=wp_ssn_november_bowplanes
 
 //Masts
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
+MeshPosition=0.0,-0.0346,-0.5641
 Material=ships/materials/usn_masts
-MeshPosition=0,0.030,0.160
+MeshPosition=-0.0072,0.075,0.317
 MastHeight=0.085
-MeshMast=usn_ssn_permit_periscope
-
-MeshPosition=0,0.030,0.130
+MeshMast=usn_ssn_los_angeles_periscope
+MeshPosition=0,0.075,0.3036
 MastHeight=0.085
-MeshMast=usn_ssn_permit_esm_mast
-
-MeshPosition=0,0.030,0.110
+MeshMast=usn_ssn_los_angeles_esm_mast
+MeshPosition=-0.003,0.075,0.3487
 MastHeight=0.085
-MeshMast=usn_ssn_permit_radar_mast
+MeshMast=usn_ssn_los_angeles_radar_mast
 
 //Rudder
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit

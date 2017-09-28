@@ -40,14 +40,14 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=wp_set-65,wp_53-65M
-TorpedoNumbers=16,0
+TorpedoNumbers=16,4
 TorpedoTubes=5
 TubeConfig=1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
 
 VLSTorpedoTypes=wp_p700,wp_p500
-VLSTorpedoNumbers=12,0
+VLSTorpedoNumbers=0,12
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=10
 

@@ -40,7 +40,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=it_a184
-TorpedoNumbers=10
+TorpedoNumbers=20
 TorpedoTubes=4
 NumberOfWires=4
 TubeConfig=1,1,1,1

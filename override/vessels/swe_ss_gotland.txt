@@ -41,7 +41,7 @@ TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
 TorpedoTypes=swe_t613,usn_moss,usn_ugm84
-TorpedoNumbers=16, 2, 4
+TorpedoNumbers=16,2,4
 TorpedoTubes=6
 NumberOfWires=4
 TubeConfig=1,1,1,1,1,1

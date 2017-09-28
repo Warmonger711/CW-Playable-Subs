@@ -40,7 +40,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=chn_yu4b,chn_yu1
-TorpedoNumbers=7,7
+TorpedoNumbers=10,10
 TorpedoTubes=6
 TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=21

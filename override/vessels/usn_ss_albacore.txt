@@ -41,7 +41,7 @@ TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48
-TorpedoNumbers=12
+TorpedoNumbers=20
 TorpedoTubes=2
 NumberOfWires=2
 TubeConfig=1,1
@@ -122,10 +122,10 @@ MaterialTextures=terrain/sand
 //Contra Props
 MeshPosition=0,0.0002,-0.5636
 MeshRotation=0,0,36
-MeshProp=usn_ssn_skipjack_prop
+MeshProp=usn_ssn_skipjack_prop5
 MeshPosition=0,0.0002,-0.58
 MeshRotation=0,0,0
-MeshProp=usn_ssn_skipjack_prop
+MeshProp=usn_ssn_skipjack_prop5
 
 
 Material=ships/materials/usn_masts

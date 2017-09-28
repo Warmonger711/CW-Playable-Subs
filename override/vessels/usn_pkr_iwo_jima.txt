@@ -76,7 +76,7 @@ MeshRudder=wp_takr_kiev_rudder_r
 
 MeshPosition=0,0,0
 Material=ships/wp_takr_kiev/wp_takr_kiev_deck
-MaterialTextures=ships/wp_takr_kiev/wp_takr_kiev_deck_tx
+MaterialTextures=vessels/textures/usn_carrier_deck.png
 Mesh=wp_takr_kiev_deck,wp_takr_kiev_deck_d
 
 Material=ships/materials/wp_headlights

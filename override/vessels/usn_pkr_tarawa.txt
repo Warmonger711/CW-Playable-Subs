@@ -83,7 +83,7 @@ MeshRudder=wp_takr_kiev_rudder_r
 
 MeshPosition=0,0,0
 Material=ships/wp_takr_kiev/wp_takr_kiev_deck
-MaterialTextures=ships/wp_takr_kiev/wp_takr_kiev_deck_tx
+MaterialTextures=vessels/textures/usn_carrier_deck.png
 Mesh=wp_takr_kiev_deck,wp_takr_kiev_deck_d
 
 Material=ships/materials/wp_headlights
@@ -128,11 +128,11 @@ Mesh=wp_takr_kiev_airwing,wp_takr_kiev_airwing_d
 Material=ships/materials/hormone_shadow
 Mesh=wp_takr_kiev_airwing_shadow
 
-Material=aircraft/wp_forger/wp_forger_mat
-MaterialTextures=aircraft/wp_forger/wp_forger_tx,aircraft/wp_forger/wp_forger_spec,aircraft/wp_forger/wp_forger_nm
-Mesh=wp_takr_kiev_yak38,wp_takr_kiev_yak38_d
-Material=ships/materials/forger_shadow
-Mesh=wp_takr_kiev_yak38_shadow
+//Material=aircraft/wp_forger/wp_forger_mat
+//MaterialTextures=aircraft/wp_forger/wp_forger_tx,aircraft/wp_forger/wp_forger_spec,aircraft/wp_forger/wp_forger_nm
+//Mesh=wp_takr_kiev_yak38,wp_takr_kiev_yak38_d
+//Material=ships/materials/forger_shadow
+//Mesh=wp_takr_kiev_yak38_shadow
 
 //RADARs
 RADARSpeed=120

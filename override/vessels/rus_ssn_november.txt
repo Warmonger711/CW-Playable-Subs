@@ -12,7 +12,7 @@ HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=15
-SubmergedSpeed=26
+SubmergedSpeed=28
 AccelerationRate=0.25
 DecelerationRate=0.08
 RudderTurnRate=0.75
@@ -29,7 +29,7 @@ TestDepth=1050
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=152
+SelfNoise=156
 ActiveSonarReflection=25
 ActiveSonarModel=wp_pike_jaw
 PassiveSonarModel=wp_trout_cheek

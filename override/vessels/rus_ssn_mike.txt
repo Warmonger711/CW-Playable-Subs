@@ -29,7 +29,7 @@ TestDepth=3750
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=152
+SelfNoise=136
 ActiveSonarReflection=30
 ActiveSonarModel=wp_shark_gill
 PassiveSonarModel=wp_shark_gill

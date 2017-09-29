@@ -39,6 +39,7 @@ isn_ss_dolphin
 fra_ssbn_redoubtable
 fra_ssn_rubis
 swe_ss_gotland
+aus_ss_oberon
 aus_ss_collins
 HNLMS_SS_Dolfijn
 HNLMS_SS_Walrus

@@ -151,6 +151,10 @@ usn_an_sqs-23=AN/SQS-23=The AN/SQS-23 was a long range, azimuth-scanning type of
 
 usn_an_sqr-18=AN/SQR-18=The AN/SQR-18 series began with the SQR-18 Interim Escort Towed-Array Surveillance System (IETASS) that was developed to be a simpler version of the AN/ SQR-14/15 long-range towed arrays for frigates and minesweepers. During tests, the SQR-18 towed array generated excess noise, which contributed to its unreliability in the first convergence zone. Deployed on Belknap (CG 26)-class cruisers, Spruance (DD 963)-class destroyers, and Oliver Hazard Perry (FFG 7)-and Knox (FF 1052)-class frigates. Also fitted in Japanese destroyers and Indonesian Ahmed Yani-class frigates.
 
+usn_an_bqg-4=AN/BQG-4=The AN/BQG-4 is a passive ranging sonar system developed by the United States for export to other NATO nation's submarines. These include the upgraded Australian Oberon Class boats.
+
+csu_3-41=CSU 3-41=The CSU 3-41 is an active attack sonar system designed and developed by West Germany in the early 70s. They began exporting it to other NATO nations by the mid 70s as they found more success with the CSU 81-1.
+
 //WP SONOBUOYS
 wp_rgb_56=RGB-56=First generation sonobuoy RGB-N Iva 'Crow Egg' (45kg, 2m) introduced 1956. 8 to a container.
 

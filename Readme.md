@@ -10,11 +10,12 @@ _Important & urgent information for the mod developers will appear in this secti
   * override\campaign\campaign006\summary.txt
   * Single Missions 1 & 2 - NATO Subs Only
   * Single Missions 3 & 4 - Russian Subs Only
-  * Single Mission 15 - Russian SSBNs Only
-  * Single Mission 16 - NATO SSBNs Only
-  * Single Missions 17 thru 34 - All Subs
-  * Single Mission 36 - NATO SSBNs Only (Must have working SLBMs!)
-  * Single Mission 37 - Russian SSBNs Only (Must have working SLBMs!)
+  * Single Mission 5 - All Subs
+  * Single Mission 8 - Russian SSBNs Only
+  * Single Mission 9 - NATO SSBNs Only
+  * Single Missions 10 thru 28 - All Subs
+  * Single Mission 29 - NATO SSBNs Only (Must have working SLBMs!)
+  * Single Mission 30 - Russian SSBNs Only (Must have working SLBMs!)
 
 -----
 

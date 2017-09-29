@@ -472,6 +472,24 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=2
 SonarOutput=0
 
+SonarModel=usn_an_bqg-4
+SonarType=PASSIVE
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=40
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=0
+
+SonarModel=csu_3-41
+SonarType=ACTIVE
+SonarFrequencies=M
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=0
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=215
+
 // -------------------------------------------------------------------- End New Sensors --------------------------------------------------------------------
 
 

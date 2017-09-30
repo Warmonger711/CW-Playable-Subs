@@ -110,11 +110,6 @@ MeshPosition=0.0143,-0.0113,0.774
 TorpedoSpawnPosition=0.0143,-0.0113,0.824
 TorpedoEffectPosition=0,0,0.0232
 
-//Tube 6
-MeshRotation=0,0,0
-MeshPosition=-0.0143,-0.0113,0.774
-TorpedoSpawnPosition=-0.0143,-0.0113,0.824
-TorpedoEffectPosition=0,0,0.0232
 
 //Noisemaker Mount
 MeshRotation=0,0,0

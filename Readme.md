@@ -13,7 +13,8 @@ _Important & urgent information for the mod developers will appear in this secti
   * Single Mission 5 - All Subs
   * Single Mission 8 - Russian SSBNs Only
   * Single Mission 9 - NATO SSBNs Only
-  * Single Missions 10 thru 28 - All Subs
+  * Single Missions 10 thru 27 - All Subs
+  * Single Mission 28 - ANY new units sections 1 and 3. All playable subs sections 1,2 and 3.
   * Single Mission 29 - NATO SSBNs Only (Must have working SLBMs!)
   * Single Mission 30 - Russian SSBNs Only (Must have working SLBMs!)
 

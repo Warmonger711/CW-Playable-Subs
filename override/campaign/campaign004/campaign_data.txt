@@ -37,9 +37,9 @@ SosusBarrier=campaign/images/sprites/sosus.png
 [Land War]
 UseLandWar=TRUE
 IconsInOccupiedZonesOnly=FALSE
-HoursToNextGeneralEvent=48
-HoursToNextGeneralEventRange=-24,48
-FirstOccupiedTerritory=WG1,WG2,D1,N1,N2
+HoursToNextGeneralEvent=24
+HoursToNextGeneralEventRange=-12,12
+FirstOccupiedTerritory=WG1,WG2,WG3,ND1,B1,D1,N1,N2,N3,N4,N5,N6,N7,S1,S2
 TerritoryTakebackThreshold=5
 NewFrontProbability=0.3
 
@@ -373,12 +373,12 @@ Event=event_intro_1=START
 Event=event_intro_2
 Event=event_intro_3
 Event=event_intro_4
-Event=event_pact_invasion_sea=PLAYER_INVASION_SEA
-Event=event_pact_invasion_land=PLAYER_INVASION_LAND
-Event=event_pact_invasion_air=PLAYER_INVASION_AIR
-Event=event_nato_liberation_sea=ENEMY_LIBERATION_SEA
-Event=event_nato_liberation_land=ENEMY_LIBERATION_LAND
-Event=event_nato_liberation_air=ENEMY_LIBERATION_AIR
+Event=event_pact_invasion_sea=PLAYER_LIBERATION_SEA
+Event=event_pact_invasion_land=PLAYER_LIBERATION_LAND
+Event=event_pact_invasion_air=PLAYER_LIBERATION_AIR
+Event=event_nato_liberation_sea=ENEMY_INVASION_SEA
+Event=event_nato_liberation_land=ENEMY_INVASION_LAND
+Event=event_nato_liberation_air=ENEMY_INVASION_AIR
 Event=event_impasse=IMPASSE
 Event=event_armistice_advantage=ARMISTICE_ADVANTAGE
 Event=event_armistice_disadvantage=ARMISTICE_DISADVANTAGE

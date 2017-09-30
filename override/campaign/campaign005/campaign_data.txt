@@ -37,9 +37,9 @@ SosusBarrier=campaign/images/sprites/sosus.png
 [Land War]
 UseLandWar=TRUE
 IconsInOccupiedZonesOnly=FALSE
-HoursToNextGeneralEvent=48
-HoursToNextGeneralEventRange=-24,48
-FirstOccupiedTerritory=WG1,WG2,D1,I1,I2,N1,N2
+HoursToNextGeneralEvent=24
+HoursToNextGeneralEventRange=-12,12
+FirstOccupiedTerritory=WG1,WG2,WG3,ND1,B1,D1,N1,N2,N3,N4,N5,N6,N7,S1,S2
 TerritoryTakebackThreshold=5
 NewFrontProbability=0.3
 
@@ -100,25 +100,25 @@ LinksToWaypoint=IG5,IG6,N2,IG7
 
 //Iceland
 //Reykjavik/Keflavik 2
-Alignment=ENEMY
-Function=NAVAL_BASE,AIRBASE,SOSUS_NODE
+Alignment=FRIENDLY
+Function=NAVAL_BASE,AIRBASE
 BaseMapPosition=-259.3,135.1
-RelatedSOSUS=DENMARKSTRAIT
-AircraftType=us_p3c_orion
-AircraftTypeInvaded=wp_il-38_may
+//RelatedSOSUS=DENMARKSTRAIT
+AircraftType=wp_il-38_may
+AircraftTypeInvaded=us_p3c_orion
 AircraftPrepTime=10
 AircraftHeadings=45,110
 AircraftSearchRange=700
 LinksToWaypoint=IG3
-MissionTypes=ASW_PATROL,SSN_PATROL
+//MissionTypes=ASW_PATROL,SSN_PATROL
 LinksToRegionWaypoint=I1
 
 //Hofn 3
-Alignment=ENEMY
-Function=SOSUS_NODE
+Alignment=FRIENDLY
+//Function=SOSUS_NODE
 BaseMapPosition=-191.30,67.3
-RelatedSOSUS=FAROESNORTH
-MissionTypes=ASW_PATROL
+//RelatedSOSUS=FAROESNORTH
+//MissionTypes=ASW_PATROL
 LinksToWaypoint=IG5
 LinksToRegionWaypoint=I2
 
@@ -303,19 +303,19 @@ CombatCoords=1234,1234
 //RelatedNodes=Gotland,Berga
 
 [SOSUS]
-SOSUSName=DENMARKSTRAIT
-SOSUSStartPosition=-230.50,176.80
-SOSUSEndPosition=-193.40,245.10
-SOSUSAngle=28
-SOSUSDetectionRange=120
-SOSUSAlignment=ENEMY
+//SOSUSName=DENMARKSTRAIT
+//SOSUSStartPosition=-230.50,176.80
+//SOSUSEndPosition=-193.40,245.10
+//SOSUSAngle=28
+//SOSUSDetectionRange=120
+//SOSUSAlignment=ENEMY
 
-SOSUSName=FAROESNORTH
-SOSUSStartPosition=-142.60,-35.90
-SOSUSEndPosition=-195.30,70.10
-SOSUSAngle=-25
-SOSUSDetectionRange=120
-SOSUSAlignment=ENEMY
+//SOSUSName=FAROESNORTH
+//SOSUSStartPosition=-142.60,-35.90
+//SOSUSEndPosition=-195.30,70.10
+//SOSUSAngle=-25
+//SOSUSDetectionRange=120
+//SOSUSAlignment=ENEMY
 
 SOSUSName=FAROESSOUTH
 SOSUSStartPosition=-164.20,-133.20
@@ -379,12 +379,12 @@ Event=event_intro_4
 Event=event_intro_5
 Event=event_intro_6
 Event=event_intro_7
-Event=event_pact_invasion_sea=PLAYER_INVASION_SEA
-Event=event_pact_invasion_land=PLAYER_INVASION_LAND
-Event=event_pact_invasion_air=PLAYER_INVASION_AIR
-Event=event_nato_liberation_sea=ENEMY_LIBERATION_SEA
-Event=event_nato_liberation_land=ENEMY_LIBERATION_LAND
-Event=event_nato_liberation_air=ENEMY_LIBERATION_AIR
+Event=event_pact_invasion_sea=PLAYER_LIBERATION_SEA
+Event=event_pact_invasion_land=PLAYER_LIBERATION_LAND
+Event=event_pact_invasion_air=PLAYER_LIBERATION_AIR
+Event=event_nato_liberation_sea=ENEMY_INVASION_SEA
+Event=event_nato_liberation_land=ENEMY_INVASION_LAND
+Event=event_nato_liberation_air=ENEMY_INVASION_AIR
 Event=event_impasse=IMPASSE
 Event=event_armistice_advantage=ARMISTICE_ADVANTAGE
 Event=event_armistice_disadvantage=ARMISTICE_DISADVANTAGE

@@ -957,3 +957,6 @@ RADARRange=45000
 
 RADARModel=jmsdf_zps_6
 RADARRange=60000
+
+RADARModel=wp_snoop_pair
+RADARRange=60000

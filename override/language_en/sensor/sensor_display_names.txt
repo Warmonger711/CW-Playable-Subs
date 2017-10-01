@@ -233,6 +233,8 @@ wp_snoop_plate=Snoop Plate=Mast-mounted surface search radar allows submarines t
 
 wp_snoop_slab=Snoop Slab=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
+wp_snoop_pair=Snoop Slab=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+
 wp_mushroom=Short Horn=RPB-2K Initsiativa "Mushroom" (SHORT HORN) helicopter-mounted surface search set for Ka-25BSh, optimized for ASW.
 
 wp_octopus=Splash Drop=Osminog-E "Octopus" (SPLASH DROP) helicopter-mounted surface search set for Ka-27PL, optimized for ASW.

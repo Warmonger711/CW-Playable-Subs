@@ -34,7 +34,7 @@ ActiveSonarModel=wp_shark_teeth
 PassiveSonarModel=wp_shark_fin
 TowedArrayModel=FALSE
 AnechoicCoating=TRUE
-RADAR=wp_snoop_plate
+RADAR=wp_snoop_tray
 RADARSignature=SMALL
 
 [Weapon Systems]

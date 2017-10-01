@@ -1,6 +1,9 @@
------
+---
 ## Developer Announcements
 _Important & urgent information for the mod developers will appear in this section._
+
+* ### **URGENT: All developers need to keep their Github branches up to date! We are losing changes and reverting back to old versions of files way too often. Before beginning to work on your own files, make sure you use the Github Desktop App to Sync the latest files from the master branch!! THIS IS ABSOLUTELY VITAL!!**
+
 * **When adding a new sub class to the mod, please also add it to the campaign files and the appropriate single mission files so that it's available for use by players. I can't continue to keep track of this alone. Please make sure you add your new class in the appropriate spot on the sub list (keep the same nations grouped together). These are the files that must be updated when a new class is added:**
   * override\campaign\campaign001\summary.txt
   * override\campaign\campaign002\summary.txt

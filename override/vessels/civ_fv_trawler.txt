@@ -47,7 +47,7 @@ MeshHullCollider=wp_fv_trawler_coll_hull
 MeshSuperstructureCollider=wp_fv_trawler_coll_ss
 
 Material=ships/wp_fv_trawler/wp_fv_trawler_mat
-MaterialTextures=ships/wp_fv_trawler/wp_fv_trawler_tx,ships/wp_fv_trawler/wp_fv_trawler_spec,ships/wp_fv_trawler/wp_fv_trawler_nm
+MaterialTextures=vessels/textures/civ_fv_trawler.png
 Mesh=wp_fv_trawler,wp_fv_trawler_d
 MeshPosition=0,-0.0096,-0.3867
 MeshRudder=wp_fv_trawler_rudder

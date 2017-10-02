@@ -47,7 +47,7 @@ TorpedoTubeSize=21
 TubeReloadTime=30
 
 VLSTorpedoTypes=wp_p700,wp_p500
-VLSTorpedoNumbers=0,12
+VLSTorpedoNumbers=12,0
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=10
 

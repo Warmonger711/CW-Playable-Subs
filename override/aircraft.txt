@@ -17,14 +17,14 @@ TorpedoTypes=wp_umgt-1
 TorpedoNumbers=2
 DepthBomb=wp_depth_bomb_120
 DepthBombNumbers=8
-MinCameraDistance=0.5
+MinCameraDistance=0.4
 
 [Model]
 ModelFile=aircraft/wp_helix/wp_helix
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 Material=aircraft/wp_helix/wp_helix_mat
-MaterialTextures=aircraft/wp_helix/wp_helix_tx,aircraft/wp_helix/wp_helix_spec,aircraft/wp_helix/wp_helix_nm
+MaterialTextures=vessels/textures/wp_helix_tx.png
 MeshAircraftBody=wp_helix
 DippingSonarPosition=0,-0.022,-0.05
 
@@ -548,7 +548,7 @@ ModelFile=aircraft/wp_il-38_may/wp_il-38_may
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 Material=aircraft/wp_il-38_may/wp_il-38_may_mat
-MaterialTextures=aircraft/wp_il-38_may/wp_il-38_may_tx,aircraft/wp_il-38_may/wp_il-38_may_spec,aircraft/wp_il-38_may/wp_il-38_may_nm
+MaterialTextures=vessels/textures/usn_p3a.png
 MeshAircraftBody=May
 
 MeshRotation=90,0,0

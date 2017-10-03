@@ -19,7 +19,7 @@ LayerStrength=Moderate
 //Enemy Ships
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
-EnemyShipClasses=usn_ssn_sturgeon_68|usn_ssn_permit_68|usn_ssn_skipjack_68|usn_ss_guppyIIa|usn_ss_barbel_68|usn_ssn_tang|usn_ss_albacore
+EnemyShipClasses=usn_ssn_sturgeon_68|usn_ssn_permit_68|usn_ssn_skipjack_68|usn_ss_guppyIIa|usn_ss_barbel_68|usn_ss_tang|usn_ss_albacore
 FormationCruiseSpeed=12
 
 //Enemy Aircraft

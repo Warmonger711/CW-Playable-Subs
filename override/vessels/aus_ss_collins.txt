@@ -202,15 +202,15 @@ Mesh=usn_ssn_permit_wlr9
 ModelFile=weapons/assets/usn_tasm
 MeshRotation=0,0,0
 MaterialTextures=vessels/textures/darkgrey.png
-MeshPosition=0,0.055,-0.375
+MeshPosition=0,0.050,-0.375
 Mesh=TASM_Canister
-MeshPosition=0,0.055,-0.415
+MeshPosition=0,0.050,-0.415
 Mesh=TASM_Canister
-MeshPosition=0,0.055,-0.475
+MeshPosition=0,0.050,-0.475
 Mesh=TASM_Canister
 
 MeshRotation=90,0,0
-MeshPosition=0,0.005,-0.445
+MeshPosition=0,0,-0.445
 Mesh=TASM_Canister
 
 

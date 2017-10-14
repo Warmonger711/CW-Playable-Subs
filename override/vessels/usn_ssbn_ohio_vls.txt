@@ -133,11 +133,12 @@ MeshPosition=0,0.0029,-0.8013
 MeshProp=usn_ssn_los_angeles_prop
 
 //Permit
-//ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-//Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
-//MaterialTextures=vessels/textures/usn_ssbn_ohio.png
-//MeshPosition=0,.03,0.01
-//Mesh=usn_ssn_permit
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
+MaterialTextures=vessels/textures/usn_ssbn_ohio.png
+MeshPosition=0,0.03,0
+MeshRotation=0,0,0
+Mesh=usn_ssn_permit
 
 //Tail Fins
 ModelFile=ships/wp_ss_whiskey/wp_ss_whiskey

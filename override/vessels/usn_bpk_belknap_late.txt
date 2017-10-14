@@ -9,7 +9,7 @@ Crew=477
 Range=10500
 HullNumbers=FALSE
 AircraftNumbers=1
-AircraftTypes=usn_sh2f
+AircraftTypes=usn_sh2f_late
 
 [Movement]
 SurfaceSpeed=32

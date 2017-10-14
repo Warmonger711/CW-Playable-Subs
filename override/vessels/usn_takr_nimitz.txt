@@ -8,8 +8,8 @@ Displacement=100000
 Crew=5680
 Range=20000
 HullNumbers=FALSE
-AircraftNumbers=4
-AircraftTypes=usn_sh60b
+AircraftNumbers=4,2
+AircraftTypes=usn_sh60b,usn_sh3d_late
 
 [Movement]
 SurfaceSpeed=30

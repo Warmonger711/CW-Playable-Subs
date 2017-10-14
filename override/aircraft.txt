@@ -189,7 +189,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
-// SH60B Helicopter
+// SH60B Helicopter - 80s
 AircraftObjectReference=usn_sh60b
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -202,7 +202,7 @@ RADARSignature=SMALL
 //SH60B does not have dipping sonar, added SH3D dipping for gameplay since sonobuoys are dropped sporadically
 ActiveSonarModel=usn_an_aqs-13
 PassiveSonarModel=usn_an_aqs-13
-SonobuoyTypes=usn_asb,usn_psb
+SonobuoyTypes=usn_ssq62,usn_ssq53b
 SonobuoyNumbers=13,13
 [Weapon Systems]
 TorpedoTypes=usn_mk46
@@ -238,7 +238,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
-// SH60F Helicopter
+// SH60F Helicopter - Late 90s
 AircraftObjectReference=usn_sh60f
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -250,7 +250,7 @@ RADAR=usn_aps-124
 RADARSignature=SMALL
 ActiveSonarModel=usn_an_aqs-13f
 PassiveSonarModel=usn_an_aqs-13f
-SonobuoyTypes=usn_asb,usn_psb
+SonobuoyTypes=usn_ssq62,usn_ssq53b
 SonobuoyNumbers=13,13
 [Weapon Systems]
 TorpedoTypes=usn_mk50
@@ -286,7 +286,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
-// SH2 Helicopter
+// SH2 Helicopter - Late 60s
 AircraftObjectReference=usn_sh2f
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -299,8 +299,8 @@ RADARSignature=SMALL
 //SH60B does not have dipping sonar, added SH3D dipping for gameplay since sonobuoys are dropped sporadically
 ActiveSonarModel=usn_an_aqs-13
 PassiveSonarModel=usn_an_aqs-13
-SonobuoyTypes=usn_asb,usn_psb
-SonobuoyNumbers=13,13
+SonobuoyTypes=usn_ssq47,usn_ssq38,usn_ssq53a
+SonobuoyNumbers=13,7,7
 [Weapon Systems]
 TorpedoTypes=usn_mk46_early
 TorpedoNumbers=2
@@ -335,7 +335,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
-// SH3D Helicopter
+// SH3D Helicopter - Late 60s
 AircraftObjectReference=usn_sh3d
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -347,10 +347,107 @@ RADAR=usn_aps-124
 RADARSignature=SMALL
 ActiveSonarModel=usn_an_aqs-13
 PassiveSonarModel=usn_an_aqs-13
-SonobuoyTypes=usn_asb,usn_psb
-SonobuoyNumbers=10,10
+SonobuoyTypes=usn_ssq47,usn_ssq38,usn_ssq53a
+SonobuoyNumbers=10,5,5
 [Weapon Systems]
 TorpedoTypes=usn_mk46_early
+TorpedoNumbers=2
+DepthBomb=usn_depth_bomb
+DepthBombNumbers=4
+MinCameraDistance=0.5
+
+[Model]
+ModelFile=aircraft/wp_helix/wp_helix
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+Material=aircraft/wp_helix/wp_helix_mat
+MaterialTextures=aircraft/wp_helix/wp_helix_tx,aircraft/wp_helix/wp_helix_spec,aircraft/wp_helix/wp_helix_nm
+MeshAircraftBody=wp_helix
+DippingSonarPosition=0,-0.022,-0.05
+
+MeshPosition=0,0.03723,0
+Material=aircraft/materials/prop_3_blade
+MeshSpeed=-100
+MeshAircraftProp=Rotor_CCW
+
+MeshPosition=0,0.0104,0
+Material=aircraft/materials/prop_3_blade
+MeshSpeed=100
+MeshAircraftProp=Rotor_CW
+
+HoverParticle=aircraft/heli_hover
+
+AudioClip=audio/units/ka25_inflight
+AudioRollOff=LINEAR
+AudioDistance=0.1,16
+AudioPitch=1
+[/Model]
+
+// SH2 Helicopter - 80s
+AircraftObjectReference=usn_sh2f_late
+AircraftType=HELICOPTER
+CruiseSpeed=106
+Length=12.2
+Height=4.7
+Weight=5805
+Crew=4
+RADAR=usn_aps-124
+RADARSignature=SMALL
+//SH60B does not have dipping sonar, added SH3D dipping for gameplay since sonobuoys are dropped sporadically
+ActiveSonarModel=usn_an_aqs-13
+PassiveSonarModel=usn_an_aqs-13
+SonobuoyTypes=usn_ssq62,usn_ssq53b
+SonobuoyNumbers=13,13
+[Weapon Systems]
+TorpedoTypes=usn_mk46
+TorpedoNumbers=2
+DepthBomb=usn_depth_bomb
+DepthBombNumbers=2
+MinCameraDistance=0.5
+
+[Model]
+ModelFile=aircraft/wp_helix/wp_helix
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+Material=aircraft/wp_helix/wp_helix_mat
+MaterialTextures=aircraft/wp_helix/wp_helix_tx,aircraft/wp_helix/wp_helix_spec,aircraft/wp_helix/wp_helix_nm
+MeshAircraftBody=wp_helix
+DippingSonarPosition=0,-0.022,-0.05
+
+MeshPosition=0,0.03723,0
+Material=aircraft/materials/prop_3_blade
+MeshSpeed=-100
+MeshAircraftProp=Rotor_CCW
+
+MeshPosition=0,0.0104,0
+Material=aircraft/materials/prop_3_blade
+MeshSpeed=100
+MeshAircraftProp=Rotor_CW
+
+HoverParticle=aircraft/heli_hover
+
+AudioClip=audio/units/ka25_inflight
+AudioRollOff=LINEAR
+AudioDistance=0.1,16
+AudioPitch=1
+[/Model]
+
+// SH3D Helicopter - 80s
+AircraftObjectReference=usn_sh3d_late
+AircraftType=HELICOPTER
+CruiseSpeed=106
+Length=16.7
+Height=5.13
+Weight=10000
+Crew=4
+RADAR=usn_aps-124
+RADARSignature=SMALL
+ActiveSonarModel=usn_an_aqs-13
+PassiveSonarModel=usn_an_aqs-13
+SonobuoyTypes=usn_ssq62,usn_ssq53b
+SonobuoyNumbers=10,10
+[Weapon Systems]
+TorpedoTypes=usn_mk46
 TorpedoNumbers=2
 DepthBomb=usn_depth_bomb
 DepthBombNumbers=4
@@ -531,8 +628,8 @@ RADARSignature=LARGE
 ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 
-SonobuoyTypes=usn_asb,usn_psb
-SonobuoyNumbers=16,9
+SonobuoyTypes=usn_ssq47,usn_ssq38,usn_ssq53a
+SonobuoyNumbers=16,5,5
 
 
 [Weapon Systems]
@@ -591,8 +688,8 @@ RADARSignature=LARGE
 ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 
-SonobuoyTypes=usn_asb,usn_psb
-SonobuoyNumbers=16,9
+SonobuoyTypes=usn_ssq62,usn_ssq53b
+SonobuoyNumbers=16,10
 
 
 [Weapon Systems]

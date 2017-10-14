@@ -172,9 +172,15 @@ wp_bm_3=BM-3=RGB-3 'Snipe Egg 3' active/passive sonobuoy.
 
 //USN SONOBUOYS
 
-usn_asb=ASB=Active sonobuoys emit sound energy (pings) into the water and listen for the returning echo before transmitting information—usually range and bearing—via UHF/VHF radio to a receiving ship or aircraft. The original active sonobuoys pinged continuously after deployment for a predetermined period of time. Later, Command Activated Sonobuoy System (CASS) sonobuoys allowed the aircraft to trigger pings (or buoy scuttling) via a radio link. This evolved into DICASS (Directional CASS) in which the return echo contained bearing as well as range data.
+usn_ssq62=AN/SSQ-62= USN active sonobuoy DICASS AN/SSQ-62 - In service since late 70s.
 
-usn_psb=PSB=Passive sonobuoys emit nothing into the water, but rather listen, waiting for sound waves (for instance, power plant, propeller or door-closing and other noises) from ships or submarines, or other acoustic signals of interest such as an aircraft's black box pinger, to reach the hydrophone. The sound is then transmitted via UHF/VHF radio to a receiving ship or aircraft.
+usn_ssq47=AN/SSQ-47= USN active sonobuoy CASS AN/SSQ-47 - In service since late 60s.
+
+usn_ssq38=AN/SSQ-38= USN passive sonobuoy LOFAR AN/SSQ-38 - In service during the 60s.
+
+usn_ssq53a=AN/SSQ-53A= USN passive sonobuoy DIFAR AN/SSQ-53A - In service since the late 60s.
+
+usn_ssq53b=AN/SSQ-53B= USN passive sonobuoy DIFAR AN/SSQ-53B - In service since the mid 80s.
 
 //WP HELO DIPPING SONARS
 

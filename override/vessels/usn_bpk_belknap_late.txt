@@ -88,14 +88,14 @@ MeshSuperstructureCollider=wp_bpk_kresta2_coll_ss
 MeshSuperstructureCollider=wp_bpk_kresta2_coll_ss
 
 Material=ships/wp_bpk_kresta2/wp_bpk_kresta2_mat
-MaterialTextures=ships/wp_bpk_kresta2/wp_bpk_kresta2_tx,ships/wp_bpk_kresta2/wp_bpk_kresta2_spec,ships/wp_bpk_kresta2/wp_bpk_kresta2_nm
+MaterialTextures=vessels/Textures/kr2.png
 Mesh=wp_bpk_kresta2,wp_bpk_kresta2_d
 MeshPosition=0,-0.0513,-1.0311
 MeshRudder=wp_bpk_kresta2_rudder
 
 MeshPosition=0,0,0
 Material=ships/wp_bpk_kresta2/wp_bpk_kresta2_deck
-MaterialTextures=ships/wp_bpk_kresta2/wp_bpk_kresta2_deck_tx
+MaterialTextures=vessels/Textures/kr2deck.png
 Mesh=wp_bpk_kresta2_deck,wp_bpk_kresta2_deck_d
 
 Material=ships/materials/boats
@@ -126,13 +126,13 @@ MeshProp=wp_bpk_kresta2_prop_r
 //Deck Props
 MeshPosition=0,0,0
 MeshRotation=0,0,0
-Material=ships/materials/soviet_crest
-Mesh=wp_bpk_kresta2_crest
-Material=aircraft/wp_hormone/wp_hormone_mat
-MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hormone/wp_hormone_nm
-Mesh=wp_bpk_kresta2_airwing
-Material=ships/materials/hormone_shadow
-Mesh=wp_bpk_kresta2_airwing_shadow
+//Material=ships/materials/soviet_crest
+//Mesh=wp_bpk_kresta2_crest
+//Material=aircraft/wp_hormone/wp_hormone_mat
+//MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hormone/wp_hormone_nm
+//Mesh=wp_bpk_kresta2_airwing
+//Material=ships/materials/hormone_shadow
+//Mesh=wp_bpk_kresta2_airwing_shadow
 
 
 //RADARs

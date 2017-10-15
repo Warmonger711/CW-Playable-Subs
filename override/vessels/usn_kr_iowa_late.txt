@@ -9,7 +9,7 @@ Crew=1800
 Range=14900
 HullNumbers=FALSE
 AircraftNumbers=3
-AircraftTypes=usn_sh3d
+AircraftTypes=usn_sh60b
 
 [Movement]
 SurfaceSpeed=32

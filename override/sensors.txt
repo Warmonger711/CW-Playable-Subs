@@ -422,7 +422,7 @@ SonarModel=usn_an_sqs-56
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
 SonarActiveSensitivity=34
-SonarPassiveSensitivity=38
+SonarPassiveSensitivity=34
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
@@ -440,7 +440,7 @@ SonarModel=usn_an_sqr-19
 SonarType=TOWED
 SonarFrequencies=VL,L
 SonarActiveSensitivity=0
-SonarPassiveSensitivity=44
+SonarPassiveSensitivity=46
 SonarBaffle=FALSE
 SonarNoisePerKnot=2
 SonarOutput=0
@@ -449,7 +449,7 @@ SonarModel=usn_an_sqs-26
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
 SonarActiveSensitivity=32
-SonarPassiveSensitivity=36
+SonarPassiveSensitivity=38
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
@@ -457,8 +457,8 @@ SonarOutput=220
 SonarModel=usn_an_sqs-23
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
-SonarActiveSensitivity=30
-SonarPassiveSensitivity=32
+SonarActiveSensitivity=32
+SonarPassiveSensitivity=36
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
@@ -779,8 +779,18 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=200
 
-// USN active sonobuoy
-SonarModel=usn_asb
+// USN active sonobuoy DICASS AN/SSQ-62 - Late 70s
+SonarModel=usn_ssq62
+SonarType=SONOBUOY
+SonarFrequencies=M
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=0
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=200
+
+// USN active sonobuoy CASS AN/SSQ-47 - Late 60s
+SonarModel=usn_ssq47
 SonarType=SONOBUOY
 SonarFrequencies=M
 SonarActiveSensitivity=21
@@ -789,12 +799,32 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=200
 
-// USN passive sonobuoy
-SonarModel=usn_psb
+// USN passive sonobuoy LOFAR AN/SSQ-38 - 60s
+SonarModel=usn_ssq38
 SonarType=SONOBUOY
 SonarFrequencies=M
 SonarActiveSensitivity=0
-SonarPassiveSensitivity=30
+SonarPassiveSensitivity=25
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=0
+
+// USN passive sonobuoy DIFAR AN/SSQ-53A - Late 60s
+SonarModel=usn_ssq53a
+SonarType=SONOBUOY
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=28
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=0
+
+// USN passive sonobuoy DIFAR AN/SSQ-53B - Mid 80s
+SonarModel=usn_ssq53b
+SonarType=SONOBUOY
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=32
 SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=0

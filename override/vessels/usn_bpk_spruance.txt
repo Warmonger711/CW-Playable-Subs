@@ -90,14 +90,14 @@ MeshHullCollider=wp_bpk_udaloy_coll_hull
 MeshSuperstructureCollider=wp_bpk_udaloy_coll_ss
 
 Material=ships/wp_bpk_udaloy/wp_bpk_udaloy_mat
-MaterialTextures=ships/wp_bpk_udaloy/wp_bpk_udaloy_tx,ships/wp_bpk_udaloy/wp_bpk_udaloy_spec,ships/wp_bpk_udaloy/wp_bpk_udaloy_nm
+MaterialTextures=vessels/Textures/uda.png
 Mesh=wp_bpk_udaloy,wp_bpk_udaloy_d
 MeshPosition=0,-0.027,-0.915
 MeshRudder=wp_bpk_udaloy_rudder
 
 MeshPosition=0,0,0
 Material=ships/wp_bpk_udaloy/wp_bpk_udaloy_deck
-MaterialTextures=ships/wp_bpk_udaloy/wp_bpk_udaloy_deck_tx
+MaterialTextures=vessels/Textures/udadeck.png
 Mesh=wp_bpk_udaloy_deck,wp_bpk_udaloy_deck_d
 
 Material=ships/materials/underside
@@ -170,11 +170,11 @@ MeshPosition=0,0,0
 MeshRotation=0,0,0
 //Material=ships/materials/soviet_crest
 //Mesh=wp_bpk_udaloy_crest
-Material=aircraft/wp_helix/wp_helix_mat
-MaterialTextures=aircraft/wp_helix/wp_helix_tx,aircraft/wp_helix/wp_helix_spec,aircraft/wp_helix/wp_helix_nm
-Mesh=wp_bpk_udaloy_airwing
-Material=ships/materials/hormone_shadow
-Mesh=wp_bpk_udaloy_airwing_shadow
+//Material=aircraft/wp_helix/wp_helix_mat
+//MaterialTextures=aircraft/wp_helix/wp_helix_tx,aircraft/wp_helix/wp_helix_spec,aircraft/wp_helix/wp_helix_nm
+//Mesh=wp_bpk_udaloy_airwing
+//Material=ships/materials/hormone_shadow
+//Mesh=wp_bpk_udaloy_airwing_shadow
 
 [Weapon Systems]
 MeshRotation=0,0,0

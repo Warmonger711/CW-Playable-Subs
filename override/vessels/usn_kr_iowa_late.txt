@@ -9,7 +9,7 @@ Crew=1800
 Range=14900
 HullNumbers=FALSE
 AircraftNumbers=3
-AircraftTypes=usn_sh60b
+AircraftTypes=usn_sh3d_late
 
 [Movement]
 SurfaceSpeed=32
@@ -69,7 +69,7 @@ MeshHullCollider=wp_kr_sverdlov_coll_hull
 MeshSuperstructureCollider=wp_kr_sverdlov_coll_ss
 
 Material=ships/wp_kr_sverdlov/wp_kr_sverdlov_mat
-MaterialTextures=ships/wp_kr_sverdlov/wp_kr_sverdlov_tx,ships/wp_kr_sverdlov/wp_kr_sverdlov_spec,ships/wp_kr_sverdlov/wp_kr_sverdlov_nm
+MaterialTextures=vessels/Textures/sver.png
 Mesh=wp_kr_sverdlov,wp_kr_sverdlov_d
 MeshPosition=-0.0,-0.0555,-1.3364
 MeshRudder=wp_kr_sverdlov_rudder
@@ -108,7 +108,7 @@ NavalGunSpawnPosition=0,0,0.12
 MeshRotation=0,0,0
 MeshPosition=0,0,0
 Material=ships/wp_kr_sverdlov/wp_kr_sverdlov_deck
-MaterialTextures=ships/wp_kr_sverdlov/wp_kr_sverdlov_deck_tx
+MaterialTextures=vessels/Textures/sverdeck.png
 Mesh=wp_kr_sverdlov_deck,wp_kr_sverdlov_deck_d
 
 Material=ships/materials/boats

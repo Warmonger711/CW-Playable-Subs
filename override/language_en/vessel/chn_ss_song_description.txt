@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Song
+Description=[CHN] Song (Type 39) Class SS (1990 Era)
+History=Self Noise Rating: 140 db\nEscape Depth: 600 ft\n\nThe Type 039 submarine (NATO reporting name: Song Class) is a class of diesel-electric submarines of the People's Liberation Army Navy. The class is the first to be fully developed within China and also the first Chinese submarine to use the modern teardrop hull shape.
+
+[Player Ship Instances]
+PlayerClassNames=SS-320,SS-321,SS-322,SS-323,SS-324,SS-325,SS-326,SS-327,SS-328,SS-329,SS-330,SS-331,SS-332
+
+PlayerClassHullNumbers=320,321,322,323,324,325,326,327,328,329,330,331,332,

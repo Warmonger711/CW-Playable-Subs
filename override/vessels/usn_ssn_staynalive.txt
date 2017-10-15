@@ -13,6 +13,7 @@ HullNumbers=FALSE
 [Movement]
 SurfaceSpeed=20
 SubmergedSpeed=32
+TelegraphSpeeds=-5,0,5,10,15,20,32
 AccelerationRate=0.30
 DecelerationRate=0.10
 RudderTurnRate=.75

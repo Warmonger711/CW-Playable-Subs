@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Ming
+Description=[CHN] Ming (Type 035G) Class (1990 Era)
+History=Self Noise Rating: 124 db\nEscape Depth: 600 ft\n\nThe Type 035G submarine (NATO reporting name: Ming Class) is a class of diesel-electric submarines of the People's Liberation Army Navy. The Type 035G is a heavily improved redesign of the older Type 033 Romeo-class submarines.
+
+[Player Ship Instances]
+PlayerClassNames=SS-356,SS-357,SS-358,SS-359,SS-360,SS-361,SS-362,SS-363,SS-305,SS-306,SS-307,SS-308
+
+PlayerClassHullNumbers=356,357,358,359,360,361,362,363,305,306,307,308

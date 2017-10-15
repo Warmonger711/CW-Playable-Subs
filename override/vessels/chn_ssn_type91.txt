@@ -13,6 +13,7 @@ HullNumbers=FALSE
 [Movement]
 SurfaceSpeed=12
 SubmergedSpeed=25
+TelegraphSpeeds=-5,0,5,10,15,20,25
 AccelerationRate=0.24
 DecelerationRate=0.08
 RudderTurnRate=1.0
@@ -29,19 +30,19 @@ TestDepth=1000
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=137
+SelfNoise=152
 ActiveSonarReflection=25
-ActiveSonarModel=chn_hsq2_262b
-PassiveSonarModel=chn_hsq2_262b
+ActiveSonarModel=chn_type_603
+PassiveSonarModel=chn_type_603
 TowedArrayModel=FALSE
-AnechoicCoating=TRUE
+AnechoicCoating=FALSE
 RADAR=wp_snoop_tray
 RADARSignature=SMALL
 TowedArrayPosition=-0.075,0.0,-0.619
 
 [Weapon Systems]
-TorpedoTypes=chn_yu5,chn_yu1,chn_yu3,chn_yu4b,chn_yj82_pd
-TorpedoNumbers=16,0,0,2,2
+TorpedoTypes=chn_yu4b,chn_yu1,chn_yu3
+TorpedoNumbers=16,2,2
 TorpedoTubes=6
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1
@@ -98,13 +99,13 @@ MeshHullCollider=usn_ssn_permit_coll_hull
 MeshSuperstructureCollider=usn_ssn_permit_coll_ss
 
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
-MaterialTextures=vessels/Textures/chn_ssn_type91_90.jpg
+MaterialTextures=vessels/Textures/chn_ssn_type91_70.jpg
 Mesh=usn_ssn_permit
 Mesh=usn_ssn_permit_wlr9
-MeshPosition=0,0.0,-0.5645
-MeshRudder=usn_ssn_permit_rudders
-MeshPosition=0,0.1078,0.2977
-MeshBowPlanes=usn_ssn_permit_sailplanes
+//MeshPosition=0,0.0,-0.588
+//MeshRudder=usn_ssn_permit_rudders
+//MeshPosition=0,0.1133,0.2977
+//MeshBowPlanes=usn_ssn_permit_sailplanes
 MeshPosition=0,0,-0.5812
 MeshSternPlanes=usn_ssn_permit_sternplanes
 
@@ -122,13 +123,28 @@ MastHeight=0.104
 MeshMast=usn_ssn_permit_radar_mast
 
 [Model]
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+Material=ships/usn_ssn_sturgeon/usn_ssn_sturgeon_mat
+MaterialTextures=vessels/Textures/chn_ssn_type91_70_rudder.jpg
+MeshPosition=0,0.0,-0.5645
+MeshRudder=usn_ssn_permit_rudders
+MeshRotation=0,0,0
+
+[Model]
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
+MaterialTextures=vessels/Textures/chn_ssn_type91_70_sail_planes.jpg
+MeshPosition=0,0.1078,0.2977
+MeshBowPlanes=usn_ssn_permit_sailplanes
+MeshRotation=0,0,0
+
+[Model]
 ModelFile=ships/wp_ssn_victor1/wp_ssn_victor1
 Material=ships/usn_ssn_narwhal/usn_ssn_narwhal_mat
 MaterialTextures=terrain/sand
 MeshPosition=0,0,-0.622
 MeshProp=wp_ssn_victor1_prop
 MeshRotation=0,0,0
-
 
 [Weapon Systems]
 //Torpedo Mounts

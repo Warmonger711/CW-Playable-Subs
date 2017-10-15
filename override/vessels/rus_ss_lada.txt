@@ -13,6 +13,7 @@ HullNumbers=FALSE
 [Movement]
 SurfaceSpeed=10
 SubmergedSpeed=21
+TelegraphSpeeds=-5,0,5,10,15,20,21
 AccelerationRate=0.1
 DecelerationRate=0.06
 RudderTurnRate=0.5
@@ -106,10 +107,6 @@ MeshPosition=0,0.0641,0.2571
 MeshBowPlanes=wp_ss_kilo_bowplanes
 MeshPosition=0,0,-0.4804
 MeshSternPlanes=wp_ss_kilo_sternplanes
-
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-MeshPosition=0,-0.0025,-0.4662
-MeshRudder=usn_ssn_permit_rudders
 
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit

@@ -12,7 +12,8 @@ HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=20
-SubmergedSpeed=33
+SubmergedSpeed=38
+TelegraphSpeeds=-5,0,5,10,15,20,38
 AccelerationRate=0.27
 DecelerationRate=0.08
 RudderTurnRate=0.75
@@ -134,6 +135,7 @@ MeshMast=usn_ssn_los_angeles_esm_mast
 MeshPosition=-0.003,0.075,0.3487
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_radar_mast
+
 
 [Weapon Systems]
 //Torpedo Mounts

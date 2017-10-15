@@ -82,10 +82,10 @@ rus_ss_whiskeylb
 jmsdf_ss_yushio
 jmsdf_ss_oyashio
 chn_ss_romeo
-chn_ssn_type91_70
-chn_ssn_type91_90
-chn_ssn_type93
-chn_ssn_type93a
+chn_ss_ming
+chn_ss_song
+chn_ss_kilo
+chn_ssn_type91
 chn_ssn_type93b
 chn_ssbn_type092
 dprk_ss_romeo

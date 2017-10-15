@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Kilo
+Description=[CHN] Kilo Class SS (1984 Era)
+History=Self Noise Rating: 120 db\nEscape Depth: 600 ft\n\nThe Kilo class is the NATO reporting name for a naval diesel-electric attack submarine that is made in Russia. The original version of the vessels were designated Project 877 Paltus (Halibut) in Soviet Union. This version was made by Russia for export to other countries, with China having purchased 10 hulls for their navy.
+
+[Player Ship Instances]
+PlayerClassNames=Yuan Zheng 66 Hao,Yuan Zheng 67 Hao,Yuan Zheng 68 Hao,Yuan Zheng 69 Hao,Yuan Zheng 70 Hao,Yuan Zheng 71 Hao,Yuan Zheng 72 Hao,Yuan Zheng 73 Hao,Yuan Zheng 74 Hao,Yuan Zheng 75 Hao
+
+PlayerClassHullNumbers=366,367,368,369,370,371,372,373,374,375

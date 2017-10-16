@@ -5,6 +5,7 @@ usn_ssn_staynalive
 usn_ssn_seawolf
 usn_ssn_virginia
 usn_ssn_virginia_imp
+usn_ss_stingray
 usn_ssn_narwhal
 usn_ssn_sturgeon
 usn_ssn_permit
@@ -71,8 +72,9 @@ rus_ssn_victor1
 rus_ssn_victor2
 rus_ssn_victor3
 rus_ssn_november
+rus_ssn_novemberii
 rus_ss_kilo
-rus_ss_kilo_imp
+rus_ss_kilo2
 rus_ss_lada
 rus_ss_tango
 rus_ss_foxtrot

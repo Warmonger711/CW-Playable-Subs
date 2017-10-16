@@ -61,6 +61,7 @@ rus_ssgn_echo1
 rus_ssgn_echo2
 rus_ssgn_papa
 rus_ssg_juliet
+rus_ssan_p748
 rus_ssn_akula1
 rus_ssn_akula2
 rus_ssn_yasen

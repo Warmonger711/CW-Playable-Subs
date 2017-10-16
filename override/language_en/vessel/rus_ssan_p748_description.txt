@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Project 748
+Description=[RUS] Project 748 Class SSAN (1968 Era)
+History=Self Noise Rating: 155 db\nEscape Depth: 600 ft\n\nThe Project 748 Class task specified "clandestine transportation and amphibious landing on the unfortified coast, and also withdrawing the landing party and evacuating the wounded back to the Soviet coast or the transfer to other points of the coast of potential enemy. And, in addition boat had to supply with the ammunition and other forms of logistic support the troops in directions remote from their shores." In addition, the boat was required to meet the challenges of the ammunition supply, food and other types of logistics serving "on remote Nations issues".\n\n<b>SPECIAL NOTE: This class was not actually built in real life. It is included for the enjoyment of anyone who wishes to use it.</b>
+
+[Player Ship Instances]
+PlayerClassNames=Project 748
+
+PlayerClassHullNumbers=SA-748

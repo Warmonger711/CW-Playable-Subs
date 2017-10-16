@@ -661,7 +661,7 @@ ModelFile=aircraft/wp_il-38_may/wp_il-38_may
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 Material=aircraft/wp_il-38_may/wp_il-38_may_mat
-MaterialTextures=vessels/textures/usn_p3c.png
+MaterialTextures=vessels/textures/usn_p3a.png
 MeshAircraftBody=May
 
 MeshRotation=90,0,0

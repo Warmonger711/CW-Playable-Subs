@@ -1,0 +1,12 @@
+Image=campaign/images/janmayen.jpeg
+MissionLocation=I.V.O. Jan Mayen
+Briefing=Headquarters has decided that a take-over of Jan Mayen is essential.
+Briefing=Intel sugests enemy activity is light, but as always, expect the unexpected.
+Briefing=
+Briefing=<b>Primary Objective:</b>
+Briefing=Embark a SPETSNAZ regiment and then make best speed towards the insertion postion.
+Briefing=
+Briefing=<b>Secondary Objective:</b>
+Briefing=After they have been deployed, you are free to return to base to re-arm and restore.
+Briefing=
+Briefing=Dolphin 37

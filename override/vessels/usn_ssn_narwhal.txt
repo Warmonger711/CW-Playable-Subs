@@ -103,13 +103,13 @@ MaterialTextures=ships/usn_ssn_narwhal/usn_ssn_narwhal_tx,ships/usn_ssn_narwhal/
 Mesh=usn_ssn_narwhal
 Mesh=usn_ssn_narwhal_tb16
 Mesh=usn_ssn_narwhal_wlr9
-MeshPosition=0,-0.002,-0.632
+MeshPosition=0,0,-0.623
 MeshRudder=usn_ssn_narwhal_rudders
-MeshPosition=0,0.1287,0.3291
+MeshPosition=0,0.1287,0.331
 MeshBowPlanes=usn_ssn_narwhal_sailplanes
-MeshPosition=0,0,-0.632
+MeshPosition=0,0,-0.633
 MeshSternPlanes=usn_ssn_narwhal_sternplanes
-MeshPosition=0,-0.0042,-0.6914
+MeshPosition=0,-0.0037,-0.709
 MeshProp=usn_ssn_narwhal_prop
 
 Material=ships/materials/usn_masts

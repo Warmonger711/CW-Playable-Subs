@@ -990,3 +990,6 @@ RADARRange=60000
 
 RADARModel=wp_snoop_pair
 RADARRange=60000
+
+RADARModel=vnm_ge2-01
+RADARRange=60000

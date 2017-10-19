@@ -20,6 +20,7 @@ _Important & urgent information for the mod developers will appear in this secti
   * Single Mission 28 - ANY new units sections 1 and 3. All playable subs sections 1,2 and 3.
   * Single Mission 29 - NATO SSBNs Only (Must have working SLBMs!)
   * Single Mission 30 - Russian SSBNs Only (Must have working SLBMs!)
+  * Single Mission 31 - ANY new units to be added to OtherVessels section.
 
 -----
 

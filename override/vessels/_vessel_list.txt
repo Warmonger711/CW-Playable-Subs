@@ -92,6 +92,7 @@ chn_ssn_type91
 chn_ssn_type93b
 chn_ssbn_type092
 dprk_ss_romeo
+vnm_ss_kilo
 wp_ssbn_typhoon
 wp_ssbn_delta4
 wp_ssbn_delta3

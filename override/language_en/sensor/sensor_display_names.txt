@@ -255,6 +255,8 @@ wp_korshun_k=Korshun-K=Leninets Korshun-K "Kite" (WET EYE II) airborne pulse dop
 
 wp_strut_pair=Strut Pair=Topaz-V MR-320M "Strut Pair", Air/Surface search radar.
 
+vnm_ge2-01=GE2-01=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+
 // USN SURFACE SHIPS RADARS
 usn_an_sps-49=AN/SPS-49=The AN/SPS-49 is a United States Navy two-dimensional, long range air search radar built by Raytheon that can provide contact bearing and range. It is a primary air-search radar for numerous ships in the U.S. fleet and in Spain, Poland, Taiwan aboard Oliver Hazard Perry-class frigates, Canada on its Halifax-class frigates, New Zealand on its Anzac-class frigates and Australia on its Adelaide-class frigates and Anzac-class frigates. It formerly served in a complementary role aboard Aegis cruisers with the AN/SPY-1 but the systems are currently being removed during routine upgrade with no replacement.
 

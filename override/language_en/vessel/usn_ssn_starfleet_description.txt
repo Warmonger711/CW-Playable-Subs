@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Excelsior
+Description=[USA] Excelsior Class SSN (2280 Era)
+History=<b>FANTASY DESIGN</b>\nSelf Noise Rating: 120 db\nEscape Depth: 2000 ft\n\n<b>[CLASSIFIED TOP SECRET - ARTICLE 14, SECTION 31]</b>\n\n(A special gift for Outerexodus - October 22, 2017 - Thanks for your hilarious and fun streams!)
+
+[Player Ship Instances]
+PlayerClassNames=Excelsior,Enterprise,Lakota,Melbourne,Repulse,Fearless,Charleston
+
+PlayerClassHullNumbers=NX-2000,NCC-1701-B,NCC-42768,NCC-62043,NCC-2544,NCC-14598,NCC-42285

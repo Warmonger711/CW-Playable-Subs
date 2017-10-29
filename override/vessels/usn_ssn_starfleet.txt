@@ -1,56 +1,56 @@
 Designation=SSN
 ShipType=SUBMARINE
-PlayerHUD=hud/russian
+PlayerHUD=hud/default
 
-Length=107.2
-Beam=10.8
+Length=170.1
+Beam=10.5
 HullHeight=0.08
-Displacement=7250
-Crew=115
+Displacement=15000
+Crew=750
 Range=10000
 HullNumbers=FALSE
 
 [Movement]
-SurfaceSpeed=15
-SubmergedSpeed=30
-TelegraphSpeeds=-5,0,5,10,15,20,30
-AccelerationRate=0.25
-DecelerationRate=0.08
-RudderTurnRate=0.75
-TurnRate=2
+SurfaceSpeed=250
+SubmergedSpeed=250
+TelegraphSpeeds=-5,0,5,10,20,35,250
+AccelerationRate=100.55
+DecelerationRate=100.08
+RudderTurnRate=1.2
+TurnRate=2.5
 PivotPointTurning=0.256
-DiveRate=5
-SurfaceRate=5
+DiveRate=6.5
+SurfaceRate=6.5
 BallastRate=0.25
 Waterline=0.04
 SubmergedAt=0.146
-CavitationParameters=20,-100
+CavitationParameters=0,0
 PropRotationSpeed=-150
-TestDepth=1300
-EscapeDepth=600
+TestDepth=2000
+EscapeDepth=2000
 
 [Acoustics & Sensors]
-SelfNoise=130
+SelfNoise=120
 ActiveSonarReflection=25
-ActiveSonarModel=wp_shark_gill
-PassiveSonarModel=wp_shark_gill
-TowedArrayModel=wp_shark_tail
+ActiveSonarModel=usn_an_bqq_10
+PassiveSonarModel=usn_an_bqq_10
+TowedArrayModel=usn_tb_29
 AnechoicCoating=TRUE
-RADAR=wp_snoop_tray
+RADAR=usn_bps_15
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_uset-80,wp_s10,wp_ss-n-16,wp_53-65M,wp_65-76,russian_moss_2
-TorpedoNumbers=14,4,0,0,6,4
+TorpedoTypes=usn_mk48_adcap,usn_moss_2,usn_SUBROCii,usn_ugm84,usn_tasm,usn_tlam
+TorpedoNumbers=25,5,10,0,10,10
 TorpedoTubes=6
-NumberOfWires=4
+NumberOfWires=6
 TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=21
-TubeReloadTime=30
+TubeReloadTime=15
 
-NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NoisemakerName=usn_noisemaker
+NumberOfNoisemakers=50
+NoisemakerReloadTime=10
 
 [Subsystems]
 LabelPosition=364.3,28
@@ -99,18 +99,31 @@ MeshHullCollider=wp_ssn_victor3_coll_hull
 MeshSuperstructureCollider=wp_ssn_victor3_coll_ss
 
 Material=ships/wp_ssn_victor1/wp_ssn_victor1_mat
-MaterialTextures=vessels/textures/rus_ssn_victor3.png
+MaterialTextures=vessels/textures/usn_ssn_starfleet.png
 Mesh=wp_ssn_victor3
+
+MeshPosition=0,0,-0.001
+MeshRotation=0,0,90
+Mesh=wp_ssn_victor3
+
+MeshPosition=0,-0,-0.001
+MeshRotation=0,0,-90
+Mesh=wp_ssn_victor3
+
+MeshRotation=0,0,0
 MeshPosition=0,0,-0.673
 MeshRudder=wp_ssn_victor3_rudder
-MeshPosition=0,0,-0.686
-MeshSternPlanes=wp_ssn_victor3_sternplanes
-MeshPosition=-0.0,0,-0.7498
-MeshProp=wp_ssn_victor3_prop
 
 ModelFile=ships/wp_ssn_victor2/wp_ssn_victor2
+MaterialTextures=vessels/textures/usn_ssn_starfleet.png
 MeshPosition=0,0.0723,0.43
 MeshBowPlanes=wp_ssn_victor2_bowplanes
+
+MeshPosition=0,0,-0.686
+MeshSternPlanes=wp_ssn_victor3_sternplanes
+
+MeshPosition=0,0,0
+MeshProp=wp_ssn_victor3_prop
 
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/materials/usn_masts
@@ -169,11 +182,6 @@ TorpedoEffectPosition=0,0,0.0232
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
-
-
-MeshPosition=0,0,0
-ModelFile=ships/wp_ssn_victor3/wp_ssn_victor3
-
 
 //Wake
 MeshPosition=0,0,0

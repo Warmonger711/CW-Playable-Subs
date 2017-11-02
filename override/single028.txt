@@ -17,6 +17,7 @@ SeaState=Calm
 DuctStrength=ZeroStrength
 LayerStrength=ZeroStrength
 
+
 //Enemy Ships
 NumberOfEnemyUnits=1-1
 CombatBehaviour=DEFENSIVE

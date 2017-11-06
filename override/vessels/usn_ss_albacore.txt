@@ -121,14 +121,16 @@ Material=ships/usn_ssn_permit/usn_ssn_permit_mat
 MaterialTextures=terrain/sand
 
 //Contra Props
+ModelFile=ships/wp_ssgn_charlie2/wp_ssgn_charlie2
 MeshPosition=0,0.0002,-0.5636
 MeshRotation=0,0,36
-MeshProp=usn_ssn_skipjack_prop5
+MeshProp=wp_ssgn_charlie2_prop
+ModelFile=ships/wp_ssn_november/wp_ssn_november
 MeshPosition=0,0.0002,-0.58
 MeshRotation=0,0,0
-MeshProp=usn_ssn_skipjack_prop5
+MeshProp=wp_ssn_november_prop_r
 
-
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
 Material=ships/materials/usn_masts
 MeshPosition=0.005,0.075,0.217
 MastHeight=0.085

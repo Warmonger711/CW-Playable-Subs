@@ -1,9 +1,9 @@
 ﻿[SONAR]
 chn_type_603=TYPE-603=This sonar is the one that originally equipped the first Han Class vessels but it was soon replaced by the H/SQ2-262B.
 
-chn_hsqc_207_late=H/SQC-207 Imp.=That's the best sonar suite available to the PLAN. It's said it's better than a AN/BQQ-5.
+chn_hsqc_207_late=H/SQC-207 Imp=That's the best sonar suite available to the PLAN. It's said it's better than a AN/BQQ-5.
 
-chn_hsjg_206a=H/SJG-206A= That's the towed array fitted on the latest Shang-B Class SSN, it has good performances but still a little inferior to the american TB-29.
+chn_hsjg_206a=H/SJG-206A= That's the towed array fitted on the latest Shang-B Class SSN, it has good performances but still a little inferior to the American TB-29.
 
 chn_hsq2_262a=H/SQ2-262A=This sonar suite is an improvement over the soviet Romeo Class one.
 
@@ -21,7 +21,7 @@ jmsdf_zqq_6=ZQQ-6=The ZQQ-6 is the sonar of the Oyashio Class submarine. It is t
 
 jmsdf_zqr_1a=ZQR-1A=This towed array sonar has a good sensitivity to low and mid frequencies, with performances comparable to the american BQR-25.
 
-jmsdf_zqr_2=ZQR-2=This towed array sonar has a good sensitivity to low and mid frequencies, with performances comparable to the american TB-23.
+jmsdf_zqr_2=ZQR-2=This towed array sonar has a good sensitivity to low and mid frequencies, with performances comparable to the American TB-23.
 
 ae_tas3=AE TAS3=ATLAS ELEKTRONIK TAS-3 low-frequency Towed Array Sonar.
 
@@ -85,7 +85,7 @@ usn_an_bqr_2=AN/BQR-2=Derived from the German wartime GHG sonar suite as fitted 
 
 usn_an_bqs_4=AN/BQS-4=This system formed the active component of the sonar suite on 1950's era USN subs. Unlike the BQR-2 though, it is still powerful enough to detect otherwise silent enemies.
 
-usn_an_bqq_2=AN/BQQ-2=The first spherical integrated sonar array, mounted in the Permit- and Sturgeon class submarines.
+usn_an_bqq_2=AN/BQQ-2=The first spherical integrated sonar array, mounted in the Permit and Sturgeon class submarines.
 
 usn_an_bqq_5=AN/BQQ-5=This advanced sonar suite uses a spherical array with the latest digital signal processing techniques and was first introduced in the Los Angeles-class fast attack submarines, and subsequently to the Permit and Sturgeon classes where it replaced the analog BQQ-2 spherical array.
 

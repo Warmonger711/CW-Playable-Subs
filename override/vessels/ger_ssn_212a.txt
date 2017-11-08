@@ -109,17 +109,19 @@ MeshBowPlanes=wp_ssn_alfa_sternplanes
 MeshPosition=0,0,-0.4993
 MeshSternPlanes=wp_ssn_alfa_sternplanes
 
+
+ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/materials/usn_masts
-MeshPosition=-0.0072,0.075,0.317
+MeshPosition=0,-0.002,0.208
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_periscope
 
-MeshPosition=0,0.075,0.3036
-MastHeight=0.085
+MeshPosition=0,0.018,0.15
+MastHeight=0.065
 MeshMast=usn_ssn_los_angeles_esm_mast
 
-MeshPosition=-0.003,0.075,0.3487
-MastHeight=0.085
+MeshPosition=0,0.018,0.105
+MastHeight=0.065
 MeshMast=usn_ssn_los_angeles_radar_mast
 
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles

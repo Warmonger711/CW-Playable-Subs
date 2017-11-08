@@ -122,15 +122,15 @@ MeshSternPlanes=wp_ssgn_oscar_sternplanes
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=0,0.078,0.620
+MeshPosition=0,0.075,0.620
 MastHeight=0.085
 MeshMast=usn_ssn_permit_periscope
 
-MeshPosition=0,0.065,0.590
+MeshPosition=0,0.062,0.590
 MastHeight=0.085
 MeshMast=usn_ssn_permit_esm_mast
 
-MeshPosition=0,0.065,0.560
+MeshPosition=0,0.062,0.560
 MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
 

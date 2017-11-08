@@ -126,7 +126,7 @@ MeshRotation=0,0,25.7143
 MeshProp=usn_ssn_skipjack_prop
 MeshRotation=0,0,0
 
-
+ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/materials/usn_masts
 MeshPosition=-0.0072,0.075,0.317
 MastHeight=0.085

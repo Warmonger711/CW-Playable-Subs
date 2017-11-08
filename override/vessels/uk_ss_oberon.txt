@@ -109,20 +109,6 @@ MeshPosition=0,-0.0302,-0.5368
 MeshSternPlanes=wp_ss_foxtrot_sternplanes
 
 
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-Material=ships/materials/usn_masts
-MeshPosition=0,0.018,0.117
-MastHeight=0.114
-MeshMast=usn_ssn_permit_periscope
-
-MeshPosition=0,0.010,0.1736
-MastHeight=0.114
-MeshMast=usn_ssn_permit_esm_mast
-
-MeshPosition=0,0.010,0.1487
-MastHeight=0.114
-MeshMast=usn_ssn_permit_radar_mast
-
 ModelFile=ships/wp_ss_foxtrot/wp_ss_foxtrot
 MeshPosition=-0.025,-0.0314,-0.5238
 MeshRotation=5,0,0
@@ -140,6 +126,20 @@ MaterialTextures=terrain/sand
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/usn_ssn_permit/usn_ssn_permit_mat
 MaterialTextures=vessels/textures/darkgrey.png
+
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
+Material=ships/materials/usn_masts
+MeshPosition=0,0.0,0.117
+MastHeight=0.114
+MeshMast=usn_ssn_permit_periscope
+
+MeshPosition=0,0.0,0.1736
+MastHeight=0.114
+MeshMast=usn_ssn_permit_esm_mast
+
+MeshPosition=0,0.0,0.1487
+MastHeight=0.114
+MeshMast=usn_ssn_permit_radar_mast
 
 //Bow dome
 MeshPosition=-0.002,0.017,0.9481

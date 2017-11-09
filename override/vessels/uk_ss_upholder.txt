@@ -134,15 +134,15 @@ MaterialTextures=vessels/textures/darkgrey.png
 [Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/materials/usn_masts
-MeshPosition=-0.003,0.075,0.1487
+MeshPosition=-0.003,0.045,0.1487
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_periscope
 
-MeshPosition=-0.0072,0.075,0.117
+MeshPosition=-0.0072,0.045,0.117
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_esm_mast
 
-MeshPosition=0,0.075,0.1036
+MeshPosition=0,0.045,0.1036
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_radar_mast
 

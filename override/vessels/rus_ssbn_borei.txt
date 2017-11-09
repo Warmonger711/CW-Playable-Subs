@@ -356,15 +356,15 @@ Mesh=Mk37
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=0.015,0.045,0.712
+MeshPosition=0.015,0.040,0.512
 MastHeight=0.085
 MeshMast=usn_ssn_permit_periscope
 
-MeshPosition=-0.010,0.030,0.711
+MeshPosition=-0.010,0.025,0.511
 MastHeight=0.085
 MeshMast=usn_ssn_permit_esm_mast
 
-MeshPosition=0,0.030,0.670
+MeshPosition=0,0.025,0.570
 MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
 

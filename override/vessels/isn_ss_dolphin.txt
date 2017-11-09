@@ -113,15 +113,16 @@ MeshRotation=0,0,0
 
 //Masts
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
-MeshPosition=0.0,-0.0346,-0.5641
 Material=ships/materials/usn_masts
-MeshPosition=-0.0072,0.075,0.317
+MeshPosition=0.005,0.045,0.1817
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_periscope
-MeshPosition=0,0.075,0.3036
+
+MeshPosition=-0.0,0.045,0.1676
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_esm_mast
-MeshPosition=-0.003,0.075,0.3487
+
+MeshPosition=-0.0025,0.045,0.1913
 MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_radar_mast
 

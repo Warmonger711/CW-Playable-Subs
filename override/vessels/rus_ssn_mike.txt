@@ -111,15 +111,15 @@ MeshSternPlanes=wp_ssn_victor1_sternplanes
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=0,0.030,0.230
+MeshPosition=0,0.017,0.230
 MastHeight=0.12
 MeshMast=usn_ssn_permit_periscope
 
-MeshPosition=0,0.020,0.200
+MeshPosition=0,0.017,0.200
 MastHeight=0.12
 MeshMast=usn_ssn_permit_esm_mast
 
-MeshPosition=0,0.020,0.170
+MeshPosition=0,0.017,0.170
 MastHeight=0.11
 MeshMast=usn_ssn_permit_radar_mast
 

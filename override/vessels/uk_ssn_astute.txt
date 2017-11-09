@@ -118,15 +118,15 @@ MeshBowPlanes=wp_ssbn_yankee_sailplanes
 [Model]
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=0,0.050,0.230
+MeshPosition=0,0,0.23
 MastHeight=0.095
 MeshMast=usn_ssn_permit_periscope
 
-MeshPosition=0,0.050,0.200
+MeshPosition=0,0,0.2
 MastHeight=0.090
 MeshMast=usn_ssn_permit_esm_mast
 
-MeshPosition=0,0.055,0.170
+MeshPosition=0,0,0.17
 MastHeight=0.085
 MeshMast=usn_ssn_permit_radar_mast
 

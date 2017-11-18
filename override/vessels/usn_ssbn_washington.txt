@@ -44,7 +44,7 @@ TowedArrayPosition=0.0718,0,-0.55
 TorpedoTypes=usn_mk37,usn_mk16
 TorpedoNumbers=10,10
 TorpedoTubes=6
-NumberOfWires=1
+NumberOfWires=2
 TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
@@ -138,6 +138,16 @@ MeshPosition=0.0727,-0.0086,0.547
 MeshRotation=0,340,0
 TorpedoSpawnPosition=-0.0662,-0.02946,0.5365
 TorpedoEffectPosition=-0.0662,-0.02946,0.5365
+
+MeshPosition=-0.0662,-0.02946,0.5365
+MeshRotation=0,20,0
+TorpedoSpawnPosition=0.0727,-0.0086,0.547
+TorpedoEffectPosition=0.0727,-0.0086,0.547
+
+MeshPosition=0.0662,-0.02946,0.5365
+MeshRotation=0,20,0
+TorpedoSpawnPosition=0.0662,-0.02946,0.5365
+TorpedoEffectPosition=0.0662,-0.02946,0.5365
 
 MeshPosition=-0.0662,-0.02946,0.5365
 MeshRotation=0,20,0

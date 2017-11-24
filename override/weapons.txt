@@ -14,6 +14,7 @@ WeaponType=TORPEDO
 //292.5 kg of PBXN-103 = 544 kg of TNT - same warhead as standard Mk48
 Warhead=550
 SurfaceLaunched=FALSE
+SwimOut=TRUE
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.03
 WireBreakSpeedThreshold=15
@@ -333,7 +334,7 @@ WeaponSprite=weapons/sprites/usn_mk48_sprite
 WeaponType=TORPEDO
 //Warhead=500
 //250kg warhead of HBX, sometimes reported as 500kg. 250kg of HBX = 375 kg of TNT
-Warhead=375 
+Warhead=375
 SurfaceLaunched=FALSE
 WireGuided=TRUE
 WireBreakOnLaunchProbability=0.03
@@ -400,7 +401,7 @@ ActiveRunSpeed=50
 TurnRate=24
 SensorAngles=60,25
 SensorRange=3000
-WeaponNoiseValues=160,200	
+WeaponNoiseValues=160,200
 MaxPitchAngle=40
 HomeSettings=ACTIVE,PASSIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
@@ -530,7 +531,7 @@ AudioLoop=FALSE;
 //These stats are for the F17 Mod2, in service date 1988-
 //Data for earlier variants:
 //F17 Mod 0, 1973, 19,700 yards / 35 knots; 31,700 yards if operated at 24 knots during wire guidance phase
-//F17 Mod 1 (19??), range / speed of 22,000 yards (20,000 m) / 35 knots. Passive only. 
+//F17 Mod 1 (19??), range / speed of 22,000 yards (20,000 m) / 35 knots. Passive only.
 //F17 Mod 2 (1988), range / speed of 22,000 yards (20,000 m) / 40 knots. Active(/passive?).
 //F17P Mod 2 (1988), range / speed of 32,000 yards (30,000 m) / 35 knots.
 //The DTCN F17 was a wire-guided anti-surface ship torpedo originally produced in 1971. France, Spain, and Saudi Arabia were its primary users.
@@ -818,7 +819,7 @@ RangeInYards=12000
 RunSpeed=20
 //only speed/range data specific to the Grog is 8750 yds @ 28kt
 ActiveRunSpeed=28
-TurnRate=20 
+TurnRate=20
 SensorAngles=60,15
 SensorRange=1250
 WeaponNoiseValues=120,130
@@ -899,12 +900,12 @@ AudioPitch=1
 AudioLoop=TRUE
 [/Model]
 
-// UK Mk VIII** (late) 
+// UK Mk VIII** (late)
 WeaponObjectReference=uk_mk8
 WeaponSprite=hud/uk/uk_mk8_sprite.png
 WeaponType=TORPEDO
 //This was the MkVIII** (early) WW2-era warhead, also incorrect because the value is in lbs (327kg, straight TNT)
-//Warhead=722 
+//Warhead=722
 //Mk VIII** (late), *** and Mod4: 365kg Torpex x 1.5= 680 kg-TNT-equivalent
 Warhead=680
 SurfaceLaunched=FALSE
@@ -3830,7 +3831,7 @@ DepthWeaponWarhead=1000000
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
 // based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
-// 30kt, kill 1960s sub at 1 mile, damage at 2 miles. 
+// 30kt, kill 1960s sub at 1 mile, damage at 2 miles.
 // then apply inverse cube law.
 // (1kt/30kt)^1/3 = 0.32, * 1760 yds = 566 yds
 DepthWeaponKillRadius=560
@@ -3853,7 +3854,7 @@ DepthWeaponWarhead=5000000
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
 // based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
-// 30kt, kill 1960s sub at 1 mile, damage at 2 miles. 
+// 30kt, kill 1960s sub at 1 mile, damage at 2 miles.
 // then apply inverse cube law.
 // (5kt/30kt)^1/3 = 0.55, * 1760 yds = 970 yds
 DepthWeaponKillRadius=1000
@@ -3869,9 +3870,9 @@ DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 [/Model]
 
 //usn_depth_bomb_10kt=Nuclear Depth Bomb 10KT=10KT Nuclear Depth Bomb B57 or ASROC
-//USN B57 depth bomb variable yield from sub-kt to 20 kiloton 
-//Same W44 warhead used as ASROC warhead. 
-//In service 1960s -1993. From late 80s was the only NATO ASW nuclear weapon. 
+//USN B57 depth bomb variable yield from sub-kt to 20 kiloton
+//Same W44 warhead used as ASROC warhead.
+//In service 1960s -1993. From late 80s was the only NATO ASW nuclear weapon.
 //Used on S-3 and P-3 and most US Navy aircraft including on Sea King helos
 //This weapon was also used on RAF Nimrods, Dutch NP-3s, Italian Atlantics, and (up to 1971) Canadian CF-104s
 DepthWeaponObjectReference=usn_depth_bomb_10kt
@@ -3879,7 +3880,7 @@ DepthWeaponWarhead=10000000
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
 // based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
-// 30kt, kill 1960s sub at 1.3 mile (7000'), damage at 2 miles. 
+// 30kt, kill 1960s sub at 1.3 mile (7000'), damage at 2 miles.
 // then apply inverse cube law.
 // (10kt/30kt)^1/3 = 0.69, * 1760 yds = 1220 yds
 DepthWeaponKillRadius=1200
@@ -3897,13 +3898,13 @@ DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 
 //usn_depth_bomb_11kt=Nuclear Depth Bomb 11KT=Nuclear Depth Bomb Mk101 Lulu 11KT
 //W34 warhead. In service 1958-1971
-//Also used by RAF on Shackletons and Dutch Navy on P-2 and P-3s 
+//Also used by RAF on Shackletons and Dutch Navy on P-2 and P-3s
 DepthWeaponObjectReference=usn_depth_bomb_11kt
 DepthWeaponWarhead=11000000
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
 // based on Operation Wigwam, Mk 90 "Betty" US nuclear depth charge:
-// 30kt, kill 1960s sub at 1.3 mile (7000'), damage at 2 miles. 
+// 30kt, kill 1960s sub at 1.3 mile (7000'), damage at 2 miles.
 // then apply inverse cube law.
 // (11kt/30kt)^1/3 = 0.72, * 1760 yds = 1260 yds
 DepthWeaponKillRadius=1260

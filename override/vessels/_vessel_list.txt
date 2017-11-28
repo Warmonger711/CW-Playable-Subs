@@ -182,3 +182,4 @@ civ_mv_small_cargo2
 civ_mv_small_cargo3
 biologic_blue_whale
 biologic_humpback_whale
+rus_mpk_poti_player

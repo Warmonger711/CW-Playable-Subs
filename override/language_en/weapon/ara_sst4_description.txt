@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SST 4
+WeaponDescriptiveName=SST-4 Seal
+WeaponDescription=SST-4 Seal is a German designed torpedo still in use by the Argentine Navy. A wire-guided anti-ship torpedo. It has passive homing capability.

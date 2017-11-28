@@ -43,6 +43,7 @@ fr_dsuv62c=ETBF DSUV 62C=The ETBF DSUV 62C is a towed array, with performance co
 
 csu_81-1=CSU 81-1=CSU 81-1 is an integrated sonar sensor suite from Atlas Elektronik. This includes a passive cylindrical bow array, an intercept array and two passive flank arrays.
 
+csu_3-4=CSU 3/4=Atlas Elektronik CSU 3/4 active/passive suite.
 csu_90-2=CSU 90-2=CSU 90-2 is an integrated sonar sensor suite from Atlas Elektronik. This includes a passive cylindrical bow array, an intercept array and two passive flank arrays.
 
 uk_187=Type 187=Type 187 Active-Passive attack sonar.
@@ -269,3 +270,5 @@ usn_an_sps-10=AN/SPS-10=For decades, the AN/SPS-10 was the standard US Navy surf
 usn_aps-124=APS-124=Knowledge gained in the development of AN/APS-115/116 is used in the development of X-band AN/APS-124, the first model in the radar family developed for ASW helicopters. Due to the adoption of the traveling wave tube (TWT), the peak power is significantly increased to 350 kW. Due to the size and weight constraint, the parabolic antenna of radars for fixed aircraft is replaced by a 72-inch x 12 inch slotted planar array antenna for AN/APS-124, and scan rate is 6 or 12 rpm, with 120 rpm for weather. The array of AN/APS-124 produces a 1.2 x 20 degrees beam, and the typical range against a 1 square meter target is 16 nm in comparison to 20 nm of AN/APS-115/116. AN/APS-124 is installed on Sikorsky SH-60 Seahawk.
 
 usn_aps_115=APS-115=AN/APS-115 is a development of AN/APS-80A, and it is the first attempt of digitization by providing digital input into the digital combat system installed on the P-3. Other improvement over the original AN/APS-80 included the integration of two separate AN/APS-80A radar into a single unit via a single planar position indicator (PPI) display. The most important improvement is that AN/APS-115 is an automatic version of earlier AN/APS-80/80A, but some users felt that in the hands of an experienced operator, the manual analog AN/APS-80/80A has a better chance to detect small targets such as submarine periscope in sea clutter. AN/APS-115 utilizes cavity magnetron.
+
+ara_tcsfc=Thomson CSF Calypso=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.

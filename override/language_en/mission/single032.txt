@@ -1,0 +1,10 @@
+Image=campaign/images/surface1.jpg
+MissionLocation=SURFACE TESTING
+Briefing=
+Briefing=Intel sugests an enemy submarine is in your area, but as always, expect the unexpected.
+Briefing=
+Briefing=<b>Primary Objective:</b>
+Briefing=Locate and destroy the enemy submarine.
+Briefing=
+Briefing=<b>Secondary Objective:</b>
+Briefing=Embark a SPETSNAZ regiment and then make best speed towards the insertion postion.

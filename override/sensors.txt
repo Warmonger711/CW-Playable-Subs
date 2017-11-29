@@ -110,6 +110,14 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=2
 SonarOutput=0
 
+SonarModel=csu_3-4
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,M
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=36
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
 SonarModel=csu_81-1
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,M
@@ -992,4 +1000,7 @@ RADARModel=wp_snoop_pair
 RADARRange=60000
 
 RADARModel=vnm_ge2-01
+RADARRange=60000
+
+RADARModel=ara_tcsfc
 RADARRange=60000

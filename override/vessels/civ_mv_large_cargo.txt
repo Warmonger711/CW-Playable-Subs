@@ -74,6 +74,12 @@ Material=ships/materials/modular_parts
 MeshPosition=0,-0.0878,-1.0141
 MeshProp=wp_ms_leninskiy_komsomol_prop
 
+//Flags
+
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_panama
+MeshMainFlag=wp_ms_leninskiy_komsomol_animatedflag
 
 //RADARs
 //RADARSpeed=100

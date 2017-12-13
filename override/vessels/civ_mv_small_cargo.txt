@@ -73,6 +73,13 @@ Material=ships/materials/modular_parts
 MeshPosition=-0,-0.0642,-0.7741
 MeshProp=wp_vt_dubna_prop
 
+//Flags
+
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_panama
+MeshMainFlag=wp_vt_dubna_animatedflag
+
 //RADARs
 //RADARSpeed=80
 //RADARDirection=1

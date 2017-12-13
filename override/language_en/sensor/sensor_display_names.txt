@@ -84,6 +84,8 @@ wp_zvezdam2t=Zvezda M-2=The Zvezda sonar system is considered by its designers t
 
 usn_an_bqr_2=AN/BQR-2=Derived from the German wartime GHG sonar suite as fitted on the Type XXI electroboot, the BQR-2 is a medium frequency sonar fitted to most USN subs until the Thresher/Permit class. Though adequate for its day, by the 1980's this system is woefully obsolete and nearly blind against all but the oldest Soviet boats.
 
+usn_an_bqr_21=AN/BQR-21=This is an updated version of the BQR-2 boasting new digital data processing for much better performance.
+
 usn_an_bqs_4=AN/BQS-4=This system formed the active component of the sonar suite on 1950's era USN subs. Unlike the BQR-2 though, it is still powerful enough to detect otherwise silent enemies.
 
 usn_an_bqq_2=AN/BQQ-2=The first spherical integrated sonar array, mounted in the Permit and Sturgeon class submarines.
@@ -99,6 +101,20 @@ usn_tb_16=TB-16=The TB-16 Towed Array greatly increases the range of passive son
 usn_tb_23=TB-23=The TB-23 Towed Array is a significant increase over the usn_tb_16 array, but suffers from more noise saturation per knot than the previous version.
 
 usn_tb_29=TB-29=The TB-29 Towed Array is the latest advancement in US towed array technology. Alongside better detection, it also slightly reduces the noise saturation per knot over the TB-23.
+
+plan_eh_5=EH-5=Keel-mounted high frequency scanning array that equips the early Jianghu-class frigates.
+
+plan_sjd_5=SJD-5=This is a Chinese high frequency bow-mounted scanning sonar based on an improved Buck Toe design that equips several frigates.
+
+plan_sjd_7=SJD-7=This hull-mounted active/passive medium frequency set is a chinese copy of the SQS-56, and mounted on later frigates and destroyers.
+
+plan_sjd_8=SJD-8/9=A Chinese license-built version of the French DUBV-23 medium frequency sonar. It is an sophisticated multimode scanning array comparable to Bull Nose.
+
+plan_ess_1=ESS-1=A Chinese license-built version of the French DUBV-43 variable depth sonar. It is a medium frequency VDS set comparable in performance to Mare Tail.
+
+plan_sqc_1=SQC-1=This is a Chinese version of the french Eledone low-frequency digital sonar similar in performance to BQQ-5 and mounted on the Han and Xia class submarines.
+
+plan_tsm_2233=TSM-2233=This is the French Eledone low-frequency digital sonar similar in performance to BQQ-5 and mounted on the Song class submarines.
 
 wp_pelamida=Pelamida=The latest and most advanced Russian towed sonar array, equipped only on the Akula Class submarines.
 
@@ -186,9 +202,10 @@ usn_ssq53b=AN/SSQ-53B= USN passive sonobuoy DIFAR AN/SSQ-53B - In service since 
 //WP HELO DIPPING SONARS
 
 //adding elk tail dipping sonar for early campaign Ka-25
-wp_elk_tail=Elk Tail=This is the earlier generation VGS-?2? Oka dipping sonar used by the Ka-25Bsh ASW helicopter in the 1960s
+wp_elk_tail=Elk Tail=This is the earlier generation VGS-2 Oka dipping sonar used by the Ka-25Bsh ASW helicopter in the 1960s
 
-//wp_foal_stork_tail=Foal/Stork Tail=This is the dipping sonar used by the Ka-25 and Ka-27 helicopters.
+wp_stork_tail=Stork Tail=This is the later generation VGS-2 Oka-2 Stork Tail dipping sonar used by the Ka-25Bsh ASW helicopter in the 1980s.
+
 wp_foal_stork_tail=Foal/Stork Tail=This is the later generation VGS-2 Oka-2 Stork Tail dipping sonar used by the Ka-25Bsh ASW helicopter in the 1980s.
 
 wp_lamb_tail=Lamb Tail=This is the advanced Ros-V VGS-3 dipping sonar used by the Ka-27PL ASW helicopter.

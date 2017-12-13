@@ -84,7 +84,7 @@ MeshProp=wp_vt_kazbek_prop_r
 
 MeshPosition=0,0,0
 MeshRotation=270,90,0
-//Material=ships/materials/flag_sovtorgflot
+Material=ships/materials/flag_us
 MeshMainFlag=wp_vt_kazbek_animatedflag
 
 //RADARs

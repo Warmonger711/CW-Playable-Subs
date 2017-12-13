@@ -80,7 +80,7 @@ MeshProp=wp_fv_trawler_prop
 
 MeshPosition=0,0,0
 MeshRotation=270,90,0
-//Material=ships/materials/flag_sovtorgflot
+Material=ships/materials/flag_us
 MeshMainFlag=wp_fv_trawler_animatedflag,HIDE
 
 //Deck Props

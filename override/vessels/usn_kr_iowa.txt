@@ -175,10 +175,10 @@ MeshPosition=0,0.459,-0.046
 MeshRADAR=wp_kr_sverdlov_top_through,HIDE
 
 //Flags
-//MeshPosition=0,0,0
-//MeshRotation=270,90,0
-//Material=ships/materials/flag_soviet
-//MeshMainFlag=wp_kr_sverdlov_animatedflag
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_us
+MeshMainFlag=wp_kr_sverdlov_animatedflag
 
 //Material=ships/materials/flag_signal
 //MeshOtherFlags=wp_kr_sverdlov_signals

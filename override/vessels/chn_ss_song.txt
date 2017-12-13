@@ -141,7 +141,7 @@ Mesh=wp_bpk_udaloy_torpedomount
 //Normal
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 MaterialTextures=vessels/textures/prop1.png
-MeshPosition=0,-0.0050,-0.5295
+MeshPosition=0,-0.0045,-0.5295
 MeshProp=usn_ssn_los_angeles_prop
 
 //Masts

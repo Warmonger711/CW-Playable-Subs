@@ -87,6 +87,7 @@ EventsDebugOnContinue=FALSE
 UnitReferenceDebugOnSpace=FALSE
 AutoCameraPanAndZoom=FALSE
 ForceCampaignMissionType=FALSE
+ForceCampaignMissionNumber=1							
 
 [Difficulty Settings]
 //Easy, Normal, Hard, Elite

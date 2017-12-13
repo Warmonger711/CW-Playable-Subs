@@ -144,6 +144,11 @@ MeshPosition=0,0.4365,0.2481
 MeshRADAR=wp_bpk_kashin_headnet_c,HIDE
 
 //Flags
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_us
+MeshMainFlag=wp_bpk_kashin_animatedflag
+
 
 [Weapon Systems]
 

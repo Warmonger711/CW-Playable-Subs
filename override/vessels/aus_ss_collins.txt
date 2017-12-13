@@ -116,7 +116,7 @@ ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 MeshPosition=0,0,0
 MeshSternPlanes=wp_ss_kilo_bowplanes
 //Normal
-MeshPosition=0,-0.0050,-0.5295
+MeshPosition=0,-0.0045,-0.5295
 MeshProp=wp_ss_kilo_prop
 
 

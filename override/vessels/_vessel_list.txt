@@ -173,6 +173,13 @@ wp_vtr_andizhan_mod
 wp_vtr_yuniy_partizan
 wp_fv_trawler
 civ_fv_trawler
+civ_ms_freighter_a
+civ_ms_freighter_b
+civ_ms_super_p
+civ_ms_encounter
+civ_ms_sl7
+civ_oilrig
+civ_spar_rig
 civ_mv_ice_breaker
 civ_mv_oiler
 civ_mv_large_cargo

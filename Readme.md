@@ -17,12 +17,13 @@ _Important & urgent information for the mod developers will appear in this secti
   * Single Mission 8 - Russian SSBNs Only
   * Single Mission 9 - NATO SSBNs Only
   * Single Missions 10 thru 27 - All Subs
-  * Single Mission 28 - ANY new units sections 1 and 3. All playable subs sections 1,2 and 3.
+  * Single Mission 28 - ANY new units sections 1 and 3. All playable subs sections 1 and 2 and "campaign/maps/norwegian_sea_traffic.txt".
   * Single Mission 29 - NATO SSBNs Only (Must have working SLBMs!)
   * Single Mission 30 - Russian SSBNs Only (Must have working SLBMs!)
-  * Single Mission 31 - ANY new units to be added to OtherVessels section.
-  * Single Mission 32 - ONLY Playable SHIPS. ANY new units to be added to OtherVessels section.
+  * Single Mission 31 - ANY new units to be added to "campaign/maps/norwegian_sea_traffic.txt".
+  * Single Mission 32 - ONLY Playable SHIPS. ANY new units to be added to "campaign/maps/norwegian_sea_traffic.txt".
   
+  ##Any units are now to be added into the "campaign/maps/norwegian_sea_traffic.txt" file in the OtherVessels section (Vessel List order) so that they will appear in the in-game reference and sonar. Everything now pulls from this one file.
 -----
 
 ### Info For Players

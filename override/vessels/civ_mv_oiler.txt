@@ -76,6 +76,12 @@ Material=ships/materials/modular_parts
 MeshPosition=0.05,-0.0480,-0.916
 MeshProp=wp_vt_kazbek_prop_r
 
+//Flags
+
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_panama
+MeshMainFlag=wp_vt_kazbek_animatedflag
 
 //RADARs
 //RADARSpeed=100

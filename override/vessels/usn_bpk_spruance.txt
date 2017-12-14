@@ -157,10 +157,10 @@ MeshRotation=0,-90,0
 MeshRADAR=wp_bpk_udaloy_palmfrond
 
 //Flags
-//MeshPosition=0,0,0
-//MeshRotation=270,90,0
-//Material=ships/materials/flag_soviet
-//MeshMainFlag=wp_bpk_udaloy_animatedflag
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_us
+MeshMainFlag=wp_bpk_udaloy_animatedflag
 
 //Material=ships/materials/flag_signal
 //MeshOtherFlags=wp_bpk_udaloy_signals

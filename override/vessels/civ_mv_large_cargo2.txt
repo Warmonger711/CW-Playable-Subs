@@ -76,7 +76,12 @@ MeshProp=wp_ms_poltava_prop_l
 MeshPosition=0.05,-0.0705,-0.9160
 MeshProp=wp_ms_poltava_prop_r
 
+//Flags
 
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_panama
+MeshMainFlag=wp_ms_poltava_animatedflag
 
 
 

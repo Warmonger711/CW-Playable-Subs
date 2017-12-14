@@ -159,6 +159,10 @@ MeshPosition=0,0.3365,-0.1612
 MeshRADAR=wp_bpk_kresta2_headnet_c
 
 //Flags
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_us
+MeshMainFlag=wp_bpk_krestaii_animatedflag
 
 [Weapon Systems]
 //Naval Guns

@@ -280,23 +280,23 @@ SonarBaffle=130
 SonarNoisePerKnot=1
 SonarOutput=250
 
-SonarModel=usn_tb_23
-SonarType=TOWED
-SonarFrequencies=VL,L
-SonarActiveSensitivity=0
-SonarPassiveSensitivity=51
-SonarBaffle=FALSE
-SonarNoisePerKnot=3
-SonarOutput=0
+//SonarModel=usn_tb_23
+//SonarType=TOWED
+//SonarFrequencies=VL,L
+//SonarActiveSensitivity=0
+//SonarPassiveSensitivity=51
+//SonarBaffle=FALSE
+//SonarNoisePerKnot=3
+//SonarOutput=0
 
-SonarModel=usn_tb_29
-SonarType=TOWED
-SonarFrequencies=VL,L
-SonarActiveSensitivity=0
-SonarPassiveSensitivity=54
-SonarBaffle=FALSE
-SonarNoisePerKnot=2
-SonarOutput=0
+//SonarModel=usn_tb_29
+//SonarType=TOWED
+//SonarFrequencies=VL,L
+//SonarActiveSensitivity=0
+//SonarPassiveSensitivity=54
+//SonarBaffle=FALSE
+//SonarNoisePerKnot=2
+//SonarOutput=0
 
 SonarModel=wp_pelamida
 SonarType=TOWED
@@ -530,7 +530,7 @@ SonarOutput=220
 
 SonarModel=usn_an_bqq_2
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L
+SonarFrequencies=L,L
 SonarActiveSensitivity=28
 SonarPassiveSensitivity=37
 SonarBaffle=150
@@ -539,12 +539,12 @@ SonarOutput=220
 
 SonarModel=usn_an_bqq_5
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L
+SonarFrequencies=L,L
 SonarActiveSensitivity=28
 SonarPassiveSensitivity=40
 SonarBaffle=150
 SonarNoisePerKnot=1
-SonarOutput=220
+SonarOutput=235
 
 SonarModel=usn_bqr_25
 SonarType=TOWED
@@ -564,6 +564,88 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=2
 SonarOutput=0
 
+SonarModel=usn_tb_23
+SonarType=TOWED
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=50
+SonarBaffle=FALSE
+SonarNoisePerKnot=3
+SonarOutput=0
+
+SonarModel=usn_tb_29
+SonarType=TOWED
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=54
+SonarBaffle=FALSE
+SonarNoisePerKnot=3
+SonarOutput=0
+
+SonarModel=plan_eh_5
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,H
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=26
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=plan_sjd_5
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,H
+SonarActiveSensitivity=22
+SonarPassiveSensitivity=22
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=plan_sjd_7
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M,M
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=32
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=plan_sjd_8
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M,M
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=37
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=plan_ess_1
+SonarType=TOWED
+SonarFrequencies=M,M
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=32
+SonarBaffle=FALSE
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=plan_tsm_2233
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=40
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
+
+
+SonarModel=plan_sqc_1
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=37
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
+
 SonarModel=wp_bull_horn
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=M
@@ -577,10 +659,10 @@ SonarModel=wp_bull_nose
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=M
 SonarActiveSensitivity=26
-SonarPassiveSensitivity=26
+SonarPassiveSensitivity=32
 SonarBaffle=150
-SonarNoisePerKnot=1
-SonarOutput=220
+SonarNoisePerKnot=0.25
+SonarOutput=230
 
 SonarModel=wp_wolf_paw
 SonarType=ACTIVE/PASSIVE
@@ -595,23 +677,23 @@ SonarModel=wp_trout_cheek
 SonarType=PASSIVE
 SonarFrequencies=M
 SonarActiveSensitivity=0
-SonarPassiveSensitivity=30
+SonarPassiveSensitivity=32
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=0
 
 SonarModel=wp_squid_arm
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L
+SonarFrequencies=L,L
 SonarActiveSensitivity=26
-SonarPassiveSensitivity=35
+SonarPassiveSensitivity=37
 SonarBaffle=150
 SonarNoisePerKnot=1
-SonarOutput=220
+SonarOutput=235
 
 SonarModel=wp_shark_teeth
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L
+SonarFrequencies=L,L
 SonarActiveSensitivity=26
 SonarPassiveSensitivity=35
 SonarBaffle=150
@@ -620,16 +702,16 @@ SonarOutput=220
 
 SonarModel=wp_shark_gill
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L
+SonarFrequencies=L,L
 SonarActiveSensitivity=28
-SonarPassiveSensitivity=39
+SonarPassiveSensitivity=40
 SonarBaffle=150
 SonarNoisePerKnot=1
-SonarOutput=220
+SonarOutput=235
 
 SonarModel=wp_buck_toe
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=H
+SonarFrequencies=H,H
 SonarActiveSensitivity=12
 SonarPassiveSensitivity=18
 SonarBaffle=150
@@ -638,9 +720,9 @@ SonarOutput=210
 
 SonarModel=wp_shark_fin
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=M
+SonarFrequencies=M,M
 SonarActiveSensitivity=26
-SonarPassiveSensitivity=30
+SonarPassiveSensitivity=32
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
@@ -667,7 +749,7 @@ SonarModel=wp_foal_tail
 SonarType=TOWED
 SonarFrequencies=H
 SonarActiveSensitivity=20
-SonarPassiveSensitivity=33
+SonarPassiveSensitivity=36
 SonarBaffle=FALSE
 SonarNoisePerKnot=1
 SonarOutput=210
@@ -701,17 +783,17 @@ SonarOutput=220
 
 SonarModel=wp_horse_jaw
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L
-SonarActiveSensitivity=28
+SonarFrequencies=L,L
+SonarActiveSensitivity=36
 SonarPassiveSensitivity=40
 SonarBaffle=150
 SonarNoisePerKnot=1
-SonarOutput=220
+SonarOutput=235
 
 SonarModel=wp_moose_jaw
 SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L
-SonarActiveSensitivity=28
+SonarFrequencies=L,L
+SonarActiveSensitivity=32
 SonarPassiveSensitivity=37
 SonarBaffle=150
 SonarNoisePerKnot=1
@@ -850,6 +932,15 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=200
 
+SonarModel=wp_stork_tail
+SonarType=DIPPING
+SonarFrequencies=H
+SonarActiveSensitivity=25
+SonarPassiveSensitivity=25
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=210
+
 //base stork tail foal_tail dipping sonar for Ka-25 and Ka-27 
 //(not correct for Ka-27 or early Ka-25)
 // Eastern sources refer to VGS-2 Oka "Stork Tail"
@@ -863,14 +954,11 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=210
 
-
-//adding wp_lamb_tail Ros-V VGS-3 dipping sonar for Ka-27
-// assuming one step UP from stork tail in frequency, sensitivity, output
 SonarModel=wp_lamb_tail
 SonarType=DIPPING
 SonarFrequencies=M
-SonarActiveSensitivity=31
-SonarPassiveSensitivity=31
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=30
 SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=220

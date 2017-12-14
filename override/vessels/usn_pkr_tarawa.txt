@@ -163,6 +163,10 @@ MeshPosition=0.14,0.569,0.0956
 MeshRADAR=wp_takr_kiev_topsteer
 
 //Flags
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_us
+MeshMainFlag=wp_takr_kiev_animatedflag
 
 [Weapon Systems]
 //Naval Guns

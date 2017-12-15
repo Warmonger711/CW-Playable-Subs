@@ -3,13 +3,12 @@ MapImage=campaign/maps/norwegian_sea_chart.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
-VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 MapHeightInNM=1800
 MapTimeCompression=3600
 Hemisphere=NORTH
 EquatorYValue=0
-JulianStartDate=2446040.5
+JulianStartDate=2446952.5
 StartDateRange=30
 MapSpeedModifier=2
 PlayerStartTelegraphs=2,3,5
@@ -44,10 +43,10 @@ ContactOverTimeColor4=64,0,0,255
 [Land War]
 UseLandWar=TRUE
 IconsInOccupiedZonesOnly=FALSE
-HoursToNextGeneralEvent=168
+HoursToNextGeneralEvent=100
 HoursToNextGeneralEventRange=-24,48
-FirstOccupiedTerritory=WG1,WG2
-TerritoryTakebackThreshold=5
+FirstOccupiedTerritory=D1,ND1
+TerritoryTakebackThreshold=8
 NewFrontProbability=0.3
 
 [Aircraft]
@@ -106,7 +105,7 @@ LinksToWaypoint=IG5,IG6,N2,IG7
 
 //Iceland
 //Reykjavik/Keflavik 2
-Alignment=FRIENDLY
+Alignment=ENEMY
 Function=AIRBASE,SOSUS_NODE,INSERTION_TARGET
 BaseMapPosition=-259.3,135.1
 RelatedSOSUS=DENMARKSTRAIT
@@ -119,7 +118,7 @@ LinksToWaypoint=IG3
 LinksToRegionWaypoint=I1
 
 //Hofn 3
-Alignment=FRIENDLY
+Alignment=ENEMY
 Function=SOSUS_NODE
 BaseMapPosition=-191.30,67.3
 RelatedSOSUS=FAROESNORTH
@@ -259,14 +258,14 @@ SOSUSStartPosition=-230.50,176.80
 SOSUSEndPosition=-193.40,245.10
 SOSUSAngle=28
 SOSUSDetectionRange=120
-SOSUSAlignment=FRIENDLY
+SOSUSAlignment=ENEMY
 
 SOSUSName=FAROESNORTH
 SOSUSStartPosition=-142.60,-35.90
 SOSUSEndPosition=-195.30,70.10
 SOSUSAngle=-25
 SOSUSDetectionRange=120
-SOSUSAlignment=FRIENDLY
+SOSUSAlignment=ENEMY
 
 SOSUSName=FAROESSOUTH
 SOSUSStartPosition=-164.20,-133.20
@@ -285,15 +284,12 @@ SOSUSAlignment=FRIENDLY
 [PLAYER MISSIONS]
 //Last mission is the FINAL MISSION for the campaign
 //Second to last mission is simple RETURN TO BASE
-PlayerMissionTypes=SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionTypes=INSERTION,RETURN_TO_BASE,LAND_STRIKE
 //Last two missions are not included on frequency list
-//Sum of frequencies must equal 1
-PlayerMissionFrequency=0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1
-PlayerMissionThreshold=0,0,0,0.5,0.6,0,0,0,0,0
+PlayerMissionFrequency=1
+PlayerMissionThreshold=0
 
 CommandoLoadTime=120
-
-DefaultMissionTypes=SSN_WOLFPACK,SS_WOLFPACK
 
 Mission=SS_SPECOPS_0
 Mission=SS_SPECOPS_1
@@ -306,19 +302,8 @@ Mission=INSERTION_1
 Mission=LAND_STRIKE_0
 Mission=LAND_STRIKE_1
 Mission=LAND_STRIKE_2
-Mission=LAND_STRIKE_3
-Mission=LAND_STRIKE_4
-Mission=LAND_STRIKE_5
-Mission=LAND_STRIKE_6
-Mission=LAND_STRIKE_7
-Mission=LAND_STRIKE_8
-Mission=LAND_STRIKE_9
-Mission=LAND_STRIKE_10
-Mission=LAND_STRIKE_11
 Mission=SUB_RESUPPLY_0
-Mission=SUB_RESUPPLY_1
 Mission=SHIP_RESUPPLY_0
-Mission=SHIP_RESUPPLY_1
 Mission=ASUW_STRIKE_0
 Mission=ASUW_STRIKE_1
 Mission=ASUW_STRIKE_2
@@ -343,23 +328,25 @@ Mission=SSBN_PATROL_0
 Mission=SSBN_PATROL_1
 
 [NON-PLAYER MISSIONS]
-Non-PlayerMissionTypes=SS_PATROL,SSN_PATROL,ASW_PATROL
-//Sum of frequencies must equal 1
-Non-PlayerMissionFrequency=0.3,0.3,0.4
+Non-PlayerMissionTypes=SS_PATROL,SSN_PATROL,ASW_PATROL,RESUPPLY_CONVOY,SSBN_PATROL,SS_WOLFPACK,LANDING_FORCE,SSN_WOLFPACK,ASUW_STRIKE,SUB_RESUPPLY,SHIP_RESUPPLY
+Non-PlayerMissionFrequency=0.09,0.09,0.09,0.09,0.10,0.09,0.09,0.09,0.09,0.09,0.09
 Non-PlayerMission=SS_PATROL_0
 Non-PlayerMission=SSN_PATROL_0
 Non-PlayerMission=ASW_PATROL_0
-Non-PlayerMission=ASW_PATROL_1
-Non-PlayerMission=ASW_PATROL_2
+Non-PlayerMission=RESUPPLY_CONVOY_0
+Non-PlayerMission=SSBN_PATROL_0
+Non-PlayerMission=SS_WOLFPACK_0
+Non-PlayerMission=LANDING_FORCE_0
+Non-PlayerMission=SSN_WOLFPACK_0
+Non-PlayerMission=ASUW_STRIKE_0
+Non-PlayerMission=SUB_RESUPPLY_0
+Non-PlayerMission=SHIP_RESUPPLY_0
+
 
 [EVENTS]
 Event=event_intro_1=START
 Event=event_intro_2
 Event=event_intro_3
-Event=event_intro_4
-Event=event_intro_5
-Event=event_intro_6
-Event=event_intro_7
 //Event=event_nato_invasion_sea=PLAYER_INVASION_SEA
 //Event=event_nato_invasion_land=PLAYER_INVASION_LAND
 //Event=event_nato_invasion_air=PLAYER_INVASION_AIR
@@ -377,6 +364,7 @@ Event=event_armistice_advantage=ARMISTICE_ADVANTAGE
 Event=event_armistice_disadvantage=ARMISTICE_DISADVANTAGE
 Event=event_campaign_win=WIN
 Event=event_campaign_win_2
+Event=event_campaign_win_3
 Event=event_campaign_draw=DRAW
 Event=event_campaign_draw_2
 Event=event_campaign_fail=FAIL

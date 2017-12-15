@@ -3,6 +3,7 @@ Image=campaign/images/pact surface raiders 3,campaign/images/pact surface raider
 Photo=campaign/images/photos/naval engagement 1
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
+ForwardDate=7,14				
 
 Font=0
 Outline=FALSE

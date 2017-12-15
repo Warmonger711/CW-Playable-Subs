@@ -3,6 +3,7 @@ MapImage=campaign/maps/norwegian_sea_chart.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 MapHeightInNM=1800
 MapTimeCompression=3600
@@ -43,10 +44,10 @@ ContactOverTimeColor4=64,0,0,255
 [Land War]
 UseLandWar=TRUE
 IconsInOccupiedZonesOnly=FALSE
-HoursToNextGeneralEvent=100
+HoursToNextGeneralEvent=60
 HoursToNextGeneralEventRange=-24,48
 FirstOccupiedTerritory=D1,ND1
-TerritoryTakebackThreshold=8
+TerritoryTakebackThreshold=5
 NewFrontProbability=0.3
 
 [Aircraft]
@@ -291,6 +292,7 @@ PlayerMissionThreshold=0
 
 CommandoLoadTime=120
 
+DefaultMissionTypes=SSN_WOLFPACK,SS_WOLFPACK
 Mission=SS_SPECOPS_0
 Mission=SS_SPECOPS_1
 Mission=LANDING_FORCE_0
@@ -303,7 +305,9 @@ Mission=LAND_STRIKE_0
 Mission=LAND_STRIKE_1
 Mission=LAND_STRIKE_2
 Mission=SUB_RESUPPLY_0
+Mission=SUB_RESUPPLY_1
 Mission=SHIP_RESUPPLY_0
+Mission=SHIP_RESUPPLY_1
 Mission=ASUW_STRIKE_0
 Mission=ASUW_STRIKE_1
 Mission=ASUW_STRIKE_2
@@ -364,7 +368,6 @@ Event=event_armistice_advantage=ARMISTICE_ADVANTAGE
 Event=event_armistice_disadvantage=ARMISTICE_DISADVANTAGE
 Event=event_campaign_win=WIN
 Event=event_campaign_win_2
-Event=event_campaign_win_3
 Event=event_campaign_draw=DRAW
 Event=event_campaign_draw_2
 Event=event_campaign_fail=FAIL

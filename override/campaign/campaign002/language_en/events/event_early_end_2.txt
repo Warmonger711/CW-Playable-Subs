@@ -3,6 +3,7 @@ Image=campaign/images/pact france
 Photo=campaign/images/photos/riot 1
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
+ForwardDate=7,14				
 
 Font=0
 Outline=FALSE

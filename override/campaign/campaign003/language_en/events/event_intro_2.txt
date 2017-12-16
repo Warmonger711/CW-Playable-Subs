@@ -3,6 +3,7 @@ Image=campaign/images/88 soviet factory
 Photo=campaign/images/photos/politics 4
 Music=audio/music/slavianka.ogg
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

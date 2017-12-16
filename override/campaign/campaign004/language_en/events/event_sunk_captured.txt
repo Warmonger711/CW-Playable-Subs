@@ -3,6 +3,7 @@ Image=campaign/images/gulag
 Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
 Music=audio/music/loss.ogg
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

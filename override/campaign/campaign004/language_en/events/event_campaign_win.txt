@@ -3,6 +3,7 @@ Image=campaign/images/pact reinforcements
 Photo=campaign/images/photos/riot 1,campaign/images/photos/riot 2,campaign/images/photos/protests 1,campaign/images/photos/protests 2
 Music=audio/music/victory.ogg
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

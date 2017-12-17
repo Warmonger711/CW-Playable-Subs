@@ -3,6 +3,7 @@ Image=campaign/images/pact ruined city,campaign/images/pact port takeover 1,camp
 Photo=campaign/images/photos/armor pact 1,campaign/images/photos/infantry pact 1,campaign/images/photos/infantry pact 2,campaign/images/photos/riot 2
 Music=audio/music/victory.ogg
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

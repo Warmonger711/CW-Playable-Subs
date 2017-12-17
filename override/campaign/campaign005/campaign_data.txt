@@ -3,6 +3,7 @@ MapImage=campaign/maps/norwegian_sea_chart.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 MapHeightInNM=1800
 MapTimeCompression=3600
@@ -33,6 +34,12 @@ ToolbarTextColor=225,157,131,255
 ToolbarBackground=campaign/images/sprites/toolbar_background.png
 PortIcon=campaign/images/sprites/icon_port.png
 SosusBarrier=campaign/images/sprites/sosus.png
+PlayerIconColor=2,84,166,255
+EnemyIconColor=255,0,0,255
+ContactOverTimeColor1=255,0,0,255
+ContactOverTimeColor2=192,0,0,255
+ContactOverTimeColor3=128,0,0,255
+ContactOverTimeColor4=64,0,0,255
 
 [Land War]
 UseLandWar=TRUE
@@ -342,6 +349,7 @@ PlayerMissionThreshold=0,0,0,0
 
 CommandoLoadTime=120
 
+DefaultMissionTypes=SSN_WOLFPACK,RESUPPLY_CONVOY
 
 Mission=SSN_WOLFPACK_0
 Mission=SSN_WOLFPACK_1

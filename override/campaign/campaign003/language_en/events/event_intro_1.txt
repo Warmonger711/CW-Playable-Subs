@@ -3,6 +3,7 @@ Image=campaign/images/reagan
 Photo=campaign/images/photos/air nato 1,campaign/images/photos/infantry nato 4,campaign/images/photos/infantry nato 5
 Music=audio/music/slavianka.ogg
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

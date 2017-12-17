@@ -3,6 +3,7 @@ Image=campaign/images/pershings
 Photo=campaign/images/photos/protests 1,campaign/images/photos/protests 2
 Music=audio/music/slavianka.ogg
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

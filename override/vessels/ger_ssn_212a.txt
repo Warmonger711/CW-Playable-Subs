@@ -28,6 +28,7 @@ CavitationParameters=15,-155
 PropRotationSpeed=-150
 TestDepth=1310
 EscapeDepth=600
+PeriscopeDepthInFeet=42
 
 [Acoustics & Sensors]
 SelfNoise=110
@@ -110,19 +111,19 @@ MeshPosition=0,0,-0.4993
 MeshSternPlanes=wp_ssn_alfa_sternplanes
 
 
-ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
+ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
-MeshPosition=0,-0.002,0.208
+MeshPosition=0,0,0.23
+MastHeight=0.095
+MeshMast=usn_ssn_permit_periscope
+
+MeshPosition=0,0,0.2
+MastHeight=0.090
+MeshMast=usn_ssn_permit_esm_mast
+
+MeshPosition=0,0,0.17
 MastHeight=0.085
-MeshMast=usn_ssn_los_angeles_periscope
-
-MeshPosition=0,0.018,0.15
-MastHeight=0.065
-MeshMast=usn_ssn_los_angeles_esm_mast
-
-MeshPosition=0,0.018,0.105
-MastHeight=0.065
-MeshMast=usn_ssn_los_angeles_radar_mast
+MeshMast=usn_ssn_permit_radar_mast
 
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 MaterialTextures=terrain/sand

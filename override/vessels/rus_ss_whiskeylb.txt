@@ -28,6 +28,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=-450,450
 TestDepth=655
 EscapeDepth=600
+PeriscopeDepthInFeet=28
 
 [Acoustics & Sensors]
 SelfNoise=158
@@ -140,15 +141,15 @@ Mesh=wp_rkr_kirov_asw_launcher
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
 MeshPosition=0,-0.015,0.100
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_permit_periscope
 
 MeshPosition=0,-0.030,0.074
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_permit_esm_mast
 
 MeshPosition=0,-0.030,0.052
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_permit_radar_mast
 
 

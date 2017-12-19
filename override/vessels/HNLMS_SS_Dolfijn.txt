@@ -28,6 +28,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=-450,450,450
 TestDepth=660
 EscapeDepth=500
+PeriscopeDepthInFeet=37
 
 [Acoustics & Sensors]
 SelfNoise=150

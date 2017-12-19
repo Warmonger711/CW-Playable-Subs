@@ -1,5 +1,5 @@
 Designation=MS
-ShipType=BIOLOGIC
+ShipType=MERCHANT
 
 Length=169.9
 Beam=21.8

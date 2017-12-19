@@ -1,5 +1,5 @@
 Designation=AOR
-ShipType=BIOLOGIC
+ShipType=MERCHANT
 
 Length=130.1
 Beam=20

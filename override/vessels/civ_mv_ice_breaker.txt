@@ -1,5 +1,5 @@
 Designation=AP
-ShipType=BIOLOGIC
+ShipType=MERCHANT
 
 Length=133.1
 Beam=18.9

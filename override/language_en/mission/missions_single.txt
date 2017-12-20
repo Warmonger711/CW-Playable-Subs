@@ -1,34 +1,34 @@
-The Duel - 1968 (NATO)
-The Duel - 1984 (NATO)
-The Duel - 1968 (RUS/CHN/JPN)
-The Duel - 1984 (RUS/CHN/JPN)
-The Hunt For Red October
-The Escape of Red October
-The Giants
-The Hunted (RUS/CHN/JPN)
-The Hunted (NATO)
-In The Presence Of Wolves
-Action In The North Atlantic
-Iron Coffins
-Beating The Odds
-Skirmish In The Denmark Strait
-The Bastion Gambit
-The Narvik Caper
-Strike From The Sea
-Stalking The Red Bear
-The Sole Seeker
-Roaring Lions
-Thundering Storm
-Coiled Viper
-Cruising Triumph
-Red Shadow
-Swedish Intervention
-The Lone Sabre
-Creeping Hunter
-Earn Your Keep
-Second Strike (NATO)
-Second Strike (RUS/CHN/JPN)
-Artic Takeover (RUS)
-And Now For Something Completely Different (RUS)
-The Great Escape (NATO)
-The Great Escape (RUS/CHN/JPN)
+<color=Cyan>The Duel - 1968 (NATO)</color>
+<color=Cyan>The Duel - 1984 (NATO)</color>
+<color=Red>The Duel - 1968 (RUS)</color>
+<color=Red>The Duel - 1984 (RUS)</color>
+<color=Orange>The Hunt For Red October</color>
+<color=Orange>The Escape of Red October</color>
+<color=Orange>The Giants</color>
+<color=Red>The Hunted (RUS)</color>
+<color=Cyan>The Hunted (NATO)</color>
+<color=White>In The Presence Of Wolves</color>
+<color=White>Action In The North Atlantic</color>
+<color=White>Iron Coffins</color>
+<color=White>Beating The Odds</color>
+<color=White>Skirmish In The Denmark Strait</color>
+<color=White>The Bastion Gambit</color>
+<color=White>The Narvik Caper</color>
+<color=White>Strike From The Sea</color>
+<color=White>Stalking The Red Bear</color>
+<color=Orange>The Sole Seeker</color>
+<color=Orange>Roaring Lions</color>
+<color=Orange>Thundering Storm</color>
+<color=Orange>Coiled Viper</color>
+<color=Orange>Cruising Triumph</color>
+<color=Orange>Red Shadow</color>
+<color=Orange>Swedish Intervention</color>
+<color=Orange>The Lone Sabre</color>
+<color=Orange>Creeping Hunter</color>
+<color=Orange>Earn Your Keep</color>
+<color=Cyan>Second Strike (NATO)</color>
+<color=Red>Second Strike (RUS)</color>
+<color=Red>Arctic Takeover (RUS)</color>
+<color=Red>And Now For Something Completely Different (RUS)</color>
+<color=Cyan>The Great Escape (NATO)</color>
+<color=Red>The Great Escape (RUS)</color>

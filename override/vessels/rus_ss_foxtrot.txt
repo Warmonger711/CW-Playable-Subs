@@ -28,6 +28,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=-450,450,450
 TestDepth=920
 EscapeDepth=600
+PeriscopeDepthInFeet=37
 
 [Acoustics & Sensors]
 SelfNoise=136
@@ -121,11 +122,11 @@ MeshPosition=0.0,0.0,0.0
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
 MeshPosition=0,0.008,0.191
-MastHeight=0.085
+MastHeight=0.09
 MeshMast=usn_ssn_permit_periscope
 
 MeshPosition=0,-0.010,0.133
-MastHeight=0.085
+MastHeight=0.095
 MeshMast=usn_ssn_permit_esm_mast
 
 MeshPosition=0,-0.010,0.118

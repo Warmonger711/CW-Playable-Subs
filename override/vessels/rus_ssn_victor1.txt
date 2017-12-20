@@ -28,6 +28,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=-150
 TestDepth=1300
 EscapeDepth=600
+PeriscopeDepthInFeet=38
 
 [Acoustics & Sensors]
 SelfNoise=142
@@ -113,15 +114,15 @@ MeshProp=wp_ssn_victor1_prop
 ModelFile=ships/usn_ssn_permit/usn_ssn_permit
 Material=ships/materials/usn_masts
 MeshPosition=0,0.030,0.230
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_permit_periscope
 
 MeshPosition=0,0.020,0.200
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_permit_esm_mast
 
 MeshPosition=0,0.020,0.170
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_permit_radar_mast
 
 [Weapon Systems]

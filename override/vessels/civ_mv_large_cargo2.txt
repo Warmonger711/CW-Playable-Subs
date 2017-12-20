@@ -1,5 +1,5 @@
 Designation=MS
-ShipType=BIOLOGIC
+ShipType=MERCHANT
 
 Length=155.7
 Beam=20.7
@@ -33,7 +33,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE;
+RADAR=civ_furuno
 RADARSignature=MEDIUM
 
 [Model]

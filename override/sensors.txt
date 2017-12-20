@@ -1092,3 +1092,6 @@ RADARRange=60000
 
 RADARModel=ara_tcsfc
 RADARRange=60000
+
+RADARModel=civ_furuno
+RADARRange=30000

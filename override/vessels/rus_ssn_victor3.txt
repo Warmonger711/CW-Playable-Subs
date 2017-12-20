@@ -28,6 +28,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=-150
 TestDepth=1300
 EscapeDepth=600
+PeriscopeDepthInFeet=38
 
 [Acoustics & Sensors]
 SelfNoise=130
@@ -115,15 +116,15 @@ MeshBowPlanes=wp_ssn_victor2_bowplanes
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/materials/usn_masts
 MeshPosition=-0.0072,0.045,0.100
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_los_angeles_periscope
 
 MeshPosition=0,0.045,0.120
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_los_angeles_esm_mast
 
 MeshPosition=-0.003,0.045,0.140
-MastHeight=0.085
+MastHeight=0.08
 MeshMast=usn_ssn_los_angeles_radar_mast
 
 [Weapon Systems]

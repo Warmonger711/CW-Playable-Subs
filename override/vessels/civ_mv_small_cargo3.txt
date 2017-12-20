@@ -1,5 +1,5 @@
 Designation=AP
-ShipType=BIOLOGIC
+ShipType=MERCHANT
 
 Length=88.7
 Beam=12.8
@@ -33,7 +33,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE;
+RADAR=civ_furuno
 RADARSignature=MEDIUM
 
 [Model]

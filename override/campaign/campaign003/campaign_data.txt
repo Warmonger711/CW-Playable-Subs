@@ -408,6 +408,7 @@ Event=event_campaign_fail_2
 Event=event_campaign_fail_3
 Event=event_campaign_critical_fail=CRITICAL_FAIL
 Event=event_campaign_critical_fail_2
+Event=event_campaign_court_martial=COURT_MARTIAL
 Event=event_sunk_rescued=RESCUE
 Event=event_sunk_captured=CAPTURE
 Event=event_sunk_lost_at_sea=LOST_AT_SEA

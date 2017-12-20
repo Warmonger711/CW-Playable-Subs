@@ -1,3 +1,4 @@
+usn_ssn_los_angeles
 usn_ssn_narwhal
 usn_ssn_sturgeon
 usn_ssn_permit
@@ -5,7 +6,6 @@ usn_ssn_skipjack
 usn_ssn_sturgeon_68
 usn_ssn_permit_68
 usn_ssn_skipjack_68
-usn_ssn_los_angeles
 usn_ssn_los_angeles_2
 usn_ssn_los_angeles_688i
 usn_ssn_seawolf
@@ -173,11 +173,19 @@ wp_vtr_andizhan_mod
 wp_vtr_yuniy_partizan
 wp_fv_trawler
 civ_fv_trawler
+civ_ms_small_freighter
 civ_ms_freighter_a
 civ_ms_freighter_b
 civ_ms_super_p
 civ_ms_encounter
+civ_ms_act_1
 civ_ms_sl7
+civ_ms_leninskiy_komsomol
+civ_ms_poltava
+civ_ms_kommunist
+civ_vtr_amguema
+civ_vtr_andizhan
+civ_vtr_yuniy_partizan
 civ_oilrig
 civ_spar_rig
 civ_mv_ice_breaker

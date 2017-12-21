@@ -32,3 +32,5 @@
 <color=Red>And Now For Something Completely Different (RUS)</color>
 <color=Cyan>The Great Escape (NATO)</color>
 <color=Red>The Great Escape (RUS)</color>
+<color=red>Oil Rig Insertion (RUS)</color>
+<color=cyan>Oil Rig Insertion (NATO)</color>

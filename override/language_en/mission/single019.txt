@@ -1,12 +1,12 @@
 Image=campaign/images/pact naval 1
 MissionLocation=Norwegian Sea, 2000 miles due East of Iceland.
-Briefing=Prevent the Soviet fleet from launching an amphibious assualt on Iceland.
+Briefing=Prevent the Soviet fleet from launching an amphibious assault on Iceland.
 Briefing=
 Briefing=Primary Objective:
 Briefing=Sink the main vessels of the High Sea Fleet.
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Sink the transport Ships of the amphibious assualt fleet.
+Briefing=Sink the transport Ships of the amphibious assault fleet.
 Briefing=
 Briefing=
 Briefing=

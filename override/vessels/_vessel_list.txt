@@ -189,13 +189,6 @@ civ_vtr_yuniy_partizan
 civ_ms_old_small_freighter						  
 civ_oilrig
 civ_spar_rig
-civ_mv_ice_breaker
-civ_mv_oiler
-civ_mv_large_cargo
-civ_mv_large_cargo2
-civ_mv_small_cargo
-civ_mv_small_cargo2
-civ_mv_small_cargo3
 biologic_blue_whale
 biologic_humpback_whale
 rus_mpk_poti_player

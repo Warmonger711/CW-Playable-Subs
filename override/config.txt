@@ -61,6 +61,13 @@ NearbyVesselMinDistance=15000
 NearbyWeaponMinDistance=10000
 NearbyAircraftMinDistance=10000
 
+[Miscellaneous]
+//Flat % chance for whales
+WhaleProbability=0.1
+//Probability * pixel value of traffic map (0-1), rolls 2x
+NeutralVesselProbability1=0.33
+NeutralVesselProbability2=0.25
+
 [Environments]
 //First environment is used in Unit Reference for lighting
 Environment=Day_Clear
@@ -87,7 +94,7 @@ EventsDebugOnContinue=FALSE
 UnitReferenceDebugOnSpace=FALSE
 AutoCameraPanAndZoom=FALSE
 ForceCampaignMissionType=FALSE
-ForceCampaignMissionNumber=1							
+ForceCampaignMissionNumber=0
 
 [Difficulty Settings]
 //Easy, Normal, Hard, Elite

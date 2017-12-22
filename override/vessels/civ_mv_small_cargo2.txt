@@ -84,8 +84,10 @@ MeshMainFlag=wp_vtr_andizhan_animatedflag
 
 
 //RADARs
-//RADARSpeed=100
-//RADARDirection=1
+RADARSpeed=100
+RADARDirection=1
+
+MeshRotation=0,0,0
 Material=ships/materials/modular_parts
 MeshPosition=0.0477,0.2402,0.0510
 MeshRADAR=wp_vtr_andizhan_navradar,HIDE

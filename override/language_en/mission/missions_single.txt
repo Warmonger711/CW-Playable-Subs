@@ -29,7 +29,7 @@
 <color=Cyan>Second Strike (NATO)</color>
 <color=Red>Second Strike (RUS)</color>
 <color=Red>Arctic Takeover (RUS)</color>
-<color=Red>And Now For Something Completely Different (RUS)</color>
+<color=Orange>And Now For Something Completely Different</color>
 <color=Cyan>The Great Escape (NATO)</color>
 <color=Red>The Great Escape (RUS)</color>
 <color=red>Oil Rig Insertion (RUS)</color>

@@ -8,4 +8,4 @@ History=<b>THIS IS A TEST UNIT, USE IT AT YOUR OWN RISK.\nPLEASE REPORT ANY ISSU
 [Player Ship Instances]
 PlayerClassNames=Testing
 
-PlayerClassHullNumbers=#99
+PlayerClassHullNumbers=888

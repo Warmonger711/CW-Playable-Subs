@@ -8,7 +8,7 @@ HullHeight=0.06
 Displacement=580
 Crew=80
 Range=4500
-HullNumbers=109,085,083,090,125,163,164,082,196,191,187,091,067,129,162,185,194,097,133,087,088,089
+HullNumbers=888
 
 [Movement]
 SurfaceSpeed=38
@@ -22,7 +22,7 @@ DiveRate=0
 SurfaceRate=0
 BallastRate=0
 Waterline=0
-SubmergedAt=0.25
+SubmergedAt=0
 CavitationParameters=0,0
 PropRotationSpeed=-375,375
 TestDepth=20

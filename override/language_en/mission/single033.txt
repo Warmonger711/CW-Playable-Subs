@@ -1,6 +1,6 @@
-Image=campaign/images/pact naval 1
+Image=campaign/images/nato naval 1
 MissionLocation=Central Norwegian Sea
-Briefing=You have been shadowing and observing a major top secret Russian exercise involving their new carrier battlegroup. Unfortunately, your night shift commanding officer has just made a mistake and the Russians now know you're nearby and are hunting you with extreme prejudice.
+Briefing=You have been shadowing and observing a major top secret NATO exercise involving their new carrier battlegroup. Unfortunately, your night shift commanding officer has just made a mistake and the enemy now knows you're nearby and is hunting you with extreme prejudice.
 Briefing=
 Briefing=Primary Objective:
 Briefing=- Survive

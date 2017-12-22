@@ -1,26 +1,26 @@
-//The Hunted (USA) - CaptainX3
+//The Giants
 
 UseTerrain=TRUE
-MapCoordinates=1033,1704
+MapCoordinates=1470,946
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 //Environment
-Date=14 JAN 1983
+Date=05 MAY 2010
 Hemisphere=North
-Time=0900
+Time=1200
 UsePresetEnvironment=FALSE
-Weather=Snow
-SeaState=Strong Breeze
+Weather=RANDOM
+SeaState=Moderate Breeze
 DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=2-5
+NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
-EnemyShipClasses=wp_ssbn_delta4|wp_ssbn_delta3|wp_ssbn_yankee|wp_ssgn_oscar|wp_ssgn_charlie2|wp_ssgn_charlie1|wp_ssgn_echo2|wp_ssg_juliet|wp_ssn_sierra|rus_ssn_akula1|rus_ssn_akula2|wp_ssn_alfa|wp_ssn_victor3|wp_ssn_victor2|wp_ssn_victor1|wp_ssn_november|wp_ss_kilo|wp_ss_tango|wp_ss_foxtrot|wp_ss_romeo|wp_ss_whiskey|rus_ssn_yasen|rus_ss_lada
+EnemyShipClasses=usn_ssn_los_angeles_688i|usn_ssn_seawolf|usn_ssn_virginia|usn_ssn_virginia_imp|uk_ssn_astute|uk_ssn_trafalgar|uk_ss_upholder|ger_ssn_212a|rus_ssn_akula2|rus_ssn_yasen|rus_ssn_alfa2|rus_ss_lada|chn_ssn_type93b|rus_ss_kilo2|usn_ss_stingray
 FormationCruiseSpeed=12
 
 //Enemy Aircraft
@@ -29,4 +29,4 @@ HelicopterType=wp_helix
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=usn_ssbn_ohio,uk_ssbn_resolution,uk_ssbn_vanguard,fra_ssbn_redoubtable
+PlayerVessels=usn_ssn_los_angeles_688i,usn_ssn_seawolf,usn_ssn_virginia,usn_ssn_virginia_imp,usn_ss_stingray,uk_ssn_astute,uk_ssn_trafalgar,uk_ss_upholder,ger_ssn_212a,rus_ssn_akula2,rus_ssn_yasen,rus_ssn_alfa2,rus_ss_lada,rus_ss_kilo2,chn_ssn_type93b

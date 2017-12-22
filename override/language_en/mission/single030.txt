@@ -1,6 +1,6 @@
 Image=campaign/images/trident.jpg
 MissionLocation=North Atlantic
-Briefing=A nuclear attack has been launched against Mother Russia. 
+Briefing=A nuclear attack has been launched against the United States. 
 Briefing=You are ordered to immediately perform a retaliatory nuclear strike.
 Briefing=
 Briefing=Primary Objective:

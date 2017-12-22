@@ -5,7 +5,7 @@ PlayerHUD=hud/surface
 Length=124
 Beam=14.0
 HullHeight=0.1
-Displacement=4200
+Displacement=8500
 Crew=176
 Range=4500
 HullNumbers=888
@@ -30,26 +30,26 @@ PropRotationSpeed=-350,350
 TestDepth=20
 
 [Acoustics & Sensors]
-SelfNoise=165
+SelfNoise=120
 ActiveSonarReflection=25
-ActiveSonarModel=usn_an_sqs-56
-PassiveSonarModel=usn_an_sqs-56
-TowedArrayModel=usn_an_sqr-19
+ActiveSonarModel=usn_an_bqq_10
+PassiveSonarModel=usn_an_bqq_10
+TowedArrayModel=usn_tb_29
 AnechoicCoating=FALSE
 RADAR=usn_an_sps-49
 RADARSignature=MEDIUM
 
 [Weapon Systems]
-TorpedoTypes=usn_mk50,usn_mk46_early
-TorpedoNumbers=12,12
+TorpedoTypes=usn_mk48,usn_moss_2
+TorpedoNumbers=20,10
 TorpedoTubes=7
 NumberOfWires=0
 TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=20
 
-VLSTorpedoTypes=usn_ugm84
-VLSTorpedoNumbers=40
+VLSTorpedoTypes=usn_ugm84,usn_SUBROCii
+VLSTorpedoNumbers=30,10
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=40
 
@@ -59,8 +59,8 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 NoisemakerName=usn_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=50
+NoisemakerReloadTime=5
 
 [Subsystems]
 LabelPosition=364.3,28

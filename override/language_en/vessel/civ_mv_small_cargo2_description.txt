@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=SMALL CARGO T2
+Description=Small Cargo T2 (<b>NEUTRAL</b>)
+History=This is a <b>NEUTRAL</b> merchant vessel.
+[Player Ship Instances]
+PlayerClassNames=
+PlayerClassHullNumbers=

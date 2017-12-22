@@ -84,8 +84,10 @@ Material=ships/materials/flag_panama
 MeshMainFlag=wp_vt_kazbek_animatedflag
 
 //RADARs
-//RADARSpeed=100
-//RADARDirection=1
+RADARSpeed=100
+RADARDirection=1
+
+MeshRotation=0,0,0
 Material=ships/materials/wp_palmfrond
 MeshRotation=0,0,0
 MeshPosition=0.0246,0.2531,0.2924

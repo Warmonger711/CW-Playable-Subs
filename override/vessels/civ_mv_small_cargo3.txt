@@ -55,7 +55,6 @@ MeshRudder=wp_vtr_yuniy_partizan_rudder
 MeshPosition=0,0,0
 
 
-
 Material=ships/wp_vtr_yuniy_partizan/wp_vtr_yuniy_partizan_deck
 Mesh=wp_vtr_yuniy_partizan_deck,wp_vtr_yuniy_partizan_deck_d
 
@@ -69,7 +68,6 @@ Material=ships/materials/modular_parts
 Mesh=wp_vtr_yuniy_partizan_parts,wp_vtr_yuniy_partizan_parts_d
 
 
-
 Material=ships/materials/modular_parts
 MeshPosition=0,-0.0481,-0.507
 MeshProp=wp_vtr_yuniy_partizan_prop
@@ -81,19 +79,17 @@ MeshRotation=270,90,0
 Material=ships/materials/flag_panama
 MeshMainFlag=wp_vtr_yuniy_partizan_animatedflag
 
-
-
+MeshRotation=0,0,0
 //RADARs
-//RADARSpeed=100
-//RADARDirection=1
-Material=ships/materials/modular_parts
-MeshPosition=-0.0127,0.3315,-0.2875
+RADARSpeed=100
+RADARDirection=1
+Material=ships/wp_vtr_yuniy_partizan/wp_vtr_yuniy_partizan_mat
+MeshPosition=0.0127,0.3315,-0.2878
 MeshRADAR=wp_vtr_yuniy_partizan_navradar,HIDE
 
 RADARSpeed=120
-MeshPosition=0.0117,0.3315,-0.2777
+MeshPosition=-0.0115,0.3237,-0.2777
 MeshRADAR=wp_vtr_yuniy_partizan_navradar,HIDE
-
 
 //Wake and Smoke
 MeshPosition=0,0,0

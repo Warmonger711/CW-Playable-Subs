@@ -81,9 +81,11 @@ Material=ships/materials/flag_panama
 MeshMainFlag=wp_vt_dubna_animatedflag
 
 //RADARs
-//RADARSpeed=80
-//RADARDirection=1
+RADARSpeed=100
+RADARDirection=1
 
+MeshRotation=0,0,0
+Material=ships/materials/modular_parts
 MeshPosition=0,0.414,-0.3969
 MeshRADAR=wp_vt_dubna_flatradar
 RADARSpeed=-100

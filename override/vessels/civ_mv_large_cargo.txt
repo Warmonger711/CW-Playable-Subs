@@ -82,9 +82,11 @@ Material=ships/materials/flag_panama
 MeshMainFlag=wp_ms_leninskiy_komsomol_animatedflag
 
 //RADARs
-//RADARSpeed=100
-//RADARDirection=1
+RADARSpeed=100
+RADARDirection=1
 
+MeshRotation=0,0,0
+Material=ships/materials/modular_parts
 MeshPosition=0,0.3457,0.0867
 MeshRADAR=wp_ms_leninskiy_komsomol_surfacesearch
 

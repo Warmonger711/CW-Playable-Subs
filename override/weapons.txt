@@ -631,7 +631,7 @@ AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=usn_mk50
-WeaponSprite=weapons/sprites/usn_mk16_sprite
+WeaponSprite=hud/default/usn_mk50_sprite.png
 WeaponType=TORPEDO
 //Warhead=350
 //even amended PSM value is too high for this lightweight airdropped torp
@@ -1067,6 +1067,7 @@ AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=usn_mk46
+WeaponSprite=hud/default/usn_mk46_sprite.png
 WeaponType=TORPEDO
 //original PSM value is too high for this lightweight airdropped torp
 //Warhead=200
@@ -1114,7 +1115,7 @@ AudioLoop=FALSE;
 [/Model]
 
 WeaponObjectReference=usn_mk46_early
-WeaponSprite=weapons/sprites/usn_mk16_sprite
+WeaponSprite=hud/default/usn_mk46_sprite.png
 WeaponType=TORPEDO
 //original PSM value is too high for this lightweight airdropped torp
 //Warhead=200

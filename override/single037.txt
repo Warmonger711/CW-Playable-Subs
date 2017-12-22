@@ -48,3 +48,4 @@ HelicopterType=usn_sh3d
 NumberOfAircraft=0
 AircraftType=usn_p3a
 
+PlayerVessels=rus_mpk_poti_player,usn_bpk_perry_late_player

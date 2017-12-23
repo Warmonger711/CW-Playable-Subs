@@ -25,23 +25,23 @@ SurfaceRate=0
 BallastRate=0
 Waterline=0
 SubmergedAt=0
-CavitationParameters=5,-100
+CavitationParameters=0,0
 PropRotationSpeed=-250,250
 TestDepth=20
 
 [Acoustics & Sensors]
-SelfNoise=180
+SelfNoise=120
 ActiveSonarReflection=25
-ActiveSonarModel=wp_horse_jaw
-PassiveSonarModel=wp_horse_jaw
-TowedArrayModel=wp_horse_tail
+ActiveSonarModel=wp_mgk600
+PassiveSonarModel=wp_mgk600
+TowedArrayModel=wp_mgk600_towed
 AnechoicCoating=FALSE
 RADAR=wp_don_kay
 RADARSignature=MEDIUM
 
 [Weapon Systems]
 TorpedoTypes=wp_uset-80
-TorpedoNumbers=20
+TorpedoNumbers=30
 TorpedoTubes=11
 NumberOfWires=0
 TubeConfig=1,1,1,1,1,1,1,1,1,1,1
@@ -49,7 +49,7 @@ TorpedoTubeSize=21
 TubeReloadTime=30
 
 VLSTorpedoTypes=wp_ss-n-14,wp_p700
-VLSTorpedoNumbers=10,20
+VLSTorpedoNumbers=20,20
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=40
 
@@ -58,8 +58,8 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=50
+NoisemakerReloadTime=5
 
 [Subsystems]
 LabelPosition=364.3,28

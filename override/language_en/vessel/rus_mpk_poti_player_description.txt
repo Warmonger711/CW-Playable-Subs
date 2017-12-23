@@ -3,9 +3,9 @@ ShipClass=Poti
 Description=(Playable) Poti Class Small Anti-Submarine Ship
 DefensiveWeapons=57mm AA Guns\nRBU-6000
 OffensiveWeapons=
-History=<b>THIS IS A TEST UNIT, USE IT AT YOUR OWN RISK.\nPLEASE REPORT ANY ISSUES ON THE DISCORD MOD CHANNEL.</b>\n\nThese ships are predecessors of the more familiar Grisha class. They were among the first to feature a combined diesel/gas turbine (COGOG) propulsion system and were armed with the then latest sonar and weapons. They are reputed to be good sea boats and while limited in terms of sensors, the 6000 yard range of their anti-submarine rockets make them dangerous opponents to any sub caught at periscope depth.
+History=<b>SPECIAL NOTE: Because the game is not designed for playable surface ships, some adjustments were made to this ship's stats to make gameplay more fun and to allow longer survivability in combat. These stats are not realistic, but are required to make the ship playable. This unit is still under testing, please report any issues in the mod Discord channel, on Steam, or on Subsim.</b>\n\nThese ships are predecessors of the more familiar Grisha class. They were among the first to feature a combined diesel/gas turbine (COGOG) propulsion system and were armed with the then latest sonar and weapons. They are reputed to be good sea boats and while limited in terms of sensors, the 6000 yard range of their anti-submarine rockets make them dangerous opponents to any sub caught at periscope depth.
 
 [Player Ship Instances]
-PlayerClassNames=Testing
+PlayerClassNames=100,101,102,103,104,105
 
-PlayerClassHullNumbers=888
+PlayerClassHullNumbers=MPK-100,MPK-101,MPK-102,MPK-103,MPK-104,MPK-105

@@ -5,7 +5,7 @@ PlayerHUD=hud/surface
 Length=59.4
 Beam=7.9
 HullHeight=0.06
-Displacement=580
+Displacement=5000
 Crew=80
 Range=4500
 HullNumbers=888
@@ -30,8 +30,8 @@ TestDepth=20
 [Acoustics & Sensors]
 SelfNoise=110
 ActiveSonarReflection=25
-ActiveSonarModel=wp_wolf_paw
-PassiveSonarModel=wp_wolf_paw
+ActiveSonarModel=wp_mgk600
+PassiveSonarModel=wp_mgk600
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
 RADAR=wp_don_kay
@@ -39,7 +39,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=wp_set-40
-TorpedoNumbers=20
+TorpedoNumbers=25
 TorpedoTubes=4
 NumberOfWires=0
 TubeConfig=1,1,1,1
@@ -52,8 +52,8 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=50
+NoisemakerReloadTime=5
 
 [Subsystems]
 LabelPosition=364.3,28

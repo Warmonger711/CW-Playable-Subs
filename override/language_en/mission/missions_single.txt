@@ -33,5 +33,6 @@
 <color=Red>The Great Escape (RUS)</color>
 <color=Cyan>Oil Rig Insertion (NATO)</color>
 <color=Red>Oil Rig Insertion (RUS)</color>
-<color=Cyan>Revenge Is A Dish Best Served Cold (NATO)</color>
-<color=Red>And Now For Something Completely Different (RUS)</color>
+<color=Orange>Revenge Is A Dish...</color>
+<color=Cyan>Convoy Strike (NATO)</color>
+<color=Red>Convoy Strike (RUS)</color>

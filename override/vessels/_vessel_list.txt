@@ -1,11 +1,4 @@
 usn_ssn_los_angeles
-usn_ssn_narwhal
-usn_ssn_sturgeon
-usn_ssn_permit
-usn_ssn_skipjack
-usn_ssn_sturgeon_68
-usn_ssn_permit_68
-usn_ssn_skipjack_68
 usn_ssn_los_angeles_2
 usn_ssn_los_angeles_688i
 usn_ssn_seawolf
@@ -16,6 +9,13 @@ usn_ssbn_ohio_vls
 usn_ssbn_washington
 usn_ssbn_ethan_allen
 usn_ss_stingray
+usn_ssn_narwhal
+usn_ssn_sturgeon
+usn_ssn_permit
+usn_ssn_skipjack
+usn_ssn_sturgeon_68
+usn_ssn_permit_68
+usn_ssn_skipjack_68
 usn_ss_barbel_68
 usn_ss_barbel
 usn_ss_guppyIIa
@@ -94,6 +94,9 @@ chn_ssn_type93b
 chn_ssbn_type092
 dprk_ss_romeo
 vnm_ss_kilo
+usn_bpk_perry_late_player
+rus_rkr_kirov_player
+rus_mpk_poti_player
 wp_ssbn_typhoon
 wp_ssbn_delta4
 wp_ssbn_delta3
@@ -191,6 +194,3 @@ civ_oilrig
 civ_spar_rig
 biologic_blue_whale
 biologic_humpback_whale
-rus_mpk_poti_player
-usn_bpk_perry_late_player
-rus_rkr_kirov_player

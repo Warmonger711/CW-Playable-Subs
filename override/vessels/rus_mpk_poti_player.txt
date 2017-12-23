@@ -8,7 +8,7 @@ HullHeight=0.06
 Displacement=5000
 Crew=80
 Range=4500
-HullNumbers=888
+HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=38
@@ -132,8 +132,8 @@ Mesh=wp_mpk_poti_trans,wp_mpk_poti_trans_d
 Material=ships/materials/crew_soviet
 Mesh=wp_mpk_poti_crew,HIDE
 
-Material=ships/materials/hullnumbers/hullnumber
-MeshHullNumber=wp_mpk_poti_hullnumber
+//Material=ships/materials/hullnumbers/hullnumber
+//MeshHullNumber=wp_mpk_poti_hullnumber
 
 Material=ships/materials/modular_parts
 Mesh=wp_mpk_poti_parts,wp_mpk_poti_parts_d

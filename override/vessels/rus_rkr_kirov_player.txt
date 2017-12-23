@@ -8,7 +8,7 @@ HullHeight=0.1
 Displacement=28000
 Crew=760
 Range=10500
-HullNumbers=888
+HullNumbers=FALSE
 AircraftNumbers=3
 AircraftTypes=wp_hormone
 
@@ -136,8 +136,8 @@ Mesh=wp_rkr_kirov_boats,wp_rkr_kirov_boats_d
 Material=ships/materials/crew_soviet
 Mesh=wp_rkr_kirov_crew,HIDE
 
-Material=ships/materials/hullnumbers/hullnumber
-MeshHullNumber=wp_rkr_kirov_hullnumber
+//Material=ships/materials/hullnumbers/hullnumber
+//MeshHullNumber=wp_rkr_kirov_hullnumber
 
 Material=ships/materials/modular_parts
 Mesh=wp_rkr_kirov_parts,wp_rkr_kirov_parts_d

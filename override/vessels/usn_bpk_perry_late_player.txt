@@ -8,7 +8,7 @@ HullHeight=0.1
 Displacement=12000
 Crew=176
 Range=4500
-HullNumbers=888
+HullNumbers=FALSE
 AircraftNumbers=2
 AircraftTypes=usn_sh60f
 
@@ -137,8 +137,8 @@ Mesh=wp_bpk_kashin_peelgroup,wp_bpk_kashin_peelgroup_d
 Material=ships/materials/crew_soviet
 Mesh=wp_bpk_kashin_crew,HIDE
 
-Material=ships/materials/hullnumbers/hullnumber
-MeshHullNumber=wp_bpk_kashin_hullnumber
+//Material=ships/materials/hullnumbers/hullnumber
+//MeshHullNumber=wp_bpk_kashin_hullnumber
 
 Material=ships/materials/modular_parts
 Mesh=wp_bpk_kashin_parts,wp_bpk_kashin_parts_d

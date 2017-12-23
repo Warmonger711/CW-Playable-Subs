@@ -1,4 +1,21 @@
 ---
+### Info For Players
+* To download the latest version of the mod, simply click the green "Clone or Download" button above and choose "Download ZIP". This will download the latest override file to your PC, then you just install it like you normally would.
+
+* The mod is under constant development and will undergo changes at random. You can see the latest updates to the mod listed next to the override folder, along with how recently the mod itself was changed. If you'd like to see the history of all recent changes, you can click the "### Commits" button right below the title text of the page and you'll see a list of every change submitted to the mod, which you can click on their numbers and see any notes left.
+
+* We will attempt to list all recent major changes to the mod on this page right below this section. You won't see minor bug fixes listed, but when we change something major, we'll try to post it below.
+
+* If you have a bug report, the best place to let us know about it is the Discord channel (linked at the top of this page), however you can also post on the forums on Steam (http://steamcommunity.com/app/541210/discussions/3/1353742967803190823) or Subsim (http://www.subsim.com/radioroom/showthread.php?t=231690) and we'll see it there as well.
+
+### Recent Major Changes
+* 12/23/2017 - Added Single Missions 37 and 38, convoy strike missions for the new playable surface ships.
+
+* 12/22/2017 - New Playable Surface Ships finalized - Poti and Kirov for the Russians, and the Perry class frigate for the US. These are playable in single missions 36, 37, and 38 only at this time. Be aware that the stats on these ships are beefed up for gameplay purposes, since surface warfare wasn't intended in this game - they're not real world stats and never will be.
+
+* 12/21/2017 - Typhoon periscope depth has finally been fixed! Due to a small bug, we have to set the Typhoon at 60ft for periscope depth right now, which can cause the sail to become exposed during high sea states, but hopefully that small bug will be fixed soon and we can change it to 65ft, which is the ideal depth. All other bugs with the Typhoon should now be resolved.
+
+-----
 ## Developer Announcements
 _Important & urgent information for the mod developers will appear in this section._
 
@@ -11,26 +28,23 @@ _Important & urgent information for the mod developers will appear in this secti
   * override\campaign\campaign004\summary.txt
   * override\campaign\campaign005\summary.txt
   * override\campaign\campaign006\summary.txt
-  * Single Missions 1 & 2 - NATO Subs Only
-  * Single Missions 3 & 4 - Russian Subs Only
-  * Single Mission 5 - All Subs
-  * Single Mission 8 - Russian SSBNs Only
-  * Single Mission 9 - NATO SSBNs Only
+  * Single Missions 1 & 3 - NATO Subs Only
+  * Single Missions 2 & 4 - Russian Subs Only
+  * Single Mission 5 - NATO SSBNs Only
+  * Single Mission 6 - Russian SSBNs Only
+  * Single Mission 7 - All Subs
+  * Single Mission 9 - Advanced Modern Subs Only
   * Single Missions 10 thru 27 - All Subs
   * Single Mission 28 - ANY new units sections 1 and 3. All playable subs sections 1 and 2 and "campaign/maps/norwegian_sea_traffic.txt".
-  * Single Mission 29 - NATO SSBNs Only (Must have working SLBMs!)
-  * Single Mission 30 - Russian SSBNs Only (Must have working SLBMs!)
-  * Single Mission 31 - ANY new units to be added to "campaign/maps/norwegian_sea_traffic.txt".
-  * Single Mission 32 - ONLY Playable SHIPS. ANY new units to be added to "campaign/maps/norwegian_sea_traffic.txt".
+  * Single Mission 30 - NATO SSBNs Only (Must have working SLBMs!)
+  * Single Mission 31 - Russian SSBNs Only (Must have working SLBMs!)
+  * Single Mission 32 & 34 - NATO Subs Only
+  * Single Mission 33 & 35 - Russian Subs Only
+  * Single Mission 36 - All Playable Surface Ships
+  * Single Mission 37 - NATO Playable Surface Ships
+  * Single Mission 38 - Russian Playable Surface Ships
   
   ##Any units are now to be added into the "campaign/maps/norwegian_sea_traffic.txt" file in the OtherVessels section (Vessel List order) so that they will appear in the in-game reference and sonar. Everything now pulls from this one file.
------
-
-### Info For Players
-* The code displayed on this page is a constant work in progress by the many developers of this mod. If you choose to download the code from this page, be aware that you're getting the latest updates from all developers and that it's possible that bugs or issues may still be present. Knowing this, if you'd like to download the latest code, simply click the green "Clone or Download" button above and choose "Download ZIP". This will download the latest development override file to your PC, then you just install it like you normally would.
-* If you'd like a copy of the latest release version of the mod, you can click "Releases" at the top of the page and download the latest mod release or previous releases if you so choose.
-* If you have a bug report, the best place to let us know about it is the Discord channel, however you can also post on the forums on Steam (http://steamcommunity.com/app/541210/discussions/3/1353742967803190823) or Subsim (http://www.subsim.com/radioroom/showthread.php?t=231690) and we'll see it there as well.
-
 -----
 
 ### Info For Developers

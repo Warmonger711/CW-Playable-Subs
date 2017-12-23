@@ -193,3 +193,4 @@ biologic_blue_whale
 biologic_humpback_whale
 rus_mpk_poti_player
 usn_bpk_perry_late_player
+rus_rkr_kirov_player

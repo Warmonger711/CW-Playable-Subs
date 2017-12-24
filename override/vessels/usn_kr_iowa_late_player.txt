@@ -1,4 +1,4 @@
-Designation=CL
+Designation=BB
 ShipType=SUBMARINE
 PlayerHUD=hud/surface
 
@@ -28,7 +28,7 @@ PropRotationSpeed=-250,250
 TestDepth=20
 
 [Acoustics & Sensors]
-SelfNoise=195
+SelfNoise=120
 ActiveSonarReflection=25
 ActiveSonarModel=usn_an_bqq_10
 PassiveSonarModel=usn_an_bqq_10
@@ -39,52 +39,52 @@ RADARSignature=MEDIUM
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48
-TorpedoNumbers=10
-TorpedoTubes=3
+TorpedoNumbers=40
+TorpedoTubes=5
 NumberOfWires=0
-TubeConfig=1,1,1
+TubeConfig=1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=20
 
-VLSTorpedoTypes=usn_ugm84,usn_tlam,usn_tasm
-VLSTorpedoNumbers=20,32,32
+VLSTorpedoTypes=usn_ugm84,usn_SUBROCii,usn_tasm,usn_tlam
+VLSTorpedoNumbers=16,12,32,0
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=40
 
 [Defenses]
-
 ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=50
 NoisemakerReloadTime=5
+
 [Subsystems]
-LabelPosition=364.3,28
+LabelPosition=430,60
 BOWSONAR=FRONT
-LabelPosition=59.9,193.2
+LabelPosition=20,30
 TOWED=REAR
-LabelPosition=409.7,193.3
+LabelPosition=330,60
 PERISCOPE=SAIL
-LabelPosition=409.7,151.4
+LabelPosition=330,45
 ESM_MAST=SAIL
-LabelPosition=409.7,171.9
+LabelPosition=330,30
 RADAR_MAST=SAIL
-LabelPosition=364.3,49.4
+LabelPosition=430,45
 TUBES=FORE,FRONT
-LabelPosition=229.6,193.2
+LabelPosition=220,45
 FIRECONTROL=FORE
-LabelPosition=229.6,172.2
+LabelPosition=120,60
 PUMPS=MID,AFT
-LabelPosition=59.9,27.7
+LabelPosition=20,60
 PROPULSION=AFT,REAR
-LabelPosition=59.9,172.2
+LabelPosition=20,45
 RUDDER=REAR
-LabelPosition=59.9,48.7
+LabelPosition=220,60
 PLANES=SAIL,REAR
-LabelPosition=190.8,49
+LabelPosition=120,45
 BALLAST=MID
-LabelPosition=190.8,28
+LabelPosition=120,30
 REACTOR=MID
 
 [Flooding Display: x,width,ymin,ymax]
@@ -240,6 +240,18 @@ TorpedoSpawnPosition=-0.0148,0.053,1.26
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 2
+MeshRotation=0,0,0
+MeshPosition=0.015,0.0336,1.27
+TorpedoSpawnPosition=0.015,0.0336,1.27
+TorpedoEffectPosition=0,0,0.0232
+
+//Tube 3
+MeshRotation=0,0,0
+MeshPosition=-0.015,0.053,1.26
+TorpedoSpawnPosition=-0.0148,0.053,1.26
+TorpedoEffectPosition=0,0,0.0232
+
+//Tube 4
 MeshRotation=0,0,0
 MeshPosition=0.015,0.0336,1.27
 TorpedoSpawnPosition=0.015,0.0336,1.27

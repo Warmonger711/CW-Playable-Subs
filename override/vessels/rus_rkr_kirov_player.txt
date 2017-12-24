@@ -62,31 +62,31 @@ NumberOfNoisemakers=50
 NoisemakerReloadTime=5
 
 [Subsystems]
-LabelPosition=364.3,28
+LabelPosition=430,60
 BOWSONAR=FRONT
-LabelPosition=59.9,193.2
+LabelPosition=20,30
 TOWED=REAR
-LabelPosition=409.7,193.3
+LabelPosition=330,60
 PERISCOPE=SAIL
-LabelPosition=409.7,151.4
+LabelPosition=330,45
 ESM_MAST=SAIL
-LabelPosition=409.7,171.9
+LabelPosition=330,30
 RADAR_MAST=SAIL
-LabelPosition=364.3,49.4
+LabelPosition=430,45
 TUBES=FORE,FRONT
-LabelPosition=229.6,193.2
+LabelPosition=220,45
 FIRECONTROL=FORE
-LabelPosition=229.6,172.2
+LabelPosition=120,60
 PUMPS=MID,AFT
-LabelPosition=59.9,27.7
+LabelPosition=20,60
 PROPULSION=AFT,REAR
-LabelPosition=59.9,172.2
+LabelPosition=20,45
 RUDDER=REAR
-LabelPosition=59.9,48.7
+LabelPosition=220,60
 PLANES=SAIL,REAR
-LabelPosition=190.8,49
+LabelPosition=120,45
 BALLAST=MID
-LabelPosition=190.8,28
+LabelPosition=120,30
 REACTOR=MID
 
 [Flooding Display: x,width,ymin,ymax]

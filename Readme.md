@@ -1,4 +1,10 @@
 ---
+### Recent Major Changes
+* 12/23/2017 - We're now up to 4 total playable surface ships: Perry Class Frigate, Iowa Class Battleship, Poti Class Corvette, and Kirov Class Battlecruiser. We've added Single Missions 37 and 38, convoy strike missions, for the new ships. Be aware that the stats on these ships are beefed up for gameplay purposes, since surface warfare wasn't intended in this game - they're not real world stats and never will be.
+
+* 12/21/2017 - Typhoon periscope depth has finally been fixed! Due to a small bug, we have to set the Typhoon at 60ft for periscope depth right now, which can cause the sail to become exposed during high sea states, but hopefully that small bug will be fixed soon and we can change it to 65ft, which is the ideal depth. All other bugs with the Typhoon should now be resolved.
+
+-----
 ### Info For Players
 * To download the latest version of the mod, simply click the green "Clone or Download" button above and choose "Download ZIP". This will download the latest override file to your PC, then you just install it like you normally would.
 
@@ -7,13 +13,6 @@
 * We will attempt to list all recent major changes to the mod on this page right below this section. You won't see minor bug fixes listed, but when we change something major, we'll try to post it below.
 
 * If you have a bug report, the best place to let us know about it is the Discord channel (linked at the top of this page), however you can also post on the forums on Steam (http://steamcommunity.com/app/541210/discussions/3/1353742967803190823) or Subsim (http://www.subsim.com/radioroom/showthread.php?t=231690) and we'll see it there as well.
-
-### Recent Major Changes
-* 12/23/2017 - Added Single Missions 37 and 38, convoy strike missions for the new playable surface ships.
-
-* 12/22/2017 - New Playable Surface Ships finalized - Poti and Kirov for the Russians, and the Perry class frigate for the US. These are playable in single missions 36, 37, and 38 only at this time. Be aware that the stats on these ships are beefed up for gameplay purposes, since surface warfare wasn't intended in this game - they're not real world stats and never will be.
-
-* 12/21/2017 - Typhoon periscope depth has finally been fixed! Due to a small bug, we have to set the Typhoon at 60ft for periscope depth right now, which can cause the sail to become exposed during high sea states, but hopefully that small bug will be fixed soon and we can change it to 65ft, which is the ideal depth. All other bugs with the Typhoon should now be resolved.
 
 -----
 ## Developer Announcements

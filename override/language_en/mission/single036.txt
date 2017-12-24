@@ -1,5 +1,5 @@
-Image=campaign/images/nato naval 1
-MissionLocation=Off The Faroe Islands
+Image=campaign/images/pact wolfpack 6
+MissionLocation=Off The Faeroe Islands
 Briefing=
 Briefing=A lone submarine has suddenly attacked and sank several of the cargo ships you were escorting. You have broken off from the convoy to give chase. Teach them a lesson!
 Briefing=

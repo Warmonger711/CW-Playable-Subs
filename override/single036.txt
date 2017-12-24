@@ -1,4 +1,4 @@
-//Revenge Is A Dish...
+//Revenge Is A Dish... (NATO)
 
 UseTerrain=TRUE
 MapCoordinates=1714,895
@@ -39,4 +39,4 @@ HelicopterType=usn_sh3d
 NumberOfAircraft=0
 AircraftType=usn_p3a
 
-PlayerVessels=usn_bpk_perry_late_player,usn_kr_iowa_late_player,rus_mpk_poti_player,rus_rkr_kirov_player
+PlayerVessels=usn_bpk_perry_late_player,usn_kr_iowa_late_player

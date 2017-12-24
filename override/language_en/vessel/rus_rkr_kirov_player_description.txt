@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Kirov
-Description=(Playable) Kirov-class Nuclear-powered Guided Missile Cruiser
+Description=(Playable) Kirov Class Nuclear-powered Guided Missile Battlecruiser
 DefensiveWeapons=SA-N-6 SAM\nSA-N-4 SAM
 OffensiveWeapons=SA-N-19 Anti-Ship Missiles\nSS-N-14 ASW Missiles\nAK100 100mm DP Guns\n533mm ASW Torpedoes\RBU-6000 ASW Rockets\nRBU-1000 ASW Rockets
 Aircraft=1 Ka-25 Hormone B Missile Targeting helicopter\n2 Ka-25 Hormone A ASW helicopter

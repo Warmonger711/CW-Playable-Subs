@@ -94,6 +94,7 @@ chn_ssn_type93b
 chn_ssbn_type092
 dprk_ss_romeo
 vnm_ss_kilo
+usn_kr_iowa_late_player
 usn_bpk_perry_late_player
 rus_rkr_kirov_player
 rus_mpk_poti_player

@@ -1,0 +1,11 @@
+[Unit Reference]
+ShipClass=Iowa
+Description=(Playable) Iowa Class Battleship
+DefensiveWeapons=16 inch guns\n5 inch guns\n40mm Bofors\n20mm Oerlikon\n20mm Phalanx CIWS
+Aircraft=5 × RQ-2 Pioneer Unmanned Aerial Vehicles
+History=<b>SPECIAL NOTE: Because the game is not designed for playable surface ships, some adjustments were made to this ship's stats to make gameplay more fun and to allow longer survivability in combat. These stats are not realistic, but are required to make the ship playable. This unit is still under testing, please report any issues in the mod Discord channel, on Steam, or on Subsim.</b>\n\nThe Iowa Class battleships were a class of six fast battleships ordered by the United States Navy in 1939 and 1940 to escort the Fast Carrier Task Forces that would operate in the Pacific Theater of World War II. Four were completed, two more were laid down but canceled in August 1945, at war's end, and both hulls were scrapped in 1958. Like other third-generation American battleships, the Iowas followed the design pattern set forth in the preceding North Carolina Class and South Dakota Class battleships, which emphasized speed in addition to secondary and anti-aircraft batteries. Based on wartime experience, they were to serve as fast escorts for Essex Class aircraft carriers.
+
+[Player Ship Instances]
+PlayerClassNames=Iowa, New Jersey, Missouri, Wisconsin
+
+PlayerClassHullNumbers=BB-61,BB-62,BB-63,BB-64

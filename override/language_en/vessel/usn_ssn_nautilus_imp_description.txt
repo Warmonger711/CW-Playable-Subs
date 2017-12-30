@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Nautilus (1974)
+Description=[USA] Nautilus Class SSN (1974 Era)
+History=<b>THEORETICAL DESIGN</b>\nSelf Noise Rating: 133 db\nTest Depth: 1000 ft\nEscape Depth: 600 ft\n\nAn improved version of the SSN 571, retrofitted in 1974 to carry an improved sonar suite, the new Mark 48 torpedo, as well as additional quieting. Also improved upon was reactor efficiency and a new screw designed to reduce cavitation while increasing speed. Designated SSN 571(i).\n\n<b>SPECIAL NOTE: This class does not actually exist in real life. It is a concept sub designed for the enjoyment of anyone who wishes to use it. It is not designed based off of any real-world specifications.</b>
+
+[Player Ship Instances]
+PlayerClassNames=Nautilus (1974)
+
+PlayerClassHullNumbers=SSN-571(i)

@@ -37,3 +37,5 @@
 <color=Red>Revenge Is A Dish... (RUS)</color>
 <color=Cyan>Convoy Strike (NATO)</color>
 <color=Red>Convoy Strike (RUS)</color>
+<color=Cyan>Lurking Hunter - 1968 (NATO)</color>
+<color=Red>Lurking Hunter - 1968 (RUS)</color>

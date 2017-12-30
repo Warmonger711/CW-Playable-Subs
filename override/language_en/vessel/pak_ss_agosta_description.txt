@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Agosta
+Description=[PAK] Agosta Class SS
+History=Self Noise Rating: 119 db\nTest Depth: 1150 ft\nEscape Depth: 600 ft\n\nThe Pakistan Navy acquired two Agosta class vessels from France that were originally intended for the South African Navy, but the delivery was cancelled due to Resolution 418, an arms embargo. France eventually sold the vessels to the Pakistani Navy, which are still in service today.
+
+[Player Ship Instances]
+PlayerClassNames=PNS/M Hashmat,PNS/M Hurmat
+
+PlayerClassHullNumbers=S135,S136

@@ -210,35 +210,35 @@ LinksToRegionWaypoint=ND1
 Alignment=ENEMY
 Function=STRATEGIC_NODE
 BaseMapPosition=-750.10,1.50
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+MissionTypes=SHIP_RESUPPLY,ASW_PATROL,ASUW_STRIKE
 LinksToWaypoint=IG7
 
 //Atlantic Fleets B
 Alignment=ENEMY
 Function=STRATEGIC_NODE
 BaseMapPosition=-750.10,280.50
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+MissionTypes=SHIP_RESUPPLY,ASW_PATROL,ASUW_STRIKE
 LinksToWaypoint=IG7
 
 //Atlantic Fleets C
 Alignment=ENEMY
 Function=STRATEGIC_NODE
 BaseMapPosition=-750.10,100.50
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+MissionTypes=SHIP_RESUPPLY,ASW_PATROL,ASUW_STRIKE
 LinksToWaypoint=IG7
 
 //Convoy Origin UK North
 Alignment=ENEMY
 Function=STRATEGIC_NODE
 BaseMapPosition=-225,-175
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+MissionTypes=ASW_PATROL,ASUW_STRIKE
 LinksToWaypoint=IG7
 
 //Convoy Origin UK Home
 Alignment=ENEMY
 Function=STRATEGIC_NODE
 BaseMapPosition=-300.1,-268.5
-MissionTypes=RESUPPLY_CONVOY,ASW_PATROL,ASUW_STRIKE
+MissionTypes=ASW_PATROL,ASUW_STRIKE
 LinksToWaypoint=IG7
 
 //Soviet
@@ -252,7 +252,6 @@ AircraftPrepTime=10
 AircraftHeadings=240,260
 AircraftSearchRange=1400
 MissionTypes=RETURN_TO_BASE
-//MissionTypes=LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY
 LinksToWaypoint=SC4
 CombatCoords=1234,1234
 
@@ -265,7 +264,6 @@ AircraftTypeInvaded=us_p3c_orion
 AircraftPrepTime=15
 AircraftHeadings=330,0
 AircraftSearchRange=700
-//MissionTypes=LANDING_FORCE,SHIP_RESUPPLY,SUB_RESUPPLY,RESUPPLY_CONVOY
 LinksToWaypoint=SC1
 CombatCoords=1234,1234
 
@@ -273,7 +271,6 @@ CombatCoords=1234,1234
 Alignment=FRIENDLY
 Function=NAVAL_BASE,INSERTION_TARGET
 BaseMapPosition=423.9,21.3
-//MissionTypes=SSBN_PATROL
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
 
@@ -285,7 +282,6 @@ AircraftType=wp_tu-142_bear
 AircraftPrepTime=15
 AircraftHeadings=240,260
 AircraftSearchRange=1400
-//MissionTypes=LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY
 LinksToWaypoint=NC4,NC6,BE1
 CombatCoords=1234,1234
 
@@ -341,26 +337,22 @@ SOSUSAlignment=ENEMY
 [PLAYER MISSIONS]
 //Last mission is the FINAL MISSION for the campaign
 //Second to last mission is simple RETURN TO BASE
-PlayerMissionTypes=SSN_WOLFPACK,RESUPPLY_CONVOY,ASUW_STRIKE,LANDING_FORCE,RETURN_TO_BASE,SSBN_PATROL
-//PlayerMissionTypes=SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionTypes=SSN_WOLFPACK,SHIP_RESUPPLY,ASUW_STRIKE,LANDING_FORCE,RETURN_TO_BASE,SSBN_PATROL
 //Last two missions are not included on frequency list
 PlayerMissionFrequency=0.2,0.6,0.15,0.05
 PlayerMissionThreshold=0,0,0,0
 
 CommandoLoadTime=120
 
-DefaultMissionTypes=SSN_WOLFPACK,RESUPPLY_CONVOY
+DefaultMissionTypes=SSN_WOLFPACK,SHIP_RESUPPLY
 
 Mission=SSN_WOLFPACK_0
 Mission=SSN_WOLFPACK_1
 Mission=SSN_WOLFPACK_2
-//Mission=SSN_WOLFPACK_3
-//Mission=SSN_WOLFPACK_4
-//Mission=SSN_WOLFPACK_5
-Mission=RESUPPLY_CONVOY_0
-Mission=RESUPPLY_CONVOY_1
-Mission=RESUPPLY_CONVOY_2
-Mission=RESUPPLY_CONVOY_3
+Mission=SHIP_RESUPPLY_0
+Mission=SHIP_RESUPPLY_1
+Mission=SHIP_RESUPPLY_2
+Mission=SHIP_RESUPPLY_3
 Mission=ASUW_STRIKE_0
 Mission=ASUW_STRIKE_1
 Mission=ASUW_STRIKE_2
@@ -370,8 +362,6 @@ Mission=SSBN_PATROL_0
 Mission=SSBN_PATROL_1
 
 [NON-PLAYER MISSIONS]
-//Non-PlayerMissionTypes=SS_PATROL,SSN_PATROL,RESUPPLY_CONVOY,ASW_PATROL
-//Non-PlayerMissionFrequency=0.15,0.15,0.5,0.2
 Non-PlayerMissionTypes=SS_PATROL,SSN_PATROL,ASW_PATROL
 Non-PlayerMissionFrequency=0.25,0.35,0.4
 Non-PlayerMission=SS_PATROL_0
@@ -424,13 +414,13 @@ Event=event_award_navy_dsm
 Event=event_award_navy_legion_of_merit
 Event=event_award_purple_heart
 Event=event_award_presidential_citation
-Event=RESUPPLY_CONVOY_win
+Event=SHIP_RESUPPLY_win
 Event=SSN_WOLFPACK_win
 Event=SSN_MISSILE_win
 Event=ASUW_STRIKE_win
 Event=LANDING_FORCE_win
 Event=ASUW_STRIKE_CARRIER_win
-Event=RESUPPLY_CONVOY_fail
+Event=SHIP_RESUPPLY_fail
 Event=SSN_WOLFPACK_fail
 Event=SSN_MISSILE_fail
 Event=ASUW_STRIKE_fail

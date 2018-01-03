@@ -20,4 +20,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=usn_ssn_sturgeon_68|usn_ssn_permit_68|usn_ssn_skipjack_68|usn_ssn_nautilus
+EnemyShipClasses=usn_ssn_sturgeon_68|usn_ssn_permit_68|usn_ssn_skipjack_68

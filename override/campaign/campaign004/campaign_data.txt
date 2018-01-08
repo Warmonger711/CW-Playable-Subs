@@ -93,7 +93,12 @@ LinksToWaypoint=IG7
 
 //Torshavn 1
 Alignment=ENEMY
-Function=SOSUS_NODE
+Function=SOSUS_NODE,AIRBASE
+AircraftType=usn_p3a
+AircraftTypeInvaded=wp_il-38_may
+AircraftPrepTime=10
+AircraftHeadings=330,70
+AircraftSearchRange=700
 BaseMapPosition=-143.10,-37.00
 RelatedSOSUS=FAROESSOUTH,FAROESNORTH
 MissionTypes=ASW_PATROL,SS_PATROL
@@ -140,47 +145,36 @@ LinksToRegionWaypoint=N6
 
 //Trondheim 6
 Alignment=ENEMY
-Function=NAVAL_BASE,STRATEGIC_NODE,AIRBASE
+Function=NAVAL_BASE,STRATEGIC_NODE
 BaseMapPosition=67.2,-83.5
-AircraftType=usn_p3a
-AircraftTypeInvaded=wp_il-38_may
-AircraftSearchRange=700
-AircraftPrepTime=15
-AircraftHeadings=315,45
-AircraftSearchRange=700
 MissionTypes=ASW_PATROL,SSN_PATROL,SS_PATROL
 LinksToWaypoint=NC3
 LinksToRegionWaypoint=N5
 
 //Andoya 7
 Alignment=ENEMY
-Function=AIRBASE,SOSUS_NODE
+Function=SOSUS_NODE
 BaseMapPosition=182.7,45.4
 RelatedSOSUS=NORWAYSPITSBERGEN
-AircraftType=usn_p3a
-AircraftTypeInvaded=wp_tu-142_bear
-AircraftPrepTime=15
-AircraftHeadings=235,55
-AircraftSearchRange=700
 MissionTypes=ASW_PATROL,SS_PATROL
 LinksToWaypoint=NC2
 LinksToRegionWaypoint=N2
 
 //Narvik 8
 Alignment=ENEMY
-Function=STRATEGIC_NODE,AIRBASE
+Function=STRATEGIC_NODE
 BaseMapPosition=156.9,9.1
-AircraftType=usn_p3a
-AircraftTypeInvaded=wp_tu-142_bear
-AircraftPrepTime=15
-AircraftHeadings=235,50
-AircraftSearchRange=700
 LinksToWaypoint=NC2
 LinksToRegionWaypoint=N3
 
 //Spitsbergen 9
 Alignment=ENEMY
-Function=SOSUS_NODE
+Function=SOSUS_NODE,AIRBASE
+AircraftType=usn_p3a
+AircraftTypeInvaded=wp_il-38_may
+AircraftPrepTime=10
+AircraftHeadings=220,180
+AircraftSearchRange=700
 BaseMapPosition=239.11,266.8
 RelatedSOSUS=NORWAYSPITSBERGEN
 MissionTypes=ASW_PATROL
@@ -188,13 +182,8 @@ LinksToWaypoint=N1
 
 //Amsterdam
 Alignment=ENEMY
-Function=STRATEGIC_NODE,NAVAL_BASE,AIRBASE
+Function=STRATEGIC_NODE,NAVAL_BASE
 BaseMapPosition=-112.9,-354.2
-AircraftType=usn_p3a
-AircraftTypeInvaded=wp_tu-142_bear
-AircraftPrepTime=15
-AircraftHeadings=235,50
-AircraftSearchRange=700
 LinksToWaypoint=NS1
 LinksToRegionWaypoint=ND1
 
@@ -229,7 +218,12 @@ LinksToWaypoint=IG7
 
 //Convoy Origin UK Home
 Alignment=ENEMY
-Function=STRATEGIC_NODE
+Function=STRATEGIC_NODE,AIRBASE
+AircraftType=usn_p3c
+AircraftTypeInvaded=wp_il-38_may
+AircraftPrepTime=10
+AircraftHeadings=360,110
+AircraftSearchRange=700
 BaseMapPosition=-300.1,-268.5
 MissionTypes=ASW_PATROL,ASUW_STRIKE
 LinksToWaypoint=IG7

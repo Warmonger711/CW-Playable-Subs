@@ -1,9 +1,0 @@
-[Unit Reference]
-ShipClass=Arihant
-Description=[IND] Arihant Class SSBN
-History=Self Noise Rating: 109 db\nTest Depth: 980 ft\nEscape Depth: 600 ft\n\nThe Arihant class nuclear powered ballistic missile submarine is the first nuclear submarine to be designed by India. Capable of retaliatory nuclear strikes, as well as having formidable torpedo armament, the Arihant class is comparable to most of it’s modern contemporaries, save for the latest submarines in production.
-
-[Player Ship Instances]
-PlayerClassNames=Arihant,Arighat
-
-PlayerClassHullNumbers=S2,S3

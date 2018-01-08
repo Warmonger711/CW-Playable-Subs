@@ -424,16 +424,6 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=1
 SonarOutput=220
 
-SonarModel=ind_ushus
-SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L,M
-SonarActiveSensitivity=32
-SonarPassiveSensitivity=44
-SonarBaffle=150
-SonarNoisePerKnot=1
-SonarOutput=220
-
-
 // ---------------------------------------------------------------------New Sensors Soviet Campaign --------------------------------------------------------
 
 SonarModel=usn_an_sqs-56

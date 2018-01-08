@@ -1,4 +1,4 @@
-[SONAR]
+﻿[SONAR]
 chn_type_603=TYPE-603=This sonar is the one that originally equipped the first Han Class vessels but it was soon replaced by the H/SQ2-262B.
 
 chn_hsqc_207_late=H/SQC-207 Imp=That's the best sonar suite available to the PLAN. It's said it's better than a AN/BQQ-5.
@@ -274,8 +274,6 @@ wp_korshun_k=Korshun-K=Leninets Korshun-K "Kite" (WET EYE II) airborne pulse dop
 wp_strut_pair=Strut Pair=Topaz-V MR-320M "Strut Pair", Air/Surface search radar.
 
 vnm_ge2-01=GE2-01=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
-
-ind_ushus=USHUS=The USHUS sonar suite is a suite developed by the Defense Research and Development Organization of the Indian government, made to be used on submarines of the Indian Navy, such as the Sindhughosh and Arihant class vessels.
 
 civ_furuno=Furuno=Civilian navigation radar made by Furuno.
 

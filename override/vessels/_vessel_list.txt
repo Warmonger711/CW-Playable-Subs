@@ -21,10 +21,10 @@ usn_ss_barbel
 usn_ss_guppyIIa
 usn_ss_tang
 usn_ss_albacore
-usn_ssn_staynalive
-usn_ssn_starfleet
 usn_ssn_nautilus
 usn_ssn_nautilus_imp
+usn_ssn_staynalive
+usn_ssn_starfleet
 it_ss_sauro_iv
 it_ss_toti
 uk_ssn_astute
@@ -47,7 +47,6 @@ aus_ss_oberon
 aus_ss_collins
 HNLMS_SS_Dolfijn
 HNLMS_SS_Walrus
-pak_ss_agosta
 rus_ssn_akula1
 rus_ssn_akula2
 rus_ssn_yasen
@@ -67,7 +66,6 @@ rus_ssbn_redoctober
 rus_ssbn_redoctober_silent
 rus_ssbn_yankee
 rus_ssgn_yankee
-rus_ssgn_yankee_notch
 rus_ssbn_delta3
 rus_ssbn_delta4
 rus_ssgn_oscar1
@@ -98,7 +96,6 @@ chn_ssn_type93b
 chn_ssbn_type092
 dprk_ss_romeo
 vnm_ss_kilo
-ind_ssbn_arihant
 usn_kr_iowa_late_player
 usn_bpk_perry_late_player
 rus_rkr_kirov_player

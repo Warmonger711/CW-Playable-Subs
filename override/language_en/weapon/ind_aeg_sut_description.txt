@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=AEG-SUT
-WeaponDescriptiveName=AEG-SUT Torpedo
-WeaponDescription=The AEG-SUT torpedo is a weapon developed by AEG for use with the Indian Navy. The torpedo has active and passive terminal guidance capabilities, and can be wire-guided to the target, and is detonated by magnetic field. The weapon can also be used by the Type 209 class submarine, although is not fielded.

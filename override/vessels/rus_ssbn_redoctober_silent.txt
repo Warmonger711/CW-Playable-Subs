@@ -11,9 +11,9 @@ Range=10000
 HullNumbers=TRUE
 
 [Movement]
-SurfaceSpeed=12
+SurfaceSpeed=25
 SubmergedSpeed=14
-TelegraphSpeeds=-5,0,5,7,10,12,14
+TelegraphSpeeds=-5,0,5,10,15,20,25
 AccelerationRate=0.08
 DecelerationRate=0.08
 RudderTurnRate=0.5
@@ -24,7 +24,7 @@ SurfaceRate=1
 BallastRate=0.25
 Waterline=0.04
 SubmergedAt=0.25
-CavitationParameters=20,-100
+CavitationParameters=0,0
 PropRotationSpeed=190,-190
 TestDepth=1050
 EscapeDepth=600

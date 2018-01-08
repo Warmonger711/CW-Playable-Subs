@@ -51,7 +51,7 @@ TerritoryTakebackThreshold=5
 NewFrontProbability=0.3
 
 [Aircraft]
-AircraftName=us_p3c_orion
+AircraftName=usn_p3c
 AircraftFaction=ENEMY
 AircraftPatrolSpeed=250
 AircraftPatrolRange=1200
@@ -89,7 +89,7 @@ DetectionRange=20000
 Alignment=ENEMY
 Function=NAVAL_BASE,AIRBASE
 BaseMapPosition=-224,-198
-AircraftType=us_p3c_orion
+AircraftType=usn_p3c
 AircraftTypeInvaded=wp_il-38_may
 AircraftPrepTime=10
 AircraftHeadings=330,70
@@ -99,7 +99,12 @@ LinksToWaypoint=IG7
 
 //Torshavn 1
 Alignment=ENEMY
-Function=SOSUS_NODE
+Function=SOSUS_NODE,AIRBASE
+AircraftType=usn_p3c
+AircraftTypeInvaded=wp_il-38_may
+AircraftPrepTime=10
+AircraftHeadings=330,70
+AircraftSearchRange=700
 BaseMapPosition=-143.10,-37.00
 RelatedSOSUS=FAROESSOUTH,FAROESNORTH
 MissionTypes=ASW_PATROL,SS_PATROL
@@ -111,7 +116,7 @@ Alignment=ENEMY
 Function=NAVAL_BASE,AIRBASE,SOSUS_NODE
 BaseMapPosition=-259.3,135.1
 RelatedSOSUS=DENMARKSTRAIT
-AircraftType=us_p3c_orion
+AircraftType=usn_p3c
 AircraftTypeInvaded=wp_il-38_may
 AircraftPrepTime=10
 AircraftHeadings=45,110
@@ -122,7 +127,12 @@ LinksToRegionWaypoint=I1
 
 //Hofn 3
 Alignment=ENEMY
-Function=SOSUS_NODE
+Function=SOSUS_NODE,AIRBASE
+AircraftType=usn_p3c
+AircraftTypeInvaded=wp_il-38_may
+AircraftPrepTime=10
+AircraftHeadings=330,70
+AircraftSearchRange=700
 BaseMapPosition=-191.30,67.3
 RelatedSOSUS=FAROESNORTH
 MissionTypes=ASW_PATROL
@@ -147,47 +157,36 @@ LinksToRegionWaypoint=N6
 
 //Trondheim 6
 Alignment=ENEMY
-Function=NAVAL_BASE,STRATEGIC_NODE,AIRBASE
+Function=NAVAL_BASE,STRATEGIC_NODE
 BaseMapPosition=67.2,-83.5
-AircraftType=us_p3c_orion
-AircraftTypeInvaded=wp_il-38_may
-AircraftSearchRange=700
-AircraftPrepTime=15
-AircraftHeadings=315,45
-AircraftSearchRange=700
 MissionTypes=ASW_PATROL,SSN_PATROL,SS_PATROL
 LinksToWaypoint=NC3
 LinksToRegionWaypoint=N5
 
 //Andoya 7
 Alignment=ENEMY
-Function=AIRBASE,SOSUS_NODE
+Function=SOSUS_NODE
 BaseMapPosition=182.7,45.4
 RelatedSOSUS=NORWAYSPITSBERGEN
-AircraftType=us_p3c_orion
-AircraftTypeInvaded=wp_tu-142_bear
-AircraftPrepTime=15
-AircraftHeadings=235,55
-AircraftSearchRange=700
 MissionTypes=ASW_PATROL,SS_PATROL
 LinksToWaypoint=NC2
 LinksToRegionWaypoint=N2
 
 //Narvik 8
 Alignment=ENEMY
-Function=STRATEGIC_NODE,AIRBASE
+Function=STRATEGIC_NODE
 BaseMapPosition=156.9,9.1
-AircraftType=us_p3c_orion
-AircraftTypeInvaded=wp_tu-142_bear
-AircraftPrepTime=15
-AircraftHeadings=235,50
-AircraftSearchRange=700
 LinksToWaypoint=NC2
 LinksToRegionWaypoint=N3
 
 //Spitsbergen 9
 Alignment=ENEMY
-Function=SOSUS_NODE
+Function=SOSUS_NODE,AIRBASE
+AircraftType=usn_p3c
+AircraftTypeInvaded=wp_il-38_may
+AircraftPrepTime=10
+AircraftHeadings=220,180
+AircraftSearchRange=700
 BaseMapPosition=239.11,266.8
 RelatedSOSUS=NORWAYSPITSBERGEN
 MissionTypes=ASW_PATROL
@@ -195,13 +194,8 @@ LinksToWaypoint=N1
 
 //Amsterdam
 Alignment=ENEMY
-Function=STRATEGIC_NODE,NAVAL_BASE,AIRBASE
+Function=STRATEGIC_NODE,NAVAL_BASE
 BaseMapPosition=-112.9,-354.2
-AircraftType=us_p3c_orion
-AircraftTypeInvaded=wp_tu-142_bear
-AircraftPrepTime=15
-AircraftHeadings=235,50
-AircraftSearchRange=700
 LinksToWaypoint=NS1
 LinksToRegionWaypoint=ND1
 
@@ -236,7 +230,12 @@ LinksToWaypoint=IG7
 
 //Convoy Origin UK Home
 Alignment=ENEMY
-Function=STRATEGIC_NODE
+Function=STRATEGIC_NODE,AIRBASE
+AircraftType=usn_p3c
+AircraftTypeInvaded=wp_il-38_may
+AircraftPrepTime=10
+AircraftHeadings=360,110
+AircraftSearchRange=700
 BaseMapPosition=-300.1,-268.5
 MissionTypes=ASW_PATROL,ASUW_STRIKE
 LinksToWaypoint=IG7
@@ -247,7 +246,7 @@ Alignment=FRIENDLY
 Function=PLAYER_BASE,NAVAL_BASE,AIRBASE
 BaseMapPosition=360,43.8
 AircraftType=wp_tu-142_bear
-AircraftTypeInvaded=us_p3c_orion
+AircraftTypeInvaded=usn_p3c
 AircraftPrepTime=10
 AircraftHeadings=240,260
 AircraftSearchRange=1400
@@ -260,7 +259,7 @@ Alignment=FRIENDLY
 Function=NAVAL_BASE,AIRBASE,INSERTION_TARGET
 BaseMapPosition=448.6,-68.8
 AircraftType=wp_tu-142_bear
-AircraftTypeInvaded=us_p3c_orion
+AircraftTypeInvaded=usn_p3c
 AircraftPrepTime=15
 AircraftHeadings=330,0
 AircraftSearchRange=700
@@ -353,6 +352,7 @@ Mission=SHIP_RESUPPLY_0
 Mission=SHIP_RESUPPLY_1
 Mission=SHIP_RESUPPLY_2
 Mission=SHIP_RESUPPLY_3
+Mission=SHIP_RESUPPLY_4
 Mission=ASUW_STRIKE_0
 Mission=ASUW_STRIKE_1
 Mission=ASUW_STRIKE_2

@@ -13,7 +13,7 @@ HullNumbers=FALSE
 [Movement]
 SurfaceSpeed=12
 SubmergedSpeed=20.5
-TelegraphSpeeds=-5,0,5,10,14,17,20,5
+TelegraphSpeeds=-5,0,5,10,14,17,20.5
 AccelerationRate=0.30
 DecelerationRate=0.10
 RudderTurnRate=.5
@@ -41,8 +41,8 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.075,0.0,-0.619
 
 [Weapon Systems]
-TorpedoTypes=fr_f17,fr_sm39
-TorpedoNumbers=12,4
+TorpedoTypes=fr_f17,fr_sm39,usn_ugm84
+TorpedoNumbers=12,4,4
 TorpedoTubes=4
 NumberOfWires=4
 TubeConfig=1,1,1,1

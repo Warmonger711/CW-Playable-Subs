@@ -119,7 +119,6 @@ MaterialTextures=vessels/textures/usn_ssn_starfleet.png
 MeshPosition=0,0.0723,0.43
 MeshBowPlanes=wp_ssn_victor2_bowplanes
 
-ModelFile=ships/wp_ssn_victor3/wp_ssn_victor3
 MeshPosition=0,0,-0.686
 MeshSternPlanes=wp_ssn_victor3_sternplanes
 

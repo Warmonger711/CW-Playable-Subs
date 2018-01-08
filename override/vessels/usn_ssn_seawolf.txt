@@ -154,7 +154,7 @@ Mesh=wp_vtr_andizhan_rudder
 MeshRotation=0,0,0
 
 //Spar bump
-ModelFile=weapons/assets/usn_moss
+ModelFile=weapons/assets/usn_moss_2
 Material=ships/usn_ssn_los_angeles/usn_ssn_los_angeles_mat
 MaterialTextures=vessels/textures/usn_ssn_virginia.png
 

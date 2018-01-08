@@ -42,8 +42,8 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.075,0.0,-0.619
 
 [Weapon Systems]
-TorpedoTypes=usn_mk37,usn_mk48,usn_moss
-TorpedoNumbers=6,10,8
+TorpedoTypes=usn_mk48,usn_ugm84,usn_moss
+TorpedoNumbers=16,6,4
 TorpedoTubes=6
 NumberOfWires=6
 TubeConfig=1,1,1,1,1,1
@@ -101,7 +101,7 @@ MeshHullCollider=wp_ss_romeo_coll_hull
 MeshSuperstructureCollider=wp_ss_romeo_coll_ss
 
 Material=ships/wp_ss_romeo/wp_ss_romeo_mat
-MaterialTextures=vessels/textures/darkgrey.png
+MaterialTextures=vessels/textures/usn_ssn_nautilus.png
 Mesh=wp_ss_romeo
 MeshPosition=0,-0.0328,-0.5253
 MeshRudder=wp_ss_romeo_rudder

@@ -48,8 +48,8 @@ TubeConfig=1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
 
-VLSTorpedoTypes=wp_p700,wp_p500
-VLSTorpedoNumbers=20,20
+VLSTorpedoTypes=wp_ss-n-21,wp_53-65M
+VLSTorpedoNumbers=35,5
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=10
 
@@ -104,7 +104,7 @@ MeshHullCollider=wp_ssbn_yankee_coll_hull
 MeshSuperstructureCollider=wp_ssbn_yankee_coll_ss
 
 Material=ships/wp_ssbn_yankee/wp_ssbn_yankee_mat
-MaterialTextures=ships/wp_ssbn_yankee/wp_ssbn_yankee_tx,ships/wp_ssbn_yankee/wp_ssbn_yankee_spec,ships/wp_ssbn_yankee/wp_ssbn_yankee_nm
+MaterialTextures=vessels/textures/usn_ss_stingray.png
 Mesh=wp_ssbn_yankee
 MeshPosition=0,-0.08988,-0.8477
 MeshRudder=wp_ssbn_yankee_rudder

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=K-15
+WeaponDescriptiveName=K-15 Sagarika
+WeaponDescription=The K-15 Sagarika is a nuclear-capable missile developed by the Indian military to be deployed on the Arihant-Class submarine. Featuring a two stage system with solid-fueled rocket motors, the weapon can direct an attack with “single digit impact accuracy.”

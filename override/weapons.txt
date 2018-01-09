@@ -3625,7 +3625,7 @@ HomeSettings=FALSE
 AttackSettings=FALSE
 DepthSettings=FALSE
 MinCameraDistance=0.5
-ResupplyTime=60
+ResupplyTime=15
 [Model]
 ModelFile=weapons/assets/usn_tasm
 Material=weapons/assets/usn_tasm_mat

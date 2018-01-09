@@ -1241,6 +1241,49 @@ AudioPitch=1
 AudioLoop=TRUE
 [/Model]
 
+//AEG-SUT Indian Torpedo
+WeaponObjectReference=ind_aeg_sut
+WeaponSprite=hud/russian/wp_aeg_sut_sprite.png
+WeaponType=TORPEDO
+Warhead=375
+SurfaceLaunched=FALSE
+WireGuided=TRUE
+WireBreakOnLaunchProbability=0.04
+WireBreakSpeedThreshold=15
+RangeInYards=30000
+RunSpeed=32
+ActiveRunSpeed=37
+TurnRate=26
+SensorAngles=80,20
+SensorRange=3000
+WeaponNoiseValues=120,210
+MaxPitchAngle=30
+HomeSettings=PASSIVE,ACTIVE
+AttackSettings=SNAKE,STRAIGHT,LEFT,RIGHT
+DepthSettings=SHALLOW,LEVEL,DEEP
+MinCameraDistance=0.5
+ResupplyTime=15
+[Model]
+ModelFile=weapons/assets/wp_set-65
+Material=weapons/assets/wp_set-65_mat
+MaterialTextures=weapons/assets/wp_set-65_tx
+MeshPosition=0,0,0
+MeshWeapon=SET-65
+MeshWeaponPropRotation=700
+MeshWeaponProp=SET-65_propl
+MeshWeaponPropRotation=-700
+MeshWeaponProp=SET-65_propr
+MeshPosition=0,0,-0.0718
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+[/Model]
+
 // ----------------------------------------------MISSILES----------------------------------------------
 
 WeaponObjectReference=rus_rsm56_slbm

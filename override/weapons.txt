@@ -3604,7 +3604,7 @@ AudioLoop=TRUE
 
 //SS-N-21 (RK-55) Guided Missile
 WeaponObjectReference=wp_ss-n-21
-WeaponSprite=weapons/sprites/wp_ss-n-21_sprite.png
+WeaponSprite=hud/russian/wp_ss-n-21_sprite.png
 WeaponType=MISSILE
 Warhead=410
 SurfaceLaunched=FALSE

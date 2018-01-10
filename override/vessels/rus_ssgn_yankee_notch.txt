@@ -41,7 +41,7 @@ RADAR=wp_snoop_tray
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_test-71,wp_65-76
+TorpedoTypes=wp_uset-80,russian_moss
 TorpedoNumbers=16,4
 TorpedoTubes=5
 TubeConfig=1,1,1,1,1
@@ -49,8 +49,8 @@ TorpedoTubeSize=21
 TubeReloadTime=30
 
 VLSTorpedoTypes=wp_ss-n-21,wp_53-65M
-VLSTorpedoNumbers=35,5
-VLSMaxDepthToFire=300
+VLSTorpedoNumbers=25,10
+VLSMaxDepthToFire=250
 VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker

@@ -1,9 +1,9 @@
 [Unit Reference]
 ShipClass=Yankee Notch
-Description=[RUS] Yankee Notch Class
-History=Self Noise Rating: 147 db\nTest Depth: 1475 ft\nEscape Depth: 600 ft\n\nThe Yankee Notch, or Grusha Class was made of 4 Yankee class submarines, featuring a new VLS system allowing for storage of more missiles, increasing the size of the vessel considerably, while retaining similar characteristics of the original Yankee class.
+Description=[RUS] Yankee Notch Class SSGN
+History=Self Noise Rating: 147 db\nTest Depth: 1475 ft\nEscape Depth: 600 ft\n\nThe Yankee Notch, or Grusha Class was made of 4 Yankee class submarines, featuring a notched midsection with 4 533mm tubes on either side, essentially adding 8 additional tubes to the vessel which were capable of firing the SS-N-21 SLBM, as well as torpedoes. These changes increased the length of the vessel by around 12 meters.
 
 [Player Ship Instances]
-PlayerClassNames=Yankee Notch Class
+PlayerClassNames=Yankee Notch
 
 PlayerClassHullNumbers=K-253,K-395,K-408,K-423

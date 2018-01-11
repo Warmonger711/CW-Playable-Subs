@@ -1,7 +1,7 @@
 [Unit Reference]
 ShipClass=Agosta-90B
 Description=[PAK] Agosta-90B Class SSK
-History=Self Noise Rating: 119 db\nTest Depth: 1150 ft\nEscape Depth: 600 ft\n\nThe Pakistan Navy ordered 3 Agosta-90B class vessels in 1994, the first being finished and launched in 2002. An improved version of the Agosta class, she features better performance, improved quieting, and additional automation that lowered the crew to just 41 members, including officers.
+History=Self Noise Rating: 119 db\nEscape Depth: 600 ft\n\nThe Pakistan Navy ordered 3 Agosta-90B class vessels in 1994, the first being finished and launched in 2002. An improved version of the Agosta class, she features better performance, improved quieting, and additional automation that lowered the crew to just 41 members, including officers.
 
 [Player Ship Instances]
 PlayerClassNames=PNS/M Khalid,PNS/M Saad,PNS/M Hamza

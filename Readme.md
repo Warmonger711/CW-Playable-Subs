@@ -1,5 +1,7 @@
 ---
 ### Recent Major Changes
+* 1/10/2018 - New Classes: Arihant Class SSBN (Indian Navy), Yankee Notch Class SSGN (RUS), Agosta-90B Class SSK (Pakistan Navy) - USN SSN Nautilus (+Improved) texture update and profile image fix.
+
 * 12/30/2017 - New Class: Nautilus Class SSN (USA), original and improved 1974 versions. **We've also updated the Sonar Signature list - now, when you're trying to classify a contact on the Sonar screen, scrolling RIGHT will take you straight to the NATO subs, and scrolling back to the LEFT will take you straight to the Russian subs.** The sorting images should still work properly. Also updated the vessel lists for all campaigns and single missions to match the order of the Reference screen.
 
 * 12/23/2017 - We're now up to 4 total playable surface ships: Perry Class Frigate, Iowa Class Battleship, Poti Class Corvette, and Kirov Class Battlecruiser. We've added Single Missions 37 and 38, convoy strike missions, for the new ships. Be aware that the stats on these ships are beefed up for gameplay purposes, since surface warfare wasn't intended in this game - they're not real world stats and never will be.

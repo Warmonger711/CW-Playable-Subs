@@ -104,10 +104,7 @@ MeshSuperstructureCollider=wp_mpk_poti_coll_ss
 Material=ships/wp_mpk_poti/wp_mpk_poti_mat
 MaterialTexture=ships/wp_mpk_poti/wp_mpk_poti_tx,ships/wp_mpk_poti/wp_mpk_poti_spec,ships/wp_mpk_poti/wp_mpk_poti_nm
 Mesh=wp_mpk_poti,wp_mpk_poti_d
-MeshPosition=0,0.07477,1.019
-MeshBowPlanes=wp_ssbn_typhoon_bowplanes
-MeshPosition=0,-0.0088,-1.191
-MeshSternPlanes=wp_ssbn_typhoon_sternplanes
+
 MeshPosition=0,-0.0201,-0.395
 MeshRudder=wp_mpk_poti_rudder
 
@@ -227,6 +224,12 @@ MeshMast=usn_ssn_permit_esm_mast
 MeshPosition=0.000,0.054,0.0724
 MastHeight=0.074
 MeshMast=usn_ssn_permit_radar_mast
+
+ModelFile=ships/wp_ss_romeo/wp_ss_romeo
+MeshBowPlanes=wp_ss_romeo_bowplanes,HIDE
+MeshPosition=0,-0.0088,-1.191
+MeshSternPlanes=wp_ss_romeo_sternplanes,HIDE
+MeshPosition=0,-0.0201,-0.395
 
 MeshPosition=0,0,0
 ModelFile=ships/wp_mpk_poti/wp_mpk_poti

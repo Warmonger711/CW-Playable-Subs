@@ -128,10 +128,10 @@ MastHeight=0.085
 MeshMast=usn_ssn_los_angeles_radar_mast
 
 //Rudder
-ModelFile=ships/usn_ssn_permit/usn_ssn_permit
-MeshPosition=0,.03,-0.44
+ModelFile=ships/wp_ss_kilo/wp_ss_kilo
+MeshPosition=0,0,0
 MeshRotation=0,0,0
-MeshRudder=usn_ssn_permit_rudder
+MeshRudder=wp_ss_kilo_rudder
 
 //X-Tail
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles

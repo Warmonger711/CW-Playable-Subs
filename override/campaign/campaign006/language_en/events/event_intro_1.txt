@@ -3,6 +3,7 @@ Image=campaign/images/kremlinattack.png
 Photo=campaign/images/photos/germanterrorist.png
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

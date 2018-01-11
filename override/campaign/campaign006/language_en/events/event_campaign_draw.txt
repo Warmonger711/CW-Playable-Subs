@@ -3,6 +3,7 @@ Image=campaign/images/pact ssbn
 Photo=campaign/images/photos/naval pact sub 1,campaign/images/photos/naval pact sub 2,campaign/images/photos/politics 3
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

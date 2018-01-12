@@ -1,0 +1,11 @@
+Image=campaign/images/_ROROs coming in high seas
+MissionLocation=The Atlantic Ocean
+Briefing=
+Briefing=You’re a German U-Boat captain in 1945, and you’ve spotted an unprotected convoy headed for Europe. Do your best to destroy them.
+Briefing=
+Briefing=<b>Primary Objectives:</b>
+Briefing=- Sink all convoy ships.
+Briefing=
+Briefing=<b>Secondary Objectives:</b>
+Briefing=- Do not get detected.
+

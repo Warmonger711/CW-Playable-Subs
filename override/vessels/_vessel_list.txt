@@ -38,6 +38,7 @@ uk_ssbn_vanguard
 uk_ss_upholder
 uk_ss_oberon
 ger_ss_209
+ksm_type_xxi
 ger_ssn_212a
 isn_ss_dolphin
 fra_ssbn_redoubtable

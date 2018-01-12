@@ -154,6 +154,8 @@ wp_horse_jaw=Horse Jaw=This is a follow-on to the Moose Jaw that equips the Kiro
 
 wp_moose_jaw=Moose Jaw=This is a very large low-frequency array first observed on the Moskva's, but which also equips the Kiev Class.
 
+ksm_sonderapparat=SU-Apparat Nibelung=This array was developed in World War II using both passive and active search, and could detect a convoy from one hundred kilometers if conditions were right.
+
 // USN Surface Ships 
 
 usn_an_sqs-56=AN/SQS-56=The AN/SQS-56 is a modern hull-mounted sonar which features digital implementation, system control by a built-in mini computer, and an advanced display system. Computer controlled functions provide a system that is extremely flexible and easy to operate. The computer is also used to provide automated fault detection and localization with a built-in training capability. The sonar is an active/passive, preformed beam, digital sonar providing panoramic echo ranging and panoramic (DIMUS) passive surveillance. A single operator can search, track, classify and designate multiple targets from the active system while simultaneously maintaining anti-torpedo surveillance on the passive display.
@@ -276,6 +278,8 @@ wp_strut_pair=Strut Pair=Topaz-V MR-320M "Strut Pair", Air/Surface search radar.
 vnm_ge2-01=GE2-01=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 ind_ushus=USHUS=The USHUS sonar suite is a suite developed by the Defense Research and Development Organization of the Indian government, made to be used on submarines of the Indian Navy, such as the Sindhughosh and Arihant class vessels.
+
+fumo61=FuMO-61 Type F=This radar array was used by the German navy in World War II.
 
 civ_furuno=Furuno=Civilian navigation radar made by Furuno.
 

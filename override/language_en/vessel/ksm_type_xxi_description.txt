@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Type XXI
+Description=[KSM] Type XXI Class SS
+History=Self Noise Rating: 107 db\nTest Depth: 787 ft\nEscape Depth: 300 ft\n\nThe Type XXI U-Boat was put into service with the Kreigsmarine in 1944, but never sank a vessel. Her design was a heavy influence on modern submarine designs at the time.
+
+[Player Ship Instances]
+PlayerClassNames=U-1001
+
+PlayerClassHullNumbers=U-1001

@@ -39,3 +39,4 @@
 <color=Red>Convoy Strike (RUS)</color>
 <color=Cyan>Lurking Hunter - 1968 (NATO)</color>
 <color=Red>Lurking Hunter - 1968 (RUS)</color>
+<color=Lime>Elektroboote</color>

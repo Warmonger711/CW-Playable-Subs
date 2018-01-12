@@ -433,6 +433,15 @@ SonarBafffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
 
+SonarModel=ksm_sonderapparat
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=25
+SonarPassiveSensitivity=29
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=200
+
 // ---------------------------------------------------------------------New Sensors Soviet Campaign --------------------------------------------------------
 
 SonarModel=usn_an_sqs-56
@@ -1029,6 +1038,9 @@ RADARRange=60000
 
 RADARModel=uk_t1006
 RADARRange=50000
+
+RADARModel=fumb_ant_3
+RADARRange=10000
 
 // RPB-2K Initsiativa-2M 'Short Horn' Ka-25BSh radar
 RADARModel=wp_mushroom

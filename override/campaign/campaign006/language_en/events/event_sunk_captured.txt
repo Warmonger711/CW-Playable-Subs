@@ -3,6 +3,7 @@ Image=campaign/images/russianprison.png
 Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
 Music=audio/music/Cold Waters Loss Gulag
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

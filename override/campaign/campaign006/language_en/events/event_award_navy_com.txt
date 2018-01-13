@@ -1,7 +1,7 @@
 NextAction=MAP
 Image=campaign/images/event_award_background
 Photo=campaign/images/awards/navy_com
-Music=audio/music/Cold Waters Theme
+Music=audio/music/Cold Waters Spotted
 Header=THE SECRETARY OF THE NAVY<n>WASHINGTON
 
 Font=0

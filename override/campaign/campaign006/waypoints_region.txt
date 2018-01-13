@@ -1,36 +1,22 @@
-//Reykjavik and Keflavik
-WaypointName=I1
-WaypointPosition=-226.9,118.1
-Alignment=ENEMY
-ConnectedZones=I2
-InvadedBy=SEA,FRIENDLY
-
-//Hofn
-WaypointName=I2
-WaypointPosition=-203.2,87.5
-Alignment=ENEMY
-ConnectedZones=I1
-
 //Frankfurt and the Rhine-Main area
 WaypointName=WG1
 WaypointPosition=1.2,-367.1
-Alignment=ENEMY
+Alignment=FRIENDLY
 ConnectedZones=WG2,WG3
-InvadedBy=LAND,FRIENDLY
+InvadedBy=LAND,ENEMY
 
 //Bremen and Hamburg
 WaypointName=WG2
 WaypointPosition=1.2,-330.8
-Alignment=ENEMY
+Alignment=FRIENDLY
 ConnectedZones=D1,WG1,WG3
-InvadedBy=LAND,FRIENDLY
+InvadedBy=LAND,ENEMY
 
 //North Rhine-Westphalia
 WaypointName=WG3
 WaypointPosition=-41.2,-361.5
-Alignment=ENEMY
+Alignment=FRIENDLY
 ConnectedZones=N1,WG1,WG2,ND1,B1
-InvadedBy=LAND,FRIENDLY
 
 //Amsterdam
 WaypointName=ND1
@@ -51,7 +37,7 @@ WaypointName=D1
 WaypointPosition=8.9,-278.7
 Alignment=FRIENDLY
 ConnectedZones=WG2
-InvadedBy=SEA,FRIENDLY
+InvadedBy=SEA,ENEMY
 
 //northern Norway
 WaypointName=N1
@@ -83,21 +69,18 @@ WaypointName=N5
 WaypointPosition=102.9,-92.8
 Alignment=FRIENDLY
 ConnectedZones=N4,N6,N7
-InvadedBy=SEA,ENEMY
 
 //Bergen
 WaypointName=N6
 WaypointPosition=15.1,-133.2
 Alignment=FRIENDLY
 ConnectedZones=N5,N7
-InvadedBy=SEA,ENEMY
 
 //Oslo
 WaypointName=N7
 WaypointPosition=29.8,-187.7
 Alignment=FRIENDLY
 ConnectedZones=N5,N6
-InvadedBy=SEA,FRIENDLY
 
 //Stockholm
 WaypointName=S1
@@ -111,3 +94,16 @@ WaypointName=S2
 WaypointPosition=105.9,-179.8
 Alignment=FRIENDLY
 ConnectedZones=S1,N7
+
+//Reykjavik and Keflavik
+WaypointName=I1
+WaypointPosition=-226.9,118.1
+Alignment=ENEMY
+ConnectedZones=I2
+InvadedBy=SEA,FRIENDLY
+
+//Hofn
+WaypointName=I2
+WaypointPosition=-203.2,87.5
+Alignment=ENEMY
+ConnectedZones=I1

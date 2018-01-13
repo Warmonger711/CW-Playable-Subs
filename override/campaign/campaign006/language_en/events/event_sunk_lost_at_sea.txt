@@ -3,6 +3,7 @@ Image=campaign/images/sovietmiddleeast.png
 Photo=campaign/images/photos/kohlnato.png
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
+ForwardDate=7,14
 
 Font=0
 Outline=FALSE

@@ -113,10 +113,7 @@ Material=ships/wp_bpk_kashin/wp_bpk_kashin_mat
 MaterialTextures=vessels/textures/usn_kashin.png
 Mesh=wp_bpk_kashin,wp_bpk_kashin_d
 
-MeshBowPlanes=wp_ssbn_typhoon_bowplanes
-MeshPosition=0,-0.0088,-1.191
-MeshSternPlanes=wp_ssbn_typhoon_sternplanes
-MeshPosition=0,-0.0201,-0.395
+
 MeshPosition=0,-0.0228,-0.909
 MeshRudder=wp_bpk_kashin_rudder
 
@@ -242,8 +239,15 @@ MeshPosition=0,0.35,0.25
 MastHeight=0.074
 MeshMast=usn_ssn_permit_radar_mast
 
+ModelFile=ships/wp_ss_romeo/wp_ss_romeo
+MeshBowPlanes=wp_ss_romeo_bowplanes,HIDE
+MeshPosition=0,-0.0088,-1.191
+MeshSternPlanes=wp_ss_romeo_sternplanes,HIDE
+MeshPosition=0,-0.0201,-0.395
+
 MeshPosition=0,0,0
 ModelFile=ships/wp_bpk_kashin/wp_bpk_kashin
+
 //Wake and Smoke
 MeshPosition=0,0,0
 MeshRotationn=0,0,0

@@ -110,10 +110,7 @@ MeshSuperstructureCollider=wp_rkr_kirov_coll_ss
 Material=ships/wp_rkr_kirov/wp_rkr_kirov_mat
 MaterialTextures=ships/wp_rkr_kirov/wp_rkr_kirov_tx,ships/wp_rkr_kirov/wp_rkr_kirov_spec,ships/wp_rkr_kirov/wp_rkr_kirov_nm
 Mesh=wp_rkr_kirov,wp_rkr_kirov_d
-MeshPosition=0,0.07477,1.019
-MeshBowPlanes=wp_ssbn_typhoon_bowplanes
-MeshPosition=0,-0.0088,-1.191
-MeshSternPlanes=wp_ssbn_typhoon_sternplanes
+
 MeshPosition=-0.075,-0.0419,-1.607
 MeshRudder=wp_rkr_kirov_rudder
 MeshPosition=0.075,-0.0419,-1.607
@@ -360,6 +357,12 @@ MeshMast=usn_ssn_permit_esm_mast
 MeshPosition=0,0.61,-0.18
 MastHeight=0.074
 MeshMast=usn_ssn_permit_radar_mast
+
+ModelFile=ships/wp_ss_romeo/wp_ss_romeo
+MeshBowPlanes=wp_ss_romeo_bowplanes,HIDE
+MeshPosition=0,-0.0088,-1.191
+MeshSternPlanes=wp_ss_romeo_sternplanes,HIDE
+MeshPosition=0,-0.0201,-0.395
 
 MeshPosition=0,0,0
 ModelFile=ships/wp_rkr_kirov/wp_rkr_kirov
